@@ -1,25 +1,27 @@
 {
   "helltide": {
-    "endTime": "2026-03-18T09:55:00.000Z",
-    "id": 1773824400,
-    "startTime": "2026-03-18T09:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-03-18T10:55:00.000Z",
+    "id": 1773828000,
+    "startTime": "2026-03-18T10:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Forgotten Coastline (S)",
+      "Amber Sands",
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1773826200,
-    "nextTime": "2026-03-18T13:00:00.000Z",
-    "startTime": "2026-03-18T09:30:00.000Z",
+    "id": 1773838800,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-03-18T16:30:00.000Z",
+    "startTime": "2026-03-18T13:00:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -37,18 +39,6 @@
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-03-18T09:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-03-18T13:00:00.000Z",
@@ -78,6 +68,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-18T20:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -93,15 +95,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-18T09:30:00.000Z"
-      },
-      {
         "startTime": "2026-03-18T09:55:00.000Z"
       },
       {
         "startTime": "2026-03-18T10:20:00.000Z"
+      },
+      {
+        "startTime": "2026-03-18T10:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-18T09:31:19.160Z"
+  "fetchedAt": "2026-03-18T09:55:36.883Z"
 }
