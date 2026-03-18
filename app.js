@@ -413,7 +413,7 @@
       console.error('Error fetching Helltide data:', error);
 
       elements.errorMessage.textContent =
-        'Unable to load Helltide data. Please check your internet connection and try again.';
+        `Unable to load Helltide data. Error: ${error.message || error}. URL: ${CONFIG.apiUrl}`;
       showState('error');
 
       announce('Error loading Helltide data. Use the retry button to try again.');
