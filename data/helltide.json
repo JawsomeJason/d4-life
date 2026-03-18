@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-18T20:55:00.000Z",
-    "id": 1773864000,
-    "startTime": "2026-03-18T20:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-03-18T21:55:00.000Z",
+    "id": 1773867600,
+    "startTime": "2026-03-18T21:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1773866700,
-    "nextTime": "2026-03-18T21:10:00.000Z",
-    "startTime": "2026-03-18T20:45:00.000Z",
-    "zoneWindow": true
+    "id": 1773868200,
+    "nextTime": "2026-03-18T21:35:00.000Z",
+    "startTime": "2026-03-18T21:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -93,15 +92,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-18T20:45:00.000Z"
-      },
-      {
         "startTime": "2026-03-18T21:10:00.000Z"
       },
       {
         "startTime": "2026-03-18T21:35:00.000Z"
+      },
+      {
+        "startTime": "2026-03-18T22:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-18T20:40:10.272Z"
+  "fetchedAt": "2026-03-18T20:58:02.327Z"
 }
