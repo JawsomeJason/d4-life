@@ -71,12 +71,12 @@
     return { h: Math.floor(a / 3_600_000), m: Math.floor((a % 3_600_000) / 60_000) };
   }
 
-  // Short display — "in 34m" / "in 1h 20m"
+  // Short display — "In 34m" / "In 1h 20m"
   function shortUntil(t, now) {
     const ms = ts(t) - now;
-    if (ms <= 0) return 'now';
+    if (ms <= 0) return 'Now';
     const { h, m } = diffParts(ms);
-    return h > 0 ? `in ${h}h ${m}m` : `in ${m}m`;
+    return h > 0 ? `In ${h}h ${m}m` : `In ${m}m`;
   }
 
   // Verbose aria — "in 34 minutes" / "in 1 hour 20 minutes"
