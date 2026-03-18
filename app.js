@@ -16,7 +16,9 @@
   // ==========================================================================
 
   const CONFIG = {
-    apiUrl: 'https://diablo4.life/api/trackers/helltide/reportHistory',
+    // Reads from local data file updated by GitHub Actions every 5 minutes.
+    // This avoids CORS issues since it's served from the same origin.
+    apiUrl: 'data/helltide.json',
     refreshInterval: 60, // seconds
     helltideDuration: 60 * 60 * 1000, // 60 minutes in milliseconds
   };

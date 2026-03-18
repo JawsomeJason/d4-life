@@ -1,0 +1,31 @@
+name: Fetch Helltide Data
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # every 5 minutes
+  workflow_dispatch:         # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Helltide data
+        run: |
+          mkdir -p data
+          curl -sf "https://diablo4.life/api/trackers/helltide/reportHistory" \
+            -H "User-Agent: d4-helltide-tracker/1.0 (accessibility tool)" \
+            -o data/helltide.json
+          echo "Fetched at $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> data/helltide.json.meta
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/helltide.json data/helltide.json.meta
+          git diff --cached --quiet || git commit -m "chore: update helltide data"
+          git push
