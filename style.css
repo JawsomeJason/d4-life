@@ -482,10 +482,11 @@ h2 {
 
 /* Expandable detail value — acts as a button */
 .detail-value.expandable {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
+  display: grid;
+  grid-template-columns: 1fr auto; /* text left, caret right */
+  grid-template-rows: auto auto;   /* row 1: short+caret, row 2: expanded */
+  align-items: center;
+  column-gap: 0.4em;
   background: none;
   border: none;
   padding: 0;
@@ -502,16 +503,18 @@ h2 {
 }
 
 .detail-value.expandable .detail-short {
-  display: flex;
-  align-items: center;
-  gap: 0.3em;
+  grid-column: 1;
+  grid-row: 1;
   color: var(--color-text-primary);
 }
 
 .expand-icon {
-  font-size: 0.7em;
-  opacity: 0.6;
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 0.75em;
+  opacity: 0.5;
   transition: transform 0.2s ease;
+  align-self: center;
 }
 
 .detail-value.expandable.is-expanded .expand-icon {
@@ -519,6 +522,8 @@ h2 {
 }
 
 .detail-expanded {
+  grid-column: 1 / -1; /* span both columns */
+  grid-row: 2;
   font-size: var(--font-size-sm);
   color: var(--color-text-muted);
   margin-top: 2px;
@@ -626,7 +631,7 @@ footer a:focus-visible {
   }
 
   .card-details {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
