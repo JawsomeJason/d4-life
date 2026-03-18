@@ -275,15 +275,13 @@ nav {
     gap: var(--space-xl);
   }
 
-  /* More padding inside cards */
-  .helltide-card {
-    padding: var(--space-xl);
+  /* More padding inside cards on touch */
+  .card-header {
+    padding: var(--space-md) var(--space-xl);
   }
 
-  /* Keep header bleed in sync with larger card padding */
-  .card-header {
-    margin: calc(var(--space-xl) * -1) calc(var(--space-xl) * -1) var(--space-md);
-    padding: var(--space-sm) var(--space-xl);
+  .card-details {
+    padding: var(--space-md) var(--space-xl) var(--space-xl);
   }
 
   /* Bigger text for detail values */
@@ -390,7 +388,8 @@ h2 {
   background-color: var(--color-bg-card);
   border: var(--border-width) solid var(--color-text-muted);
   border-radius: var(--border-radius);
-  padding: var(--space-lg);
+  padding: 0;
+  overflow: hidden; /* clips header bg to border-radius */
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -417,17 +416,15 @@ h2 {
   border-color: var(--color-status-ended);
 }
 
-/* Card header — bleeds to card edges, compensates for card padding */
+/* Card header — full-bleed naturally since card has no padding */
 .card-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: var(--space-sm) var(--space-md);
-  margin: calc(var(--space-lg) * -1) calc(var(--space-lg) * -1) var(--space-md);
   padding: var(--space-sm) var(--space-lg);
   background-color: rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 .location-name {
@@ -470,6 +467,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-md) var(--space-lg);
+  padding: var(--space-md) var(--space-lg) var(--space-lg);
 }
 
 .detail-item {
@@ -626,8 +624,10 @@ footer a:focus-visible {
     gap: var(--space-sm);
   }
 
-  .helltide-card {
-    padding: var(--space-md);
+  .card-header,
+  .card-details {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
   }
 
   .card-details {
