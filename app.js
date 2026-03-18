@@ -91,7 +91,7 @@
   // Short display — "34m left" / "1h 20m left"
   function shortRemaining(endT, now) {
     const ms = ts(endT) - now;
-    if (ms <= 0) return 'ending';
+    if (ms <= 0) return 'Ending';
     const { h, m } = diffParts(ms);
     return h > 0 ? `${h}h ${m}m left` : `${m}m left`;
   }
