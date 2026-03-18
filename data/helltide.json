@@ -1,1 +1,106 @@
-{"helltide":{"endTime":"2026-03-18T05:55:00.000Z","id":1773810000,"startTime":"2026-03-18T05:00:00.000Z","zone":"dry_steppes"},"world_boss":{"boss":"Avarice","id":1773813600,"nextTime":"2026-03-18T09:30:00.000Z","startTime":"2026-03-18T06:00:00.000Z","zone":[{"boss":"Avarice","id":"dry_steppes","isWhisper":false,"name":"Dry Steppes"},{"boss":"Avarice","id":"nahantu","isWhisper":false,"name":"Nahantu"}]},"legion":{"id":1773811200,"nextTime":"2026-03-18T05:45:00.000Z","startTime":"2026-03-18T05:20:00.000Z"},"fetchedAt":"2026-03-18T05:08:44Z"}
+{
+  "helltide": {
+    "endTime": "2026-03-18T05:55:00.000Z",
+    "id": 1773810000,
+    "startTime": "2026-03-18T05:00:00.000Z",
+    "zone": "dry_steppes",
+    "chests": [
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
+    ]
+  },
+  "world_boss": {
+    "boss": "Avarice",
+    "id": 1773813600,
+    "nextTime": "2026-03-18T09:30:00.000Z",
+    "startTime": "2026-03-18T06:00:00.000Z",
+    "zone": [
+      {
+        "boss": "Avarice",
+        "id": "dry_steppes",
+        "isWhisper": false,
+        "name": "Dry Steppes"
+      },
+      {
+        "boss": "Avarice",
+        "id": "nahantu",
+        "isWhisper": false,
+        "name": "Nahantu"
+      }
+    ]
+  },
+  "legion": {
+    "id": 1773811200,
+    "nextTime": "2026-03-18T05:45:00.000Z",
+    "startTime": "2026-03-18T05:20:00.000Z"
+  },
+  "upcoming": {
+    "world_boss": [
+      {
+        "boss": "Avarice",
+        "startTime": "2026-03-18T06:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-03-18T09:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-03-18T13:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
+      }
+    ],
+    "helltide": [
+      {
+        "startTime": "2026-03-18T06:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-18T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-18T08:00:00.000Z"
+      }
+    ],
+    "legion": [
+      {
+        "startTime": "2026-03-18T05:20:00.000Z"
+      },
+      {
+        "startTime": "2026-03-18T05:45:00.000Z"
+      },
+      {
+        "startTime": "2026-03-18T06:10:00.000Z"
+      }
+    ]
+  },
+  "fetchedAt": "2026-03-18T05:13:11.976Z"
+}

@@ -160,31 +160,37 @@
       const upcoming = start > now;
       let statusData, ariaLabel, rows;
 
+      const chests = Array.isArray(ht.chests) && ht.chests.length
+        ? ht.chests.join(' and ')
+        : null;
+
       if (active) {
         statusData = 'active';
-        ariaLabel = `Helltide active in ${zone}. ${humanRemaining(end, now)}.`;
+        ariaLabel = `Helltide active in ${zone}. ${humanRemaining(end, now)}.${chests ? ' Mystery Chests: ' + chests + '.' : ''}`;
         rows = [
-          { label: 'Zone',       value: zone },
-          { label: 'Status',     value: humanRemaining(end, now) },
-          { label: 'Started',    value: formatDateTime(start), ts: start },
-          { label: 'Ends at',    value: formatDateTime(end),   ts: end },
+          { label: 'Zone',            value: zone },
+          { label: 'Status',          value: humanRemaining(end, now) },
+          { label: 'Started',         value: formatDateTime(start), ts: start },
+          { label: 'Ends at',         value: formatDateTime(end),   ts: end },
+          ...(chests ? [{ label: 'Mystery Chests', value: chests }] : []),
         ];
-        summaries.push(`Helltide active in ${zone} — ${humanRemaining(end, now)}`);
+        summaries.push(`Helltide active in ${zone} — ${humanRemaining(end, now)}${chests ? '. Chests: ' + chests : ''}`);
       } else if (upcoming) {
         statusData = 'upcoming';
-        ariaLabel = `Next Helltide in ${zone}, ${humanUntil(start, now)}.`;
+        ariaLabel = `Next Helltide in ${zone}, ${humanUntil(start, now)}.${chests ? ' Mystery Chests: ' + chests + '.' : ''}`;
         rows = [
-          { label: 'Zone',       value: zone },
-          { label: 'Starts',     value: `${humanUntil(start, now)} — ${formatDateTime(start)}`, ts: start },
+          { label: 'Zone',   value: zone },
+          { label: 'Starts', value: `${humanUntil(start, now)} — ${formatDateTime(start)}`, ts: start },
+          ...(chests ? [{ label: 'Mystery Chests', value: chests }] : []),
         ];
         summaries.push(`Helltide in ${zone} ${humanUntil(start, now)}`);
       } else {
         statusData = 'ended';
         ariaLabel = `Helltide in ${zone} has ended. Waiting for next.`;
         rows = [
-          { label: 'Zone',      value: zone },
+          { label: 'Zone',       value: zone },
           { label: 'Last spawn', value: formatDateTime(start), ts: start },
-          { label: 'Next',      value: 'Waiting for update…' },
+          { label: 'Next',       value: 'Waiting for update…' },
         ];
         summaries.push('Helltide ended — awaiting next');
       }
@@ -275,6 +281,50 @@
       }
 
       el.helltideList.appendChild(buildCard({ title: 'Legion Event', statusData, ariaLabel, rows }));
+    }
+
+    // ── Upcoming Events ───────────────────────────────────────────────────
+    const upcoming = data.upcoming;
+    if (upcoming) {
+      const upcomingItems = [];
+
+      (upcoming.world_boss || []).forEach(e => {
+        const zones = Array.isArray(e.zone) ? e.zone.map(z => z.name).join(' & ') : zoneName(e.zone);
+        upcomingItems.push({ label: `World Boss — ${e.boss}`, value: `${humanUntil(e.startTime, now)} (${formatDateTime(e.startTime)}) in ${zones}`, ts: e.startTime });
+      });
+
+      (upcoming.helltide || []).forEach(e => {
+        upcomingItems.push({ label: 'Helltide', value: `${humanUntil(e.startTime, now)} — ${formatDateTime(e.startTime)}`, ts: e.startTime });
+      });
+
+      (upcoming.legion || []).forEach(e => {
+        upcomingItems.push({ label: 'Legion Event', value: `${humanUntil(e.startTime, now)} — ${formatDateTime(e.startTime)}`, ts: e.startTime });
+      });
+
+      if (upcomingItems.length) {
+        // Sort by time
+        upcomingItems.sort((a, b) => new Date(a.ts) - new Date(b.ts));
+
+        const li = document.createElement('li');
+        const section = document.createElement('article');
+        section.className = 'helltide-card upcoming-card';
+        section.setAttribute('aria-label', 'Upcoming events: ' + upcomingItems.map(i => i.label + ' ' + i.value).join('. '));
+
+        section.innerHTML = `
+          <header class="card-header">
+            <h3 class="location-name"><i class="ph-bold ph-calendar-dots" aria-hidden="true"></i> Upcoming</h3>
+          </header>
+          <div class="card-details">
+            ${upcomingItems.map(i => `
+              <div class="detail-item">
+                <span class="detail-label">${i.label}</span>
+                <time class="detail-value" datetime="${new Date(i.ts).toISOString()}">${i.value}</time>
+              </div>`).join('')}
+          </div>
+        `;
+        li.appendChild(section);
+        el.helltideList.appendChild(li);
+      }
     }
 
     if (el.helltideList.children.length === 0) { showState('empty'); return; }

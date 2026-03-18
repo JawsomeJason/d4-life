@@ -2,7 +2,7 @@ name: Fetch Helltide Data
 
 on:
   schedule:
-    - cron: '*/5 * * * *'   # every 5 minutes
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -14,15 +14,119 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch live data from Firebase
+      - name: Fetch and compute all data
         run: |
           mkdir -p data
-          HELLTIDE=$(curl -sf "https://helltides-7e530-r1.firebaseio.com/helltide.json")
-          BOSS=$(curl -sf "https://helltides-7e530-r1.firebaseio.com/world_boss.json")
-          LEGION=$(curl -sf "https://helltides-7e530-r1.firebaseio.com/legion.json")
-          echo "{\"helltide\":${HELLTIDE},\"world_boss\":${BOSS},\"legion\":${LEGION},\"fetchedAt\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > data/helltide.json
-          echo "Fetched OK"
-          cat data/helltide.json
+          node << 'EOF'
+          const https = require('https');
+
+          function get(url) {
+            return new Promise((resolve, reject) => {
+              https.get(url, res => {
+                let b = '';
+                res.on('data', d => b += d);
+                res.on('end', () => {
+                  try { resolve(JSON.parse(b)); }
+                  catch(e) { reject(new Error('JSON parse failed: ' + b.substring(0,100))); }
+                });
+              }).on('error', reject);
+            });
+          }
+
+          // Mystery chest location names per zone, keyed by helltide_index % 2 (or % 4 for scosglen, % 3 for kehjistan)
+          const CHESTS = {
+            fractured_peaks: [
+              ['Western Ways', 'Kor Rohavan'],
+              ['Western Ways (East)', 'Olyam Tundra'],
+            ],
+            scosglen: [
+              ['Fothrach Castle', 'The Dead Barks'],
+              ['Abandoned Coast', 'Tur Dulra'],
+              ['Westering Lowlands', 'Wailing Hills'],
+              ['Cursed Scarps', 'Túr Dúlra North'],
+            ],
+            dry_steppes: [
+              ["Wayfarer's Folly", "Desolation's Reach"],
+              ['Crucible of Cinder', 'Galtmaa Bushland'],
+            ],
+            hawezar: [
+              ["Pilgrim's Cave", 'Plains of Attrition'],
+              ["Intruder's Claim", 'Devouring Moon'],
+            ],
+            kehjistan: [
+              ['Scorching Dunes (NW)', 'Forgotten Coastline', 'Amber Sands'],
+              ['Forgotten Coastline (S)', 'Amber Sands', 'Scorching Dunes (E)'],
+              ['Scorching Dunes (SW)', 'Amber Sands', 'Forgotten Coastline'],
+            ],
+            nahantu: [
+              ['Roots of Hatred (W)', 'Faithless Sanctum'],
+              ['Viper Gorge', 'Jagged Ravine'],
+            ],
+          };
+
+          function getChests(zone, helltideId) {
+            const idx = Math.floor(helltideId / 3600);
+            const lookup = CHESTS[zone];
+            if (!lookup) return [];
+            const mod = zone === 'scosglen' ? 4 : zone === 'kehjistan' ? 3 : 2;
+            return lookup[idx % mod] || lookup[0];
+          }
+
+          async function main() {
+            const [helltide, worldBoss, legion, schedule] = await Promise.all([
+              get('https://helltides-7e530-r1.firebaseio.com/helltide.json'),
+              get('https://helltides-7e530-r1.firebaseio.com/world_boss.json'),
+              get('https://helltides-7e530-r1.firebaseio.com/legion.json'),
+              get('https://helltides.com/api/schedule'),
+            ]);
+
+            // Attach mystery chest locations to helltide
+            if (helltide && helltide.zone && helltide.id) {
+              helltide.chests = getChests(helltide.zone, helltide.id);
+            }
+
+            // Pull next 3 world bosses from schedule (skip current/past)
+            const now = Date.now();
+            const upcomingBosses = (schedule.world_boss || [])
+              .filter(e => new Date(e.startTime).getTime() > now - 15 * 60 * 1000)
+              .slice(0, 3)
+              .map(e => ({
+                boss: e.boss,
+                startTime: e.startTime,
+                zone: e.zone,
+              }));
+
+            // Next 3 helltides from schedule
+            const upcomingHelltides = (schedule.helltide || [])
+              .filter(e => new Date(e.startTime).getTime() > now)
+              .slice(0, 3)
+              .map(e => ({ startTime: e.startTime }));
+
+            // Next 3 legions from schedule
+            const upcomingLegions = (schedule.legion || [])
+              .filter(e => new Date(e.startTime).getTime() > now - 5 * 60 * 1000)
+              .slice(0, 3)
+              .map(e => ({ startTime: e.startTime, nextTime: e.nextTime }));
+
+            const output = {
+              helltide,
+              world_boss: worldBoss,
+              legion,
+              upcoming: {
+                world_boss: upcomingBosses,
+                helltide: upcomingHelltides,
+                legion: upcomingLegions,
+              },
+              fetchedAt: new Date().toISOString(),
+            };
+
+            require('fs').writeFileSync('data/helltide.json', JSON.stringify(output, null, 2));
+            console.log('Done. Helltide zone:', helltide?.zone, '| Chests:', helltide?.chests?.join(', '));
+            console.log('Next boss:', upcomingBosses[0]?.boss, 'in', upcomingBosses[0]?.zone?.[0]?.name);
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+          EOF
 
       - name: Commit if changed
         run: |
