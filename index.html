@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Accessible Diablo 4 Helltide tracker for screen reader users. Find active and upcoming Helltide events with full keyboard navigation.">
+  <title>D4 Helltide Tracker - Diablo 4 Accessibility Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip to main content link - first focusable element -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <h1>Diablo 4 Helltide Tracker</h1>
+    <p class="intro">
+      Helltides are timed demonic invasion events that spawn in specific zones of Sanctuary.
+      They last 60 minutes and offer powerful rewards. This tracker shows upcoming and recent
+      Helltide reports from the community, updating automatically every 60 seconds.
+    </p>
+  </header>
+
+  <nav aria-label="Page controls">
+    <div class="status-bar">
+      <p id="last-updated" aria-live="polite">
+        <span class="label">Last updated:</span>
+        <time id="last-updated-time" datetime="">Loading...</time>
+      </p>
+      <p id="next-refresh">
+        <span class="label">Next refresh in:</span>
+        <span id="countdown">60</span> seconds
+      </p>
+      <button
+        type="button"
+        id="refresh-btn"
+        class="refresh-button"
+        aria-describedby="refresh-description"
+      >
+        Refresh Now
+      </button>
+      <span id="refresh-description" class="visually-hidden">
+        Manually refresh Helltide data immediately
+      </span>
+    </div>
+  </nav>
+
+  <main id="main-content" role="main">
+    <!-- Live region for screen reader announcements -->
+    <div
+      id="live-announcer"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      class="visually-hidden"
+    ></div>
+
+    <section aria-labelledby="helltides-heading">
+      <h2 id="helltides-heading">Helltide Reports</h2>
+
+      <!-- Loading state -->
+      <div id="loading-state" role="status" aria-live="polite">
+        <p>Loading Helltide data...</p>
+      </div>
+
+      <!-- Error state -->
+      <div id="error-state" role="alert" aria-live="assertive" hidden>
+        <p id="error-message"></p>
+        <button type="button" id="retry-btn" class="refresh-button">
+          Retry
+        </button>
+      </div>
+
+      <!-- Helltide list -->
+      <ul id="helltide-list" class="helltide-list" aria-label="Helltide events" hidden>
+      </ul>
+
+      <!-- Empty state -->
+      <div id="empty-state" role="status" hidden>
+        <p>No upcoming Helltides reported yet. Check back soon or refresh manually.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="footer-content">
+      <p>
+        Data provided by <a href="https://diablo4.life" target="_blank" rel="noopener noreferrer">diablo4.life</a>
+      </p>
+      <section aria-labelledby="accessibility-heading">
+        <h3 id="accessibility-heading">Accessibility Statement</h3>
+        <p>
+          This tracker is designed with accessibility as the primary concern. It follows
+          WCAG 2.1 AA guidelines and is optimized for screen readers and keyboard navigation.
+          All Helltide information is announced automatically when refreshed. If you encounter
+          any accessibility issues, please report them on
+          <a href="https://github.com/jawsomejason/d4-life/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+      </section>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,538 @@
+/* ==========================================================================
+   D4 Helltide Tracker - Accessible Styles
+   WCAG 2.1 AA compliant, targeting AAA where possible
+   ========================================================================== */
+
+/* CSS Custom Properties */
+:root {
+  /* Colors - Dark Diablo theme with high contrast */
+  --color-bg-primary: #0d0a0a;
+  --color-bg-secondary: #1a1414;
+  --color-bg-card: #241c1c;
+  --color-bg-active: #2d1a1a;
+
+  /* Text colors - all meet 4.5:1 contrast minimum against backgrounds */
+  --color-text-primary: #f5f0e8;
+  --color-text-secondary: #d4c4b0;
+  --color-text-muted: #a89880;
+
+  /* Accent colors */
+  --color-accent-red: #cc3333;
+  --color-accent-orange: #e67300;
+  --color-accent-gold: #d4a520;
+  --color-active-glow: #ff4444;
+
+  /* Status colors */
+  --color-status-active: #22c55e;
+  --color-status-upcoming: #3b82f6;
+  --color-status-ended: #9ca3af;
+
+  /* Focus indicator */
+  --color-focus: #fbbf24;
+  --focus-outline: 3px solid var(--color-focus);
+  --focus-offset: 2px;
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-size-base: 18px;
+  --font-size-sm: 16px;
+  --font-size-lg: 22px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 36px;
+  --line-height: 1.6;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Borders */
+  --border-radius: 8px;
+  --border-width: 2px;
+}
+
+/* High contrast mode */
+@media (prefers-contrast: more) {
+  :root {
+    --color-bg-primary: #000000;
+    --color-bg-secondary: #111111;
+    --color-bg-card: #1a1a1a;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #ffffff;
+    --color-text-muted: #e0e0e0;
+    --border-width: 3px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size-base);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  line-height: var(--line-height);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  min-height: 100vh;
+}
+
+/* ==========================================================================
+   Skip Link - First focusable element
+   ========================================================================== */
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-focus);
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  z-index: 9999;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: var(--space-md);
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+/* ==========================================================================
+   Visually Hidden - For screen readers only
+   ========================================================================== */
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ==========================================================================
+   Focus Styles - Visible and clear
+   ========================================================================== */
+
+:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+  padding: var(--space-xl) var(--space-md);
+  text-align: center;
+  background: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+  border-bottom: var(--border-width) solid var(--color-accent-red);
+}
+
+h1 {
+  margin: 0 0 var(--space-md) 0;
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-accent-gold);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.02em;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+}
+
+/* ==========================================================================
+   Navigation / Status Bar
+   ========================================================================== */
+
+nav {
+  background-color: var(--color-bg-secondary);
+  padding: var(--space-md);
+  border-bottom: 1px solid var(--color-accent-orange);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.status-bar {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md) var(--space-lg);
+}
+
+.status-bar p {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+.status-bar .label {
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.status-bar #countdown {
+  font-weight: 700;
+  color: var(--color-accent-gold);
+  min-width: 2ch;
+  display: inline-block;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.refresh-button {
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: #000000;
+  background-color: var(--color-accent-gold);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.refresh-button:hover {
+  background-color: var(--color-accent-orange);
+}
+
+.refresh-button:active {
+  transform: scale(0.98);
+}
+
+.refresh-button:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+.refresh-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ==========================================================================
+   Main Content
+   ========================================================================== */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+  min-height: 50vh;
+}
+
+h2 {
+  margin: 0 0 var(--space-lg) 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-accent-gold);
+  border-bottom: var(--border-width) solid var(--color-accent-red);
+  padding-bottom: var(--space-sm);
+}
+
+/* ==========================================================================
+   Loading, Error, Empty States
+   ========================================================================== */
+
+#loading-state,
+#error-state,
+#empty-state {
+  text-align: center;
+  padding: var(--space-2xl);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-text-muted);
+}
+
+#loading-state p,
+#empty-state p {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+#error-state {
+  border-color: var(--color-accent-red);
+  background-color: var(--color-bg-active);
+}
+
+#error-message {
+  font-size: var(--font-size-lg);
+  color: var(--color-accent-red);
+  margin: 0 0 var(--space-md) 0;
+}
+
+/* ==========================================================================
+   Helltide List
+   ========================================================================== */
+
+.helltide-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+/* ==========================================================================
+   Helltide Card
+   ========================================================================== */
+
+.helltide-card {
+  background-color: var(--color-bg-card);
+  border: var(--border-width) solid var(--color-text-muted);
+  border-radius: var(--border-radius);
+  padding: var(--space-lg);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.helltide-card:hover,
+.helltide-card:focus-within {
+  border-color: var(--color-accent-orange);
+}
+
+/* Active Helltide styling - visually prominent */
+.helltide-card[data-status="active"] {
+  background-color: var(--color-bg-active);
+  border-color: var(--color-active-glow);
+  box-shadow: 0 0 20px rgba(255, 68, 68, 0.3);
+}
+
+/* Upcoming Helltide styling */
+.helltide-card[data-status="upcoming"] {
+  border-color: var(--color-status-upcoming);
+}
+
+/* Ended Helltide styling */
+.helltide-card[data-status="ended"] {
+  opacity: 0.8;
+  border-color: var(--color-status-ended);
+}
+
+/* Card header with location */
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.location-name {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+/* Status badge */
+.status-badge {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+.status-badge[data-status="active"] {
+  background-color: var(--color-status-active);
+  color: #000000;
+}
+
+.status-badge[data-status="upcoming"] {
+  background-color: var(--color-status-upcoming);
+  color: #ffffff;
+}
+
+.status-badge[data-status="ended"] {
+  background-color: var(--color-status-ended);
+  color: #000000;
+}
+
+/* Card details */
+.card-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-sm) var(--space-lg);
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.detail-label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.detail-value {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+}
+
+.detail-value.time-relative {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+/* Tier display */
+.tier-value {
+  color: var(--color-accent-gold);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+  background-color: var(--color-bg-secondary);
+  border-top: var(--border-width) solid var(--color-accent-red);
+  padding: var(--space-xl) var(--space-md);
+  margin-top: var(--space-2xl);
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 0 0 var(--space-md) 0;
+  color: var(--color-text-secondary);
+}
+
+footer h3 {
+  margin: var(--space-lg) 0 var(--space-sm) 0;
+  font-size: var(--font-size-base);
+  color: var(--color-accent-gold);
+}
+
+footer a {
+  color: var(--color-accent-gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+footer a:hover {
+  color: var(--color-accent-orange);
+}
+
+footer a:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media (max-width: 600px) {
+  :root {
+    --font-size-base: 16px;
+    --font-size-2xl: 28px;
+    --font-size-xl: 22px;
+    --font-size-lg: 18px;
+  }
+
+  header {
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .status-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+
+  .helltide-card {
+    padding: var(--space-md);
+  }
+
+  .card-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .skip-link,
+  nav,
+  .refresh-button,
+  #retry-btn {
+    display: none;
+  }
+
+  .helltide-card {
+    border: 1px solid #000000;
+    break-inside: avoid;
+  }
+}
