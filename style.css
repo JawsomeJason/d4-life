@@ -234,23 +234,28 @@ nav {
    ========================================================================== */
 
 .refresh-button {
-  padding: var(--space-sm) var(--space-lg);
-  font-size: var(--font-size-base);
-  font-weight: 600;
+  /* Motor: minimum 44×44px tap target (WCAG 2.5.5) */
+  min-height: 48px;
+  min-width: 48px;
+  padding: var(--space-sm) var(--space-xl);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
   color: #000000;
   background-color: var(--color-accent-gold);
   border: none;
   border-radius: var(--border-radius);
   cursor: pointer;
+  touch-action: manipulation; /* prevent double-tap zoom delay */
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-.refresh-button:hover {
+.refresh-button:hover,
+.refresh-button:focus-visible {
   background-color: var(--color-accent-orange);
 }
 
 .refresh-button:active {
-  transform: scale(0.98);
+  transform: scale(0.97);
 }
 
 .refresh-button:focus-visible {
@@ -261,6 +266,50 @@ nav {
 .refresh-button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+/* Motor: touch device optimisations */
+@media (pointer: coarse) {
+  /* Larger gaps between cards */
+  .helltide-list {
+    gap: var(--space-xl);
+  }
+
+  /* More padding inside cards */
+  .helltide-card {
+    padding: var(--space-xl);
+  }
+
+  /* Bigger text for detail values */
+  .detail-value {
+    font-size: var(--font-size-lg);
+  }
+
+  /* Larger location name */
+  .location-name {
+    font-size: var(--font-size-xl);
+  }
+}
+
+/* Motor: sticky refresh button on mobile — bottom of screen, one-thumb reach */
+@media (pointer: coarse) {
+  .refresh-button#refresh-btn {
+    position: fixed;
+    bottom: env(safe-area-inset-bottom, 16px);
+    right: 16px;
+    z-index: 200;
+    min-height: 56px;
+    min-width: 56px;
+    border-radius: 28px;
+    padding: var(--space-md) var(--space-xl);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    font-size: var(--font-size-base);
+  }
+
+  /* Add bottom padding so content isn't hidden behind sticky button */
+  main {
+    padding-bottom: 100px;
+  }
 }
 
 /* ==========================================================================
@@ -324,7 +373,7 @@ h2 {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-lg); /* Motor: wider gap between cards to prevent accidental interaction */
 }
 
 /* ==========================================================================
@@ -410,13 +459,15 @@ h2 {
 .card-details {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: var(--space-sm) var(--space-lg);
+  gap: var(--space-md) var(--space-lg); /* Motor: more vertical gap between items */
 }
 
 .detail-item {
   display: flex;
   flex-direction: column;
   gap: var(--space-xs);
+  /* Motor: ensure items are easy to read without needing precise interaction */
+  padding: var(--space-xs) 0;
 }
 
 .detail-label {
