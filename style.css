@@ -455,19 +455,70 @@ h2 {
   color: var(--color-status-ended);
 }
 
-/* Card details */
+/* Card details — always 2 columns */
 .card-details {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: var(--space-md) var(--space-lg); /* Motor: more vertical gap between items */
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md) var(--space-lg);
 }
 
 .detail-item {
   display: flex;
   flex-direction: column;
   gap: var(--space-xs);
-  /* Motor: ensure items are easy to read without needing precise interaction */
   padding: var(--space-xs) 0;
+  min-width: 0; /* prevent grid blowout */
+}
+
+/* Expandable detail value — acts as a button */
+.detail-value.expandable {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  /* Motor: generous tap area */
+  min-height: 44px;
+  width: 100%;
+  touch-action: manipulation;
+}
+
+.detail-value.expandable .detail-short {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  color: var(--color-text-primary);
+}
+
+.expand-icon {
+  font-size: 0.7em;
+  opacity: 0.6;
+  transition: transform 0.2s ease;
+}
+
+.detail-value.expandable.is-expanded .expand-icon {
+  transform: rotate(180deg);
+}
+
+.detail-expanded {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.detail-value.expandable:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+  border-radius: 2px;
 }
 
 .detail-label {
@@ -480,7 +531,9 @@ h2 {
 
 .detail-value {
   font-size: var(--font-size-base);
-  color: var(--color-text-secondary);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  word-break: break-word;
 }
 
 .detail-value.time-relative {

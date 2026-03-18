@@ -1,7 +1,6 @@
 /**
  * D4 Helltide Tracker
  * Data: Firebase helltides-7e530 (via GitHub Actions every 5 min)
- * Shows: Helltide (with zone), World Boss, Legion Event
  */
 
 (function () {
@@ -10,12 +9,11 @@
   const CONFIG = {
     apiUrl: 'data/helltide.json',
     refreshInterval: 60,
-    helltideDuration:  55 * 60 * 1000, // 55 min (Season 6+)
+    helltideDuration:  55 * 60 * 1000,
     worldBossDuration: 15 * 60 * 1000,
     legionDuration:    25 * 60 * 1000,
   };
 
-  // Human-readable zone names
   const ZONE_NAMES = {
     fractured_peaks: 'Fractured Peaks',
     scosglen:        'Scosglen',
@@ -51,8 +49,8 @@
 
   // ── Time helpers ──────────────────────────────────────────────────────────
 
-  function ts(isoOrMs) {
-    return typeof isoOrMs === 'number' ? isoOrMs : new Date(isoOrMs).getTime();
+  function ts(v) {
+    return typeof v === 'number' ? v : new Date(v).getTime();
   }
 
   function formatTime(t) {
@@ -73,22 +71,42 @@
     return { h: Math.floor(a / 3_600_000), m: Math.floor((a % 3_600_000) / 60_000) };
   }
 
-  function humanUntil(t, now) {
+  // Short display — "in 34m" / "in 1h 20m"
+  function shortUntil(t, now) {
     const ms = ts(t) - now;
     if (ms <= 0) return 'now';
     const { h, m } = diffParts(ms);
-    return h > 0 ? `in ${h}h ${m}m` : `in ${m} min`;
+    return h > 0 ? `in ${h}h ${m}m` : `in ${m}m`;
   }
 
-  function humanRemaining(endT, now) {
+  // Verbose aria — "in 34 minutes" / "in 1 hour 20 minutes"
+  function longUntil(t, now) {
+    const ms = ts(t) - now;
+    if (ms <= 0) return 'now';
+    const { h, m } = diffParts(ms);
+    if (h > 0) return `in ${h} hour${h !== 1 ? 's' : ''} ${m} minute${m !== 1 ? 's' : ''}`;
+    return `in ${m} minute${m !== 1 ? 's' : ''}`;
+  }
+
+  // Short display — "34m left" / "1h 20m left"
+  function shortRemaining(endT, now) {
+    const ms = ts(endT) - now;
+    if (ms <= 0) return 'ending';
+    const { h, m } = diffParts(ms);
+    return h > 0 ? `${h}h ${m}m left` : `${m}m left`;
+  }
+
+  // Verbose aria — "34 minutes remaining"
+  function longRemaining(endT, now) {
     const ms = ts(endT) - now;
     if (ms <= 0) return 'ending soon';
     const { h, m } = diffParts(ms);
-    return h > 0 ? `${h}h ${m}m remaining` : `${m} min remaining`;
+    if (h > 0) return `${h} hour${h !== 1 ? 's' : ''} ${m} minute${m !== 1 ? 's' : ''} remaining`;
+    return `${m} minute${m !== 1 ? 's' : ''} remaining`;
   }
 
   function zoneName(id) {
-    return ZONE_NAMES[id] || id || 'Unknown Zone';
+    return ZONE_NAMES[id] || id || 'Unknown';
   }
 
   // ── Icons ─────────────────────────────────────────────────────────────────
@@ -97,6 +115,7 @@
     'Helltide':     'ph-fire-simple',
     'World Boss':   'ph-skull',
     'Legion Event': 'ph-sword',
+    'Upcoming':     'ph-calendar-dots',
   };
 
   const STATUS_ICONS = {
@@ -110,12 +129,19 @@
     return `<i class="ph-bold ${key ? EVENT_ICONS[key] : 'ph-calendar-dots'}" aria-hidden="true"></i>`;
   }
 
-  function statusBadge(statusData) {
-    const s = STATUS_ICONS[statusData] || STATUS_ICONS.ended;
-    return `<i class="ph-bold ${s.icon}" aria-hidden="true"></i> ${s.label}`;
+  function statusBadge(s) {
+    const d = STATUS_ICONS[s] || STATUS_ICONS.ended;
+    return `<i class="ph-bold ${d.icon}" aria-hidden="true"></i> ${d.label}`;
   }
 
   // ── Card builder ──────────────────────────────────────────────────────────
+  //
+  // Row shape:
+  //   { label, short, ariaLabel, full?, ts? }
+  //   - short:     concise display text ("in 34m")
+  //   - ariaLabel: verbose screen reader text ("in 34 minutes")
+  //   - full:      expansion text shown on tap ("Mar 18, 3:00 AM") — optional
+  //   - ts:        ISO/ms for <time datetime> — optional
 
   function buildCard({ title, statusData, ariaLabel, rows }) {
     const li = document.createElement('li');
@@ -124,12 +150,20 @@
     article.setAttribute('data-status', statusData);
     article.setAttribute('aria-label', ariaLabel);
 
-    const rowsHtml = rows.map(({ label, value, ts: t }) => `
-      <div class="detail-item">
-        <span class="detail-label">${label}</span>
-        ${t ? `<time class="detail-value" datetime="${new Date(ts(t)).toISOString()}">${value}</time>`
-             : `<span class="detail-value">${value}</span>`}
-      </div>`).join('');
+    const rowsHtml = rows.map(({ label, short, ariaLabel: rowAria, full, ts: t }) => {
+      const dtAttr = t ? ` datetime="${new Date(ts(t)).toISOString()}"` : '';
+      const expandBtn = full
+        ? `<button class="detail-value expandable" aria-expanded="false" aria-label="${rowAria || short}">
+             <span class="detail-short">${short}</span>
+             <time class="detail-expanded"${dtAttr} hidden>${full}</time>
+             <i class="ph-bold ph-caret-down expand-icon" aria-hidden="true"></i>
+           </button>`
+        : `<span class="detail-value"${t ? ` role="text"` : ''}>${short}</span>`;
+
+      return `<div class="detail-item">${
+        `<span class="detail-label">${label}</span>${expandBtn}`
+      }</div>`;
+    }).join('');
 
     article.innerHTML = `
       <header class="card-header">
@@ -138,6 +172,17 @@
       </header>
       <div class="card-details">${rowsHtml}</div>
     `;
+
+    // Wire up expand/collapse
+    article.querySelectorAll('.expandable').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        const detail = btn.querySelector('.detail-expanded');
+        btn.setAttribute('aria-expanded', String(!expanded));
+        detail.hidden = expanded;
+        btn.classList.toggle('is-expanded', !expanded);
+      });
+    });
 
     li.appendChild(article);
     return li;
@@ -153,46 +198,40 @@
     // ── Helltide ──────────────────────────────────────────────────────────
     const ht = data.helltide;
     if (ht) {
-      const start  = ts(ht.startTime);
-      const end    = ts(ht.endTime || (start + CONFIG.helltideDuration));
-      const zone   = zoneName(ht.zone);
-      const active = now >= start && now < end;
+      const start    = ts(ht.startTime);
+      const end      = ts(ht.endTime || (start + CONFIG.helltideDuration));
+      const zone     = zoneName(ht.zone);
+      const active   = now >= start && now < end;
       const upcoming = start > now;
+      const chests   = Array.isArray(ht.chests) && ht.chests.length ? ht.chests.join(' & ') : null;
       let statusData, ariaLabel, rows;
-
-      const chests = Array.isArray(ht.chests) && ht.chests.length
-        ? ht.chests.join(' and ')
-        : null;
 
       if (active) {
         statusData = 'active';
-        ariaLabel = `Helltide active in ${zone}. ${humanRemaining(end, now)}.${chests ? ' Mystery Chests: ' + chests + '.' : ''}`;
+        ariaLabel = `Helltide active in ${zone}. ${longRemaining(end, now)}.${chests ? ' Mystery Chests: ' + chests + '.' : ''}`;
         rows = [
-          { label: 'Zone',            value: zone },
-          { label: 'Status',          value: humanRemaining(end, now) },
-          { label: 'Started',         value: formatDateTime(start), ts: start },
-          { label: 'Ends at',         value: formatDateTime(end),   ts: end },
-          ...(chests ? [{ label: 'Mystery Chests', value: chests }] : []),
+          { label: 'Zone',    short: zone,                  ariaLabel: zone },
+          { label: 'Time',    short: shortRemaining(end, now), ariaLabel: longRemaining(end, now), full: `Ends ${formatDateTime(end)}`, ts: end },
+          ...(chests ? [{ label: 'Chests', short: chests, ariaLabel: `Mystery Chests: ${chests}` }] : []),
         ];
-        summaries.push(`Helltide active in ${zone} — ${humanRemaining(end, now)}${chests ? '. Chests: ' + chests : ''}`);
+        summaries.push(`Helltide active in ${zone} — ${longRemaining(end, now)}${chests ? '. Chests: ' + chests : ''}`);
       } else if (upcoming) {
         statusData = 'upcoming';
-        ariaLabel = `Next Helltide in ${zone}, ${humanUntil(start, now)}.${chests ? ' Mystery Chests: ' + chests + '.' : ''}`;
+        ariaLabel = `Next Helltide in ${zone}, ${longUntil(start, now)}.${chests ? ' Mystery Chests: ' + chests + '.' : ''}`;
         rows = [
-          { label: 'Zone',   value: zone },
-          { label: 'Starts', value: `${humanUntil(start, now)} — ${formatDateTime(start)}`, ts: start },
-          ...(chests ? [{ label: 'Mystery Chests', value: chests }] : []),
+          { label: 'Zone',   short: zone,                ariaLabel: zone },
+          { label: 'Starts', short: shortUntil(start, now), ariaLabel: longUntil(start, now), full: formatDateTime(start), ts: start },
+          ...(chests ? [{ label: 'Chests', short: chests, ariaLabel: `Mystery Chests: ${chests}` }] : []),
         ];
-        summaries.push(`Helltide in ${zone} ${humanUntil(start, now)}`);
+        summaries.push(`Helltide in ${zone} ${longUntil(start, now)}`);
       } else {
         statusData = 'ended';
-        ariaLabel = `Helltide in ${zone} has ended. Waiting for next.`;
+        ariaLabel = `Helltide in ${zone} has ended.`;
         rows = [
-          { label: 'Zone',       value: zone },
-          { label: 'Last spawn', value: formatDateTime(start), ts: start },
-          { label: 'Next',       value: 'Waiting for update…' },
+          { label: 'Zone',   short: zone, ariaLabel: zone },
+          { label: 'Status', short: 'Ended', ariaLabel: 'Ended', full: `Last: ${formatDateTime(start)}`, ts: start },
         ];
-        summaries.push('Helltide ended — awaiting next');
+        summaries.push('Helltide ended');
       }
 
       el.helltideList.appendChild(buildCard({ title: 'Helltide', statusData, ariaLabel, rows }));
@@ -203,43 +242,40 @@
     if (wb) {
       const start    = ts(wb.startTime);
       const end      = start + CONFIG.worldBossDuration;
-      const bossName = wb.boss || 'World Boss';
-      const zones    = Array.isArray(wb.zone)
-        ? wb.zone.map(z => z.name).join(' & ')
-        : zoneName(wb.zone);
+      const boss     = wb.boss || 'Unknown';
+      const zones    = Array.isArray(wb.zone) ? wb.zone.map(z => z.name).join(' & ') : zoneName(wb.zone);
       const active   = now >= start && now < end;
       const upcoming = start > now;
       let statusData, ariaLabel, rows;
 
       if (active) {
         statusData = 'active';
-        ariaLabel = `World Boss ${bossName} active in ${zones}. ${humanRemaining(end, now)}.`;
+        ariaLabel = `World Boss ${boss} active in ${zones}. ${longRemaining(end, now)}.`;
         rows = [
-          { label: 'Boss',    value: bossName },
-          { label: 'Zone',    value: zones },
-          { label: 'Status',  value: humanRemaining(end, now) },
-          { label: 'Ends at', value: formatDateTime(end), ts: end },
+          { label: 'Boss',  short: boss,  ariaLabel: boss },
+          { label: 'Zone',  short: zones, ariaLabel: zones },
+          { label: 'Time',  short: shortRemaining(end, now), ariaLabel: longRemaining(end, now), full: `Ends ${formatDateTime(end)}`, ts: end },
         ];
-        summaries.push(`World Boss ${bossName} active — ${humanRemaining(end, now)}`);
+        summaries.push(`World Boss ${boss} active — ${longRemaining(end, now)}`);
       } else if (upcoming) {
         statusData = 'upcoming';
-        ariaLabel = `World Boss ${bossName} in ${zones}, ${humanUntil(start, now)}.`;
+        ariaLabel = `World Boss ${boss} in ${zones}, ${longUntil(start, now)}.`;
         rows = [
-          { label: 'Boss',   value: bossName },
-          { label: 'Zone',   value: zones },
-          { label: 'Starts', value: `${humanUntil(start, now)} — ${formatDateTime(start)}`, ts: start },
+          { label: 'Boss',   short: boss,  ariaLabel: boss },
+          { label: 'Zone',   short: zones, ariaLabel: zones },
+          { label: 'Starts', short: shortUntil(start, now), ariaLabel: longUntil(start, now), full: formatDateTime(start), ts: start },
         ];
-        summaries.push(`World Boss ${bossName} in ${zones} ${humanUntil(start, now)}`);
+        summaries.push(`World Boss ${boss} in ${zones} ${longUntil(start, now)}`);
       } else {
         statusData = 'ended';
-        ariaLabel = `World Boss ${bossName} in ${zones} has ended.`;
+        ariaLabel = `World Boss ${boss} in ${zones} has ended.`;
         rows = [
-          { label: 'Boss',      value: bossName },
-          { label: 'Zone',      value: zones },
-          { label: 'Last seen', value: formatDateTime(start), ts: start },
-          ...(wb.nextTime ? [{ label: 'Next', value: formatDateTime(wb.nextTime), ts: wb.nextTime }] : []),
+          { label: 'Boss',   short: boss,  ariaLabel: boss },
+          { label: 'Zone',   short: zones, ariaLabel: zones },
+          { label: 'Status', short: 'Ended', ariaLabel: 'Ended', full: `Last: ${formatDateTime(start)}`, ts: start },
+          ...(wb.nextTime ? [{ label: 'Next', short: shortUntil(wb.nextTime, now), ariaLabel: longUntil(wb.nextTime, now), full: formatDateTime(wb.nextTime), ts: wb.nextTime }] : []),
         ];
-        summaries.push(`World Boss ${bossName} ended`);
+        summaries.push(`World Boss ${boss} ended`);
       }
 
       el.helltideList.appendChild(buildCard({ title: 'World Boss', statusData, ariaLabel, rows }));
@@ -248,34 +284,33 @@
     // ── Legion Event ──────────────────────────────────────────────────────
     const lg = data.legion;
     if (lg) {
-      const start  = ts(lg.startTime);
-      const end    = start + CONFIG.legionDuration;
-      const active = now >= start && now < end;
+      const start    = ts(lg.startTime);
+      const end      = start + CONFIG.legionDuration;
+      const active   = now >= start && now < end;
       const upcoming = start > now;
       let statusData, ariaLabel, rows;
 
       if (active) {
         statusData = 'active';
-        ariaLabel = `Legion Event active. ${humanRemaining(end, now)}.`;
+        ariaLabel = `Legion Event active. ${longRemaining(end, now)}.`;
         rows = [
-          { label: 'Status',  value: humanRemaining(end, now) },
-          { label: 'Ends at', value: formatDateTime(end), ts: end },
+          { label: 'Time', short: shortRemaining(end, now), ariaLabel: longRemaining(end, now), full: `Ends ${formatDateTime(end)}`, ts: end },
         ];
-        summaries.push(`Legion Event active — ${humanRemaining(end, now)}`);
+        summaries.push(`Legion Event active — ${longRemaining(end, now)}`);
       } else if (upcoming) {
         statusData = 'upcoming';
-        ariaLabel = `Legion Event ${humanUntil(start, now)}.`;
+        ariaLabel = `Legion Event ${longUntil(start, now)}.`;
         rows = [
-          { label: 'Starts', value: `${humanUntil(start, now)} — ${formatDateTime(start)}`, ts: start },
-          ...(lg.nextTime ? [{ label: 'After that', value: formatDateTime(lg.nextTime), ts: lg.nextTime }] : []),
+          { label: 'Starts',     short: shortUntil(start, now), ariaLabel: longUntil(start, now), full: formatDateTime(start), ts: start },
+          ...(lg.nextTime ? [{ label: 'After that', short: shortUntil(lg.nextTime, now), ariaLabel: longUntil(lg.nextTime, now), full: formatDateTime(lg.nextTime), ts: lg.nextTime }] : []),
         ];
-        summaries.push(`Legion Event ${humanUntil(start, now)}`);
+        summaries.push(`Legion Event ${longUntil(start, now)}`);
       } else {
         statusData = 'ended';
         ariaLabel = 'Legion Event ended.';
         rows = [
-          { label: 'Last seen', value: formatDateTime(start), ts: start },
-          ...(lg.nextTime ? [{ label: 'Next', value: formatDateTime(lg.nextTime), ts: lg.nextTime }] : []),
+          { label: 'Status', short: 'Ended', ariaLabel: 'Ended', full: `Last: ${formatDateTime(start)}`, ts: start },
+          ...(lg.nextTime ? [{ label: 'Next', short: shortUntil(lg.nextTime, now), ariaLabel: longUntil(lg.nextTime, now), full: formatDateTime(lg.nextTime), ts: lg.nextTime }] : []),
         ];
         summaries.push('Legion Event ended');
       }
@@ -284,46 +319,49 @@
     }
 
     // ── Upcoming Events ───────────────────────────────────────────────────
-    const upcoming = data.upcoming;
-    if (upcoming) {
-      const upcomingItems = [];
+    const upcomingData = data.upcoming;
+    if (upcomingData) {
+      const items = [];
 
-      (upcoming.world_boss || []).forEach(e => {
+      (upcomingData.world_boss || []).forEach(e => {
         const zones = Array.isArray(e.zone) ? e.zone.map(z => z.name).join(' & ') : zoneName(e.zone);
-        upcomingItems.push({ label: `World Boss — ${e.boss}`, value: `${humanUntil(e.startTime, now)} (${formatDateTime(e.startTime)}) in ${zones}`, ts: e.startTime });
+        items.push({
+          label: `Boss — ${e.boss}`,
+          short: shortUntil(e.startTime, now),
+          ariaLabel: `World Boss ${e.boss} in ${zones}, ${longUntil(e.startTime, now)}`,
+          full: `${formatDateTime(e.startTime)} · ${zones}`,
+          ts: e.startTime,
+        });
       });
 
-      (upcoming.helltide || []).forEach(e => {
-        upcomingItems.push({ label: 'Helltide', value: `${humanUntil(e.startTime, now)} — ${formatDateTime(e.startTime)}`, ts: e.startTime });
+      (upcomingData.helltide || []).forEach(e => {
+        items.push({
+          label: 'Helltide',
+          short: shortUntil(e.startTime, now),
+          ariaLabel: `Helltide ${longUntil(e.startTime, now)}`,
+          full: formatDateTime(e.startTime),
+          ts: e.startTime,
+        });
       });
 
-      (upcoming.legion || []).forEach(e => {
-        upcomingItems.push({ label: 'Legion Event', value: `${humanUntil(e.startTime, now)} — ${formatDateTime(e.startTime)}`, ts: e.startTime });
+      (upcomingData.legion || []).forEach(e => {
+        items.push({
+          label: 'Legion',
+          short: shortUntil(e.startTime, now),
+          ariaLabel: `Legion Event ${longUntil(e.startTime, now)}`,
+          full: formatDateTime(e.startTime),
+          ts: e.startTime,
+        });
       });
 
-      if (upcomingItems.length) {
-        // Sort by time
-        upcomingItems.sort((a, b) => new Date(a.ts) - new Date(b.ts));
-
-        const li = document.createElement('li');
-        const section = document.createElement('article');
-        section.className = 'helltide-card upcoming-card';
-        section.setAttribute('aria-label', 'Upcoming events: ' + upcomingItems.map(i => i.label + ' ' + i.value).join('. '));
-
-        section.innerHTML = `
-          <header class="card-header">
-            <h3 class="location-name"><i class="ph-bold ph-calendar-dots" aria-hidden="true"></i> Upcoming</h3>
-          </header>
-          <div class="card-details">
-            ${upcomingItems.map(i => `
-              <div class="detail-item">
-                <span class="detail-label">${i.label}</span>
-                <time class="detail-value" datetime="${new Date(i.ts).toISOString()}">${i.value}</time>
-              </div>`).join('')}
-          </div>
-        `;
-        li.appendChild(section);
-        el.helltideList.appendChild(li);
+      if (items.length) {
+        items.sort((a, b) => ts(a.ts) - ts(b.ts));
+        el.helltideList.appendChild(buildCard({
+          title: 'Upcoming',
+          statusData: 'upcoming',
+          ariaLabel: 'Upcoming events: ' + items.map(i => i.ariaLabel).join('. '),
+          rows: items,
+        }));
       }
     }
 
