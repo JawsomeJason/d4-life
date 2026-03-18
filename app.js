@@ -1,475 +1,235 @@
 /**
  * D4 Helltide Tracker - Accessible JavaScript
  *
- * Features:
- * - Fetches Helltide data from diablo4.life API
- * - Auto-refreshes every 60 seconds with screen reader announcements
- * - Full keyboard accessibility
- * - ARIA live regions for dynamic content updates
+ * Data source: diablo4.life/api/trackers/list (fetched every 5 min via GitHub Actions)
+ * Shows live next/active Helltide spawn time with full screen reader support.
  */
 
-(function() {
+(function () {
   'use strict';
 
-  // ==========================================================================
-  // Configuration
-  // ==========================================================================
-
   const CONFIG = {
-    // Reads from local data file updated by GitHub Actions every 5 minutes.
-    // This avoids CORS issues since it's served from the same origin.
     apiUrl: 'data/helltide.json',
     refreshInterval: 60, // seconds
-    helltideDuration: 60 * 60 * 1000, // 60 minutes in milliseconds
+    helltideDuration: 60 * 60 * 1000, // 60 minutes in ms
   };
 
-  // ==========================================================================
-  // DOM References
-  // ==========================================================================
-
-  const elements = {
-    liveAnnouncer: document.getElementById('live-announcer'),
-    lastUpdatedTime: document.getElementById('last-updated-time'),
-    countdown: document.getElementById('countdown'),
-    refreshBtn: document.getElementById('refresh-btn'),
-    retryBtn: document.getElementById('retry-btn'),
-    loadingState: document.getElementById('loading-state'),
-    errorState: document.getElementById('error-state'),
-    errorMessage: document.getElementById('error-message'),
-    emptyState: document.getElementById('empty-state'),
-    helltideList: document.getElementById('helltide-list'),
+  // DOM refs
+  const el = {
+    announcer:     document.getElementById('live-announcer'),
+    lastUpdated:   document.getElementById('last-updated-time'),
+    countdown:     document.getElementById('countdown'),
+    refreshBtn:    document.getElementById('refresh-btn'),
+    retryBtn:      document.getElementById('retry-btn'),
+    loadingState:  document.getElementById('loading-state'),
+    errorState:    document.getElementById('error-state'),
+    errorMessage:  document.getElementById('error-message'),
+    emptyState:    document.getElementById('empty-state'),
+    helltideList:  document.getElementById('helltide-list'),
   };
 
-  // ==========================================================================
-  // State
-  // ==========================================================================
-
-  let countdownValue = CONFIG.refreshInterval;
   let countdownTimer = null;
+  let countdownValue = CONFIG.refreshInterval;
   let isLoading = false;
 
-  // ==========================================================================
-  // Screen Reader Announcements
-  // ==========================================================================
+  // ── Screen reader announcements ──────────────────────────────────────────
 
-  /**
-   * Announce a message to screen readers via live region
-   * @param {string} message - The message to announce
-   */
-  function announce(message) {
-    // Clear first to ensure re-announcement of same content
-    elements.liveAnnouncer.textContent = '';
-
-    // Use setTimeout to ensure the clear takes effect
-    setTimeout(() => {
-      elements.liveAnnouncer.textContent = message;
-    }, 100);
+  function announce(msg) {
+    el.announcer.textContent = '';
+    setTimeout(() => { el.announcer.textContent = msg; }, 100);
   }
 
-  // ==========================================================================
-  // Time Formatting
-  // ==========================================================================
+  // ── Time helpers ─────────────────────────────────────────────────────────
 
-  /**
-   * Format a timestamp as an ISO datetime string
-   * @param {number} timestamp - Unix timestamp in milliseconds
-   * @returns {string} ISO datetime string
-   */
-  function toISOString(timestamp) {
-    return new Date(timestamp).toISOString();
-  }
+  function pad(n) { return String(n).padStart(2, '0'); }
 
-  /**
-   * Format a timestamp as a human-readable local time
-   * @param {number} timestamp - Unix timestamp in milliseconds
-   * @returns {string} Human-readable time (e.g., "3:45 PM")
-   */
-  function formatTime(timestamp) {
-    return new Date(timestamp).toLocaleTimeString(undefined, {
-      hour: 'numeric',
-      minute: '2-digit',
-      hour12: true,
+  function formatTime(ts) {
+    return new Date(ts).toLocaleTimeString(undefined, {
+      hour: 'numeric', minute: '2-digit', hour12: true,
     });
   }
 
-  /**
-   * Format a timestamp as a human-readable date and time
-   * @param {number} timestamp - Unix timestamp in milliseconds
-   * @returns {string} Human-readable date and time
-   */
-  function formatDateTime(timestamp) {
-    return new Date(timestamp).toLocaleString(undefined, {
-      month: 'short',
-      day: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit',
-      hour12: true,
+  function formatDateTime(ts) {
+    return new Date(ts).toLocaleString(undefined, {
+      month: 'short', day: 'numeric',
+      hour: 'numeric', minute: '2-digit', hour12: true,
     });
   }
 
-  /**
-   * Get a human-readable relative time string
-   * @param {number} timestamp - Unix timestamp in milliseconds
-   * @param {number} now - Current timestamp
-   * @returns {string} Relative time string (e.g., "Spawns in 23 minutes")
-   */
-  function getRelativeTime(timestamp, now) {
-    const diff = timestamp - now;
-    const absDiff = Math.abs(diff);
-
-    const minutes = Math.floor(absDiff / (1000 * 60));
-    const hours = Math.floor(absDiff / (1000 * 60 * 60));
-    const remainingMinutes = minutes % 60;
-
-    if (diff > 0) {
-      // Future
-      if (hours >= 1) {
-        return `Spawns in ${hours} hour${hours > 1 ? 's' : ''} ${remainingMinutes} minute${remainingMinutes !== 1 ? 's' : ''}`;
-      } else if (minutes > 1) {
-        return `Spawns in ${minutes} minutes`;
-      } else if (minutes === 1) {
-        return 'Spawns in 1 minute';
-      } else {
-        return 'Spawns in less than a minute';
-      }
-    } else {
-      // Past
-      if (hours >= 1) {
-        return `Spawned ${hours} hour${hours > 1 ? 's' : ''} ${remainingMinutes} minute${remainingMinutes !== 1 ? 's' : ''} ago`;
-      } else if (minutes > 1) {
-        return `Spawned ${minutes} minutes ago`;
-      } else if (minutes === 1) {
-        return 'Spawned 1 minute ago';
-      } else {
-        return 'Spawned just now';
-      }
-    }
+  function diffParts(ms) {
+    const total = Math.abs(ms);
+    const h = Math.floor(total / 3_600_000);
+    const m = Math.floor((total % 3_600_000) / 60_000);
+    const s = Math.floor((total % 60_000) / 1_000);
+    return { h, m, s };
   }
 
-  /**
-   * Determine the status of a Helltide
-   * @param {number} spawnTime - Spawn timestamp
-   * @param {number} now - Current timestamp
-   * @returns {string} Status: 'active', 'upcoming', or 'ended'
-   */
-  function getHelltideStatus(spawnTime, now) {
-    const endTime = spawnTime + CONFIG.helltideDuration;
-
-    if (now < spawnTime) {
-      return 'upcoming';
-    } else if (now >= spawnTime && now < endTime) {
-      return 'active';
-    } else {
-      return 'ended';
-    }
+  function humanDiff(ms, future) {
+    const { h, m } = diffParts(ms);
+    const verb = future ? 'Starts in' : 'Started';
+    const ago  = future ? '' : ' ago';
+    if (h > 0) return `${verb} ${h}h ${m}m${ago}`;
+    if (m > 0) return `${verb} ${m} minute${m !== 1 ? 's' : ''}${ago}`;
+    return future ? 'Starting very soon' : 'Just started';
   }
 
-  /**
-   * Get a human-readable status label
-   * @param {string} status - Status code
-   * @returns {string} Human-readable label
-   */
-  function getStatusLabel(status) {
-    switch (status) {
-      case 'active': return 'Active Now';
-      case 'upcoming': return 'Upcoming';
-      case 'ended': return 'Ended';
-      default: return status;
-    }
-  }
+  // ── UI state ─────────────────────────────────────────────────────────────
 
-  // ==========================================================================
-  // UI State Management
-  // ==========================================================================
-
-  /**
-   * Show a specific state and hide others
-   * @param {string} state - 'loading', 'error', 'empty', or 'list'
-   */
   function showState(state) {
-    elements.loadingState.hidden = state !== 'loading';
-    elements.errorState.hidden = state !== 'error';
-    elements.emptyState.hidden = state !== 'empty';
-    elements.helltideList.hidden = state !== 'list';
+    el.loadingState.hidden = state !== 'loading';
+    el.errorState.hidden   = state !== 'error';
+    el.emptyState.hidden   = state !== 'empty';
+    el.helltideList.hidden = state !== 'list';
   }
 
-  /**
-   * Update the last updated timestamp
-   */
   function updateLastUpdated() {
     const now = new Date();
-    elements.lastUpdatedTime.textContent = formatTime(now.getTime());
-    elements.lastUpdatedTime.setAttribute('datetime', now.toISOString());
+    el.lastUpdated.textContent = formatTime(now.getTime());
+    el.lastUpdated.setAttribute('datetime', now.toISOString());
   }
 
-  // ==========================================================================
-  // Countdown Timer
-  // ==========================================================================
+  // ── Countdown ────────────────────────────────────────────────────────────
 
-  /**
-   * Start the countdown timer
-   */
   function startCountdown() {
     countdownValue = CONFIG.refreshInterval;
-    elements.countdown.textContent = countdownValue;
-
-    if (countdownTimer) {
-      clearInterval(countdownTimer);
-    }
-
+    el.countdown.textContent = countdownValue;
+    clearInterval(countdownTimer);
     countdownTimer = setInterval(() => {
       countdownValue--;
-      elements.countdown.textContent = countdownValue;
-
-      if (countdownValue <= 0) {
-        fetchHelltideData();
-      }
+      el.countdown.textContent = countdownValue;
+      if (countdownValue <= 0) fetchData();
     }, 1000);
   }
 
-  // ==========================================================================
-  // Rendering
-  // ==========================================================================
+  // ── Render ───────────────────────────────────────────────────────────────
 
-  /**
-   * Create a Helltide card element
-   * @param {Object} report - Helltide report data
-   * @param {number} now - Current timestamp
-   * @returns {HTMLLIElement} List item containing the card
-   */
-  function createHelltideCard(report, now) {
-    const status = getHelltideStatus(report.spawnTime, now);
-    const statusLabel = getStatusLabel(status);
-    const relativeTime = getRelativeTime(report.spawnTime, now);
-    const exactTime = formatDateTime(report.spawnTime);
-    const reporterName = report.user?.displayName || 'Anonymous';
+  function renderHelltide(data) {
+    const now = Date.now();
+    const spawnTime = data.helltide?.time;
+
+    if (!spawnTime) {
+      showState('empty');
+      announce('No Helltide data available.');
+      return;
+    }
+
+    const diff    = spawnTime - now;
+    const endTime = spawnTime + CONFIG.helltideDuration;
+    const isActive   = now >= spawnTime && now < endTime;
+    const hasEnded   = now >= endTime;
+    const isUpcoming = diff > 0;
+
+    let statusLabel, statusDesc, ariaLabel;
+
+    if (isActive) {
+      const remaining = endTime - now;
+      const { h, m } = diffParts(remaining);
+      const timeLeft = h > 0 ? `${h}h ${m}m remaining` : `${m} minute${m !== 1 ? 's' : ''} remaining`;
+      statusLabel = 'ACTIVE NOW';
+      statusDesc  = `Active — ${timeLeft}`;
+      ariaLabel   = `Helltide is active now. ${timeLeft}. Started at ${formatDateTime(spawnTime)}.`;
+      announce(`Helltide is active now! ${timeLeft}.`);
+    } else if (isUpcoming) {
+      statusLabel = 'UPCOMING';
+      statusDesc  = humanDiff(diff, true);
+      ariaLabel   = `Next Helltide: ${statusDesc}. Spawns at ${formatDateTime(spawnTime)}.`;
+      announce(`Next Helltide: ${statusDesc}.`);
+    } else {
+      // ended — data file might be stale; show last known
+      const { h, m } = diffParts(now - endTime);
+      const ago = h > 0 ? `${h}h ${m}m ago` : `${m}m ago`;
+      statusLabel = 'ENDED';
+      statusDesc  = `Ended ${ago} — next spawn time not yet reported`;
+      ariaLabel   = `Last Helltide ended ${ago}. Waiting for next spawn time.`;
+      announce(`Last Helltide ended ${ago}. Waiting for updated data.`);
+    }
+
+    el.helltideList.innerHTML = '';
 
     const li = document.createElement('li');
-
     const article = document.createElement('article');
     article.className = 'helltide-card';
-    article.setAttribute('data-status', status);
-    article.setAttribute('aria-label',
-      `${report.location}: ${statusLabel}. ${relativeTime}. Tier ${report.tier}. Reported by ${reporterName}.`
-    );
+    article.setAttribute('data-status', isActive ? 'active' : isUpcoming ? 'upcoming' : 'ended');
+    article.setAttribute('aria-label', ariaLabel);
 
     article.innerHTML = `
       <header class="card-header">
-        <h3 class="location-name">${escapeHtml(report.location)}</h3>
-        <span class="status-badge" data-status="${status}" aria-hidden="true">
+        <h3 class="location-name">Helltide</h3>
+        <span class="status-badge" data-status="${isActive ? 'active' : isUpcoming ? 'upcoming' : 'ended'}" aria-hidden="true">
           ${statusLabel}
         </span>
       </header>
       <div class="card-details">
         <div class="detail-item">
           <span class="detail-label">Status</span>
-          <span class="detail-value time-relative">${relativeTime}</span>
+          <span class="detail-value time-relative">${statusDesc}</span>
         </div>
         <div class="detail-item">
-          <span class="detail-label">Spawn Time</span>
-          <time class="detail-value" datetime="${toISOString(report.spawnTime)}">
-            ${exactTime}
+          <span class="detail-label">${isActive ? 'Started' : 'Spawn Time'}</span>
+          <time class="detail-value" datetime="${new Date(spawnTime).toISOString()}">
+            ${formatDateTime(spawnTime)}
           </time>
         </div>
+        ${isActive ? `
         <div class="detail-item">
-          <span class="detail-label">Tier</span>
-          <span class="detail-value tier-value">Tier ${report.tier}</span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label">Reported By</span>
-          <span class="detail-value">${escapeHtml(reporterName)}</span>
-        </div>
+          <span class="detail-label">Ends At</span>
+          <time class="detail-value" datetime="${new Date(endTime).toISOString()}">
+            ${formatDateTime(endTime)}
+          </time>
+        </div>` : ''}
       </div>
     `;
 
     li.appendChild(article);
-    return li;
-  }
-
-  /**
-   * Escape HTML to prevent XSS
-   * @param {string} text - Text to escape
-   * @returns {string} Escaped text
-   */
-  function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
-
-  /**
-   * Sort reports: upcoming first (by spawn time ascending), then recent past (by spawn time descending)
-   * @param {Array} reports - Array of report objects
-   * @param {number} now - Current timestamp
-   * @returns {Array} Sorted reports
-   */
-  function sortReports(reports, now) {
-    const upcoming = [];
-    const active = [];
-    const past = [];
-
-    reports.forEach(report => {
-      const status = getHelltideStatus(report.spawnTime, now);
-      if (status === 'upcoming') {
-        upcoming.push(report);
-      } else if (status === 'active') {
-        active.push(report);
-      } else {
-        past.push(report);
-      }
-    });
-
-    // Sort upcoming by spawn time (soonest first)
-    upcoming.sort((a, b) => a.spawnTime - b.spawnTime);
-
-    // Sort active by spawn time (most recent first - longest running at bottom)
-    active.sort((a, b) => b.spawnTime - a.spawnTime);
-
-    // Sort past by spawn time (most recent first)
-    past.sort((a, b) => b.spawnTime - a.spawnTime);
-
-    // Active first, then upcoming, then past
-    return [...active, ...upcoming, ...past];
-  }
-
-  /**
-   * Render the Helltide list
-   * @param {Array} reports - Array of report objects
-   */
-  function renderHelltideList(reports) {
-    const now = Date.now();
-    const sortedReports = sortReports(reports, now);
-
-    if (sortedReports.length === 0) {
-      showState('empty');
-      return;
-    }
-
-    // Clear existing list
-    elements.helltideList.innerHTML = '';
-
-    // Create cards
-    sortedReports.forEach(report => {
-      const card = createHelltideCard(report, now);
-      elements.helltideList.appendChild(card);
-    });
-
+    el.helltideList.appendChild(li);
     showState('list');
-
-    // Count for announcement
-    const activeCount = sortedReports.filter(r => getHelltideStatus(r.spawnTime, now) === 'active').length;
-    const upcomingCount = sortedReports.filter(r => getHelltideStatus(r.spawnTime, now) === 'upcoming').length;
-
-    let announcement = 'Helltide data updated. ';
-    if (activeCount > 0) {
-      announcement += `${activeCount} active Helltide${activeCount > 1 ? 's' : ''}. `;
-    }
-    if (upcomingCount > 0) {
-      announcement += `${upcomingCount} upcoming. `;
-    }
-    if (activeCount === 0 && upcomingCount === 0) {
-      announcement += 'No active or upcoming Helltides. ';
-    }
-
-    announce(announcement);
   }
 
-  // ==========================================================================
-  // Data Fetching
-  // ==========================================================================
+  // ── Fetch ─────────────────────────────────────────────────────────────────
 
-  /**
-   * Fetch Helltide data from the API
-   */
-  async function fetchHelltideData() {
+  async function fetchData() {
     if (isLoading) return;
-
     isLoading = true;
-    elements.refreshBtn.disabled = true;
+    el.refreshBtn.disabled = true;
 
-    // Don't show loading state if we already have data (just refresh in background)
-    if (elements.helltideList.children.length === 0) {
-      showState('loading');
-    }
+    if (el.helltideList.children.length === 0) showState('loading');
 
     try {
-      const response = await fetch(CONFIG.apiUrl);
-
-      if (!response.ok) {
-        throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
-      }
-
-      const data = await response.json();
-
-      if (!data.reports || !Array.isArray(data.reports)) {
-        throw new Error('Invalid data format received');
-      }
-
-      renderHelltideList(data.reports);
+      const res = await fetch(CONFIG.apiUrl + '?_=' + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      renderHelltide(data);
       updateLastUpdated();
       startCountdown();
-
-    } catch (error) {
-      console.error('Error fetching Helltide data:', error);
-
-      elements.errorMessage.textContent =
-        `Unable to load Helltide data. Error: ${error.message || error}. URL: ${CONFIG.apiUrl}`;
+    } catch (err) {
+      console.error(err);
+      el.errorMessage.textContent = `Unable to load data. ${err.message}`;
       showState('error');
-
       announce('Error loading Helltide data. Use the retry button to try again.');
-
-      // Still restart countdown to auto-retry
       startCountdown();
     } finally {
       isLoading = false;
-      elements.refreshBtn.disabled = false;
+      el.refreshBtn.disabled = false;
     }
   }
 
-  // ==========================================================================
-  // Event Listeners
-  // ==========================================================================
+  // ── Init ──────────────────────────────────────────────────────────────────
 
-  /**
-   * Initialize event listeners
-   */
-  function initEventListeners() {
-    // Refresh button
-    elements.refreshBtn.addEventListener('click', () => {
-      announce('Refreshing Helltide data...');
-      fetchHelltideData();
-    });
-
-    // Retry button
-    elements.retryBtn.addEventListener('click', () => {
-      announce('Retrying...');
-      fetchHelltideData();
-    });
-
-    // Handle visibility change - refresh when user returns to tab
-    document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible') {
-        // Check if countdown has elapsed while tab was hidden
-        if (countdownValue <= 0) {
-          fetchHelltideData();
-        }
-      }
-    });
-  }
-
-  // ==========================================================================
-  // Initialization
-  // ==========================================================================
-
-  /**
-   * Initialize the application
-   */
   function init() {
-    initEventListeners();
-    fetchHelltideData();
+    el.refreshBtn.addEventListener('click', () => {
+      announce('Refreshing...');
+      fetchData();
+    });
+    el.retryBtn.addEventListener('click', () => {
+      announce('Retrying...');
+      fetchData();
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && countdownValue <= 0) fetchData();
+    });
+    fetchData();
   }
 
-  // Start when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

@@ -17,10 +17,9 @@ jobs:
       - name: Fetch Helltide data
         run: |
           mkdir -p data
-          curl -sf "https://diablo4.life/api/trackers/helltide/reportHistory" \
+          curl -sf "https://diablo4.life/api/trackers/list" \
             -H "User-Agent: d4-helltide-tracker/1.0 (accessibility tool)" \
             -o data/helltide.json
-          echo "Fetched at $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> data/helltide.json.meta
 
       - name: Commit if changed
         run: |
