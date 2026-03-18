@@ -22,10 +22,10 @@
   --color-accent-gold: #d4a520;
   --color-active-glow: #ff4444;
 
-  /* Status colors */
-  --color-status-active: #22c55e;
-  --color-status-upcoming: #3b82f6;
-  --color-status-ended: #9ca3af;
+  /* Status colors — colorblind-safe (distinguishable for protanopia, deuteranopia, tritanopia) */
+  --color-status-active: #0096c7;   /* bright blue — universally distinguishable */
+  --color-status-upcoming: #e07b00; /* amber/orange */
+  --color-status-ended: #6b7280;    /* neutral gray */
 
   /* Focus indicator */
   --color-focus: #fbbf24;

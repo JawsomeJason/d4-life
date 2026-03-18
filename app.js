@@ -78,6 +78,32 @@
     return `in ${m} minute${m !== 1 ? 's' : ''}`;
   }
 
+  // ── Icon helpers (Phosphor Icons) ────────────────────────────────────────
+
+  const EVENT_ICONS = {
+    'Helltide':     'ph-fire-simple',
+    'World Boss':   'ph-skull',
+    'Legion Event': 'ph-sword',
+    'Chest Respawn':'ph-treasure-chest',
+  };
+
+  const STATUS_ICONS = {
+    active:   { icon: 'ph-pulse',     label: '● Active' },
+    upcoming: { icon: 'ph-clock',     label: '◆ Upcoming' },
+    ended:    { icon: 'ph-x-circle',  label: '○ Ended' },
+  };
+
+  function eventIcon(title) {
+    const key = Object.keys(EVENT_ICONS).find(k => title.startsWith(k));
+    const cls = key ? EVENT_ICONS[key] : 'ph-calendar-dots';
+    return `<i class="ph-bold ${cls}" aria-hidden="true"></i>`;
+  }
+
+  function statusIcon(statusData) {
+    const s = STATUS_ICONS[statusData] || STATUS_ICONS.ended;
+    return `<i class="ph-bold ${s.icon}" aria-hidden="true"></i> ${s.label}`;
+  }
+
   // ── Card builder ──────────────────────────────────────────────────────────
 
   function buildCard({ title, statusLabel, statusData, detail1Label, detail1Value, detail1Ts, detail2Label, detail2Value, detail2Ts }) {
@@ -95,8 +121,8 @@
 
     article.innerHTML = `
       <header class="card-header">
-        <h3 class="location-name">${title}</h3>
-        <span class="status-badge" data-status="${statusData}" aria-hidden="true">${statusLabel}</span>
+        <h3 class="location-name">${eventIcon(title)} ${title}</h3>
+        <span class="status-badge" data-status="${statusData}" aria-hidden="true">${statusIcon(statusData)}</span>
       </header>
       <div class="card-details">
         <div class="detail-item">
