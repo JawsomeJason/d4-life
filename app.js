@@ -88,9 +88,9 @@
   };
 
   const STATUS_ICONS = {
-    active:   { icon: 'ph-pulse',     label: '● Active' },
-    upcoming: { icon: 'ph-clock',     label: '◆ Upcoming' },
-    ended:    { icon: 'ph-x-circle',  label: '○ Ended' },
+    active:   { icon: 'ph-pulse',    label: 'Active Now' },
+    upcoming: { icon: 'ph-clock',    label: 'Upcoming' },
+    ended:    { icon: 'ph-x-circle', label: 'Ended' },
   };
 
   function eventIcon(title) {

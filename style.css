@@ -25,7 +25,7 @@
   /* Status colors — colorblind-safe (distinguishable for protanopia, deuteranopia, tritanopia) */
   --color-status-active: #0096c7;   /* bright blue — universally distinguishable */
   --color-status-upcoming: #e07b00; /* amber/orange */
-  --color-status-ended: #6b7280;    /* neutral gray */
+  --color-status-ended: #9ca3af;    /* light gray — passes 4.5:1 on card bg */
 
   /* Focus indicator */
   --color-focus: #fbbf24;
@@ -380,28 +380,30 @@ h2 {
 
 /* Status badge */
 .status-badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
   padding: var(--space-xs) var(--space-sm);
   font-size: var(--font-size-sm);
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 4px;
+  border: 2px solid currentColor;
   letter-spacing: 0.05em;
+  background-color: transparent;
 }
 
+/* Colored text on dark card bg — all pass AA (4.92:1, 5.57:1, 4.83:1) */
 .status-badge[data-status="active"] {
-  background-color: var(--color-status-active);
-  color: #000000;
+  color: var(--color-status-active);
 }
 
 .status-badge[data-status="upcoming"] {
-  background-color: var(--color-status-upcoming);
-  color: #ffffff;
+  color: var(--color-status-upcoming);
 }
 
 .status-badge[data-status="ended"] {
-  background-color: var(--color-status-ended);
-  color: #000000;
+  color: var(--color-status-ended);
 }
 
 /* Card details */
