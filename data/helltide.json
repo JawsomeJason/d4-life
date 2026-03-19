@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-19T00:55:00.000Z",
-    "id": 1773878400,
-    "startTime": "2026-03-19T00:00:00.000Z",
+    "endTime": "2026-03-19T01:55:00.000Z",
+    "id": 1773882000,
+    "startTime": "2026-03-19T01:00:00.000Z",
     "zone": "hawezar",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -31,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1773880200,
-    "nextTime": "2026-03-19T00:55:00.000Z",
-    "startTime": "2026-03-19T00:30:00.000Z"
+    "id": 1773883200,
+    "nextTime": "2026-03-19T01:45:00.000Z",
+    "startTime": "2026-03-19T01:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-19T00:30:00.000Z"
-      },
-      {
-        "startTime": "2026-03-19T00:55:00.000Z"
-      },
-      {
         "startTime": "2026-03-19T01:20:00.000Z"
+      },
+      {
+        "startTime": "2026-03-19T01:45:00.000Z"
+      },
+      {
+        "startTime": "2026-03-19T02:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-19T00:31:03.820Z"
+  "fetchedAt": "2026-03-19T00:58:18.809Z"
 }
