@@ -11,18 +11,19 @@
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1774027800,
-    "nextTime": "2026-03-20T21:00:00.000Z",
-    "startTime": "2026-03-20T17:30:00.000Z",
+    "id": 1774040400,
+    "nahantuBoss": "Ashava",
+    "nextTime": "2026-03-21T00:30:00.000Z",
+    "startTime": "2026-03-20T21:00:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "fractured_peaks",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
-        "boss": "Wandering Death",
+        "boss": "Ashava",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
@@ -37,18 +38,6 @@
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-03-20T17:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-03-20T21:00:00.000Z",
@@ -78,6 +67,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-21T04:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -93,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-20T17:20:00.000Z"
-      },
-      {
         "startTime": "2026-03-20T17:45:00.000Z"
       },
       {
         "startTime": "2026-03-20T18:10:00.000Z"
+      },
+      {
+        "startTime": "2026-03-20T18:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-20T17:22:04.758Z"
+  "fetchedAt": "2026-03-20T17:39:19.674Z"
 }
