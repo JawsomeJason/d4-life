@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-20T10:55:00.000Z",
-    "id": 1774000800,
-    "startTime": "2026-03-20T10:00:00.000Z",
+    "endTime": "2026-03-20T11:55:00.000Z",
+    "id": 1774004400,
+    "startTime": "2026-03-20T11:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Cursed Scarps",
+      "Túr Dúlra North"
     ]
   },
   "world_boss": {
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1774003200,
-    "nextTime": "2026-03-20T11:05:00.000Z",
-    "startTime": "2026-03-20T10:40:00.000Z"
+    "id": 1774004700,
+    "nextTime": "2026-03-20T11:30:00.000Z",
+    "startTime": "2026-03-20T11:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-03-20T10:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-03-20T14:00:00.000Z",
@@ -71,6 +60,24 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-03-20T21:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Ashava"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -86,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-20T10:40:00.000Z"
-      },
-      {
         "startTime": "2026-03-20T11:05:00.000Z"
       },
       {
         "startTime": "2026-03-20T11:30:00.000Z"
+      },
+      {
+        "startTime": "2026-03-20T11:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-20T10:36:39.115Z"
+  "fetchedAt": "2026-03-20T10:56:14.913Z"
 }
