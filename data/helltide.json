@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1774002600,
-    "nextTime": "2026-03-20T14:00:00.000Z",
-    "startTime": "2026-03-20T10:30:00.000Z",
+    "boss": "Ashava",
+    "id": 1774015200,
+    "nextTime": "2026-03-20T17:30:00.000Z",
+    "startTime": "2026-03-20T14:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "fractured_peaks",
+        "boss": "Ashava",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Wandering Death",
@@ -96,5 +96,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-20T10:19:22.289Z"
+  "fetchedAt": "2026-03-20T10:36:39.115Z"
 }
