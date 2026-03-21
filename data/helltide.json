@@ -38,18 +38,6 @@
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Avarice",
-        "startTime": "2026-03-21T14:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
-      {
         "boss": "Ashava",
         "startTime": "2026-03-21T18:00:00.000Z",
         "zone": [
@@ -72,6 +60,24 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-22T01:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -87,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-21T14:35:00.000Z"
-      },
-      {
         "startTime": "2026-03-21T15:00:00.000Z"
       },
       {
         "startTime": "2026-03-21T15:25:00.000Z"
+      },
+      {
+        "startTime": "2026-03-21T15:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-21T14:37:02.214Z"
+  "fetchedAt": "2026-03-21T14:49:49.536Z"
 }
