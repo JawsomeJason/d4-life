@@ -12,15 +12,15 @@
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1774116000,
-    "nextTime": "2026-03-21T21:30:00.000Z",
-    "startTime": "2026-03-21T18:00:00.000Z",
+    "id": 1774128600,
+    "nextTime": "2026-03-22T01:00:00.000Z",
+    "startTime": "2026-03-21T21:30:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Ashava",
@@ -31,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1774115700,
-    "nextTime": "2026-03-21T18:20:00.000Z",
-    "startTime": "2026-03-21T17:55:00.000Z",
-    "zoneWindow": true
+    "id": 1774117200,
+    "nextTime": "2026-03-21T18:45:00.000Z",
+    "startTime": "2026-03-21T18:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -83,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-03-21T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-03-21T19:00:00.000Z"
       },
       {
         "startTime": "2026-03-21T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-21T21:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-03-21T17:55:00.000Z"
-      },
       {
         "startTime": "2026-03-21T18:20:00.000Z"
       },
       {
         "startTime": "2026-03-21T18:45:00.000Z"
+      },
+      {
+        "startTime": "2026-03-21T19:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-21T17:55:09.722Z"
+  "fetchedAt": "2026-03-21T18:05:12.640Z"
 }
