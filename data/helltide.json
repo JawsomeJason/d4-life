@@ -39,18 +39,6 @@
     "world_boss": [
       {
         "boss": "Ashava",
-        "startTime": "2026-03-21T18:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
-      {
-        "boss": "Ashava",
         "startTime": "2026-03-21T21:30:00.000Z",
         "zone": [
           {
@@ -78,6 +66,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-22T04:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-21T18:05:12.640Z"
+  "fetchedAt": "2026-03-21T18:17:43.705Z"
 }
