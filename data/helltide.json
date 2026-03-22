@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-22T08:55:00.000Z",
-    "id": 1774166400,
-    "startTime": "2026-03-22T08:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-03-22T09:55:00.000Z",
+    "id": 1774170000,
+    "startTime": "2026-03-22T09:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-22T08:40:36.107Z"
+  "fetchedAt": "2026-03-22T08:55:15.076Z"
 }
