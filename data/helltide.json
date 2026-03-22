@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1774166400,
-    "nextTime": "2026-03-22T11:30:00.000Z",
-    "startTime": "2026-03-22T08:00:00.000Z",
+    "boss": "Avarice",
+    "id": 1774179000,
+    "nextTime": "2026-03-22T15:00:00.000Z",
+    "startTime": "2026-03-22T11:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "boss": "Avarice",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,25 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1774166700,
-    "nextTime": "2026-03-22T08:30:00.000Z",
-    "startTime": "2026-03-22T08:05:00.000Z",
-    "zoneWindow": true
+    "id": 1774168200,
+    "nextTime": "2026-03-22T08:55:00.000Z",
+    "startTime": "2026-03-22T08:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-03-22T08:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-03-22T11:30:00.000Z",
@@ -78,17 +65,29 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-03-22T18:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-03-22T08:00:00.000Z"
-      },
       {
         "startTime": "2026-03-22T09:00:00.000Z"
       },
       {
         "startTime": "2026-03-22T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-22T11:00:00.000Z"
       }
     ],
     "legion": [
@@ -103,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-22T07:56:12.642Z"
+  "fetchedAt": "2026-03-22T08:09:16.473Z"
 }
