@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-22T10:55:00.000Z",
-    "id": 1774173600,
-    "startTime": "2026-03-22T10:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-03-22T11:55:00.000Z",
+    "id": 1774177200,
+    "startTime": "2026-03-22T11:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-22T10:43:06.546Z"
+  "fetchedAt": "2026-03-22T10:55:26.081Z"
 }
