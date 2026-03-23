@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-23T11:55:00.000Z",
-    "id": 1774263600,
-    "startTime": "2026-03-23T11:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-03-23T12:55:00.000Z",
+    "id": 1774267200,
+    "startTime": "2026-03-23T12:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Scorching Dunes (SW)",
-      "Amber Sands",
-      "Forgotten Coastline"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
@@ -103,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-23T11:42:06.363Z"
+  "fetchedAt": "2026-03-23T11:58:03.339Z"
 }
