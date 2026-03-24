@@ -11,16 +11,15 @@
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1774393200,
-    "nahantuBoss": "Ashava",
-    "nextTime": "2026-03-25T02:30:00.000Z",
-    "startTime": "2026-03-24T23:00:00.000Z",
+    "id": 1774405800,
+    "nextTime": "2026-03-25T06:00:00.000Z",
+    "startTime": "2026-03-25T02:30:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "dry_steppes",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -38,24 +37,6 @@
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-03-24T23:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Ashava"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-03-25T02:30:00.000Z",
@@ -77,6 +58,18 @@
             "name": "Kehjistan",
             "isWhisper": false,
             "boss": "Ashava"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-25T09:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Wandering Death"
           }
         ]
       }
@@ -104,5 +97,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-24T23:03:06.207Z"
+  "fetchedAt": "2026-03-24T23:16:59.441Z"
 }
