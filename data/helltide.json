@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-24T13:55:00.000Z",
-    "id": 1774357200,
-    "startTime": "2026-03-24T13:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-03-24T14:55:00.000Z",
+    "id": 1774360800,
+    "startTime": "2026-03-24T14:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1774358700,
-    "nextTime": "2026-03-24T13:50:00.000Z",
-    "startTime": "2026-03-24T13:25:00.000Z",
+    "id": 1774361700,
+    "nextTime": "2026-03-24T14:40:00.000Z",
+    "startTime": "2026-03-24T14:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-24T13:25:00.000Z"
-      },
-      {
-        "startTime": "2026-03-24T13:50:00.000Z"
-      },
-      {
         "startTime": "2026-03-24T14:15:00.000Z"
+      },
+      {
+        "startTime": "2026-03-24T14:40:00.000Z"
+      },
+      {
+        "startTime": "2026-03-24T15:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-24T13:25:19.801Z"
+  "fetchedAt": "2026-03-24T13:58:35.436Z"
 }
