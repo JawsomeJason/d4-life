@@ -1,13 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-03-25T09:55:00.000Z",
-    "id": 1774429200,
-    "startTime": "2026-03-25T09:00:00.000Z",
+    "endTime": "2026-03-25T10:55:00.000Z",
+    "id": 1774432800,
+    "startTime": "2026-03-25T10:00:00.000Z",
     "zone": "kehjistan",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Forgotten Coastline (S)",
+      "Amber Sands",
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
@@ -84,26 +84,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-03-25T10:00:00.000Z"
-      },
-      {
         "startTime": "2026-03-25T11:00:00.000Z"
       },
       {
         "startTime": "2026-03-25T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-25T13:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-03-25T09:50:00.000Z"
-      },
       {
         "startTime": "2026-03-25T10:15:00.000Z"
       },
       {
         "startTime": "2026-03-25T10:40:00.000Z"
+      },
+      {
+        "startTime": "2026-03-25T11:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-25T09:51:10.411Z"
+  "fetchedAt": "2026-03-25T10:11:41.364Z"
 }
