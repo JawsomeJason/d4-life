@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-25T18:55:00.000Z",
-    "id": 1774461600,
-    "startTime": "2026-03-25T18:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-03-25T19:55:00.000Z",
+    "id": 1774465200,
+    "startTime": "2026-03-25T19:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1774463700,
-    "nextTime": "2026-03-25T19:00:00.000Z",
-    "startTime": "2026-03-25T18:35:00.000Z",
-    "zoneWindow": true
+    "id": 1774465200,
+    "nextTime": "2026-03-25T19:25:00.000Z",
+    "startTime": "2026-03-25T19:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-03-25T19:00:00.000Z"
-      },
-      {
         "startTime": "2026-03-25T20:00:00.000Z"
       },
       {
         "startTime": "2026-03-25T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-25T22:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-03-25T18:35:00.000Z"
-      },
       {
         "startTime": "2026-03-25T19:00:00.000Z"
       },
       {
         "startTime": "2026-03-25T19:25:00.000Z"
+      },
+      {
+        "startTime": "2026-03-25T19:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-25T18:35:27.361Z"
+  "fetchedAt": "2026-03-25T19:00:04.084Z"
 }
