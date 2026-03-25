@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-25T22:55:00.000Z",
-    "id": 1774476000,
-    "startTime": "2026-03-25T22:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-03-25T23:55:00.000Z",
+    "id": 1774479600,
+    "startTime": "2026-03-25T23:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Cursed Scarps",
+      "Túr Dúlra North"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1774478700,
-    "nextTime": "2026-03-25T23:10:00.000Z",
-    "startTime": "2026-03-25T22:45:00.000Z",
-    "zoneWindow": true
+    "id": 1774480200,
+    "nextTime": "2026-03-25T23:35:00.000Z",
+    "startTime": "2026-03-25T23:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -93,15 +92,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-25T22:45:00.000Z"
-      },
-      {
         "startTime": "2026-03-25T23:10:00.000Z"
       },
       {
         "startTime": "2026-03-25T23:35:00.000Z"
+      },
+      {
+        "startTime": "2026-03-26T00:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-25T22:36:44.377Z"
+  "fetchedAt": "2026-03-25T22:55:42.988Z"
 }
