@@ -11,15 +11,15 @@
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1774557000,
-    "nextTime": "2026-03-27T00:00:00.000Z",
-    "startTime": "2026-03-26T20:30:00.000Z",
+    "id": 1774569600,
+    "nextTime": "2026-03-27T03:30:00.000Z",
+    "startTime": "2026-03-27T00:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1774556700,
-    "nextTime": "2026-03-26T20:50:00.000Z",
-    "startTime": "2026-03-26T20:25:00.000Z",
-    "zoneWindow": true
+    "id": 1774558200,
+    "nextTime": "2026-03-26T21:15:00.000Z",
+    "startTime": "2026-03-26T20:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -87,15 +86,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-26T20:25:00.000Z"
-      },
-      {
         "startTime": "2026-03-26T20:50:00.000Z"
       },
       {
         "startTime": "2026-03-26T21:15:00.000Z"
+      },
+      {
+        "startTime": "2026-03-26T21:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-26T20:19:04.923Z"
+  "fetchedAt": "2026-03-26T20:36:00.943Z"
 }
