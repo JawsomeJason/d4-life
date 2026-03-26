@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1774506600,
-    "nextTime": "2026-03-26T10:00:00.000Z",
-    "startTime": "2026-03-26T06:30:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1774519200,
+    "nextTime": "2026-03-26T13:30:00.000Z",
+    "startTime": "2026-03-26T10:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "scosglen",
+        "boss": "Wandering Death",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Ashava",
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1774507200,
-    "nextTime": "2026-03-26T07:05:00.000Z",
-    "startTime": "2026-03-26T06:40:00.000Z"
+    "id": 1774508700,
+    "nextTime": "2026-03-26T07:30:00.000Z",
+    "startTime": "2026-03-26T07:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-03-26T06:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-03-26T10:00:00.000Z",
@@ -71,6 +60,24 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-26T17:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -86,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-26T06:15:00.000Z"
-      },
-      {
-        "startTime": "2026-03-26T06:40:00.000Z"
-      },
-      {
         "startTime": "2026-03-26T07:05:00.000Z"
+      },
+      {
+        "startTime": "2026-03-26T07:30:00.000Z"
+      },
+      {
+        "startTime": "2026-03-26T07:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-26T06:16:09.533Z"
+  "fetchedAt": "2026-03-26T06:45:53.388Z"
 }
