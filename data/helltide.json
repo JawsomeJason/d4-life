@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1774569600,
-    "nextTime": "2026-03-27T03:30:00.000Z",
-    "startTime": "2026-03-27T00:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1774582200,
+    "nextTime": "2026-03-27T07:00:00.000Z",
+    "startTime": "2026-03-27T03:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1774570200,
-    "nextTime": "2026-03-27T00:35:00.000Z",
-    "startTime": "2026-03-27T00:10:00.000Z"
+    "id": 1774573200,
+    "nextTime": "2026-03-27T01:25:00.000Z",
+    "startTime": "2026-03-27T01:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-03-27T00:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-03-27T03:30:00.000Z",
@@ -77,30 +65,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-03-27T10:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-03-27T00:00:00.000Z"
-      },
       {
         "startTime": "2026-03-27T01:00:00.000Z"
       },
       {
         "startTime": "2026-03-27T02:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-27T03:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-03-27T00:10:00.000Z"
-      },
-      {
-        "startTime": "2026-03-27T00:35:00.000Z"
-      },
-      {
         "startTime": "2026-03-27T01:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-27T01:25:00.000Z"
+      },
+      {
+        "startTime": "2026-03-27T01:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-26T23:59:09.217Z"
+  "fetchedAt": "2026-03-27T00:52:52.931Z"
 }
