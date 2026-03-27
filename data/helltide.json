@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-03-27T17:55:00.000Z",
-    "id": 1774630800,
-    "startTime": "2026-03-27T17:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-03-27T18:55:00.000Z",
+    "id": 1774634400,
+    "startTime": "2026-03-27T18:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
@@ -31,24 +32,13 @@
     ]
   },
   "legion": {
-    "id": 1774633200,
-    "nextTime": "2026-03-27T18:05:00.000Z",
-    "startTime": "2026-03-27T17:40:00.000Z"
+    "id": 1774634700,
+    "nextTime": "2026-03-27T18:30:00.000Z",
+    "startTime": "2026-03-27T18:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-03-27T17:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-03-27T21:00:00.000Z",
@@ -78,6 +68,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-03-28T04:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -93,15 +95,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-27T17:40:00.000Z"
-      },
-      {
         "startTime": "2026-03-27T18:05:00.000Z"
       },
       {
         "startTime": "2026-03-27T18:30:00.000Z"
+      },
+      {
+        "startTime": "2026-03-27T18:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-27T17:36:34.227Z"
+  "fetchedAt": "2026-03-27T17:58:28.836Z"
 }
