@@ -10,19 +10,20 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1774632600,
-    "nextTime": "2026-03-27T21:00:00.000Z",
-    "startTime": "2026-03-27T17:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1774645200,
+    "nahantuBoss": "Wandering Death",
+    "nextTime": "2026-03-28T00:30:00.000Z",
+    "startTime": "2026-03-27T21:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "scosglen",
+        "boss": "Avarice",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
-        "boss": "Avarice",
+        "boss": "Wandering Death",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
@@ -30,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1774631700,
-    "nextTime": "2026-03-27T17:40:00.000Z",
-    "startTime": "2026-03-27T17:15:00.000Z",
-    "zoneWindow": true
+    "id": 1774633200,
+    "nextTime": "2026-03-27T18:05:00.000Z",
+    "startTime": "2026-03-27T17:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-27T17:15:00.000Z"
-      },
-      {
         "startTime": "2026-03-27T17:40:00.000Z"
       },
       {
         "startTime": "2026-03-27T18:05:00.000Z"
+      },
+      {
+        "startTime": "2026-03-27T18:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-27T17:14:53.663Z"
+  "fetchedAt": "2026-03-27T17:36:34.227Z"
 }
