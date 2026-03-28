@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-28T12:55:00.000Z",
-    "id": 1774699200,
-    "startTime": "2026-03-28T12:00:00.000Z",
+    "endTime": "2026-03-28T13:55:00.000Z",
+    "id": 1774702800,
+    "startTime": "2026-03-28T13:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1774702200,
-    "nextTime": "2026-03-28T13:15:00.000Z",
-    "startTime": "2026-03-28T12:50:00.000Z"
+    "id": 1774703700,
+    "nextTime": "2026-03-28T13:40:00.000Z",
+    "startTime": "2026-03-28T13:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -75,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-03-28T13:00:00.000Z"
-      },
-      {
         "startTime": "2026-03-28T14:00:00.000Z"
       },
       {
         "startTime": "2026-03-28T15:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-28T16:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-03-28T12:50:00.000Z"
-      },
       {
         "startTime": "2026-03-28T13:15:00.000Z"
       },
       {
         "startTime": "2026-03-28T13:40:00.000Z"
+      },
+      {
+        "startTime": "2026-03-28T14:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-28T12:41:18.838Z"
+  "fetchedAt": "2026-03-28T13:08:10.243Z"
 }
