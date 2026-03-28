@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-28T15:55:00.000Z",
-    "id": 1774710000,
-    "startTime": "2026-03-28T15:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-03-28T16:55:00.000Z",
+    "id": 1774713600,
+    "startTime": "2026-03-28T16:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-28T15:48:19.706Z"
+  "fetchedAt": "2026-03-28T15:59:55.584Z"
 }
