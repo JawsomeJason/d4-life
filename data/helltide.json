@@ -10,17 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1774695600,
-    "nahantuBoss": "Wandering Death",
-    "nextTime": "2026-03-28T14:30:00.000Z",
-    "startTime": "2026-03-28T11:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1774708200,
+    "nextTime": "2026-03-28T18:00:00.000Z",
+    "startTime": "2026-03-28T14:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
+        "boss": "Wandering Death",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -31,30 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1774696200,
-    "nextTime": "2026-03-28T11:35:00.000Z",
-    "startTime": "2026-03-28T11:10:00.000Z"
+    "id": 1774697700,
+    "nextTime": "2026-03-28T12:00:00.000Z",
+    "startTime": "2026-03-28T11:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-03-28T11:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-03-28T14:30:00.000Z",
@@ -74,6 +56,18 @@
           {
             "id": "dry_steppes",
             "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-28T21:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
             "isWhisper": false,
             "boss": "Wandering Death"
           }
@@ -103,5 +97,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-03-28T11:02:28.450Z"
+  "fetchedAt": "2026-03-28T11:14:53.113Z"
 }
