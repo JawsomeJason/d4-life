@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-29T11:55:00.000Z",
-    "id": 1774782000,
-    "startTime": "2026-03-29T11:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-03-29T12:55:00.000Z",
+    "id": 1774785600,
+    "startTime": "2026-03-29T12:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
@@ -31,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1774784700,
-    "nextTime": "2026-03-29T12:10:00.000Z",
-    "startTime": "2026-03-29T11:45:00.000Z",
-    "zoneWindow": true
+    "id": 1774786200,
+    "nextTime": "2026-03-29T12:35:00.000Z",
+    "startTime": "2026-03-29T12:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -94,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-29T11:45:00.000Z"
-      },
-      {
         "startTime": "2026-03-29T12:10:00.000Z"
       },
       {
         "startTime": "2026-03-29T12:35:00.000Z"
+      },
+      {
+        "startTime": "2026-03-29T13:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-29T11:45:52.538Z"
+  "fetchedAt": "2026-03-29T11:56:34.595Z"
 }
