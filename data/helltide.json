@@ -11,15 +11,15 @@
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1774872000,
-    "nextTime": "2026-03-30T15:30:00.000Z",
-    "startTime": "2026-03-30T12:00:00.000Z",
+    "id": 1774884600,
+    "nextTime": "2026-03-30T19:00:00.000Z",
+    "startTime": "2026-03-30T15:30:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Ashava",
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1774873200,
-    "nextTime": "2026-03-30T12:45:00.000Z",
-    "startTime": "2026-03-30T12:20:00.000Z"
+    "id": 1774874700,
+    "nextTime": "2026-03-30T13:10:00.000Z",
+    "startTime": "2026-03-30T12:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-03-30T12:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-03-30T15:30:00.000Z",
@@ -77,6 +66,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-03-30T22:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -92,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-30T12:20:00.000Z"
-      },
-      {
         "startTime": "2026-03-30T12:45:00.000Z"
       },
       {
         "startTime": "2026-03-30T13:10:00.000Z"
+      },
+      {
+        "startTime": "2026-03-30T13:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-30T12:02:56.532Z"
+  "fetchedAt": "2026-03-30T12:33:27.427Z"
 }
