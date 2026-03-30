@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-03-30T06:55:00.000Z",
-    "id": 1774850400,
-    "startTime": "2026-03-30T06:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-03-30T07:55:00.000Z",
+    "id": 1774854000,
+    "startTime": "2026-03-30T07:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Forgotten Coastline (S)",
+      "Amber Sands",
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
@@ -30,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1774852200,
-    "nextTime": "2026-03-30T06:55:00.000Z",
-    "startTime": "2026-03-30T06:30:00.000Z"
+    "id": 1774855200,
+    "nextTime": "2026-03-30T07:45:00.000Z",
+    "startTime": "2026-03-30T07:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -86,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-03-30T06:30:00.000Z"
-      },
-      {
         "startTime": "2026-03-30T06:55:00.000Z"
       },
       {
         "startTime": "2026-03-30T07:20:00.000Z"
+      },
+      {
+        "startTime": "2026-03-30T07:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-30T06:15:36.949Z"
+  "fetchedAt": "2026-03-30T06:57:05.581Z"
 }
