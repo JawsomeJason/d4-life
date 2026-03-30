@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-30T16:55:00.000Z",
-    "id": 1774886400,
-    "startTime": "2026-03-30T16:00:00.000Z",
+    "endTime": "2026-03-30T17:55:00.000Z",
+    "id": 1774890000,
+    "startTime": "2026-03-30T17:00:00.000Z",
     "zone": "dry_steppes",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
@@ -31,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1774889700,
-    "nextTime": "2026-03-30T17:20:00.000Z",
-    "startTime": "2026-03-30T16:55:00.000Z",
-    "zoneWindow": true
+    "id": 1774891200,
+    "nextTime": "2026-03-30T17:45:00.000Z",
+    "startTime": "2026-03-30T17:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -83,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-03-30T17:00:00.000Z"
-      },
-      {
         "startTime": "2026-03-30T18:00:00.000Z"
       },
       {
         "startTime": "2026-03-30T19:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-30T20:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-03-30T16:55:00.000Z"
-      },
       {
         "startTime": "2026-03-30T17:20:00.000Z"
       },
       {
         "startTime": "2026-03-30T17:45:00.000Z"
+      },
+      {
+        "startTime": "2026-03-30T18:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-30T16:39:14.620Z"
+  "fetchedAt": "2026-03-30T17:04:58.730Z"
 }
