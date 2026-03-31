@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-03-31T14:55:00.000Z",
-    "id": 1774965600,
-    "startTime": "2026-03-31T14:00:00.000Z",
+    "endTime": "2026-03-31T15:55:00.000Z",
+    "id": 1774969200,
+    "startTime": "2026-03-31T15:00:00.000Z",
     "zone": "fractured_peaks",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1774969200,
-    "nextTime": "2026-03-31T15:25:00.000Z",
-    "startTime": "2026-03-31T15:00:00.000Z"
+    "id": 1774970700,
+    "nextTime": "2026-03-31T15:50:00.000Z",
+    "startTime": "2026-03-31T15:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-03-31T15:00:00.000Z"
-      },
-      {
         "startTime": "2026-03-31T16:00:00.000Z"
       },
       {
         "startTime": "2026-03-31T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-03-31T18:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-03-31T15:00:00.000Z"
-      },
       {
         "startTime": "2026-03-31T15:25:00.000Z"
       },
       {
         "startTime": "2026-03-31T15:50:00.000Z"
+      },
+      {
+        "startTime": "2026-03-31T16:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-03-31T14:46:46.025Z"
+  "fetchedAt": "2026-03-31T15:15:15.518Z"
 }
