@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-01T05:55:00.000Z",
-    "id": 1775019600,
-    "startTime": "2026-04-01T05:00:00.000Z",
+    "endTime": "2026-04-01T06:55:00.000Z",
+    "id": 1775023200,
+    "startTime": "2026-04-01T06:00:00.000Z",
     "zone": "fractured_peaks",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1775023200,
-    "nextTime": "2026-04-01T09:30:00.000Z",
-    "startTime": "2026-04-01T06:00:00.000Z",
+    "id": 1775035800,
+    "nextTime": "2026-04-01T13:00:00.000Z",
+    "startTime": "2026-04-01T09:30:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1775023200,
-    "nextTime": "2026-04-01T06:25:00.000Z",
-    "startTime": "2026-04-01T06:00:00.000Z"
+    "id": 1775024700,
+    "nextTime": "2026-04-01T06:50:00.000Z",
+    "startTime": "2026-04-01T06:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-01T06:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-01T09:30:00.000Z",
@@ -77,30 +66,42 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-01T16:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-01T06:00:00.000Z"
-      },
       {
         "startTime": "2026-04-01T07:00:00.000Z"
       },
       {
         "startTime": "2026-04-01T08:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-01T09:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-04-01T05:35:00.000Z"
-      },
-      {
-        "startTime": "2026-04-01T06:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-01T06:25:00.000Z"
+      },
+      {
+        "startTime": "2026-04-01T06:50:00.000Z"
+      },
+      {
+        "startTime": "2026-04-01T07:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-01T05:36:53.517Z"
+  "fetchedAt": "2026-04-01T06:14:09.327Z"
 }
