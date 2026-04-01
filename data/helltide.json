@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-01T22:55:00.000Z",
-    "id": 1775080800,
-    "startTime": "2026-04-01T22:00:00.000Z",
+    "endTime": "2026-04-01T23:55:00.000Z",
+    "id": 1775084400,
+    "startTime": "2026-04-01T23:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Cursed Scarps",
+      "Túr Dúlra North"
     ]
   },
   "world_boss": {
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1775083200,
-    "nextTime": "2026-04-01T23:05:00.000Z",
-    "startTime": "2026-04-01T22:40:00.000Z"
+    "id": 1775084700,
+    "nextTime": "2026-04-01T23:30:00.000Z",
+    "startTime": "2026-04-01T23:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -92,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-01T22:40:00.000Z"
-      },
-      {
         "startTime": "2026-04-01T23:05:00.000Z"
       },
       {
         "startTime": "2026-04-01T23:30:00.000Z"
+      },
+      {
+        "startTime": "2026-04-01T23:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-01T22:36:40.822Z"
+  "fetchedAt": "2026-04-01T22:56:20.431Z"
 }
