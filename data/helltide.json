@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-01T19:55:00.000Z",
-    "id": 1775070000,
-    "startTime": "2026-04-01T19:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-04-01T20:55:00.000Z",
+    "id": 1775073600,
+    "startTime": "2026-04-01T20:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1775073600,
-    "nextTime": "2026-04-01T23:30:00.000Z",
-    "startTime": "2026-04-01T20:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1775086200,
+    "nextTime": "2026-04-02T03:00:00.000Z",
+    "startTime": "2026-04-01T23:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
+        "boss": "Wandering Death",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -81,13 +81,13 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-01T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-01T21:00:00.000Z"
       },
       {
         "startTime": "2026-04-01T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-01T23:00:00.000Z"
       }
     ],
     "legion": [
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-01T19:50:00.894Z"
+  "fetchedAt": "2026-04-01T20:07:25.796Z"
 }
