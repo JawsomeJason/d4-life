@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-02T21:55:00.000Z",
-    "id": 1775163600,
-    "startTime": "2026-04-02T21:00:00.000Z",
+    "endTime": "2026-04-02T22:55:00.000Z",
+    "id": 1775167200,
+    "startTime": "2026-04-02T22:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-02T21:40:18.476Z"
+  "fetchedAt": "2026-04-02T21:56:03.870Z"
 }
