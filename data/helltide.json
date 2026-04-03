@@ -11,16 +11,17 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1775237400,
-    "nextTime": "2026-04-03T21:00:00.000Z",
-    "startTime": "2026-04-03T17:30:00.000Z",
+    "boss": "Ashava",
+    "id": 1775250000,
+    "nahantuBoss": "Ashava",
+    "nextTime": "2026-04-04T00:30:00.000Z",
+    "startTime": "2026-04-03T21:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Ashava",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -31,25 +32,12 @@
     ]
   },
   "legion": {
-    "id": 1775237700,
-    "nextTime": "2026-04-03T18:00:00.000Z",
-    "startTime": "2026-04-03T17:35:00.000Z",
-    "zoneWindow": true
+    "id": 1775239200,
+    "nextTime": "2026-04-03T18:25:00.000Z",
+    "startTime": "2026-04-03T18:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-03T17:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-04-03T21:00:00.000Z",
@@ -79,6 +67,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-04T04:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -94,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-03T17:35:00.000Z"
-      },
-      {
         "startTime": "2026-04-03T18:00:00.000Z"
       },
       {
         "startTime": "2026-04-03T18:25:00.000Z"
+      },
+      {
+        "startTime": "2026-04-03T18:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-03T17:27:36.747Z"
+  "fetchedAt": "2026-04-03T17:46:24.496Z"
 }
