@@ -12,15 +12,15 @@
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1775224800,
-    "nextTime": "2026-04-03T17:30:00.000Z",
-    "startTime": "2026-04-03T14:00:00.000Z",
+    "id": 1775237400,
+    "nextTime": "2026-04-03T21:00:00.000Z",
+    "startTime": "2026-04-03T17:30:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Ashava",
@@ -31,25 +31,12 @@
     ]
   },
   "legion": {
-    "id": 1775225700,
-    "nextTime": "2026-04-03T14:40:00.000Z",
-    "startTime": "2026-04-03T14:15:00.000Z",
-    "zoneWindow": true
+    "id": 1775227200,
+    "nextTime": "2026-04-03T15:05:00.000Z",
+    "startTime": "2026-04-03T14:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-03T14:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-03T17:30:00.000Z",
@@ -79,6 +66,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-04T00:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -94,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-03T14:15:00.000Z"
-      },
-      {
         "startTime": "2026-04-03T14:40:00.000Z"
       },
       {
         "startTime": "2026-04-03T15:05:00.000Z"
+      },
+      {
+        "startTime": "2026-04-03T15:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-03T14:00:08.900Z"
+  "fetchedAt": "2026-04-03T14:23:35.988Z"
 }
