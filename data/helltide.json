@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-04T20:55:00.000Z",
-    "id": 1775332800,
-    "startTime": "2026-04-04T20:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-04-04T21:55:00.000Z",
+    "id": 1775336400,
+    "startTime": "2026-04-04T21:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Scorching Dunes (SW)",
-      "Amber Sands",
-      "Forgotten Coastline"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -104,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-04T20:43:24.243Z"
+  "fetchedAt": "2026-04-04T20:57:16.300Z"
 }
