@@ -11,15 +11,16 @@
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1775338200,
-    "nextTime": "2026-04-05T01:00:00.000Z",
-    "startTime": "2026-04-04T21:30:00.000Z",
+    "id": 1775350800,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-04-05T04:30:00.000Z",
+    "startTime": "2026-04-05T01:00:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -30,24 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1775338200,
-    "nextTime": "2026-04-04T21:55:00.000Z",
-    "startTime": "2026-04-04T21:30:00.000Z"
+    "id": 1775339700,
+    "nextTime": "2026-04-04T22:20:00.000Z",
+    "startTime": "2026-04-04T21:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-04T21:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-04-05T01:00:00.000Z",
@@ -77,6 +67,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-05T08:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -92,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-04T21:30:00.000Z"
-      },
-      {
         "startTime": "2026-04-04T21:55:00.000Z"
       },
       {
         "startTime": "2026-04-04T22:20:00.000Z"
+      },
+      {
+        "startTime": "2026-04-04T22:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-04T21:26:23.657Z"
+  "fetchedAt": "2026-04-04T21:43:20.268Z"
 }
