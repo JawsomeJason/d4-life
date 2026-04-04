@@ -11,18 +11,19 @@
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1775287800,
-    "nextTime": "2026-04-04T11:00:00.000Z",
-    "startTime": "2026-04-04T07:30:00.000Z",
+    "id": 1775300400,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-04-04T14:30:00.000Z",
+    "startTime": "2026-04-04T11:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
-        "boss": "Ashava",
+        "boss": "Avarice",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
@@ -30,25 +31,12 @@
     ]
   },
   "legion": {
-    "id": 1775288700,
-    "nextTime": "2026-04-04T08:10:00.000Z",
-    "startTime": "2026-04-04T07:45:00.000Z",
-    "zoneWindow": true
+    "id": 1775290200,
+    "nextTime": "2026-04-04T08:35:00.000Z",
+    "startTime": "2026-04-04T08:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-04T07:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-04T11:00:00.000Z",
@@ -78,6 +66,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-04T18:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-04T07:45:00.000Z"
-      },
-      {
         "startTime": "2026-04-04T08:10:00.000Z"
       },
       {
         "startTime": "2026-04-04T08:35:00.000Z"
+      },
+      {
+        "startTime": "2026-04-04T09:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-04T07:29:41.973Z"
+  "fetchedAt": "2026-04-04T07:50:51.455Z"
 }
