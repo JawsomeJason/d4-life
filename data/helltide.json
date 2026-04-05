@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-05T14:55:00.000Z",
-    "id": 1775397600,
-    "startTime": "2026-04-05T14:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-04-05T15:55:00.000Z",
+    "id": 1775401200,
+    "startTime": "2026-04-05T15:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-05T14:44:20.294Z"
+  "fetchedAt": "2026-04-05T14:59:51.275Z"
 }
