@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-05T17:55:00.000Z",
-    "id": 1775408400,
-    "startTime": "2026-04-05T17:00:00.000Z",
+    "endTime": "2026-04-05T18:55:00.000Z",
+    "id": 1775412000,
+    "startTime": "2026-04-05T18:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1775411700,
-    "nextTime": "2026-04-05T18:20:00.000Z",
-    "startTime": "2026-04-05T17:55:00.000Z",
-    "zoneWindow": true
+    "id": 1775413200,
+    "nextTime": "2026-04-05T18:45:00.000Z",
+    "startTime": "2026-04-05T18:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -76,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-05T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-05T19:00:00.000Z"
       },
       {
         "startTime": "2026-04-05T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-05T21:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-05T17:55:00.000Z"
-      },
       {
         "startTime": "2026-04-05T18:20:00.000Z"
       },
       {
         "startTime": "2026-04-05T18:45:00.000Z"
+      },
+      {
+        "startTime": "2026-04-05T19:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-05T17:50:21.508Z"
+  "fetchedAt": "2026-04-05T18:01:42.853Z"
 }
