@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-06T11:55:00.000Z",
-    "id": 1775473200,
-    "startTime": "2026-04-06T11:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-06T12:55:00.000Z",
+    "id": 1775476800,
+    "startTime": "2026-04-06T12:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1775476800,
-    "nextTime": "2026-04-06T15:30:00.000Z",
-    "startTime": "2026-04-06T12:00:00.000Z",
+    "id": 1775489400,
+    "nextTime": "2026-04-06T19:00:00.000Z",
+    "startTime": "2026-04-06T15:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-06T12:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-06T13:00:00.000Z"
       },
       {
         "startTime": "2026-04-06T14:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-06T15:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-06T11:50:00.000Z"
-      },
       {
         "startTime": "2026-04-06T12:15:00.000Z"
       },
       {
         "startTime": "2026-04-06T12:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-06T13:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-06T11:51:13.896Z"
+  "fetchedAt": "2026-04-06T12:07:21.759Z"
 }
