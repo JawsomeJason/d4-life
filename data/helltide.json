@@ -11,15 +11,16 @@
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1775590200,
-    "nextTime": "2026-04-07T23:00:00.000Z",
-    "startTime": "2026-04-07T19:30:00.000Z",
+    "id": 1775602800,
+    "nahantuBoss": "Ashava",
+    "nextTime": "2026-04-08T02:30:00.000Z",
+    "startTime": "2026-04-07T23:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,24 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1775590200,
-    "nextTime": "2026-04-07T19:55:00.000Z",
-    "startTime": "2026-04-07T19:30:00.000Z"
+    "id": 1775591700,
+    "nextTime": "2026-04-07T20:20:00.000Z",
+    "startTime": "2026-04-07T19:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-07T19:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-07T23:00:00.000Z",
@@ -77,6 +67,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-08T06:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -92,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-07T19:30:00.000Z"
-      },
-      {
         "startTime": "2026-04-07T19:55:00.000Z"
       },
       {
         "startTime": "2026-04-07T20:20:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T20:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-07T19:20:13.170Z"
+  "fetchedAt": "2026-04-07T19:44:24.156Z"
 }
