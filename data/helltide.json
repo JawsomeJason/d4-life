@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-07T12:55:00.000Z",
-    "id": 1775563200,
-    "startTime": "2026-04-07T12:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-04-07T13:55:00.000Z",
+    "id": 1775566800,
+    "startTime": "2026-04-07T13:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1775565000,
-    "nextTime": "2026-04-07T16:00:00.000Z",
-    "startTime": "2026-04-07T12:30:00.000Z",
+    "id": 1775577600,
+    "nextTime": "2026-04-07T19:30:00.000Z",
+    "startTime": "2026-04-07T16:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -31,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1775566200,
-    "nextTime": "2026-04-07T13:15:00.000Z",
-    "startTime": "2026-04-07T12:50:00.000Z"
+    "id": 1775567700,
+    "nextTime": "2026-04-07T13:40:00.000Z",
+    "startTime": "2026-04-07T13:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-07T12:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-07T16:00:00.000Z",
@@ -72,30 +60,48 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-07T23:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Avarice"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-07T13:00:00.000Z"
-      },
       {
         "startTime": "2026-04-07T14:00:00.000Z"
       },
       {
         "startTime": "2026-04-07T15:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T16:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-07T12:50:00.000Z"
-      },
       {
         "startTime": "2026-04-07T13:15:00.000Z"
       },
       {
         "startTime": "2026-04-07T13:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T14:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-07T12:34:36.746Z"
+  "fetchedAt": "2026-04-07T13:01:06.338Z"
 }
