@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-04-07T11:55:00.000Z",
-    "id": 1775559600,
-    "startTime": "2026-04-07T11:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-04-07T12:55:00.000Z",
+    "id": 1775563200,
+    "startTime": "2026-04-07T12:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
@@ -30,9 +31,10 @@
     ]
   },
   "legion": {
-    "id": 1775563200,
-    "nextTime": "2026-04-07T12:25:00.000Z",
-    "startTime": "2026-04-07T12:00:00.000Z"
+    "id": 1775564700,
+    "nextTime": "2026-04-07T12:50:00.000Z",
+    "startTime": "2026-04-07T12:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -75,13 +77,13 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-07T12:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-07T13:00:00.000Z"
       },
       {
         "startTime": "2026-04-07T14:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T15:00:00.000Z"
       }
     ],
     "legion": [
@@ -96,5 +98,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-07T11:41:56.410Z"
+  "fetchedAt": "2026-04-07T12:02:30.919Z"
 }
