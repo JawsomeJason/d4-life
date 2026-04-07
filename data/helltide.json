@@ -31,30 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1775554200,
-    "nextTime": "2026-04-07T09:55:00.000Z",
-    "startTime": "2026-04-07T09:30:00.000Z"
+    "id": 1775555700,
+    "nextTime": "2026-04-07T10:20:00.000Z",
+    "startTime": "2026-04-07T09:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-07T09:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-07T12:30:00.000Z",
@@ -78,6 +61,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-07T19:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -93,15 +88,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-07T09:05:00.000Z"
-      },
-      {
-        "startTime": "2026-04-07T09:30:00.000Z"
-      },
-      {
         "startTime": "2026-04-07T09:55:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T10:20:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T10:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-07T09:08:16.675Z"
+  "fetchedAt": "2026-04-07T09:38:30.835Z"
 }
