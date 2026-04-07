@@ -1,26 +1,26 @@
 {
   "helltide": {
-    "endTime": "2026-04-07T08:55:00.000Z",
-    "id": 1775548800,
-    "startTime": "2026-04-07T08:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-04-07T09:55:00.000Z",
+    "id": 1775552400,
+    "startTime": "2026-04-07T09:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1775552400,
-    "nahantuBoss": "Ashava",
-    "nextTime": "2026-04-07T12:30:00.000Z",
-    "startTime": "2026-04-07T09:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1775565000,
+    "nextTime": "2026-04-07T16:00:00.000Z",
+    "startTime": "2026-04-07T12:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
+        "boss": "Wandering Death",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Ashava",
@@ -31,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1775551200,
-    "nextTime": "2026-04-07T09:05:00.000Z",
-    "startTime": "2026-04-07T08:40:00.000Z"
+    "id": 1775554200,
+    "nextTime": "2026-04-07T09:55:00.000Z",
+    "startTime": "2026-04-07T09:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-07T09:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-07T10:00:00.000Z"
       },
       {
         "startTime": "2026-04-07T11:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T12:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-07T08:40:00.000Z"
-      },
       {
         "startTime": "2026-04-07T09:05:00.000Z"
       },
       {
         "startTime": "2026-04-07T09:30:00.000Z"
+      },
+      {
+        "startTime": "2026-04-07T09:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-07T08:41:06.688Z"
+  "fetchedAt": "2026-04-07T09:08:16.675Z"
 }
