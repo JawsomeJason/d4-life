@@ -11,15 +11,16 @@
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1775691000,
-    "nextTime": "2026-04-09T03:00:00.000Z",
-    "startTime": "2026-04-08T23:30:00.000Z",
+    "id": 1775703600,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-04-09T06:30:00.000Z",
+    "startTime": "2026-04-09T03:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -30,25 +31,12 @@
     ]
   },
   "legion": {
-    "id": 1775690700,
-    "nextTime": "2026-04-08T23:50:00.000Z",
-    "startTime": "2026-04-08T23:25:00.000Z",
-    "zoneWindow": true
+    "id": 1775692200,
+    "nextTime": "2026-04-09T00:15:00.000Z",
+    "startTime": "2026-04-08T23:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-08T23:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-09T03:00:00.000Z",
@@ -78,6 +66,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-09T10:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-08T23:25:00.000Z"
-      },
-      {
         "startTime": "2026-04-08T23:50:00.000Z"
       },
       {
         "startTime": "2026-04-09T00:15:00.000Z"
+      },
+      {
+        "startTime": "2026-04-09T00:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-08T23:21:04.930Z"
+  "fetchedAt": "2026-04-08T23:38:46.171Z"
 }
