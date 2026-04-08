@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-08T13:55:00.000Z",
-    "id": 1775653200,
-    "startTime": "2026-04-08T13:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-08T14:55:00.000Z",
+    "id": 1775656800,
+    "startTime": "2026-04-08T14:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1775656200,
-    "nextTime": "2026-04-08T14:15:00.000Z",
-    "startTime": "2026-04-08T13:50:00.000Z"
+    "id": 1775659200,
+    "nextTime": "2026-04-08T15:05:00.000Z",
+    "startTime": "2026-04-08T14:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -75,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-08T14:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-08T15:00:00.000Z"
       },
       {
         "startTime": "2026-04-08T16:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-08T17:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-08T13:50:00.000Z"
-      },
       {
         "startTime": "2026-04-08T14:15:00.000Z"
       },
       {
         "startTime": "2026-04-08T14:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-08T15:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-08T13:41:36.866Z"
+  "fetchedAt": "2026-04-08T14:17:33.538Z"
 }
