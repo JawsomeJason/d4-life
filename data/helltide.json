@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-09T18:55:00.000Z",
-    "id": 1775757600,
-    "startTime": "2026-04-09T18:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-04-09T19:55:00.000Z",
+    "id": 1775761200,
+    "startTime": "2026-04-09T19:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -31,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1775761200,
-    "nextTime": "2026-04-09T19:25:00.000Z",
-    "startTime": "2026-04-09T19:00:00.000Z"
+    "id": 1775762700,
+    "nextTime": "2026-04-09T19:50:00.000Z",
+    "startTime": "2026-04-09T19:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -76,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-09T19:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-09T20:00:00.000Z"
       },
       {
         "startTime": "2026-04-09T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-09T22:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-09T19:00:00.000Z"
-      },
       {
         "startTime": "2026-04-09T19:25:00.000Z"
       },
       {
         "startTime": "2026-04-09T19:50:00.000Z"
+      },
+      {
+        "startTime": "2026-04-09T20:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-09T18:54:46.299Z"
+  "fetchedAt": "2026-04-09T19:25:07.106Z"
 }
