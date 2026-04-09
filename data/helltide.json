@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-09T16:55:00.000Z",
-    "id": 1775750400,
-    "startTime": "2026-04-09T16:00:00.000Z",
+    "endTime": "2026-04-09T17:55:00.000Z",
+    "id": 1775754000,
+    "startTime": "2026-04-09T17:00:00.000Z",
     "zone": "hawezar",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1775754000,
-    "nahantuBoss": "Avarice",
-    "nextTime": "2026-04-09T20:30:00.000Z",
-    "startTime": "2026-04-09T17:00:00.000Z",
+    "id": 1775766600,
+    "nextTime": "2026-04-10T00:00:00.000Z",
+    "startTime": "2026-04-09T20:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -31,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1775753700,
-    "nextTime": "2026-04-09T17:20:00.000Z",
-    "startTime": "2026-04-09T16:55:00.000Z",
-    "zoneWindow": true
+    "id": 1775755200,
+    "nextTime": "2026-04-09T17:45:00.000Z",
+    "startTime": "2026-04-09T17:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -83,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-09T17:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-09T18:00:00.000Z"
       },
       {
         "startTime": "2026-04-09T19:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-09T20:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-09T16:55:00.000Z"
-      },
       {
         "startTime": "2026-04-09T17:20:00.000Z"
       },
       {
         "startTime": "2026-04-09T17:45:00.000Z"
+      },
+      {
+        "startTime": "2026-04-09T18:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-09T16:39:08.786Z"
+  "fetchedAt": "2026-04-09T17:06:24.882Z"
 }
