@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-10T10:55:00.000Z",
-    "id": 1775815200,
-    "startTime": "2026-04-10T10:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-04-10T11:55:00.000Z",
+    "id": 1775818800,
+    "startTime": "2026-04-10T11:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1775817000,
-    "nextTime": "2026-04-10T14:00:00.000Z",
-    "startTime": "2026-04-10T10:30:00.000Z",
+    "id": 1775829600,
+    "nextTime": "2026-04-10T17:30:00.000Z",
+    "startTime": "2026-04-10T14:00:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Wandering Death",
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1775818200,
-    "nextTime": "2026-04-10T11:15:00.000Z",
-    "startTime": "2026-04-10T10:50:00.000Z"
+    "id": 1775819700,
+    "nextTime": "2026-04-10T11:40:00.000Z",
+    "startTime": "2026-04-10T11:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-10T10:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-04-10T14:00:00.000Z",
@@ -71,6 +60,24 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-10T21:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -86,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-10T10:50:00.000Z"
-      },
-      {
         "startTime": "2026-04-10T11:15:00.000Z"
       },
       {
         "startTime": "2026-04-10T11:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-10T12:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-10T10:34:14.122Z"
+  "fetchedAt": "2026-04-10T10:58:06.890Z"
 }
