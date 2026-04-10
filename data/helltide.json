@@ -1,28 +1,29 @@
 {
   "helltide": {
-    "endTime": "2026-04-10T03:55:00.000Z",
-    "id": 1775790000,
-    "startTime": "2026-04-10T03:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-10T04:55:00.000Z",
+    "id": 1775793600,
+    "startTime": "2026-04-10T04:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1775791800,
-    "nextTime": "2026-04-10T07:00:00.000Z",
-    "startTime": "2026-04-10T03:30:00.000Z",
+    "id": 1775804400,
+    "nahantuBoss": "Wandering Death",
+    "nextTime": "2026-04-10T10:30:00.000Z",
+    "startTime": "2026-04-10T07:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
-        "boss": "Avarice",
+        "boss": "Wandering Death",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
@@ -30,24 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1775791200,
-    "nextTime": "2026-04-10T03:45:00.000Z",
-    "startTime": "2026-04-10T03:20:00.000Z"
+    "id": 1775795700,
+    "nextTime": "2026-04-10T05:00:00.000Z",
+    "startTime": "2026-04-10T04:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-10T03:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-10T07:00:00.000Z",
@@ -77,30 +67,42 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-10T14:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-10T04:00:00.000Z"
-      },
       {
         "startTime": "2026-04-10T05:00:00.000Z"
       },
       {
         "startTime": "2026-04-10T06:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-10T07:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-04-10T03:20:00.000Z"
+        "startTime": "2026-04-10T04:35:00.000Z"
       },
       {
-        "startTime": "2026-04-10T03:45:00.000Z"
+        "startTime": "2026-04-10T05:00:00.000Z"
       },
       {
-        "startTime": "2026-04-10T04:10:00.000Z"
+        "startTime": "2026-04-10T05:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-10T03:18:47.800Z"
+  "fetchedAt": "2026-04-10T04:22:27.548Z"
 }
