@@ -40,24 +40,6 @@
     "world_boss": [
       {
         "boss": "Ashava",
-        "startTime": "2026-04-11T11:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Ashava"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
-      {
-        "boss": "Ashava",
         "startTime": "2026-04-11T14:30:00.000Z",
         "zone": [
           {
@@ -77,6 +59,18 @@
             "name": "Kehjistan",
             "isWhisper": false,
             "boss": "Ashava"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-11T21:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Wandering Death"
           }
         ]
       }
@@ -104,5 +98,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-11T11:05:24.176Z"
+  "fetchedAt": "2026-04-11T11:18:46.503Z"
 }
