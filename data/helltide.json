@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-11T17:55:00.000Z",
-    "id": 1775926800,
-    "startTime": "2026-04-11T17:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-11T18:55:00.000Z",
+    "id": 1775930400,
+    "startTime": "2026-04-11T18:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
@@ -82,13 +82,13 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-11T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-11T19:00:00.000Z"
       },
       {
         "startTime": "2026-04-11T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-11T21:00:00.000Z"
       }
     ],
     "legion": [
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-11T17:51:25.264Z"
+  "fetchedAt": "2026-04-11T18:02:31.334Z"
 }
