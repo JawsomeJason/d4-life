@@ -10,16 +10,17 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1775993400,
-    "nextTime": "2026-04-12T15:00:00.000Z",
-    "startTime": "2026-04-12T11:30:00.000Z",
+    "boss": "Ashava",
+    "id": 1776006000,
+    "nahantuBoss": "Ashava",
+    "nextTime": "2026-04-12T18:30:00.000Z",
+    "startTime": "2026-04-12T15:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Ashava",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1775993700,
-    "nextTime": "2026-04-12T12:00:00.000Z",
-    "startTime": "2026-04-12T11:35:00.000Z",
-    "zoneWindow": true
+    "id": 1775995200,
+    "nextTime": "2026-04-12T12:25:00.000Z",
+    "startTime": "2026-04-12T12:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-12T11:19:52.120Z"
+  "fetchedAt": "2026-04-12T11:36:21.675Z"
 }
