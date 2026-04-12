@@ -12,15 +12,15 @@
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1776031200,
-    "nextTime": "2026-04-13T01:30:00.000Z",
-    "startTime": "2026-04-12T22:00:00.000Z",
+    "id": 1776043800,
+    "nextTime": "2026-04-13T05:00:00.000Z",
+    "startTime": "2026-04-13T01:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -38,18 +38,6 @@
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-12T22:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-13T01:30:00.000Z",
@@ -79,6 +67,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-13T08:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -104,5 +104,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-12T22:03:46.361Z"
+  "fetchedAt": "2026-04-12T22:17:13.966Z"
 }
