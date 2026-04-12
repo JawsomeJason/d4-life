@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-12T15:55:00.000Z",
-    "id": 1776006000,
-    "startTime": "2026-04-12T15:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-04-12T16:55:00.000Z",
+    "id": 1776009600,
+    "startTime": "2026-04-12T16:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -75,13 +75,13 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-12T16:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-12T17:00:00.000Z"
       },
       {
         "startTime": "2026-04-12T18:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-12T19:00:00.000Z"
       }
     ],
     "legion": [
@@ -96,5 +96,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-12T15:53:26.355Z"
+  "fetchedAt": "2026-04-12T16:05:38.267Z"
 }
