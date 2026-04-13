@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-04-13T20:55:00.000Z",
-    "id": 1776110400,
-    "startTime": "2026-04-13T20:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-04-13T21:55:00.000Z",
+    "id": 1776114000,
+    "startTime": "2026-04-13T21:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
@@ -30,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1776113700,
-    "nextTime": "2026-04-13T21:20:00.000Z",
-    "startTime": "2026-04-13T20:55:00.000Z",
-    "zoneWindow": true
+    "id": 1776115200,
+    "nextTime": "2026-04-13T21:45:00.000Z",
+    "startTime": "2026-04-13T21:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -76,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-13T21:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-13T22:00:00.000Z"
       },
       {
         "startTime": "2026-04-13T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-14T00:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-13T20:55:00.000Z"
-      },
       {
         "startTime": "2026-04-13T21:20:00.000Z"
       },
       {
         "startTime": "2026-04-13T21:45:00.000Z"
+      },
+      {
+        "startTime": "2026-04-13T22:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-13T20:52:44.849Z"
+  "fetchedAt": "2026-04-13T21:12:19.535Z"
 }
