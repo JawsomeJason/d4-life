@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1776081600,
-    "nextTime": "2026-04-13T15:30:00.000Z",
-    "startTime": "2026-04-13T12:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1776094200,
+    "nextTime": "2026-04-13T19:00:00.000Z",
+    "startTime": "2026-04-13T15:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1776082200,
-    "nextTime": "2026-04-13T12:35:00.000Z",
-    "startTime": "2026-04-13T12:10:00.000Z"
+    "id": 1776085200,
+    "nextTime": "2026-04-13T13:25:00.000Z",
+    "startTime": "2026-04-13T13:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-13T12:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-04-13T15:30:00.000Z",
@@ -77,6 +65,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-13T22:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -92,15 +92,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-13T12:10:00.000Z"
-      },
-      {
-        "startTime": "2026-04-13T12:35:00.000Z"
-      },
-      {
         "startTime": "2026-04-13T13:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-13T13:25:00.000Z"
+      },
+      {
+        "startTime": "2026-04-13T13:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-13T12:04:06.654Z"
+  "fetchedAt": "2026-04-13T12:38:18.049Z"
 }
