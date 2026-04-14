@@ -1,28 +1,29 @@
 {
   "helltide": {
-    "endTime": "2026-04-14T04:55:00.000Z",
-    "id": 1776139200,
-    "startTime": "2026-04-14T04:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-04-14T05:55:00.000Z",
+    "id": 1776142800,
+    "startTime": "2026-04-14T05:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1776144600,
-    "nextTime": "2026-04-14T09:00:00.000Z",
-    "startTime": "2026-04-14T05:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1776157200,
+    "nahantuBoss": "Wandering Death",
+    "nextTime": "2026-04-14T12:30:00.000Z",
+    "startTime": "2026-04-14T09:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "scosglen",
+        "boss": "Avarice",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
-        "boss": "Avarice",
+        "boss": "Wandering Death",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
@@ -30,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1776143700,
-    "nextTime": "2026-04-14T05:40:00.000Z",
-    "startTime": "2026-04-14T05:15:00.000Z",
-    "zoneWindow": true
+    "id": 1776145200,
+    "nextTime": "2026-04-14T06:05:00.000Z",
+    "startTime": "2026-04-14T05:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-14T05:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-14T06:00:00.000Z"
       },
       {
         "startTime": "2026-04-14T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-14T08:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-04-14T04:50:00.000Z"
-      },
-      {
-        "startTime": "2026-04-14T05:15:00.000Z"
-      },
-      {
         "startTime": "2026-04-14T05:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-14T06:05:00.000Z"
+      },
+      {
+        "startTime": "2026-04-14T06:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-14T04:51:32.785Z"
+  "fetchedAt": "2026-04-14T05:37:03.459Z"
 }
