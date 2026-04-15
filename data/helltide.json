@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-04-15T17:55:00.000Z",
-    "id": 1776272400,
-    "startTime": "2026-04-15T17:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-04-15T18:55:00.000Z",
+    "id": 1776276000,
+    "startTime": "2026-04-15T18:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
@@ -30,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1776275700,
-    "nextTime": "2026-04-15T18:20:00.000Z",
-    "startTime": "2026-04-15T17:55:00.000Z",
-    "zoneWindow": true
+    "id": 1776277200,
+    "nextTime": "2026-04-15T18:45:00.000Z",
+    "startTime": "2026-04-15T18:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-15T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-15T19:00:00.000Z"
       },
       {
         "startTime": "2026-04-15T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-15T21:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-15T17:55:00.000Z"
-      },
       {
         "startTime": "2026-04-15T18:20:00.000Z"
       },
       {
         "startTime": "2026-04-15T18:45:00.000Z"
+      },
+      {
+        "startTime": "2026-04-15T19:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-15T17:35:19.540Z"
+  "fetchedAt": "2026-04-15T18:01:41.135Z"
 }
