@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-15T20:55:00.000Z",
-    "id": 1776283200,
-    "startTime": "2026-04-15T20:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-04-15T21:55:00.000Z",
+    "id": 1776286800,
+    "startTime": "2026-04-15T21:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1776286200,
-    "nextTime": "2026-04-15T21:15:00.000Z",
-    "startTime": "2026-04-15T20:50:00.000Z"
+    "id": 1776287700,
+    "nextTime": "2026-04-15T21:40:00.000Z",
+    "startTime": "2026-04-15T21:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-15T21:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-15T22:00:00.000Z"
       },
       {
         "startTime": "2026-04-15T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-16T00:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-15T20:50:00.000Z"
-      },
       {
         "startTime": "2026-04-15T21:15:00.000Z"
       },
       {
         "startTime": "2026-04-15T21:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-15T22:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-15T20:49:06.812Z"
+  "fetchedAt": "2026-04-15T21:10:12.928Z"
 }
