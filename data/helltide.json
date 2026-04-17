@@ -11,15 +11,16 @@
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1776447000,
-    "nextTime": "2026-04-17T21:00:00.000Z",
-    "startTime": "2026-04-17T17:30:00.000Z",
+    "id": 1776459600,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-04-18T00:30:00.000Z",
+    "startTime": "2026-04-17T21:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -30,24 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1776448200,
-    "nextTime": "2026-04-17T18:15:00.000Z",
-    "startTime": "2026-04-17T17:50:00.000Z"
+    "id": 1776449700,
+    "nextTime": "2026-04-17T18:40:00.000Z",
+    "startTime": "2026-04-17T18:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-17T17:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-17T21:00:00.000Z",
@@ -77,6 +67,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-18T04:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -102,5 +104,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-17T17:30:22.762Z"
+  "fetchedAt": "2026-04-17T17:52:11.176Z"
 }
