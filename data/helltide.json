@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-17T20:55:00.000Z",
-    "id": 1776456000,
-    "startTime": "2026-04-17T20:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-17T21:55:00.000Z",
+    "id": 1776459600,
+    "startTime": "2026-04-17T21:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1776459600,
-    "nahantuBoss": "Avarice",
-    "nextTime": "2026-04-18T00:30:00.000Z",
-    "startTime": "2026-04-17T21:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1776472200,
+    "nextTime": "2026-04-18T04:00:00.000Z",
+    "startTime": "2026-04-18T00:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -82,13 +81,13 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-17T21:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-17T22:00:00.000Z"
       },
       {
         "startTime": "2026-04-17T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-18T00:00:00.000Z"
       }
     ],
     "legion": [
@@ -103,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-17T20:48:11.746Z"
+  "fetchedAt": "2026-04-17T21:06:40.211Z"
 }
