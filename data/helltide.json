@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-17T13:55:00.000Z",
-    "id": 1776430800,
-    "startTime": "2026-04-17T13:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-04-17T14:55:00.000Z",
+    "id": 1776434400,
+    "startTime": "2026-04-17T14:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1776434400,
-    "nextTime": "2026-04-17T17:30:00.000Z",
-    "startTime": "2026-04-17T14:00:00.000Z",
+    "boss": "Avarice",
+    "id": 1776447000,
+    "nextTime": "2026-04-17T21:00:00.000Z",
+    "startTime": "2026-04-17T17:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "boss": "Avarice",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1776433200,
-    "nextTime": "2026-04-17T14:05:00.000Z",
-    "startTime": "2026-04-17T13:40:00.000Z"
+    "id": 1776436200,
+    "nextTime": "2026-04-17T14:55:00.000Z",
+    "startTime": "2026-04-17T14:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-17T14:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-17T17:30:00.000Z",
@@ -77,30 +65,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-18T00:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-17T14:00:00.000Z"
-      },
       {
         "startTime": "2026-04-17T15:00:00.000Z"
       },
       {
         "startTime": "2026-04-17T16:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-17T17:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-04-17T13:40:00.000Z"
-      },
-      {
-        "startTime": "2026-04-17T14:05:00.000Z"
-      },
-      {
         "startTime": "2026-04-17T14:30:00.000Z"
+      },
+      {
+        "startTime": "2026-04-17T14:55:00.000Z"
+      },
+      {
+        "startTime": "2026-04-17T15:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-17T13:39:45.728Z"
+  "fetchedAt": "2026-04-17T14:11:24.642Z"
 }
