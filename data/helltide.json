@@ -11,16 +11,15 @@
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1776510000,
-    "nahantuBoss": "Avarice",
-    "nextTime": "2026-04-18T14:30:00.000Z",
-    "startTime": "2026-04-18T11:00:00.000Z",
+    "id": 1776522600,
+    "nextTime": "2026-04-18T18:00:00.000Z",
+    "startTime": "2026-04-18T14:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -31,30 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1776511200,
-    "nextTime": "2026-04-18T11:45:00.000Z",
-    "startTime": "2026-04-18T11:20:00.000Z"
+    "id": 1776512700,
+    "nextTime": "2026-04-18T12:10:00.000Z",
+    "startTime": "2026-04-18T11:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-18T11:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-18T14:30:00.000Z",
@@ -74,6 +56,18 @@
           {
             "id": "kehjistan",
             "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-18T21:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
             "isWhisper": false,
             "boss": "Avarice"
           }
@@ -103,5 +97,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-18T11:03:59.206Z"
+  "fetchedAt": "2026-04-18T11:21:33.668Z"
 }
