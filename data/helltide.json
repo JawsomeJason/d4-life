@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-18T22:55:00.000Z",
-    "id": 1776549600,
-    "startTime": "2026-04-18T22:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-04-18T23:55:00.000Z",
+    "id": 1776553200,
+    "startTime": "2026-04-18T23:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
@@ -32,9 +31,10 @@
     ]
   },
   "legion": {
-    "id": 1776553200,
-    "nextTime": "2026-04-18T23:25:00.000Z",
-    "startTime": "2026-04-18T23:00:00.000Z"
+    "id": 1776554700,
+    "nextTime": "2026-04-18T23:50:00.000Z",
+    "startTime": "2026-04-18T23:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -83,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-18T23:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-19T00:00:00.000Z"
       },
       {
         "startTime": "2026-04-19T01:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-19T02:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-18T23:00:00.000Z"
-      },
       {
         "startTime": "2026-04-18T23:25:00.000Z"
       },
       {
         "startTime": "2026-04-18T23:50:00.000Z"
+      },
+      {
+        "startTime": "2026-04-19T00:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-18T22:53:18.792Z"
+  "fetchedAt": "2026-04-18T23:06:55.717Z"
 }
