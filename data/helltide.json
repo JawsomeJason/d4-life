@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1776522600,
-    "nextTime": "2026-04-18T18:00:00.000Z",
-    "startTime": "2026-04-18T14:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1776535200,
+    "nextTime": "2026-04-18T21:30:00.000Z",
+    "startTime": "2026-04-18T18:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "scosglen",
+        "boss": "Avarice",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1776523200,
-    "nextTime": "2026-04-18T15:05:00.000Z",
-    "startTime": "2026-04-18T14:40:00.000Z"
+    "id": 1776524700,
+    "nextTime": "2026-04-18T15:30:00.000Z",
+    "startTime": "2026-04-18T15:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-18T14:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-18T18:00:00.000Z",
@@ -69,6 +58,24 @@
             "name": "Scosglen",
             "isWhisper": false,
             "boss": "Avarice"
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-19T01:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Avarice"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Wandering Death"
           }
         ]
       }
@@ -96,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-18T14:23:48.364Z"
+  "fetchedAt": "2026-04-18T14:42:20.077Z"
 }
