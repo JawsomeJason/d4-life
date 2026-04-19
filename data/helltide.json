@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-04-19T23:55:00.000Z",
-    "id": 1776639600,
-    "startTime": "2026-04-19T23:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-04-20T00:55:00.000Z",
+    "id": 1776643200,
+    "startTime": "2026-04-20T00:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
@@ -102,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-19T23:43:04.628Z"
+  "fetchedAt": "2026-04-19T23:58:25.551Z"
 }
