@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-19T21:55:00.000Z",
-    "id": 1776632400,
-    "startTime": "2026-04-19T21:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-04-19T22:55:00.000Z",
+    "id": 1776636000,
+    "startTime": "2026-04-19T22:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1776636000,
-    "nextTime": "2026-04-20T01:30:00.000Z",
-    "startTime": "2026-04-19T22:00:00.000Z",
+    "id": 1776648600,
+    "nextTime": "2026-04-20T05:00:00.000Z",
+    "startTime": "2026-04-20T01:30:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "dry_steppes",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -31,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1776635700,
-    "nextTime": "2026-04-19T22:20:00.000Z",
-    "startTime": "2026-04-19T21:55:00.000Z",
-    "zoneWindow": true
+    "id": 1776637200,
+    "nextTime": "2026-04-19T22:45:00.000Z",
+    "startTime": "2026-04-19T22:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -83,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-19T22:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-19T23:00:00.000Z"
       },
       {
         "startTime": "2026-04-20T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-20T01:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-19T21:55:00.000Z"
-      },
       {
         "startTime": "2026-04-19T22:20:00.000Z"
       },
       {
         "startTime": "2026-04-19T22:45:00.000Z"
+      },
+      {
+        "startTime": "2026-04-19T23:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-19T21:53:59.300Z"
+  "fetchedAt": "2026-04-19T22:05:23.987Z"
 }
