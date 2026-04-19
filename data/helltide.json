@@ -38,18 +38,6 @@
     "world_boss": [
       {
         "boss": "Avarice",
-        "startTime": "2026-04-19T22:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
-      {
-        "boss": "Avarice",
         "startTime": "2026-04-20T01:30:00.000Z",
         "zone": [
           {
@@ -73,6 +61,18 @@
           {
             "id": "nahantu",
             "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-20T08:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
             "isWhisper": false,
             "boss": "Ashava"
           }
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-19T22:05:23.987Z"
+  "fetchedAt": "2026-04-19T22:19:15.236Z"
 }
