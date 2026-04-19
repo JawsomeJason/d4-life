@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-19T19:55:00.000Z",
-    "id": 1776625200,
-    "startTime": "2026-04-19T19:00:00.000Z",
+    "endTime": "2026-04-19T20:55:00.000Z",
+    "id": 1776628800,
+    "startTime": "2026-04-19T20:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1776628200,
-    "nextTime": "2026-04-19T20:15:00.000Z",
-    "startTime": "2026-04-19T19:50:00.000Z"
+    "id": 1776629700,
+    "nextTime": "2026-04-19T20:40:00.000Z",
+    "startTime": "2026-04-19T20:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-19T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-19T21:00:00.000Z"
       },
       {
         "startTime": "2026-04-19T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-19T23:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-19T19:50:00.000Z"
-      },
       {
         "startTime": "2026-04-19T20:15:00.000Z"
       },
       {
         "startTime": "2026-04-19T20:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-19T21:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-19T19:47:46.753Z"
+  "fetchedAt": "2026-04-19T20:02:31.668Z"
 }
