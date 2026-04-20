@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-20T08:55:00.000Z",
-    "id": 1776672000,
-    "startTime": "2026-04-20T08:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-04-20T09:55:00.000Z",
+    "id": 1776675600,
+    "startTime": "2026-04-20T09:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1776673800,
-    "nextTime": "2026-04-20T12:00:00.000Z",
-    "startTime": "2026-04-20T08:30:00.000Z",
+    "id": 1776686400,
+    "nextTime": "2026-04-20T15:30:00.000Z",
+    "startTime": "2026-04-20T12:00:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "fractured_peaks",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,25 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1776674700,
-    "nextTime": "2026-04-20T09:10:00.000Z",
-    "startTime": "2026-04-20T08:45:00.000Z",
+    "id": 1776677700,
+    "nextTime": "2026-04-20T10:00:00.000Z",
+    "startTime": "2026-04-20T09:35:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-20T08:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-04-20T12:00:00.000Z",
@@ -72,30 +60,48 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-20T19:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-20T09:00:00.000Z"
-      },
       {
         "startTime": "2026-04-20T10:00:00.000Z"
       },
       {
         "startTime": "2026-04-20T11:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-20T12:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-04-20T08:45:00.000Z"
-      },
-      {
-        "startTime": "2026-04-20T09:10:00.000Z"
-      },
-      {
         "startTime": "2026-04-20T09:35:00.000Z"
+      },
+      {
+        "startTime": "2026-04-20T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-20T10:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-20T08:30:40.645Z"
+  "fetchedAt": "2026-04-20T09:18:06.706Z"
 }
