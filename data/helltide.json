@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-21T12:55:00.000Z",
-    "id": 1776772800,
-    "startTime": "2026-04-21T12:00:00.000Z",
+    "endTime": "2026-04-21T13:55:00.000Z",
+    "id": 1776776400,
+    "startTime": "2026-04-21T13:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1776775200,
-    "nextTime": "2026-04-21T13:05:00.000Z",
-    "startTime": "2026-04-21T12:40:00.000Z"
+    "id": 1776776700,
+    "nextTime": "2026-04-21T13:30:00.000Z",
+    "startTime": "2026-04-21T13:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-21T12:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-21T16:00:00.000Z",
@@ -71,30 +60,48 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-21T23:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-21T13:00:00.000Z"
-      },
       {
         "startTime": "2026-04-21T14:00:00.000Z"
       },
       {
         "startTime": "2026-04-21T15:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-21T16:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-21T12:40:00.000Z"
-      },
       {
         "startTime": "2026-04-21T13:05:00.000Z"
       },
       {
         "startTime": "2026-04-21T13:30:00.000Z"
+      },
+      {
+        "startTime": "2026-04-21T13:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-21T12:37:49.605Z"
+  "fetchedAt": "2026-04-21T13:05:29.648Z"
 }
