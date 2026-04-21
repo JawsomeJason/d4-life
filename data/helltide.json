@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-21T11:55:00.000Z",
-    "id": 1776769200,
-    "startTime": "2026-04-21T11:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-21T12:55:00.000Z",
+    "id": 1776772800,
+    "startTime": "2026-04-21T12:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1776772200,
-    "nextTime": "2026-04-21T12:15:00.000Z",
-    "startTime": "2026-04-21T11:50:00.000Z"
+    "id": 1776773700,
+    "nextTime": "2026-04-21T12:40:00.000Z",
+    "startTime": "2026-04-21T12:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -75,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-21T12:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-21T13:00:00.000Z"
       },
       {
         "startTime": "2026-04-21T14:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-21T15:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-21T11:50:00.000Z"
-      },
       {
         "startTime": "2026-04-21T12:15:00.000Z"
       },
       {
         "startTime": "2026-04-21T12:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-21T13:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-21T11:41:38.216Z"
+  "fetchedAt": "2026-04-21T12:06:27.125Z"
 }
