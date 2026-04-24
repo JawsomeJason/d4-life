@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-24T13:55:00.000Z",
-    "id": 1777035600,
-    "startTime": "2026-04-24T13:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-04-24T14:55:00.000Z",
+    "id": 1777039200,
+    "startTime": "2026-04-24T14:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1777039200,
-    "nextTime": "2026-04-24T17:30:00.000Z",
-    "startTime": "2026-04-24T14:00:00.000Z",
+    "id": 1777051800,
+    "nextTime": "2026-04-24T21:00:00.000Z",
+    "startTime": "2026-04-24T17:30:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "dry_steppes",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1777039200,
-    "nextTime": "2026-04-24T14:25:00.000Z",
-    "startTime": "2026-04-24T14:00:00.000Z"
+    "id": 1777040700,
+    "nextTime": "2026-04-24T14:50:00.000Z",
+    "startTime": "2026-04-24T14:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-24T14:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-04-24T17:30:00.000Z",
@@ -77,30 +66,42 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-25T00:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-24T14:00:00.000Z"
-      },
       {
         "startTime": "2026-04-24T15:00:00.000Z"
       },
       {
         "startTime": "2026-04-24T16:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-24T17:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-24T14:00:00.000Z"
-      },
       {
         "startTime": "2026-04-24T14:25:00.000Z"
       },
       {
         "startTime": "2026-04-24T14:50:00.000Z"
+      },
+      {
+        "startTime": "2026-04-24T15:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-24T13:40:05.763Z"
+  "fetchedAt": "2026-04-24T14:16:29.568Z"
 }
