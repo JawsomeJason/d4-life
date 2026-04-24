@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-24T15:55:00.000Z",
-    "id": 1777042800,
-    "startTime": "2026-04-24T15:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-04-24T16:55:00.000Z",
+    "id": 1777046400,
+    "startTime": "2026-04-24T16:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1777046700,
-    "nextTime": "2026-04-24T16:30:00.000Z",
-    "startTime": "2026-04-24T16:05:00.000Z",
-    "zoneWindow": true
+    "id": 1777048200,
+    "nextTime": "2026-04-24T16:55:00.000Z",
+    "startTime": "2026-04-24T16:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-24T16:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-24T17:00:00.000Z"
       },
       {
         "startTime": "2026-04-24T18:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-24T19:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-24T16:05:00.000Z"
-      },
       {
         "startTime": "2026-04-24T16:30:00.000Z"
       },
       {
         "startTime": "2026-04-24T16:55:00.000Z"
+      },
+      {
+        "startTime": "2026-04-24T17:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-24T15:48:59.467Z"
+  "fetchedAt": "2026-04-24T16:12:48.128Z"
 }
