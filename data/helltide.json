@@ -32,24 +32,13 @@
     ]
   },
   "legion": {
-    "id": 1777153200,
-    "nextTime": "2026-04-25T22:05:00.000Z",
-    "startTime": "2026-04-25T21:40:00.000Z"
+    "id": 1777154700,
+    "nextTime": "2026-04-25T22:30:00.000Z",
+    "startTime": "2026-04-25T22:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-25T21:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-26T01:00:00.000Z",
@@ -79,6 +68,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-26T08:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -94,15 +95,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-25T21:40:00.000Z"
-      },
-      {
         "startTime": "2026-04-25T22:05:00.000Z"
       },
       {
         "startTime": "2026-04-25T22:30:00.000Z"
+      },
+      {
+        "startTime": "2026-04-25T22:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-25T21:35:24.979Z"
+  "fetchedAt": "2026-04-25T21:52:58.722Z"
 }
