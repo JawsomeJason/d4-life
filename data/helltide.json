@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-04-25T13:55:00.000Z",
-    "id": 1777122000,
-    "startTime": "2026-04-25T13:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-04-25T14:55:00.000Z",
+    "id": 1777125600,
+    "startTime": "2026-04-25T14:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
@@ -31,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1777124700,
-    "nextTime": "2026-04-25T14:10:00.000Z",
-    "startTime": "2026-04-25T13:45:00.000Z",
-    "zoneWindow": true
+    "id": 1777126200,
+    "nextTime": "2026-04-25T14:35:00.000Z",
+    "startTime": "2026-04-25T14:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -77,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-04-25T14:00:00.000Z"
-      },
-      {
         "startTime": "2026-04-25T15:00:00.000Z"
       },
       {
         "startTime": "2026-04-25T16:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-25T17:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-25T13:45:00.000Z"
-      },
       {
         "startTime": "2026-04-25T14:10:00.000Z"
       },
       {
         "startTime": "2026-04-25T14:35:00.000Z"
+      },
+      {
+        "startTime": "2026-04-25T15:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-25T13:45:29.017Z"
+  "fetchedAt": "2026-04-25T14:07:57.955Z"
 }
