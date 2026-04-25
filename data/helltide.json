@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-25T04:55:00.000Z",
-    "id": 1777089600,
-    "startTime": "2026-04-25T04:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-25T05:55:00.000Z",
+    "id": 1777093200,
+    "startTime": "2026-04-25T05:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1777089600,
-    "nextTime": "2026-04-25T07:30:00.000Z",
-    "startTime": "2026-04-25T04:00:00.000Z",
+    "boss": "Avarice",
+    "id": 1777102200,
+    "nextTime": "2026-04-25T11:00:00.000Z",
+    "startTime": "2026-04-25T07:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "kehjistan",
+        "boss": "Avarice",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Ashava",
@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1777090200,
-    "nextTime": "2026-04-25T04:35:00.000Z",
-    "startTime": "2026-04-25T04:10:00.000Z"
+    "id": 1777093200,
+    "nextTime": "2026-04-25T05:25:00.000Z",
+    "startTime": "2026-04-25T05:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-25T04:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-25T07:30:00.000Z",
@@ -77,6 +65,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-25T14:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -92,15 +92,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-25T04:10:00.000Z"
-      },
-      {
-        "startTime": "2026-04-25T04:35:00.000Z"
-      },
-      {
         "startTime": "2026-04-25T05:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-25T05:25:00.000Z"
+      },
+      {
+        "startTime": "2026-04-25T05:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-25T04:00:11.012Z"
+  "fetchedAt": "2026-04-25T04:57:33.240Z"
 }
