@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1777190400,
-    "nextTime": "2026-04-26T11:30:00.000Z",
-    "startTime": "2026-04-26T08:00:00.000Z",
+    "boss": "Avarice",
+    "id": 1777203000,
+    "nextTime": "2026-04-26T15:00:00.000Z",
+    "startTime": "2026-04-26T11:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "boss": "Avarice",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,25 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1777190700,
-    "nextTime": "2026-04-26T08:30:00.000Z",
-    "startTime": "2026-04-26T08:05:00.000Z",
+    "id": 1777193700,
+    "nextTime": "2026-04-26T09:20:00.000Z",
+    "startTime": "2026-04-26T08:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-26T08:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-26T11:30:00.000Z",
@@ -78,30 +66,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-26T18:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-26T08:00:00.000Z"
-      },
       {
         "startTime": "2026-04-26T09:00:00.000Z"
       },
       {
         "startTime": "2026-04-26T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-26T11:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-04-26T08:05:00.000Z"
-      },
       {
         "startTime": "2026-04-26T08:30:00.000Z"
       },
       {
         "startTime": "2026-04-26T08:55:00.000Z"
+      },
+      {
+        "startTime": "2026-04-26T09:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-26T07:57:21.349Z"
+  "fetchedAt": "2026-04-26T08:32:46.102Z"
 }
