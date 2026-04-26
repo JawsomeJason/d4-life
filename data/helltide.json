@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-26T21:55:00.000Z",
-    "id": 1777237200,
-    "startTime": "2026-04-26T21:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-04-26T22:55:00.000Z",
+    "id": 1777240800,
+    "startTime": "2026-04-26T22:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1777240800,
-    "nextTime": "2026-04-27T01:30:00.000Z",
-    "startTime": "2026-04-26T22:00:00.000Z",
+    "id": 1777253400,
+    "nextTime": "2026-04-27T05:00:00.000Z",
+    "startTime": "2026-04-27T01:30:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "dry_steppes",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -37,18 +37,6 @@
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-04-26T22:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-04-27T01:30:00.000Z",
@@ -78,17 +66,29 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-04-27T08:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-26T22:00:00.000Z"
-      },
       {
         "startTime": "2026-04-26T23:00:00.000Z"
       },
       {
         "startTime": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-27T01:00:00.000Z"
       }
     ],
     "legion": [
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "fetchedAt": "2026-04-26T21:53:15.386Z"
+  "fetchedAt": "2026-04-26T22:06:47.059Z"
 }
