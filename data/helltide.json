@@ -11,15 +11,15 @@
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1777291200,
-    "nextTime": "2026-04-27T15:30:00.000Z",
-    "startTime": "2026-04-27T12:00:00.000Z",
+    "id": 1777303800,
+    "nextTime": "2026-04-27T19:00:00.000Z",
+    "startTime": "2026-04-27T15:30:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,25 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1777292700,
-    "nextTime": "2026-04-27T12:50:00.000Z",
-    "startTime": "2026-04-27T12:25:00.000Z",
-    "zoneWindow": true
+    "id": 1777294200,
+    "nextTime": "2026-04-27T13:15:00.000Z",
+    "startTime": "2026-04-27T12:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-04-27T12:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-04-27T15:30:00.000Z",
@@ -78,6 +65,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-04-27T22:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -93,15 +92,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-27T12:00:00.000Z"
-      },
-      {
-        "startTime": "2026-04-27T12:25:00.000Z"
-      },
-      {
         "startTime": "2026-04-27T12:50:00.000Z"
+      },
+      {
+        "startTime": "2026-04-27T13:15:00.000Z"
+      },
+      {
+        "startTime": "2026-04-27T13:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-27T12:04:30.889Z"
+  "fetchedAt": "2026-04-27T12:48:47.295Z"
 }
