@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-04-27T04:55:00.000Z",
-    "id": 1777262400,
-    "startTime": "2026-04-27T04:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-04-27T05:55:00.000Z",
+    "id": 1777266000,
+    "startTime": "2026-04-27T05:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1777266000,
-    "nahantuBoss": "Avarice",
-    "nextTime": "2026-04-27T08:30:00.000Z",
-    "startTime": "2026-04-27T05:00:00.000Z",
+    "id": 1777278600,
+    "nextTime": "2026-04-27T12:00:00.000Z",
+    "startTime": "2026-04-27T08:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -31,31 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1777265700,
-    "nextTime": "2026-04-27T05:20:00.000Z",
-    "startTime": "2026-04-27T04:55:00.000Z",
+    "id": 1777268700,
+    "nextTime": "2026-04-27T06:10:00.000Z",
+    "startTime": "2026-04-27T05:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-27T05:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-27T08:30:00.000Z",
@@ -79,30 +60,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-27T15:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-27T05:00:00.000Z"
-      },
       {
         "startTime": "2026-04-27T06:00:00.000Z"
       },
       {
         "startTime": "2026-04-27T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-27T08:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-04-27T04:55:00.000Z"
-      },
-      {
-        "startTime": "2026-04-27T05:20:00.000Z"
-      },
-      {
         "startTime": "2026-04-27T05:45:00.000Z"
+      },
+      {
+        "startTime": "2026-04-27T06:10:00.000Z"
+      },
+      {
+        "startTime": "2026-04-27T06:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-27T04:33:49.414Z"
+  "fetchedAt": "2026-04-27T05:39:47.532Z"
 }
