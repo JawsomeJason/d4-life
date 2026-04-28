@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-04-28T22:55:00.000Z",
-    "id": 1777413600,
-    "startTime": "2026-04-28T22:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-04-28T23:55:00.000Z",
+    "id": 1777417200,
+    "startTime": "2026-04-28T23:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
@@ -31,10 +32,9 @@
     ]
   },
   "legion": {
-    "id": 1777415700,
-    "nextTime": "2026-04-28T23:00:00.000Z",
-    "startTime": "2026-04-28T22:35:00.000Z",
-    "zoneWindow": true
+    "id": 1777417200,
+    "nextTime": "2026-04-28T23:25:00.000Z",
+    "startTime": "2026-04-28T23:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -94,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-04-28T22:35:00.000Z"
-      },
-      {
         "startTime": "2026-04-28T23:00:00.000Z"
       },
       {
         "startTime": "2026-04-28T23:25:00.000Z"
+      },
+      {
+        "startTime": "2026-04-28T23:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-28T22:32:52.993Z"
+  "fetchedAt": "2026-04-28T22:56:20.525Z"
 }
