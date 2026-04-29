@@ -1,25 +1,26 @@
 {
   "helltide": {
-    "endTime": "2026-04-29T09:55:00.000Z",
-    "id": 1777453200,
-    "startTime": "2026-04-29T09:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-04-29T10:55:00.000Z",
+    "id": 1777456800,
+    "startTime": "2026-04-29T10:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1777455000,
-    "nextTime": "2026-04-29T13:00:00.000Z",
-    "startTime": "2026-04-29T09:30:00.000Z",
+    "id": 1777467600,
+    "nahantuBoss": "Ashava",
+    "nextTime": "2026-04-29T16:30:00.000Z",
+    "startTime": "2026-04-29T13:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,24 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1777456200,
-    "nextTime": "2026-04-29T10:15:00.000Z",
-    "startTime": "2026-04-29T09:50:00.000Z"
+    "id": 1777457700,
+    "nextTime": "2026-04-29T10:40:00.000Z",
+    "startTime": "2026-04-29T10:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-04-29T09:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-04-29T13:00:00.000Z",
@@ -77,30 +67,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-04-29T20:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-04-29T10:00:00.000Z"
-      },
       {
         "startTime": "2026-04-29T11:00:00.000Z"
       },
       {
         "startTime": "2026-04-29T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-04-29T13:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-04-29T09:25:00.000Z"
-      },
-      {
-        "startTime": "2026-04-29T09:50:00.000Z"
-      },
-      {
         "startTime": "2026-04-29T10:15:00.000Z"
+      },
+      {
+        "startTime": "2026-04-29T10:40:00.000Z"
+      },
+      {
+        "startTime": "2026-04-29T11:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-04-29T09:26:56.446Z"
+  "fetchedAt": "2026-04-29T10:15:56.496Z"
 }
