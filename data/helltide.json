@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-02T04:55:00.000Z",
-    "id": 1777694400,
-    "startTime": "2026-05-02T04:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-02T05:55:00.000Z",
+    "id": 1777698000,
+    "startTime": "2026-05-02T05:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1777694400,
-    "nextTime": "2026-05-02T07:30:00.000Z",
-    "startTime": "2026-05-02T04:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1777707000,
+    "nextTime": "2026-05-02T11:00:00.000Z",
+    "startTime": "2026-05-02T07:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "kehjistan",
+        "boss": "Ashava",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Wandering Death",
@@ -30,25 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1777694700,
-    "nextTime": "2026-05-02T04:30:00.000Z",
-    "startTime": "2026-05-02T04:05:00.000Z",
-    "zoneWindow": true
+    "id": 1777699200,
+    "nextTime": "2026-05-02T05:45:00.000Z",
+    "startTime": "2026-05-02T05:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-05-02T04:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-05-02T07:30:00.000Z",
@@ -78,30 +65,42 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-05-02T14:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-02T05:00:00.000Z"
-      },
       {
         "startTime": "2026-05-02T06:00:00.000Z"
       },
       {
         "startTime": "2026-05-02T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-02T08:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-02T04:05:00.000Z"
+        "startTime": "2026-05-02T05:20:00.000Z"
       },
       {
-        "startTime": "2026-05-02T04:30:00.000Z"
+        "startTime": "2026-05-02T05:45:00.000Z"
       },
       {
-        "startTime": "2026-05-02T04:55:00.000Z"
+        "startTime": "2026-05-02T06:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-02T04:00:53.091Z"
+  "fetchedAt": "2026-05-02T05:10:38.659Z"
 }
