@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-04T16:55:00.000Z",
-    "id": 1777910400,
-    "startTime": "2026-05-04T16:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-04T17:55:00.000Z",
+    "id": 1777914000,
+    "startTime": "2026-05-04T17:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
@@ -31,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1777912200,
-    "nextTime": "2026-05-04T16:55:00.000Z",
-    "startTime": "2026-05-04T16:30:00.000Z"
+    "id": 1777915200,
+    "nextTime": "2026-05-04T17:45:00.000Z",
+    "startTime": "2026-05-04T17:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-04T17:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-04T18:00:00.000Z"
       },
       {
         "startTime": "2026-05-04T19:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-04T20:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-04T16:30:00.000Z"
-      },
-      {
-        "startTime": "2026-05-04T16:55:00.000Z"
-      },
-      {
         "startTime": "2026-05-04T17:20:00.000Z"
+      },
+      {
+        "startTime": "2026-05-04T17:45:00.000Z"
+      },
+      {
+        "startTime": "2026-05-04T18:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-04T16:26:16.903Z"
+  "fetchedAt": "2026-05-04T17:05:26.881Z"
 }
