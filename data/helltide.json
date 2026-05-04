@@ -1,27 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-04T04:55:00.000Z",
-    "id": 1777867200,
-    "startTime": "2026-05-04T04:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-05-04T05:55:00.000Z",
+    "id": 1777870800,
+    "startTime": "2026-05-04T05:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1777870800,
-    "nahantuBoss": "Ashava",
-    "nextTime": "2026-05-04T08:30:00.000Z",
-    "startTime": "2026-05-04T05:00:00.000Z",
+    "id": 1777883400,
+    "nextTime": "2026-05-04T12:00:00.000Z",
+    "startTime": "2026-05-04T08:30:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Ashava",
@@ -32,31 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1777868700,
-    "nextTime": "2026-05-04T04:50:00.000Z",
-    "startTime": "2026-05-04T04:25:00.000Z",
-    "zoneWindow": true
+    "id": 1777873200,
+    "nextTime": "2026-05-04T06:05:00.000Z",
+    "startTime": "2026-05-04T05:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-05-04T05:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Avarice"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-05-04T08:30:00.000Z",
@@ -80,30 +59,42 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-05-04T15:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-04T05:00:00.000Z"
-      },
       {
         "startTime": "2026-05-04T06:00:00.000Z"
       },
       {
         "startTime": "2026-05-04T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-04T08:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-04T04:25:00.000Z"
+        "startTime": "2026-05-04T05:40:00.000Z"
       },
       {
-        "startTime": "2026-05-04T04:50:00.000Z"
+        "startTime": "2026-05-04T06:05:00.000Z"
       },
       {
-        "startTime": "2026-05-04T05:15:00.000Z"
+        "startTime": "2026-05-04T06:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-04T04:14:01.304Z"
+  "fetchedAt": "2026-05-04T05:29:18.825Z"
 }
