@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-09T07:55:00.000Z",
-    "id": 1778310000,
-    "startTime": "2026-05-09T07:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-05-09T08:55:00.000Z",
+    "id": 1778313600,
+    "startTime": "2026-05-09T08:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -31,25 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1778312700,
-    "nextTime": "2026-05-09T08:10:00.000Z",
-    "startTime": "2026-05-09T07:45:00.000Z",
+    "id": 1778315700,
+    "nextTime": "2026-05-09T09:00:00.000Z",
+    "startTime": "2026-05-09T08:35:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-09T07:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-05-09T11:00:00.000Z",
@@ -79,30 +67,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-09T18:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-09T08:00:00.000Z"
-      },
       {
         "startTime": "2026-05-09T09:00:00.000Z"
       },
       {
         "startTime": "2026-05-09T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-09T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-09T07:45:00.000Z"
-      },
-      {
-        "startTime": "2026-05-09T08:10:00.000Z"
-      },
-      {
         "startTime": "2026-05-09T08:35:00.000Z"
+      },
+      {
+        "startTime": "2026-05-09T09:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-09T09:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-09T07:37:21.485Z"
+  "fetchedAt": "2026-05-09T08:17:17.290Z"
 }
