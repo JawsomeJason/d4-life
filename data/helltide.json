@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1778349600,
-    "nextTime": "2026-05-09T21:30:00.000Z",
-    "startTime": "2026-05-09T18:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1778362200,
+    "nextTime": "2026-05-10T01:00:00.000Z",
+    "startTime": "2026-05-09T21:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1778350200,
-    "nextTime": "2026-05-09T18:35:00.000Z",
-    "startTime": "2026-05-09T18:10:00.000Z"
+    "id": 1778351700,
+    "nextTime": "2026-05-09T19:00:00.000Z",
+    "startTime": "2026-05-09T18:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-05-09T18:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-05-09T21:30:00.000Z",
@@ -77,30 +66,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-05-10T04:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-09T18:00:00.000Z"
-      },
       {
         "startTime": "2026-05-09T19:00:00.000Z"
       },
       {
         "startTime": "2026-05-09T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-09T21:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-09T18:10:00.000Z"
-      },
       {
         "startTime": "2026-05-09T18:35:00.000Z"
       },
       {
         "startTime": "2026-05-09T19:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-09T19:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-09T17:58:20.223Z"
+  "fetchedAt": "2026-05-09T18:29:16.483Z"
 }
