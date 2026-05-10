@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-10T07:55:00.000Z",
-    "id": 1778396400,
-    "startTime": "2026-05-10T07:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-10T08:55:00.000Z",
+    "id": 1778400000,
+    "startTime": "2026-05-10T08:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1778400000,
-    "nextTime": "2026-05-10T11:30:00.000Z",
-    "startTime": "2026-05-10T08:00:00.000Z",
+    "id": 1778412600,
+    "nextTime": "2026-05-10T15:00:00.000Z",
+    "startTime": "2026-05-10T11:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,25 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1778399700,
-    "nextTime": "2026-05-10T08:20:00.000Z",
-    "startTime": "2026-05-10T07:55:00.000Z",
+    "id": 1778402700,
+    "nextTime": "2026-05-10T09:10:00.000Z",
+    "startTime": "2026-05-10T08:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-10T08:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-05-10T11:30:00.000Z",
@@ -78,30 +66,42 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-10T18:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-10T08:00:00.000Z"
-      },
       {
         "startTime": "2026-05-10T09:00:00.000Z"
       },
       {
         "startTime": "2026-05-10T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-10T11:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-10T07:55:00.000Z"
-      },
       {
         "startTime": "2026-05-10T08:20:00.000Z"
       },
       {
         "startTime": "2026-05-10T08:45:00.000Z"
+      },
+      {
+        "startTime": "2026-05-10T09:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-10T07:34:39.195Z"
+  "fetchedAt": "2026-05-10T08:21:18.557Z"
 }
