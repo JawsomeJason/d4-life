@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-11T03:55:00.000Z",
-    "id": 1778468400,
-    "startTime": "2026-05-11T03:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-11T04:55:00.000Z",
+    "id": 1778472000,
+    "startTime": "2026-05-11T04:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
@@ -31,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1778470200,
-    "nextTime": "2026-05-11T03:55:00.000Z",
-    "startTime": "2026-05-11T03:30:00.000Z"
+    "id": 1778476200,
+    "nextTime": "2026-05-11T05:35:00.000Z",
+    "startTime": "2026-05-11T05:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-11T04:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-11T05:00:00.000Z"
       },
       {
         "startTime": "2026-05-11T06:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-11T07:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-11T03:30:00.000Z"
+        "startTime": "2026-05-11T04:45:00.000Z"
       },
       {
-        "startTime": "2026-05-11T03:55:00.000Z"
+        "startTime": "2026-05-11T05:10:00.000Z"
       },
       {
-        "startTime": "2026-05-11T04:20:00.000Z"
+        "startTime": "2026-05-11T05:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-11T03:24:49.417Z"
+  "fetchedAt": "2026-05-11T04:49:00.238Z"
 }
