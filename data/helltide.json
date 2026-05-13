@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-13T23:55:00.000Z",
-    "id": 1778713200,
-    "startTime": "2026-05-13T23:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-05-14T00:55:00.000Z",
+    "id": 1778716800,
+    "startTime": "2026-05-14T00:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Scorching Dunes (SW)",
-      "Amber Sands",
-      "Forgotten Coastline"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
@@ -32,24 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1778716200,
-    "nextTime": "2026-05-14T00:15:00.000Z",
-    "startTime": "2026-05-13T23:50:00.000Z"
+    "id": 1778717700,
+    "nextTime": "2026-05-14T00:40:00.000Z",
+    "startTime": "2026-05-14T00:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-05-13T23:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-05-14T03:00:00.000Z",
@@ -79,6 +67,18 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-05-14T10:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -94,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-13T23:50:00.000Z"
-      },
-      {
         "startTime": "2026-05-14T00:15:00.000Z"
       },
       {
         "startTime": "2026-05-14T00:40:00.000Z"
+      },
+      {
+        "startTime": "2026-05-14T01:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-13T23:35:06.755Z"
+  "fetchedAt": "2026-05-13T23:59:41.309Z"
 }
