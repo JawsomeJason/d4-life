@@ -11,15 +11,16 @@
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1778866200,
-    "nextTime": "2026-05-15T21:00:00.000Z",
-    "startTime": "2026-05-15T17:30:00.000Z",
+    "id": 1778878800,
+    "nahantuBoss": "Wandering Death",
+    "nextTime": "2026-05-16T00:30:00.000Z",
+    "startTime": "2026-05-15T21:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Wandering Death",
@@ -30,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1778864700,
-    "nextTime": "2026-05-15T17:30:00.000Z",
-    "startTime": "2026-05-15T17:05:00.000Z",
+    "id": 1778867700,
+    "nextTime": "2026-05-15T18:20:00.000Z",
+    "startTime": "2026-05-15T17:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -82,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-15T17:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-15T18:00:00.000Z"
       },
       {
         "startTime": "2026-05-15T19:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T20:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-15T17:05:00.000Z"
-      },
-      {
-        "startTime": "2026-05-15T17:30:00.000Z"
-      },
-      {
         "startTime": "2026-05-15T17:55:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T18:20:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T18:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-15T16:57:30.205Z"
+  "fetchedAt": "2026-05-15T17:35:58.584Z"
 }
