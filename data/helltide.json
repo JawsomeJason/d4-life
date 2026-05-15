@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-15T17:55:00.000Z",
-    "id": 1778864400,
-    "startTime": "2026-05-15T17:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-15T18:55:00.000Z",
+    "id": 1778868000,
+    "startTime": "2026-05-15T18:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
@@ -31,25 +31,12 @@
     ]
   },
   "legion": {
-    "id": 1778867700,
-    "nextTime": "2026-05-15T18:20:00.000Z",
-    "startTime": "2026-05-15T17:55:00.000Z",
-    "zoneWindow": true
+    "id": 1778869200,
+    "nextTime": "2026-05-15T18:45:00.000Z",
+    "startTime": "2026-05-15T18:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-15T17:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-05-15T21:00:00.000Z",
@@ -79,30 +66,42 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-16T04:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-15T18:00:00.000Z"
-      },
       {
         "startTime": "2026-05-15T19:00:00.000Z"
       },
       {
         "startTime": "2026-05-15T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T21:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-15T17:55:00.000Z"
-      },
       {
         "startTime": "2026-05-15T18:20:00.000Z"
       },
       {
         "startTime": "2026-05-15T18:45:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T19:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-15T17:35:58.584Z"
+  "fetchedAt": "2026-05-15T18:10:47.584Z"
 }
