@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-05-15T14:55:00.000Z",
-    "id": 1778853600,
-    "startTime": "2026-05-15T14:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-05-15T15:55:00.000Z",
+    "id": 1778857200,
+    "startTime": "2026-05-15T15:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
@@ -30,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1778857200,
-    "nextTime": "2026-05-15T15:25:00.000Z",
-    "startTime": "2026-05-15T15:00:00.000Z"
+    "id": 1778860200,
+    "nextTime": "2026-05-15T16:15:00.000Z",
+    "startTime": "2026-05-15T15:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-15T15:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-15T16:00:00.000Z"
       },
       {
         "startTime": "2026-05-15T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T18:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-15T15:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-15T15:25:00.000Z"
-      },
-      {
         "startTime": "2026-05-15T15:50:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T16:15:00.000Z"
+      },
+      {
+        "startTime": "2026-05-15T16:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-15T14:40:43.235Z"
+  "fetchedAt": "2026-05-15T15:30:07.309Z"
 }
