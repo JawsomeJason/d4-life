@@ -1,40 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-17T13:55:00.000Z",
-    "id": 1779022800,
-    "startTime": "2026-05-17T13:00:00.000Z",
-    "zone": "hawezar",
-    "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
-    ]
+    "error": "Internal server error."
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1779030000,
-    "nahantuBoss": "Ashava",
-    "nextTime": "2026-05-17T18:30:00.000Z",
-    "startTime": "2026-05-17T15:00:00.000Z",
-    "zone": [
-      {
-        "boss": "Ashava",
-        "id": "kehjistan",
-        "isWhisper": false,
-        "name": "Kehjistan"
-      },
-      {
-        "boss": "Ashava",
-        "id": "nahantu",
-        "isWhisper": false,
-        "name": "Nahantu"
-      }
-    ]
+    "error": "Internal server error."
   },
   "legion": {
-    "id": 1779023700,
-    "nextTime": "2026-05-17T13:40:00.000Z",
-    "startTime": "2026-05-17T13:15:00.000Z",
-    "zoneWindow": true
+    "error": "Internal server error."
   },
   "upcoming": {
     "world_boss": [
@@ -83,26 +55,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-17T13:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-17T14:00:00.000Z"
       },
       {
         "startTime": "2026-05-17T15:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-17T16:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-17T13:15:00.000Z"
-      },
       {
         "startTime": "2026-05-17T13:40:00.000Z"
       },
       {
         "startTime": "2026-05-17T14:05:00.000Z"
+      },
+      {
+        "startTime": "2026-05-17T14:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-17T12:57:17.473Z"
+  "fetchedAt": "2026-05-17T13:34:56.480Z"
 }
