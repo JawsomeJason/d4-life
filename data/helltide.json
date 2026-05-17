@@ -1,12 +1,39 @@
 {
   "helltide": {
-    "error": "Internal server error."
+    "endTime": "2026-05-17T14:55:00.000Z",
+    "id": 1779026400,
+    "startTime": "2026-05-17T14:00:00.000Z",
+    "zone": "fractured_peaks",
+    "chests": [
+      "Western Ways",
+      "Kor Rohavan"
+    ]
   },
   "world_boss": {
-    "error": "Internal server error."
+    "boss": "Ashava",
+    "id": 1779030000,
+    "nahantuBoss": "Ashava",
+    "nextTime": "2026-05-17T18:30:00.000Z",
+    "startTime": "2026-05-17T15:00:00.000Z",
+    "zone": [
+      {
+        "boss": "Ashava",
+        "id": "kehjistan",
+        "isWhisper": false,
+        "name": "Kehjistan"
+      },
+      {
+        "boss": "Ashava",
+        "id": "nahantu",
+        "isWhisper": false,
+        "name": "Nahantu"
+      }
+    ]
   },
   "legion": {
-    "error": "Internal server error."
+    "id": 1779028200,
+    "nextTime": "2026-05-17T14:55:00.000Z",
+    "startTime": "2026-05-17T14:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -55,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-17T14:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-17T15:00:00.000Z"
       },
       {
         "startTime": "2026-05-17T16:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-17T17:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-17T13:40:00.000Z"
-      },
-      {
-        "startTime": "2026-05-17T14:05:00.000Z"
-      },
-      {
         "startTime": "2026-05-17T14:30:00.000Z"
+      },
+      {
+        "startTime": "2026-05-17T14:55:00.000Z"
+      },
+      {
+        "startTime": "2026-05-17T15:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-17T13:34:56.480Z"
+  "fetchedAt": "2026-05-17T14:08:47.817Z"
 }
