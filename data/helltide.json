@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-17T03:55:00.000Z",
-    "id": 1778986800,
-    "startTime": "2026-05-17T03:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-05-17T05:55:00.000Z",
+    "id": 1778994000,
+    "startTime": "2026-05-17T05:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1778992200,
-    "nextTime": "2026-05-17T08:00:00.000Z",
-    "startTime": "2026-05-17T04:30:00.000Z",
+    "id": 1779004800,
+    "nextTime": "2026-05-17T11:30:00.000Z",
+    "startTime": "2026-05-17T08:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,25 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1778990700,
-    "nextTime": "2026-05-17T04:30:00.000Z",
-    "startTime": "2026-05-17T04:05:00.000Z",
-    "zoneWindow": true
+    "id": 1778995200,
+    "nextTime": "2026-05-17T05:45:00.000Z",
+    "startTime": "2026-05-17T05:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-05-17T04:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-05-17T08:00:00.000Z",
@@ -72,30 +59,48 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-05-17T15:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Ashava"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-05-17T04:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-17T05:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-17T06:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-17T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-17T08:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-17T04:05:00.000Z"
+        "startTime": "2026-05-17T05:20:00.000Z"
       },
       {
-        "startTime": "2026-05-17T04:30:00.000Z"
+        "startTime": "2026-05-17T05:45:00.000Z"
       },
       {
-        "startTime": "2026-05-17T04:55:00.000Z"
+        "startTime": "2026-05-17T06:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-17T03:43:46.815Z"
+  "fetchedAt": "2026-05-17T05:01:33.120Z"
 }
