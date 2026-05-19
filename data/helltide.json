@@ -31,77 +31,15 @@
     ]
   },
   "legion": {
-    "id": 1779229200,
-    "nextTime": "2026-05-19T22:45:00.000Z",
-    "startTime": "2026-05-19T22:20:00.000Z"
+    "id": 1779230700,
+    "nextTime": "2026-05-19T23:10:00.000Z",
+    "startTime": "2026-05-19T22:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
-    "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-05-19T23:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
-          },
-          {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-20T02:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-20T06:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      }
-    ],
-    "helltide": [
-      {
-        "startTime": "2026-05-19T23:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-20T00:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-20T01:00:00.000Z"
-      }
-    ],
-    "legion": [
-      {
-        "startTime": "2026-05-19T22:20:00.000Z"
-      },
-      {
-        "startTime": "2026-05-19T22:45:00.000Z"
-      },
-      {
-        "startTime": "2026-05-19T23:10:00.000Z"
-      }
-    ]
+    "world_boss": [],
+    "helltide": [],
+    "legion": []
   },
-  "fetchedAt": "2026-05-19T22:08:50.538Z"
+  "fetchedAt": "2026-05-19T22:40:27.113Z"
 }
