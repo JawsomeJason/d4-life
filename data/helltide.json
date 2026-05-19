@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-19T22:55:00.000Z",
-    "id": 1779228000,
-    "startTime": "2026-05-19T22:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-05-19T23:55:00.000Z",
+    "id": 1779231600,
+    "startTime": "2026-05-19T23:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1779231600,
-    "nahantuBoss": "Wandering Death",
-    "nextTime": "2026-05-20T02:30:00.000Z",
-    "startTime": "2026-05-19T23:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1779244200,
+    "nextTime": "2026-05-20T06:00:00.000Z",
+    "startTime": "2026-05-20T02:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
+        "boss": "Wandering Death",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -31,15 +30,14 @@
     ]
   },
   "legion": {
-    "id": 1779230700,
-    "nextTime": "2026-05-19T23:10:00.000Z",
-    "startTime": "2026-05-19T22:45:00.000Z",
-    "zoneWindow": true
+    "id": 1779232200,
+    "nextTime": "2026-05-19T23:35:00.000Z",
+    "startTime": "2026-05-19T23:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [],
     "helltide": [],
     "legion": []
   },
-  "fetchedAt": "2026-05-19T22:40:27.113Z"
+  "fetchedAt": "2026-05-19T23:07:02.058Z"
 }
