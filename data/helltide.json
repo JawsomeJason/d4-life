@@ -30,14 +30,15 @@
     ]
   },
   "legion": {
-    "id": 1779232200,
-    "nextTime": "2026-05-19T23:35:00.000Z",
-    "startTime": "2026-05-19T23:10:00.000Z"
+    "id": 1779233700,
+    "nextTime": "2026-05-20T00:00:00.000Z",
+    "startTime": "2026-05-19T23:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [],
     "helltide": [],
     "legion": []
   },
-  "fetchedAt": "2026-05-19T23:07:02.058Z"
+  "fetchedAt": "2026-05-19T23:35:30.955Z"
 }
