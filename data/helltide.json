@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-19T01:55:00.000Z",
-    "id": 1779152400,
-    "startTime": "2026-05-19T01:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-19T02:55:00.000Z",
+    "id": 1779156000,
+    "startTime": "2026-05-19T02:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1779156000,
-    "nextTime": "2026-05-19T05:30:00.000Z",
-    "startTime": "2026-05-19T02:00:00.000Z",
+    "id": 1779168600,
+    "nextTime": "2026-05-19T09:00:00.000Z",
+    "startTime": "2026-05-19T05:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1779154200,
-    "nextTime": "2026-05-19T01:55:00.000Z",
-    "startTime": "2026-05-19T01:30:00.000Z"
+    "id": 1779157200,
+    "nextTime": "2026-05-19T02:45:00.000Z",
+    "startTime": "2026-05-19T02:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-19T02:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-05-19T05:30:00.000Z",
@@ -77,30 +65,42 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-19T12:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-19T02:00:00.000Z"
-      },
       {
         "startTime": "2026-05-19T03:00:00.000Z"
       },
       {
         "startTime": "2026-05-19T04:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-19T05:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-19T01:30:00.000Z"
-      },
-      {
-        "startTime": "2026-05-19T01:55:00.000Z"
-      },
-      {
         "startTime": "2026-05-19T02:20:00.000Z"
+      },
+      {
+        "startTime": "2026-05-19T02:45:00.000Z"
+      },
+      {
+        "startTime": "2026-05-19T03:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-19T01:26:07.486Z"
+  "fetchedAt": "2026-05-19T02:20:30.816Z"
 }
