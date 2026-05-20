@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-20T11:55:00.000Z",
-    "id": 1779274800,
-    "startTime": "2026-05-20T11:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-05-20T12:55:00.000Z",
+    "id": 1779278400,
+    "startTime": "2026-05-20T12:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
@@ -31,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1779275700,
-    "nextTime": "2026-05-20T11:40:00.000Z",
-    "startTime": "2026-05-20T11:15:00.000Z",
+    "id": 1779278700,
+    "nextTime": "2026-05-20T12:30:00.000Z",
+    "startTime": "2026-05-20T12:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -83,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-20T12:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-20T13:00:00.000Z"
       },
       {
         "startTime": "2026-05-20T14:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-20T15:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-20T11:15:00.000Z"
-      },
-      {
-        "startTime": "2026-05-20T11:40:00.000Z"
-      },
-      {
         "startTime": "2026-05-20T12:05:00.000Z"
+      },
+      {
+        "startTime": "2026-05-20T12:30:00.000Z"
+      },
+      {
+        "startTime": "2026-05-20T12:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-20T11:06:23.450Z"
+  "fetchedAt": "2026-05-20T12:05:09.795Z"
 }
