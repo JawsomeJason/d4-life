@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1779391200,
-    "nextTime": "2026-05-21T19:45:00.000Z",
-    "startTime": "2026-05-21T19:20:00.000Z"
+    "id": 1779392700,
+    "nextTime": "2026-05-21T20:10:00.000Z",
+    "startTime": "2026-05-21T19:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +42,10 @@
         "startTime": "2026-05-21T20:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "fractured_peaks",
+            "boss": "Avarice",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -86,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-21T19:20:00.000Z"
-      },
-      {
         "startTime": "2026-05-21T19:45:00.000Z"
       },
       {
         "startTime": "2026-05-21T20:10:00.000Z"
+      },
+      {
+        "startTime": "2026-05-21T20:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-21T19:02:10.140Z"
+  "fetchedAt": "2026-05-21T19:42:14.879Z"
 }
