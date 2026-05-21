@@ -1,19 +1,18 @@
 {
   "helltide": {
-    "endTime": "2026-05-21T17:55:00.000Z",
-    "id": 1779382800,
-    "startTime": "2026-05-21T17:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-05-21T18:55:00.000Z",
+    "id": 1779386400,
+    "startTime": "2026-05-21T18:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
     "id": 1779395400,
     "nextTime": "2026-05-22T00:00:00.000Z",
-    "skovosBoss": "Ashava",
     "startTime": "2026-05-21T20:30:00.000Z",
     "zone": [
       {
@@ -31,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1779385200,
-    "nextTime": "2026-05-21T18:05:00.000Z",
-    "startTime": "2026-05-21T17:40:00.000Z"
+    "id": 1779388200,
+    "nextTime": "2026-05-21T18:55:00.000Z",
+    "startTime": "2026-05-21T18:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -50,14 +49,14 @@
         ]
       },
       {
-        "boss": "Ashava",
+        "boss": "Avarice",
         "startTime": "2026-05-22T00:00:00.000Z",
         "zone": [
           {
             "id": "kehjistan",
             "name": "Kehjistan",
             "isWhisper": false,
-            "boss": "Ashava"
+            "boss": "Avarice"
           }
         ]
       },
@@ -76,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-21T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-21T19:00:00.000Z"
       },
       {
         "startTime": "2026-05-21T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-21T21:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-21T17:40:00.000Z"
-      },
-      {
-        "startTime": "2026-05-21T18:05:00.000Z"
-      },
-      {
         "startTime": "2026-05-21T18:30:00.000Z"
+      },
+      {
+        "startTime": "2026-05-21T18:55:00.000Z"
+      },
+      {
+        "startTime": "2026-05-21T19:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-21T17:36:17.370Z"
+  "fetchedAt": "2026-05-21T18:17:20.136Z"
 }
