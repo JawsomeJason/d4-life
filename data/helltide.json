@@ -1,26 +1,27 @@
 {
   "helltide": {
-    "endTime": "2026-05-21T04:55:00.000Z",
-    "id": 1779336000,
-    "startTime": "2026-05-21T04:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-05-21T06:55:00.000Z",
+    "id": 1779343200,
+    "startTime": "2026-05-21T06:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
+    "boss": "Azmodan",
     "id": 1779345000,
     "nextTime": "2026-05-21T10:00:00.000Z",
     "skovosBoss": "Avarice",
     "startTime": "2026-05-21T06:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "scosglen",
+        "boss": "Azmodan",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Hawezar"
       },
       {
         "boss": "Ashava",
@@ -31,21 +32,22 @@
     ]
   },
   "legion": {
-    "id": 1779340200,
-    "nextTime": "2026-05-21T05:35:00.000Z",
-    "startTime": "2026-05-21T05:10:00.000Z"
+    "id": 1779344700,
+    "nextTime": "2026-05-21T06:50:00.000Z",
+    "startTime": "2026-05-21T06:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Wandering Death",
+        "boss": "Azmodan",
         "startTime": "2026-05-21T06:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "hawezar",
+            "boss": "Azmodan",
+            "name": "Hawezar",
+            "isWhisper": false
           }
         ]
       },
@@ -76,26 +78,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-21T05:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-21T06:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-21T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-21T08:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-21T09:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-21T05:10:00.000Z"
+        "startTime": "2026-05-21T06:25:00.000Z"
       },
       {
-        "startTime": "2026-05-21T05:35:00.000Z"
+        "startTime": "2026-05-21T06:50:00.000Z"
       },
       {
-        "startTime": "2026-05-21T06:00:00.000Z"
+        "startTime": "2026-05-21T07:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-21T04:54:58.230Z"
+  "fetchedAt": "2026-05-21T06:21:51.389Z"
 }
