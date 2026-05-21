@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-21T22:55:00.000Z",
-    "id": 1779400800,
-    "startTime": "2026-05-21T22:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-05-21T23:55:00.000Z",
+    "id": 1779404400,
+    "startTime": "2026-05-21T23:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1779404700,
-    "nextTime": "2026-05-21T23:30:00.000Z",
-    "startTime": "2026-05-21T23:05:00.000Z",
-    "zoneWindow": true
+    "id": 1779406200,
+    "nextTime": "2026-05-21T23:55:00.000Z",
+    "startTime": "2026-05-21T23:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-21T23:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-22T00:00:00.000Z"
       },
       {
         "startTime": "2026-05-22T01:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T02:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-21T22:40:00.000Z"
-      },
-      {
-        "startTime": "2026-05-21T23:05:00.000Z"
-      },
-      {
         "startTime": "2026-05-21T23:30:00.000Z"
+      },
+      {
+        "startTime": "2026-05-21T23:55:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T00:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-21T22:41:08.056Z"
+  "fetchedAt": "2026-05-21T23:07:36.883Z"
 }
