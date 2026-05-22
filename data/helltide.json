@@ -1,20 +1,20 @@
 {
   "helltide": {
-    "endTime": "2026-05-22T17:55:00.000Z",
-    "id": 1779469200,
-    "startTime": "2026-05-22T17:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-05-22T18:55:00.000Z",
+    "id": 1779472800,
+    "startTime": "2026-05-22T18:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Scorching Dunes (SW)",
-      "Amber Sands",
-      "Forgotten Coastline"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1779471000,
-    "nextTime": "2026-05-22T21:00:00.000Z",
-    "startTime": "2026-05-22T17:30:00.000Z",
+    "id": 1779483600,
+    "nahantuBoss": "Wandering Death",
+    "nextTime": "2026-05-23T00:30:00.000Z",
+    "startTime": "2026-05-22T21:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -23,7 +23,7 @@
         "name": "Dry Steppes"
       },
       {
-        "boss": "Ashava",
+        "boss": "Wandering Death",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
@@ -31,25 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1779470700,
-    "nextTime": "2026-05-22T17:50:00.000Z",
-    "startTime": "2026-05-22T17:25:00.000Z",
+    "id": 1779473700,
+    "nextTime": "2026-05-22T18:40:00.000Z",
+    "startTime": "2026-05-22T18:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-22T17:30:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "boss": "Wandering Death",
-            "name": "Dry Steppes",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-05-22T21:00:00.000Z",
@@ -79,30 +67,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-23T04:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-05-22T18:00:00.000Z"
-      },
       {
         "startTime": "2026-05-22T19:00:00.000Z"
       },
       {
         "startTime": "2026-05-22T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T21:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-22T17:25:00.000Z"
-      },
-      {
-        "startTime": "2026-05-22T17:50:00.000Z"
-      },
-      {
         "startTime": "2026-05-22T18:15:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T18:40:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T19:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-22T17:17:59.575Z"
+  "fetchedAt": "2026-05-22T18:00:15.326Z"
 }
