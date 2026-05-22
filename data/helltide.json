@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-22T02:55:00.000Z",
-    "id": 1779415200,
-    "startTime": "2026-05-22T02:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-05-22T03:55:00.000Z",
+    "id": 1779418800,
+    "startTime": "2026-05-22T03:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Scorching Dunes (SW)",
-      "Amber Sands",
-      "Forgotten Coastline"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -18,9 +17,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "scosglen",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Hawezar"
       },
       {
         "boss": "Ashava",
@@ -31,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1779415200,
-    "nextTime": "2026-05-22T02:25:00.000Z",
-    "startTime": "2026-05-22T02:00:00.000Z"
+    "id": 1779421200,
+    "nextTime": "2026-05-22T04:05:00.000Z",
+    "startTime": "2026-05-22T03:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +41,10 @@
         "startTime": "2026-05-22T03:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Ashava"
+            "id": "hawezar",
+            "boss": "Ashava",
+            "name": "Hawezar",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-22T02:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-22T03:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-22T04:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T05:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T06:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-22T02:00:00.000Z"
+        "startTime": "2026-05-22T03:40:00.000Z"
       },
       {
-        "startTime": "2026-05-22T02:25:00.000Z"
+        "startTime": "2026-05-22T04:05:00.000Z"
       },
       {
-        "startTime": "2026-05-22T02:50:00.000Z"
+        "startTime": "2026-05-22T04:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-22T01:59:31.193Z"
+  "fetchedAt": "2026-05-22T03:21:11.460Z"
 }
