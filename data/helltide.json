@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-22T14:55:00.000Z",
-    "id": 1779458400,
-    "startTime": "2026-05-22T14:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-22T15:55:00.000Z",
+    "id": 1779462000,
+    "startTime": "2026-05-22T15:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Cursed Scarps",
+      "Túr Dúlra North"
     ]
   },
   "world_boss": {
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1779461700,
-    "nextTime": "2026-05-22T15:20:00.000Z",
-    "startTime": "2026-05-22T14:55:00.000Z",
+    "id": 1779464700,
+    "nextTime": "2026-05-22T16:10:00.000Z",
+    "startTime": "2026-05-22T15:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-22T15:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-22T16:00:00.000Z"
       },
       {
         "startTime": "2026-05-22T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-22T18:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-22T14:30:00.000Z"
+        "startTime": "2026-05-22T15:45:00.000Z"
       },
       {
-        "startTime": "2026-05-22T14:55:00.000Z"
+        "startTime": "2026-05-22T16:10:00.000Z"
       },
       {
-        "startTime": "2026-05-22T15:20:00.000Z"
+        "startTime": "2026-05-22T16:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-22T14:32:15.972Z"
+  "fetchedAt": "2026-05-22T15:37:50.866Z"
 }
