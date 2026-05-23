@@ -10,16 +10,17 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1779571800,
-    "nextTime": "2026-05-24T01:00:00.000Z",
-    "startTime": "2026-05-23T21:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1779584400,
+    "nahantuBoss": "Azmodan",
+    "nextTime": "2026-05-24T04:30:00.000Z",
+    "startTime": "2026-05-24T01:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "hawezar",
+        "boss": "Avarice",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Hawezar"
+        "name": "Kehjistan"
       },
       {
         "boss": "Azmodan",
@@ -30,40 +31,27 @@
     ]
   },
   "legion": {
-    "id": 1779572700,
-    "nextTime": "2026-05-23T22:10:00.000Z",
-    "startTime": "2026-05-23T21:45:00.000Z",
-    "zoneWindow": true
+    "id": 1779574200,
+    "nextTime": "2026-05-23T22:35:00.000Z",
+    "startTime": "2026-05-23T22:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-23T21:30:00.000Z",
-        "zone": [
-          {
-            "name": "Hawezar",
-            "isWhisper": false,
-            "boss": "Wandering Death",
-            "id": "hawezar"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-05-24T01:00:00.000Z",
         "zone": [
           {
             "id": "kehjistan",
-            "boss": "Avarice",
             "isWhisper": false,
+            "boss": "Avarice",
             "name": "Kehjistan"
           },
           {
-            "id": "skovos",
+            "isWhisper": false,
             "boss": "Azmodan",
-            "name": "Skovos",
-            "isWhisper": false
+            "name": "Nahantu",
+            "id": "nahantu"
           }
         ]
       },
@@ -73,9 +61,21 @@
         "zone": [
           {
             "id": "scosglen",
-            "boss": "Avarice",
             "isWhisper": false,
+            "boss": "Avarice",
             "name": "Scosglen"
+          }
+        ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-05-24T08:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "boss": "Ashava",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       }
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-23T21:45:00.000Z"
-      },
-      {
         "startTime": "2026-05-23T22:10:00.000Z"
       },
       {
         "startTime": "2026-05-23T22:35:00.000Z"
+      },
+      {
+        "startTime": "2026-05-23T23:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-23T21:30:06.455Z"
+  "fetchedAt": "2026-05-23T21:52:34.183Z"
 }
