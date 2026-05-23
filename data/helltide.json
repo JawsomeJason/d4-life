@@ -10,13 +10,13 @@
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
+    "boss": "Wandering Death",
     "id": 1779559200,
     "nextTime": "2026-05-23T21:30:00.000Z",
     "startTime": "2026-05-23T18:00:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
+        "boss": "Wandering Death",
         "id": "kehjistan",
         "isWhisper": false,
         "name": "Kehjistan"
@@ -30,21 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1779550200,
-    "nextTime": "2026-05-23T15:55:00.000Z",
-    "startTime": "2026-05-23T15:30:00.000Z"
+    "id": 1779551700,
+    "nextTime": "2026-05-23T16:20:00.000Z",
+    "startTime": "2026-05-23T15:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Azmodan",
+        "boss": "Wandering Death",
         "startTime": "2026-05-23T18:00:00.000Z",
         "zone": [
           {
-            "boss": "Azmodan",
+            "boss": "Wandering Death",
+            "id": "kehjistan",
             "isWhisper": false,
-            "name": "Kehjistan",
-            "id": "kehjistan"
+            "name": "Kehjistan"
           }
         ]
       },
@@ -54,26 +55,26 @@
         "zone": [
           {
             "boss": "Wandering Death",
+            "id": "scosglen",
             "isWhisper": false,
-            "name": "Scosglen",
-            "id": "scosglen"
+            "name": "Scosglen"
           }
         ]
       },
       {
-        "boss": "Wandering Death",
+        "boss": "Avarice",
         "startTime": "2026-05-24T01:00:00.000Z",
         "zone": [
           {
             "isWhisper": false,
             "name": "Kehjistan",
-            "id": "kehjistan",
-            "boss": "Wandering Death"
+            "boss": "Avarice",
+            "id": "kehjistan"
           },
           {
-            "boss": "Azmodan",
             "isWhisper": false,
             "name": "Skovos",
+            "boss": "Azmodan",
             "id": "skovos"
           }
         ]
@@ -92,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-23T15:30:00.000Z"
-      },
-      {
         "startTime": "2026-05-23T15:55:00.000Z"
       },
       {
         "startTime": "2026-05-23T16:20:00.000Z"
+      },
+      {
+        "startTime": "2026-05-23T16:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-23T15:10:55.520Z"
+  "fetchedAt": "2026-05-23T15:38:54.038Z"
 }
