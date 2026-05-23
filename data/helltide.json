@@ -10,49 +10,50 @@
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
+    "boss": "Azmodan",
     "id": 1779534000,
+    "nahantuBoss": "Azmodan",
     "nextTime": "2026-05-23T14:30:00.000Z",
     "skovosBoss": "Azmodan",
     "startTime": "2026-05-23T11:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
+        "boss": "Azmodan",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Hawezar"
       },
       {
         "boss": "Azmodan",
-        "id": "skovos",
+        "id": "nahantu",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1779530700,
-    "nextTime": "2026-05-23T10:30:00.000Z",
-    "startTime": "2026-05-23T10:05:00.000Z",
+    "id": 1779533700,
+    "nextTime": "2026-05-23T11:20:00.000Z",
+    "startTime": "2026-05-23T10:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Ashava",
+        "boss": "Azmodan",
         "startTime": "2026-05-23T11:00:00.000Z",
         "zone": [
           {
-            "boss": "Ashava",
-            "isWhisper": false,
-            "name": "Kehjistan",
-            "id": "kehjistan"
+            "boss": "Azmodan",
+            "name": "Hawezar",
+            "id": "hawezar",
+            "isWhisper": false
           },
           {
+            "isWhisper": false,
             "boss": "Azmodan",
-            "name": "Skovos",
-            "id": "skovos",
-            "isWhisper": false
+            "name": "Nahantu",
+            "id": "nahantu"
           }
         ]
       },
@@ -61,10 +62,10 @@
         "startTime": "2026-05-23T14:30:00.000Z",
         "zone": [
           {
-            "boss": "Azmodan",
-            "name": "Scosglen",
+            "isWhisper": false,
             "id": "scosglen",
-            "isWhisper": false
+            "name": "Scosglen",
+            "boss": "Azmodan"
           }
         ]
       },
@@ -73,36 +74,36 @@
         "startTime": "2026-05-23T18:00:00.000Z",
         "zone": [
           {
-            "boss": "Azmodan",
-            "isWhisper": false,
+            "id": "kehjistan",
             "name": "Kehjistan",
-            "id": "kehjistan"
+            "boss": "Azmodan",
+            "isWhisper": false
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-05-23T10:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-23T11:00:00.000Z"
       },
       {
         "startTime": "2026-05-23T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-23T13:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-23T10:05:00.000Z"
-      },
       {
         "startTime": "2026-05-23T10:30:00.000Z"
       },
       {
         "startTime": "2026-05-23T10:55:00.000Z"
+      },
+      {
+        "startTime": "2026-05-23T11:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-23T09:57:18.650Z"
+  "fetchedAt": "2026-05-23T10:34:51.516Z"
 }
