@@ -11,17 +11,15 @@
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1779534000,
-    "nahantuBoss": "Azmodan",
-    "nextTime": "2026-05-23T14:30:00.000Z",
-    "skovosBoss": "Azmodan",
-    "startTime": "2026-05-23T11:00:00.000Z",
+    "id": 1779546600,
+    "nextTime": "2026-05-23T18:00:00.000Z",
+    "startTime": "2026-05-23T14:30:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "hawezar",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Hawezar"
+        "name": "Scosglen"
       },
       {
         "boss": "Azmodan",
@@ -32,39 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1779535200,
-    "nextTime": "2026-05-23T11:45:00.000Z",
-    "startTime": "2026-05-23T11:20:00.000Z"
+    "id": 1779536700,
+    "nextTime": "2026-05-23T12:10:00.000Z",
+    "startTime": "2026-05-23T11:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Azmodan",
-        "startTime": "2026-05-23T11:00:00.000Z",
-        "zone": [
-          {
-            "boss": "Azmodan",
-            "name": "Hawezar",
-            "id": "hawezar",
-            "isWhisper": false
-          },
-          {
-            "isWhisper": false,
-            "boss": "Azmodan",
-            "name": "Nahantu",
-            "id": "nahantu"
-          }
-        ]
-      },
-      {
-        "boss": "Azmodan",
         "startTime": "2026-05-23T14:30:00.000Z",
         "zone": [
           {
+            "boss": "Azmodan",
             "isWhisper": false,
             "id": "scosglen",
-            "name": "Scosglen",
-            "boss": "Azmodan"
+            "name": "Scosglen"
           }
         ]
       },
@@ -73,9 +54,21 @@
         "startTime": "2026-05-23T18:00:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
             "boss": "Azmodan",
+            "isWhisper": false,
+            "id": "kehjistan",
+            "name": "Kehjistan"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-05-23T21:30:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "boss": "Wandering Death",
             "isWhisper": false
           }
         ]
@@ -94,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-23T11:20:00.000Z"
-      },
-      {
         "startTime": "2026-05-23T11:45:00.000Z"
       },
       {
         "startTime": "2026-05-23T12:10:00.000Z"
+      },
+      {
+        "startTime": "2026-05-23T12:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-23T11:01:56.212Z"
+  "fetchedAt": "2026-05-23T11:34:12.148Z"
 }
