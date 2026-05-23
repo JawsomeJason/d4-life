@@ -11,15 +11,15 @@
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1779546600,
-    "nextTime": "2026-05-23T18:00:00.000Z",
-    "startTime": "2026-05-23T14:30:00.000Z",
+    "id": 1779559200,
+    "nextTime": "2026-05-23T21:30:00.000Z",
+    "startTime": "2026-05-23T18:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
         "boss": "Azmodan",
@@ -30,34 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1779545700,
-    "nextTime": "2026-05-23T14:40:00.000Z",
-    "startTime": "2026-05-23T14:15:00.000Z",
+    "id": 1779548700,
+    "nextTime": "2026-05-23T15:30:00.000Z",
+    "startTime": "2026-05-23T15:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Azmodan",
-        "startTime": "2026-05-23T14:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Azmodan"
-          }
-        ]
-      },
-      {
-        "boss": "Azmodan",
         "startTime": "2026-05-23T18:00:00.000Z",
         "zone": [
           {
-            "isWhisper": false,
             "boss": "Azmodan",
-            "id": "kehjistan",
-            "name": "Kehjistan"
+            "isWhisper": false,
+            "name": "Kehjistan",
+            "id": "kehjistan"
           }
         ]
       },
@@ -66,10 +54,28 @@
         "startTime": "2026-05-23T21:30:00.000Z",
         "zone": [
           {
-            "isWhisper": false,
             "boss": "Wandering Death",
+            "isWhisper": false,
             "name": "Scosglen",
             "id": "scosglen"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-05-24T01:00:00.000Z",
+        "zone": [
+          {
+            "isWhisper": false,
+            "name": "Kehjistan",
+            "id": "kehjistan",
+            "boss": "Wandering Death"
+          },
+          {
+            "boss": "Azmodan",
+            "isWhisper": false,
+            "name": "Skovos",
+            "id": "skovos"
           }
         ]
       }
@@ -87,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-23T14:15:00.000Z"
-      },
-      {
-        "startTime": "2026-05-23T14:40:00.000Z"
-      },
-      {
         "startTime": "2026-05-23T15:05:00.000Z"
+      },
+      {
+        "startTime": "2026-05-23T15:30:00.000Z"
+      },
+      {
+        "startTime": "2026-05-23T15:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-23T14:11:31.321Z"
+  "fetchedAt": "2026-05-23T14:43:59.045Z"
 }
