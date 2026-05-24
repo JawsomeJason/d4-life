@@ -1,69 +1,57 @@
 {
   "helltide": {
-    "endTime": "2026-05-24T11:55:00.000Z",
-    "id": 1779620400,
-    "startTime": "2026-05-24T11:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-24T12:55:00.000Z",
+    "id": 1779624000,
+    "startTime": "2026-05-24T12:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1779622200,
-    "nextTime": "2026-05-24T15:00:00.000Z",
-    "startTime": "2026-05-24T11:30:00.000Z",
+    "boss": "Azmodan",
+    "id": 1779634800,
+    "nextTime": "2026-05-24T18:30:00.000Z",
+    "skovosBoss": "Ashava",
+    "startTime": "2026-05-24T15:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "scosglen",
+        "boss": "Azmodan",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Ashava",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1779623700,
-    "nextTime": "2026-05-24T12:20:00.000Z",
-    "startTime": "2026-05-24T11:55:00.000Z",
-    "zoneWindow": true
+    "id": 1779625200,
+    "nextTime": "2026-05-24T12:45:00.000Z",
+    "startTime": "2026-05-24T12:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-05-24T11:30:00.000Z",
-        "zone": [
-          {
-            "isWhisper": false,
-            "boss": "Ashava",
-            "name": "Scosglen",
-            "id": "scosglen"
-          }
-        ]
-      },
       {
         "boss": "Azmodan",
         "startTime": "2026-05-24T15:00:00.000Z",
         "zone": [
           {
-            "name": "Dry Steppes",
-            "id": "dry_steppes",
             "isWhisper": false,
-            "boss": "Azmodan"
+            "boss": "Azmodan",
+            "name": "Dry Steppes",
+            "id": "dry_steppes"
           },
           {
-            "isWhisper": false,
             "boss": "Ashava",
-            "name": "Nahantu",
-            "id": "nahantu"
+            "name": "Skovos",
+            "id": "skovos",
+            "isWhisper": false
           }
         ]
       },
@@ -73,9 +61,21 @@
         "zone": [
           {
             "isWhisper": false,
+            "id": "fractured_peaks",
             "boss": "Azmodan",
-            "name": "Fractured Peaks",
-            "id": "fractured_peaks"
+            "name": "Fractured Peaks"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-05-24T22:00:00.000Z",
+        "zone": [
+          {
+            "boss": "Wandering Death",
+            "name": "Dry Steppes",
+            "id": "dry_steppes",
+            "isWhisper": false
           }
         ]
       }
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-24T11:30:00.000Z"
-      },
-      {
         "startTime": "2026-05-24T11:55:00.000Z"
       },
       {
         "startTime": "2026-05-24T12:20:00.000Z"
+      },
+      {
+        "startTime": "2026-05-24T12:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-24T11:31:24.354Z"
+  "fetchedAt": "2026-05-24T11:56:20.395Z"
 }
