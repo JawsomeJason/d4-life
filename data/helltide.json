@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-24T10:55:00.000Z",
-    "id": 1779616800,
-    "startTime": "2026-05-24T10:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-05-24T11:55:00.000Z",
+    "id": 1779620400,
+    "startTime": "2026-05-24T11:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1779619200,
-    "nextTime": "2026-05-24T11:05:00.000Z",
-    "startTime": "2026-05-24T10:40:00.000Z"
+    "id": 1779620700,
+    "nextTime": "2026-05-24T11:30:00.000Z",
+    "startTime": "2026-05-24T11:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +42,10 @@
         "startTime": "2026-05-24T11:30:00.000Z",
         "zone": [
           {
-            "boss": "Ashava",
             "isWhisper": false,
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks"
+            "boss": "Ashava",
+            "name": "Scosglen",
+            "id": "scosglen"
           }
         ]
       },
@@ -53,16 +54,16 @@
         "startTime": "2026-05-24T15:00:00.000Z",
         "zone": [
           {
+            "name": "Dry Steppes",
             "id": "dry_steppes",
-            "boss": "Azmodan",
             "isWhisper": false,
-            "name": "Dry Steppes"
+            "boss": "Azmodan"
           },
           {
-            "id": "nahantu",
-            "boss": "Ashava",
             "isWhisper": false,
-            "name": "Nahantu"
+            "boss": "Ashava",
+            "name": "Nahantu",
+            "id": "nahantu"
           }
         ]
       },
@@ -71,10 +72,10 @@
         "startTime": "2026-05-24T18:30:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "boss": "Azmodan",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "boss": "Azmodan",
+            "name": "Fractured Peaks",
+            "id": "fractured_peaks"
           }
         ]
       }
@@ -92,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-24T10:40:00.000Z"
-      },
-      {
         "startTime": "2026-05-24T11:05:00.000Z"
       },
       {
         "startTime": "2026-05-24T11:30:00.000Z"
+      },
+      {
+        "startTime": "2026-05-24T11:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-24T10:24:43.967Z"
+  "fetchedAt": "2026-05-24T10:56:51.532Z"
 }
