@@ -30,40 +30,21 @@
     ]
   },
   "legion": {
-    "id": 1779635700,
-    "nextTime": "2026-05-24T15:40:00.000Z",
-    "startTime": "2026-05-24T15:15:00.000Z",
-    "zoneWindow": true
+    "id": 1779637200,
+    "nextTime": "2026-05-24T16:05:00.000Z",
+    "startTime": "2026-05-24T15:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Azmodan",
-        "startTime": "2026-05-24T15:00:00.000Z",
-        "zone": [
-          {
-            "name": "Skovos",
-            "boss": "Avarice",
-            "isWhisper": false,
-            "id": "skovos"
-          },
-          {
-            "isWhisper": false,
-            "id": "scosglen",
-            "name": "Scosglen",
-            "boss": "Azmodan"
-          }
-        ]
-      },
-      {
-        "boss": "Azmodan",
         "startTime": "2026-05-24T18:30:00.000Z",
         "zone": [
           {
+            "boss": "Azmodan",
             "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Fractured Peaks",
-            "boss": "Azmodan"
+            "name": "Fractured Peaks"
           }
         ]
       },
@@ -72,10 +53,22 @@
         "startTime": "2026-05-24T22:00:00.000Z",
         "zone": [
           {
-            "name": "Dry Steppes",
-            "boss": "Wandering Death",
             "isWhisper": false,
-            "id": "dry_steppes"
+            "name": "Dry Steppes",
+            "id": "dry_steppes",
+            "boss": "Wandering Death"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-05-25T01:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "isWhisper": false,
+            "name": "Fractured Peaks",
+            "boss": "Wandering Death"
           }
         ]
       }
@@ -93,15 +86,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-24T15:15:00.000Z"
-      },
-      {
         "startTime": "2026-05-24T15:40:00.000Z"
       },
       {
         "startTime": "2026-05-24T16:05:00.000Z"
+      },
+      {
+        "startTime": "2026-05-24T16:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-24T15:06:09.377Z"
+  "fetchedAt": "2026-05-24T15:36:30.421Z"
 }
