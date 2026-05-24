@@ -11,15 +11,15 @@
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1779660000,
-    "nextTime": "2026-05-25T01:30:00.000Z",
-    "startTime": "2026-05-24T22:00:00.000Z",
+    "id": 1779672600,
+    "nextTime": "2026-05-25T05:00:00.000Z",
+    "startTime": "2026-05-25T01:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Azmodan",
@@ -30,33 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1779661200,
-    "nextTime": "2026-05-24T22:45:00.000Z",
-    "startTime": "2026-05-24T22:20:00.000Z"
+    "id": 1779662700,
+    "nextTime": "2026-05-24T23:10:00.000Z",
+    "startTime": "2026-05-24T22:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Wandering Death",
-        "startTime": "2026-05-24T22:00:00.000Z",
-        "zone": [
-          {
-            "isWhisper": false,
-            "id": "dry_steppes",
-            "boss": "Wandering Death",
-            "name": "Dry Steppes"
-          }
-        ]
-      },
-      {
-        "boss": "Wandering Death",
         "startTime": "2026-05-25T01:30:00.000Z",
         "zone": [
           {
-            "isWhisper": false,
+            "id": "fractured_peaks",
             "boss": "Wandering Death",
-            "name": "Fractured Peaks",
-            "id": "fractured_peaks"
+            "isWhisper": false,
+            "name": "Fractured Peaks"
           }
         ]
       },
@@ -65,16 +54,28 @@
         "startTime": "2026-05-25T05:00:00.000Z",
         "zone": [
           {
-            "isWhisper": false,
             "boss": "Avarice",
+            "isWhisper": false,
             "name": "Dry Steppes",
             "id": "dry_steppes"
           },
           {
-            "id": "skovos",
             "boss": "Ashava",
+            "isWhisper": false,
             "name": "Skovos",
-            "isWhisper": false
+            "id": "skovos"
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-25T08:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "isWhisper": false,
+            "name": "Fractured Peaks",
+            "boss": "Avarice"
           }
         ]
       }
@@ -92,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-24T22:20:00.000Z"
-      },
-      {
         "startTime": "2026-05-24T22:45:00.000Z"
       },
       {
         "startTime": "2026-05-24T23:10:00.000Z"
+      },
+      {
+        "startTime": "2026-05-24T23:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-24T22:00:28.958Z"
+  "fetchedAt": "2026-05-24T22:27:10.806Z"
 }
