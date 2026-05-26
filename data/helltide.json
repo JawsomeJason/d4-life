@@ -31,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1779758700,
-    "nextTime": "2026-05-26T01:50:00.000Z",
-    "startTime": "2026-05-26T01:25:00.000Z",
-    "zoneWindow": true
+    "id": 1779760200,
+    "nextTime": "2026-05-26T02:15:00.000Z",
+    "startTime": "2026-05-26T01:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -43,10 +42,10 @@
         "startTime": "2026-05-26T02:00:00.000Z",
         "zone": [
           {
-            "boss": "Wandering Death",
             "isWhisper": false,
-            "id": "kehjistan",
-            "name": "Kehjistan"
+            "id": "hawezar",
+            "name": "Hawezar",
+            "boss": "Wandering Death"
           }
         ]
       },
@@ -55,10 +54,10 @@
         "startTime": "2026-05-26T05:30:00.000Z",
         "zone": [
           {
-            "name": "Scosglen",
             "boss": "Wandering Death",
-            "isWhisper": false,
-            "id": "scosglen"
+            "name": "Scosglen",
+            "id": "scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -67,16 +66,16 @@
         "startTime": "2026-05-26T09:00:00.000Z",
         "zone": [
           {
-            "name": "Kehjistan",
-            "boss": "Avarice",
             "isWhisper": false,
-            "id": "kehjistan"
+            "id": "kehjistan",
+            "boss": "Avarice",
+            "name": "Kehjistan"
           },
           {
+            "name": "Skovos",
             "boss": "Avarice",
             "isWhisper": false,
-            "id": "skovos",
-            "name": "Skovos"
+            "id": "skovos"
           }
         ]
       }
@@ -94,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-26T01:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-26T01:25:00.000Z"
-      },
-      {
         "startTime": "2026-05-26T01:50:00.000Z"
+      },
+      {
+        "startTime": "2026-05-26T02:15:00.000Z"
+      },
+      {
+        "startTime": "2026-05-26T02:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-26T01:01:13.037Z"
+  "fetchedAt": "2026-05-26T01:45:44.336Z"
 }
