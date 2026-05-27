@@ -1,20 +1,19 @@
 {
   "helltide": {
-    "endTime": "2026-05-27T02:55:00.000Z",
-    "id": 1779847200,
-    "startTime": "2026-05-27T02:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-05-27T03:55:00.000Z",
+    "id": 1779850800,
+    "startTime": "2026-05-27T03:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Scorching Dunes (SW)",
-      "Amber Sands",
-      "Forgotten Coastline"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1779849000,
-    "nextTime": "2026-05-27T06:00:00.000Z",
-    "startTime": "2026-05-27T02:30:00.000Z",
+    "id": 1779861600,
+    "nextTime": "2026-05-27T09:30:00.000Z",
+    "startTime": "2026-05-27T06:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -31,25 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1779848700,
-    "nextTime": "2026-05-27T02:50:00.000Z",
-    "startTime": "2026-05-27T02:25:00.000Z",
-    "zoneWindow": true
+    "id": 1779853200,
+    "nextTime": "2026-05-27T04:05:00.000Z",
+    "startTime": "2026-05-27T03:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-27T02:30:00.000Z",
-        "zone": [
-          {
-            "isWhisper": false,
-            "name": "Dry Steppes",
-            "boss": "Wandering Death",
-            "id": "dry_steppes"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-05-27T06:00:00.000Z",
@@ -57,8 +43,8 @@
           {
             "boss": "Wandering Death",
             "isWhisper": false,
-            "name": "Dry Steppes",
-            "id": "dry_steppes"
+            "id": "dry_steppes",
+            "name": "Dry Steppes"
           }
         ]
       },
@@ -68,35 +54,53 @@
         "zone": [
           {
             "boss": "Wandering Death",
-            "name": "Fractured Peaks",
             "isWhisper": false,
-            "id": "fractured_peaks"
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks"
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-27T13:00:00.000Z",
+        "zone": [
+          {
+            "boss": "Avarice",
+            "isWhisper": false,
+            "id": "dry_steppes",
+            "name": "Dry Steppes"
+          },
+          {
+            "boss": "Wandering Death",
+            "isWhisper": false,
+            "id": "skovos",
+            "name": "Skovos"
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-05-27T03:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-27T04:00:00.000Z"
       },
       {
         "startTime": "2026-05-27T05:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-27T06:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-27T02:25:00.000Z"
+        "startTime": "2026-05-27T03:40:00.000Z"
       },
       {
-        "startTime": "2026-05-27T02:50:00.000Z"
+        "startTime": "2026-05-27T04:05:00.000Z"
       },
       {
-        "startTime": "2026-05-27T03:15:00.000Z"
+        "startTime": "2026-05-27T04:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-27T02:06:27.794Z"
+  "fetchedAt": "2026-05-27T03:22:58.560Z"
 }
