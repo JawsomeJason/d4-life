@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-27T15:55:00.000Z",
-    "id": 1779894000,
-    "startTime": "2026-05-27T15:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-05-27T16:55:00.000Z",
+    "id": 1779897600,
+    "startTime": "2026-05-27T16:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1779899400,
-    "nextTime": "2026-05-27T20:00:00.000Z",
-    "startTime": "2026-05-27T16:30:00.000Z",
+    "boss": "Ashava",
+    "id": 1779912000,
+    "nextTime": "2026-05-27T23:30:00.000Z",
+    "startTime": "2026-05-27T20:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Ashava",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Wandering Death",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1779895200,
-    "nextTime": "2026-05-27T15:45:00.000Z",
-    "startTime": "2026-05-27T15:20:00.000Z"
+    "id": 1779901200,
+    "nextTime": "2026-05-27T17:25:00.000Z",
+    "startTime": "2026-05-27T17:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -53,9 +53,9 @@
         "startTime": "2026-05-27T20:00:00.000Z",
         "zone": [
           {
-            "boss": "Ashava",
             "isWhisper": false,
             "name": "Kehjistan",
+            "boss": "Ashava",
             "id": "kehjistan"
           }
         ]
@@ -75,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-27T16:00:00.000Z"
+        "startTime": "2026-05-27T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-27T18:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-27T19:00:00.000Z"
+      }
+    ],
+    "legion": [
+      {
+        "startTime": "2026-05-27T16:35:00.000Z"
       },
       {
         "startTime": "2026-05-27T17:00:00.000Z"
       },
       {
-        "startTime": "2026-05-27T18:00:00.000Z"
-      }
-    ],
-    "legion": [
-      {
-        "startTime": "2026-05-27T15:20:00.000Z"
-      },
-      {
-        "startTime": "2026-05-27T15:45:00.000Z"
-      },
-      {
-        "startTime": "2026-05-27T16:10:00.000Z"
+        "startTime": "2026-05-27T17:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-27T15:19:30.607Z"
+  "fetchedAt": "2026-05-27T16:36:42.255Z"
 }
