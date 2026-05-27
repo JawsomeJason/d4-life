@@ -11,13 +11,13 @@
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
+    "boss": "Azmodan",
     "id": 1779924600,
     "nextTime": "2026-05-28T03:00:00.000Z",
     "startTime": "2026-05-27T23:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
+        "boss": "Azmodan",
         "id": "scosglen",
         "isWhisper": false,
         "name": "Scosglen"
@@ -31,22 +31,22 @@
     ]
   },
   "legion": {
-    "id": 1779920700,
-    "nextTime": "2026-05-27T22:50:00.000Z",
-    "startTime": "2026-05-27T22:25:00.000Z",
+    "id": 1779923700,
+    "nextTime": "2026-05-27T23:40:00.000Z",
+    "startTime": "2026-05-27T23:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Ashava",
+        "boss": "Azmodan",
         "startTime": "2026-05-27T23:30:00.000Z",
         "zone": [
           {
-            "boss": "Ashava",
-            "id": "scosglen",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Scosglen",
+            "boss": "Azmodan",
+            "id": "scosglen"
           }
         ]
       },
@@ -55,16 +55,16 @@
         "startTime": "2026-05-28T03:00:00.000Z",
         "zone": [
           {
-            "boss": "Azmodan",
-            "isWhisper": false,
+            "id": "kehjistan",
             "name": "Kehjistan",
-            "id": "kehjistan"
+            "isWhisper": false,
+            "boss": "Azmodan"
           },
           {
-            "boss": "Azmodan",
-            "id": "nahantu",
+            "name": "Nahantu",
             "isWhisper": false,
-            "name": "Nahantu"
+            "id": "nahantu",
+            "boss": "Azmodan"
           }
         ]
       },
@@ -73,10 +73,10 @@
         "startTime": "2026-05-28T06:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "isWhisper": false,
+            "boss": "Azmodan",
             "name": "Scosglen",
-            "boss": "Azmodan"
+            "isWhisper": false,
+            "id": "scosglen"
           }
         ]
       }
@@ -94,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-27T22:25:00.000Z"
-      },
-      {
-        "startTime": "2026-05-27T22:50:00.000Z"
-      },
-      {
         "startTime": "2026-05-27T23:15:00.000Z"
+      },
+      {
+        "startTime": "2026-05-27T23:40:00.000Z"
+      },
+      {
+        "startTime": "2026-05-28T00:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-27T22:21:23.847Z"
+  "fetchedAt": "2026-05-27T22:54:59.299Z"
 }
