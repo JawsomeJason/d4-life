@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-28T07:55:00.000Z",
-    "id": 1779951600,
-    "startTime": "2026-05-28T07:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-05-28T09:55:00.000Z",
+    "id": 1779958800,
+    "startTime": "2026-05-28T09:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1779955200,
-    "nextTime": "2026-05-28T08:25:00.000Z",
-    "startTime": "2026-05-28T08:00:00.000Z"
+    "id": 1779959700,
+    "nextTime": "2026-05-28T09:40:00.000Z",
+    "startTime": "2026-05-28T09:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-28T08:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-28T09:00:00.000Z"
       },
       {
         "startTime": "2026-05-28T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-28T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-28T08:00:00.000Z"
+        "startTime": "2026-05-28T09:15:00.000Z"
       },
       {
-        "startTime": "2026-05-28T08:25:00.000Z"
+        "startTime": "2026-05-28T09:40:00.000Z"
       },
       {
-        "startTime": "2026-05-28T08:50:00.000Z"
+        "startTime": "2026-05-28T10:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-28T07:43:54.137Z"
+  "fetchedAt": "2026-05-28T08:58:14.205Z"
 }
