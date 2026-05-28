@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-28T19:55:00.000Z",
-    "id": 1779994800,
-    "startTime": "2026-05-28T19:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-05-28T20:55:00.000Z",
+    "id": 1779998400,
+    "startTime": "2026-05-28T20:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
+    "boss": "Azmodan",
     "id": 1780000200,
     "nextTime": "2026-05-29T00:00:00.000Z",
     "startTime": "2026-05-28T20:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "fractured_peaks",
+        "boss": "Azmodan",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Wandering Death",
@@ -30,22 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1779995700,
-    "nextTime": "2026-05-28T19:40:00.000Z",
-    "startTime": "2026-05-28T19:15:00.000Z",
+    "id": 1779998700,
+    "nextTime": "2026-05-28T20:30:00.000Z",
+    "startTime": "2026-05-28T20:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Avarice",
+        "boss": "Azmodan",
         "startTime": "2026-05-28T20:30:00.000Z",
         "zone": [
           {
-            "boss": "Avarice",
-            "name": "Fractured Peaks",
-            "id": "fractured_peaks",
-            "isWhisper": false
+            "isWhisper": false,
+            "boss": "Azmodan",
+            "id": "dry_steppes",
+            "name": "Dry Steppes"
           }
         ]
       },
@@ -54,10 +54,10 @@
         "startTime": "2026-05-29T00:00:00.000Z",
         "zone": [
           {
-            "boss": "Ashava",
             "name": "Dry Steppes",
+            "isWhisper": false,
             "id": "dry_steppes",
-            "isWhisper": false
+            "boss": "Ashava"
           }
         ]
       },
@@ -66,10 +66,10 @@
         "startTime": "2026-05-29T03:30:00.000Z",
         "zone": [
           {
-            "boss": "Ashava",
-            "name": "Fractured Peaks",
+            "isWhisper": false,
             "id": "fractured_peaks",
-            "isWhisper": false
+            "boss": "Ashava",
+            "name": "Fractured Peaks"
           }
         ]
       }
@@ -87,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-28T19:15:00.000Z"
-      },
-      {
-        "startTime": "2026-05-28T19:40:00.000Z"
-      },
-      {
         "startTime": "2026-05-28T20:05:00.000Z"
+      },
+      {
+        "startTime": "2026-05-28T20:30:00.000Z"
+      },
+      {
+        "startTime": "2026-05-28T20:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-28T19:05:39.227Z"
+  "fetchedAt": "2026-05-28T19:58:49.099Z"
 }
