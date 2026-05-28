@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-28T09:55:00.000Z",
-    "id": 1779958800,
-    "startTime": "2026-05-28T09:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-05-28T10:55:00.000Z",
+    "id": 1779962400,
+    "startTime": "2026-05-28T10:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1779962400,
-    "nextTime": "2026-05-28T13:30:00.000Z",
-    "startTime": "2026-05-28T10:00:00.000Z",
+    "id": 1779975000,
+    "nextTime": "2026-05-28T17:00:00.000Z",
+    "startTime": "2026-05-28T13:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Wandering Death",
@@ -30,34 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1779959700,
-    "nextTime": "2026-05-28T09:40:00.000Z",
-    "startTime": "2026-05-28T09:15:00.000Z",
+    "id": 1779965700,
+    "nextTime": "2026-05-28T11:20:00.000Z",
+    "startTime": "2026-05-28T10:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Wandering Death",
-        "startTime": "2026-05-28T10:00:00.000Z",
-        "zone": [
-          {
-            "name": "Kehjistan",
-            "id": "kehjistan",
-            "boss": "Wandering Death",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Wandering Death",
         "startTime": "2026-05-28T13:30:00.000Z",
         "zone": [
           {
-            "name": "Scosglen",
-            "id": "scosglen",
             "boss": "Wandering Death",
-            "isWhisper": false
+            "isWhisper": false,
+            "name": "Scosglen",
+            "id": "scosglen"
           }
         ]
       },
@@ -66,42 +54,54 @@
         "startTime": "2026-05-28T17:00:00.000Z",
         "zone": [
           {
-            "boss": "Avarice",
-            "isWhisper": false,
+            "name": "Kehjistan",
             "id": "kehjistan",
-            "name": "Kehjistan"
+            "boss": "Avarice",
+            "isWhisper": false
           },
           {
-            "boss": "Azmodan",
-            "isWhisper": false,
             "id": "skovos",
-            "name": "Skovos"
+            "name": "Skovos",
+            "boss": "Azmodan",
+            "isWhisper": false
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-05-28T20:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "boss": "Avarice",
+            "isWhisper": false
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-05-28T09:00:00.000Z"
-      },
-      {
-        "startTime": "2026-05-28T10:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-28T11:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-28T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-28T13:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-05-28T09:15:00.000Z"
+        "startTime": "2026-05-28T10:30:00.000Z"
       },
       {
-        "startTime": "2026-05-28T09:40:00.000Z"
+        "startTime": "2026-05-28T10:55:00.000Z"
       },
       {
-        "startTime": "2026-05-28T10:05:00.000Z"
+        "startTime": "2026-05-28T11:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-28T08:58:14.205Z"
+  "fetchedAt": "2026-05-28T10:32:35.625Z"
 }
