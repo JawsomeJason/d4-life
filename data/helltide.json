@@ -10,16 +10,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
+    "boss": "Azmodan",
     "id": 1780101000,
     "nextTime": "2026-05-30T04:00:00.000Z",
     "startTime": "2026-05-30T00:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Azmodan",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -30,22 +30,21 @@
     ]
   },
   "legion": {
-    "id": 1780097700,
-    "nextTime": "2026-05-30T00:00:00.000Z",
-    "startTime": "2026-05-29T23:35:00.000Z",
-    "zoneWindow": true
+    "id": 1780099200,
+    "nextTime": "2026-05-30T00:25:00.000Z",
+    "startTime": "2026-05-30T00:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Avarice",
+        "boss": "Azmodan",
         "startTime": "2026-05-30T00:30:00.000Z",
         "zone": [
           {
-            "boss": "Avarice",
             "isWhisper": false,
-            "name": "Scosglen",
-            "id": "scosglen"
+            "name": "Dry Steppes",
+            "id": "dry_steppes",
+            "boss": "Azmodan"
           }
         ]
       },
@@ -55,9 +54,9 @@
         "zone": [
           {
             "boss": "Ashava",
-            "isWhisper": false,
+            "id": "kehjistan",
             "name": "Kehjistan",
-            "id": "kehjistan"
+            "isWhisper": false
           }
         ]
       },
@@ -67,9 +66,9 @@
         "zone": [
           {
             "boss": "Ashava",
-            "isWhisper": false,
+            "id": "scosglen",
             "name": "Scosglen",
-            "id": "scosglen"
+            "isWhisper": false
           }
         ]
       }
@@ -87,15 +86,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-29T23:35:00.000Z"
-      },
-      {
         "startTime": "2026-05-30T00:00:00.000Z"
       },
       {
         "startTime": "2026-05-30T00:25:00.000Z"
+      },
+      {
+        "startTime": "2026-05-30T00:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-29T23:20:10.839Z"
+  "fetchedAt": "2026-05-29T23:50:27.148Z"
 }
