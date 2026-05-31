@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-05-31T09:55:00.000Z",
-    "id": 1780218000,
-    "startTime": "2026-05-31T09:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-05-31T10:55:00.000Z",
+    "id": 1780221600,
+    "startTime": "2026-05-31T10:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
+    "boss": "Wandering Death",
     "id": 1780227000,
     "nextTime": "2026-05-31T15:00:00.000Z",
     "startTime": "2026-05-31T11:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "fractured_peaks",
+        "boss": "Wandering Death",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1780222200,
-    "nextTime": "2026-05-31T10:35:00.000Z",
-    "startTime": "2026-05-31T10:10:00.000Z"
+    "id": 1780223700,
+    "nextTime": "2026-05-31T11:00:00.000Z",
+    "startTime": "2026-05-31T10:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-05-31T10:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-31T11:00:00.000Z"
       },
       {
         "startTime": "2026-05-31T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-31T13:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-31T10:10:00.000Z"
-      },
       {
         "startTime": "2026-05-31T10:35:00.000Z"
       },
       {
         "startTime": "2026-05-31T11:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-31T11:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-31T09:50:01.298Z"
+  "fetchedAt": "2026-05-31T10:33:47.145Z"
 }
