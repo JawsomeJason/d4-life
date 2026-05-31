@@ -11,16 +11,16 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
+    "boss": "Ashava",
     "id": 1780264800,
     "nextTime": "2026-06-01T01:30:00.000Z",
     "startTime": "2026-05-31T22:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Kehjistan"
       },
       {
         "boss": "Azmodan",
@@ -31,21 +31,21 @@
     ]
   },
   "legion": {
-    "id": 1780261200,
-    "nextTime": "2026-05-31T21:25:00.000Z",
-    "startTime": "2026-05-31T21:00:00.000Z"
+    "id": 1780264200,
+    "nextTime": "2026-05-31T22:15:00.000Z",
+    "startTime": "2026-05-31T21:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Wandering Death",
+        "boss": "Ashava",
         "startTime": "2026-05-31T22:00:00.000Z",
         "zone": [
           {
+            "name": "Kehjistan",
+            "id": "kehjistan",
             "isWhisper": false,
-            "boss": "Wandering Death",
-            "name": "Dry Steppes",
-            "id": "dry_steppes"
+            "boss": "Ashava"
           }
         ]
       },
@@ -55,8 +55,8 @@
         "zone": [
           {
             "boss": "Wandering Death",
-            "name": "Scosglen",
             "id": "scosglen",
+            "name": "Scosglen",
             "isWhisper": false
           }
         ]
@@ -67,41 +67,41 @@
         "zone": [
           {
             "boss": "Avarice",
-            "name": "Kehjistan",
+            "isWhisper": false,
             "id": "kehjistan",
-            "isWhisper": false
+            "name": "Kehjistan"
           },
           {
             "isWhisper": false,
-            "boss": "Wandering Death",
+            "id": "skovos",
             "name": "Skovos",
-            "id": "skovos"
+            "boss": "Wandering Death"
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-05-31T21:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-31T22:00:00.000Z"
       },
       {
         "startTime": "2026-05-31T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-01T00:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-31T21:00:00.000Z"
-      },
       {
         "startTime": "2026-05-31T21:25:00.000Z"
       },
       {
         "startTime": "2026-05-31T21:50:00.000Z"
+      },
+      {
+        "startTime": "2026-05-31T22:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-31T20:58:33.527Z"
+  "fetchedAt": "2026-05-31T21:27:17.439Z"
 }
