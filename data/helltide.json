@@ -11,19 +11,20 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1780227000,
-    "nextTime": "2026-05-31T15:00:00.000Z",
-    "startTime": "2026-05-31T11:30:00.000Z",
+    "boss": "Azmodan",
+    "id": 1780239600,
+    "nextTime": "2026-05-31T18:30:00.000Z",
+    "skovosBoss": "Wandering Death",
+    "startTime": "2026-05-31T15:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "kehjistan",
+        "boss": "Azmodan",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Dry Steppes"
       },
       {
-        "boss": "Ashava",
+        "boss": "Wandering Death",
         "id": "skovos",
         "isWhisper": false,
         "name": "Skovos"
@@ -31,40 +32,27 @@
     ]
   },
   "legion": {
-    "id": 1780226700,
-    "nextTime": "2026-05-31T11:50:00.000Z",
-    "startTime": "2026-05-31T11:25:00.000Z",
-    "zoneWindow": true
+    "id": 1780228200,
+    "nextTime": "2026-05-31T12:15:00.000Z",
+    "startTime": "2026-05-31T11:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-05-31T11:30:00.000Z",
-        "zone": [
-          {
-            "isWhisper": false,
-            "boss": "Wandering Death",
-            "name": "Kehjistan",
-            "id": "kehjistan"
-          }
-        ]
-      },
       {
         "boss": "Azmodan",
         "startTime": "2026-05-31T15:00:00.000Z",
         "zone": [
           {
             "id": "dry_steppes",
-            "name": "Dry Steppes",
+            "boss": "Azmodan",
             "isWhisper": false,
-            "boss": "Azmodan"
+            "name": "Dry Steppes"
           },
           {
-            "isWhisper": false,
+            "id": "skovos",
+            "name": "Skovos",
             "boss": "Wandering Death",
-            "id": "nahantu",
-            "name": "Nahantu"
+            "isWhisper": false
           }
         ]
       },
@@ -74,9 +62,21 @@
         "zone": [
           {
             "id": "fractured_peaks",
-            "name": "Fractured Peaks",
+            "boss": "Azmodan",
             "isWhisper": false,
-            "boss": "Azmodan"
+            "name": "Fractured Peaks"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-05-31T22:00:00.000Z",
+        "zone": [
+          {
+            "boss": "Wandering Death",
+            "isWhisper": false,
+            "name": "Dry Steppes",
+            "id": "dry_steppes"
           }
         ]
       }
@@ -94,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-05-31T11:25:00.000Z"
-      },
-      {
         "startTime": "2026-05-31T11:50:00.000Z"
       },
       {
         "startTime": "2026-05-31T12:15:00.000Z"
+      },
+      {
+        "startTime": "2026-05-31T12:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-31T11:14:02.685Z"
+  "fetchedAt": "2026-05-31T11:50:31.661Z"
 }
