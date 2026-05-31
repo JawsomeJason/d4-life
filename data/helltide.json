@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-05-31T18:55:00.000Z",
-    "id": 1780250400,
-    "startTime": "2026-05-31T18:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-05-31T19:55:00.000Z",
+    "id": 1780254000,
+    "startTime": "2026-05-31T19:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Cursed Scarps",
+      "Túr Dúlra North"
     ]
   },
   "world_boss": {
@@ -30,34 +30,21 @@
     ]
   },
   "legion": {
-    "id": 1780253700,
-    "nextTime": "2026-05-31T19:20:00.000Z",
-    "startTime": "2026-05-31T18:55:00.000Z",
-    "zoneWindow": true
+    "id": 1780255200,
+    "nextTime": "2026-05-31T19:45:00.000Z",
+    "startTime": "2026-05-31T19:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-05-31T18:30:00.000Z",
-        "zone": [
-          {
-            "boss": "Avarice",
-            "isWhisper": false,
-            "name": "Scosglen",
-            "id": "scosglen"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-05-31T22:00:00.000Z",
         "zone": [
           {
-            "boss": "Wandering Death",
             "isWhisper": false,
-            "id": "dry_steppes",
-            "name": "Dry Steppes"
+            "boss": "Wandering Death",
+            "name": "Dry Steppes",
+            "id": "dry_steppes"
           }
         ]
       },
@@ -66,36 +53,54 @@
         "startTime": "2026-06-01T01:30:00.000Z",
         "zone": [
           {
-            "isWhisper": false,
-            "id": "scosglen",
+            "boss": "Wandering Death",
             "name": "Scosglen",
-            "boss": "Wandering Death"
+            "id": "scosglen",
+            "isWhisper": false
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-06-01T05:00:00.000Z",
+        "zone": [
+          {
+            "boss": "Avarice",
+            "name": "Kehjistan",
+            "id": "kehjistan",
+            "isWhisper": false
+          },
+          {
+            "isWhisper": false,
+            "boss": "Wandering Death",
+            "name": "Skovos",
+            "id": "skovos"
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-05-31T19:00:00.000Z"
-      },
-      {
         "startTime": "2026-05-31T20:00:00.000Z"
       },
       {
         "startTime": "2026-05-31T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-05-31T22:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-05-31T18:55:00.000Z"
-      },
       {
         "startTime": "2026-05-31T19:20:00.000Z"
       },
       {
         "startTime": "2026-05-31T19:45:00.000Z"
+      },
+      {
+        "startTime": "2026-05-31T20:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-05-31T18:37:08.998Z"
+  "fetchedAt": "2026-05-31T19:04:23.064Z"
 }
