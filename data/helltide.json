@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-06-01T05:55:00.000Z",
-    "id": 1780290000,
-    "startTime": "2026-06-01T05:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-06-01T07:55:00.000Z",
+    "id": 1780297200,
+    "startTime": "2026-06-01T07:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Forgotten Coastline (S)",
+      "Amber Sands",
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
@@ -30,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1780292700,
-    "nextTime": "2026-06-01T06:10:00.000Z",
-    "startTime": "2026-06-01T05:45:00.000Z",
-    "zoneWindow": true
+    "id": 1780300200,
+    "nextTime": "2026-06-01T08:15:00.000Z",
+    "startTime": "2026-06-01T07:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -76,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-01T06:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-01T07:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-01T08:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-01T09:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-01T10:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-01T05:45:00.000Z"
+        "startTime": "2026-06-01T07:50:00.000Z"
       },
       {
-        "startTime": "2026-06-01T06:10:00.000Z"
+        "startTime": "2026-06-01T08:15:00.000Z"
       },
       {
-        "startTime": "2026-06-01T06:35:00.000Z"
+        "startTime": "2026-06-01T08:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-01T05:43:35.226Z"
+  "fetchedAt": "2026-06-01T07:28:00.532Z"
 }
