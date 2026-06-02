@@ -10,48 +10,48 @@
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
+    "boss": "Avarice",
     "id": 1780441200,
     "nextTime": "2026-06-03T02:30:00.000Z",
-    "skovosBoss": "Ashava",
+    "skovosBoss": "Avarice",
     "startTime": "2026-06-02T23:00:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
-        "id": "dry_steppes",
-        "isWhisper": false,
-        "name": "Dry Steppes"
-      },
-      {
-        "boss": "Ashava",
+        "boss": "Avarice",
         "id": "skovos",
         "isWhisper": false,
         "name": "Skovos"
+      },
+      {
+        "boss": "Avarice",
+        "id": "scosglen",
+        "isWhisper": false,
+        "name": "Scosglen"
       }
     ]
   },
   "legion": {
-    "id": 1780438200,
-    "nextTime": "2026-06-02T22:35:00.000Z",
-    "startTime": "2026-06-02T22:10:00.000Z"
+    "id": 1780441200,
+    "nextTime": "2026-06-02T23:25:00.000Z",
+    "startTime": "2026-06-02T23:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Azmodan",
+        "boss": "Avarice",
         "startTime": "2026-06-02T23:00:00.000Z",
         "zone": [
           {
-            "boss": "Azmodan",
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false
-          },
-          {
+            "boss": "Avarice",
             "isWhisper": false,
             "name": "Skovos",
-            "id": "skovos",
-            "boss": "Ashava"
+            "id": "skovos"
+          },
+          {
+            "boss": "Avarice",
+            "name": "Scosglen",
+            "id": "scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -60,10 +60,10 @@
         "startTime": "2026-06-03T02:30:00.000Z",
         "zone": [
           {
+            "id": "fractured_peaks",
             "name": "Fractured Peaks",
             "isWhisper": false,
-            "boss": "Azmodan",
-            "id": "fractured_peaks"
+            "boss": "Azmodan"
           }
         ]
       },
@@ -72,36 +72,36 @@
         "startTime": "2026-06-03T06:00:00.000Z",
         "zone": [
           {
-            "name": "Kehjistan",
             "isWhisper": false,
-            "boss": "Wandering Death",
-            "id": "kehjistan"
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "boss": "Wandering Death"
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-06-02T22:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-02T23:00:00.000Z"
       },
       {
         "startTime": "2026-06-03T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-03T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-02T22:10:00.000Z"
-      },
-      {
-        "startTime": "2026-06-02T22:35:00.000Z"
-      },
-      {
         "startTime": "2026-06-02T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-02T23:25:00.000Z"
+      },
+      {
+        "startTime": "2026-06-02T23:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-02T21:56:43.165Z"
+  "fetchedAt": "2026-06-02T22:44:27.078Z"
 }
