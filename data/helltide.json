@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-02T14:55:00.000Z",
-    "id": 1780408800,
-    "startTime": "2026-06-02T14:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-02T15:55:00.000Z",
+    "id": 1780412400,
+    "startTime": "2026-06-02T15:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
+    "boss": "Wandering Death",
     "id": 1780416000,
     "nextTime": "2026-06-02T19:30:00.000Z",
     "startTime": "2026-06-02T16:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "dry_steppes",
+        "boss": "Wandering Death",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -30,21 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1780411200,
-    "nextTime": "2026-06-02T15:05:00.000Z",
-    "startTime": "2026-06-02T14:40:00.000Z"
+    "id": 1780415700,
+    "nextTime": "2026-06-02T16:20:00.000Z",
+    "startTime": "2026-06-02T15:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Ashava",
+        "boss": "Wandering Death",
         "startTime": "2026-06-02T16:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "boss": "Ashava",
-            "name": "Dry Steppes",
-            "isWhisper": false
+            "isWhisper": false,
+            "boss": "Wandering Death",
+            "id": "kehjistan",
+            "name": "Kehjistan"
           }
         ]
       },
@@ -53,9 +54,9 @@
         "startTime": "2026-06-02T19:30:00.000Z",
         "zone": [
           {
+            "boss": "Ashava",
             "isWhisper": false,
             "id": "fractured_peaks",
-            "boss": "Ashava",
             "name": "Fractured Peaks"
           }
         ]
@@ -65,15 +66,15 @@
         "startTime": "2026-06-02T23:00:00.000Z",
         "zone": [
           {
+            "isWhisper": false,
             "boss": "Azmodan",
-            "name": "Dry Steppes",
             "id": "dry_steppes",
-            "isWhisper": false
+            "name": "Dry Steppes"
           },
           {
-            "isWhisper": false,
             "id": "skovos",
             "boss": "Ashava",
+            "isWhisper": false,
             "name": "Skovos"
           }
         ]
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-02T15:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-02T16:00:00.000Z"
       },
       {
         "startTime": "2026-06-02T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-02T18:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-02T14:40:00.000Z"
+        "startTime": "2026-06-02T15:55:00.000Z"
       },
       {
-        "startTime": "2026-06-02T15:05:00.000Z"
+        "startTime": "2026-06-02T16:20:00.000Z"
       },
       {
-        "startTime": "2026-06-02T15:30:00.000Z"
+        "startTime": "2026-06-02T16:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-02T14:21:42.874Z"
+  "fetchedAt": "2026-06-02T15:46:12.871Z"
 }
