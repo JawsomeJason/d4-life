@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-03T21:55:00.000Z",
-    "id": 1780520400,
-    "startTime": "2026-06-03T21:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-03T22:55:00.000Z",
+    "id": 1780524000,
+    "startTime": "2026-06-03T22:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1780522200,
-    "nextTime": "2026-06-03T21:55:00.000Z",
-    "startTime": "2026-06-03T21:30:00.000Z"
+    "id": 1780525200,
+    "nextTime": "2026-06-03T22:45:00.000Z",
+    "startTime": "2026-06-03T22:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-03T22:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-03T23:00:00.000Z"
       },
       {
         "startTime": "2026-06-04T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-04T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-03T21:30:00.000Z"
-      },
-      {
-        "startTime": "2026-06-03T21:55:00.000Z"
-      },
-      {
         "startTime": "2026-06-03T22:20:00.000Z"
+      },
+      {
+        "startTime": "2026-06-03T22:45:00.000Z"
+      },
+      {
+        "startTime": "2026-06-03T23:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-03T21:16:32.729Z"
+  "fetchedAt": "2026-06-03T22:13:32.331Z"
 }
