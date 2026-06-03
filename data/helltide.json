@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-03T17:55:00.000Z",
-    "id": 1780506000,
-    "startTime": "2026-06-03T17:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-06-03T18:55:00.000Z",
+    "id": 1780509600,
+    "startTime": "2026-06-03T18:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1780508700,
-    "nextTime": "2026-06-03T18:10:00.000Z",
-    "startTime": "2026-06-03T17:45:00.000Z",
-    "zoneWindow": true
+    "id": 1780513200,
+    "nextTime": "2026-06-03T19:25:00.000Z",
+    "startTime": "2026-06-03T19:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-03T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-03T19:00:00.000Z"
       },
       {
         "startTime": "2026-06-03T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-03T21:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-03T17:45:00.000Z"
+        "startTime": "2026-06-03T19:00:00.000Z"
       },
       {
-        "startTime": "2026-06-03T18:10:00.000Z"
+        "startTime": "2026-06-03T19:25:00.000Z"
       },
       {
-        "startTime": "2026-06-03T18:35:00.000Z"
+        "startTime": "2026-06-03T19:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-03T17:30:27.858Z"
+  "fetchedAt": "2026-06-03T18:51:39.067Z"
 }
