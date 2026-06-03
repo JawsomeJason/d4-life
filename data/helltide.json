@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-03T07:55:00.000Z",
-    "id": 1780470000,
-    "startTime": "2026-06-03T07:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-06-03T08:55:00.000Z",
+    "id": 1780473600,
+    "startTime": "2026-06-03T08:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
+    "boss": "Azmodan",
     "id": 1780479000,
     "nextTime": "2026-06-03T13:00:00.000Z",
     "startTime": "2026-06-03T09:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "scosglen",
+        "boss": "Azmodan",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -30,21 +30,21 @@
     ]
   },
   "legion": {
-    "id": 1780471200,
-    "nextTime": "2026-06-03T07:45:00.000Z",
-    "startTime": "2026-06-03T07:20:00.000Z"
+    "id": 1780477200,
+    "nextTime": "2026-06-03T09:25:00.000Z",
+    "startTime": "2026-06-03T09:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Wandering Death",
+        "boss": "Azmodan",
         "startTime": "2026-06-03T09:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "dry_steppes",
+            "boss": "Azmodan",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -81,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-03T08:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-03T09:00:00.000Z"
       },
       {
         "startTime": "2026-06-03T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-03T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-03T07:20:00.000Z"
+        "startTime": "2026-06-03T09:00:00.000Z"
       },
       {
-        "startTime": "2026-06-03T07:45:00.000Z"
+        "startTime": "2026-06-03T09:25:00.000Z"
       },
       {
-        "startTime": "2026-06-03T08:10:00.000Z"
+        "startTime": "2026-06-03T09:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-03T07:10:22.687Z"
+  "fetchedAt": "2026-06-03T08:53:29.119Z"
 }
