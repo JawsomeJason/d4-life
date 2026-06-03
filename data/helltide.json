@@ -1,22 +1,22 @@
 {
   "helltide": {
-    "endTime": "2026-06-03T02:55:00.000Z",
-    "id": 1780452000,
-    "startTime": "2026-06-03T02:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-06-03T03:55:00.000Z",
+    "id": 1780455600,
+    "startTime": "2026-06-03T03:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1780453800,
-    "nextTime": "2026-06-03T06:00:00.000Z",
-    "startTime": "2026-06-03T02:30:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1780466400,
+    "nextTime": "2026-06-03T09:30:00.000Z",
+    "startTime": "2026-06-03T06:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
+        "boss": "Wandering Death",
         "id": "kehjistan",
         "isWhisper": false,
         "name": "Kehjistan"
@@ -30,34 +30,21 @@
     ]
   },
   "legion": {
-    "id": 1780454700,
-    "nextTime": "2026-06-03T03:10:00.000Z",
-    "startTime": "2026-06-03T02:45:00.000Z",
-    "zoneWindow": true
+    "id": 1780459200,
+    "nextTime": "2026-06-03T04:25:00.000Z",
+    "startTime": "2026-06-03T04:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-06-03T02:30:00.000Z",
-        "zone": [
-          {
-            "name": "Kehjistan",
-            "id": "kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-06-03T06:00:00.000Z",
         "zone": [
           {
             "id": "kehjistan",
+            "isWhisper": false,
             "name": "Kehjistan",
-            "boss": "Wandering Death",
-            "isWhisper": false
+            "boss": "Wandering Death"
           }
         ]
       },
@@ -66,36 +53,54 @@
         "startTime": "2026-06-03T09:30:00.000Z",
         "zone": [
           {
+            "id": "scosglen",
             "isWhisper": false,
-            "boss": "Wandering Death",
             "name": "Scosglen",
-            "id": "scosglen"
+            "boss": "Wandering Death"
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-06-03T13:00:00.000Z",
+        "zone": [
+          {
+            "isWhisper": false,
+            "name": "Kehjistan",
+            "id": "kehjistan",
+            "boss": "Avarice"
+          },
+          {
+            "isWhisper": false,
+            "name": "Skovos",
+            "id": "skovos",
+            "boss": "Ashava"
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-06-03T03:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-03T04:00:00.000Z"
       },
       {
         "startTime": "2026-06-03T05:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-03T06:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-03T02:45:00.000Z"
+        "startTime": "2026-06-03T04:00:00.000Z"
       },
       {
-        "startTime": "2026-06-03T03:10:00.000Z"
+        "startTime": "2026-06-03T04:25:00.000Z"
       },
       {
-        "startTime": "2026-06-03T03:35:00.000Z"
+        "startTime": "2026-06-03T04:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-03T02:23:20.125Z"
+  "fetchedAt": "2026-06-03T03:42:59.705Z"
 }
