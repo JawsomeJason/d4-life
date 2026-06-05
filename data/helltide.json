@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-05T12:55:00.000Z",
-    "id": 1780660800,
-    "startTime": "2026-06-05T12:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-05T13:55:00.000Z",
+    "id": 1780664400,
+    "startTime": "2026-06-05T13:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
+    "boss": "Azmodan",
     "id": 1780668000,
     "nextTime": "2026-06-05T17:30:00.000Z",
     "startTime": "2026-06-05T14:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "kehjistan",
+        "boss": "Azmodan",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Ashava",
@@ -30,22 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1780664700,
-    "nextTime": "2026-06-05T13:30:00.000Z",
-    "startTime": "2026-06-05T13:05:00.000Z",
+    "id": 1780667700,
+    "nextTime": "2026-06-05T14:20:00.000Z",
+    "startTime": "2026-06-05T13:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Wandering Death",
+        "boss": "Azmodan",
         "startTime": "2026-06-05T14:00:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "dry_steppes",
+            "boss": "Azmodan",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-05T13:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-05T14:00:00.000Z"
       },
       {
         "startTime": "2026-06-05T15:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-05T16:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-05T12:40:00.000Z"
+        "startTime": "2026-06-05T13:55:00.000Z"
       },
       {
-        "startTime": "2026-06-05T13:05:00.000Z"
+        "startTime": "2026-06-05T14:20:00.000Z"
       },
       {
-        "startTime": "2026-06-05T13:30:00.000Z"
+        "startTime": "2026-06-05T14:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-05T12:42:49.420Z"
+  "fetchedAt": "2026-06-05T13:45:01.229Z"
 }
