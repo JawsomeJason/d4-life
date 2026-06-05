@@ -1,53 +1,42 @@
 {
   "helltide": {
-    "endTime": "2026-06-05T03:55:00.000Z",
-    "id": 1780628400,
-    "startTime": "2026-06-05T03:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-05T05:55:00.000Z",
+    "id": 1780635600,
+    "startTime": "2026-06-05T05:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1780630200,
-    "nextTime": "2026-06-05T07:00:00.000Z",
-    "startTime": "2026-06-05T03:30:00.000Z",
+    "boss": "Azmodan",
+    "id": 1780642800,
+    "nahantuBoss": "Wandering Death",
+    "nextTime": "2026-06-05T10:30:00.000Z",
+    "startTime": "2026-06-05T07:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Azmodan",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Wandering Death",
-        "id": "scosglen",
+        "id": "nahantu",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1780630200,
-    "nextTime": "2026-06-05T03:55:00.000Z",
-    "startTime": "2026-06-05T03:30:00.000Z"
+    "id": 1780636200,
+    "nextTime": "2026-06-05T05:35:00.000Z",
+    "startTime": "2026-06-05T05:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-06-05T03:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "boss": "Avarice",
-            "name": "Scosglen",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Azmodan",
         "startTime": "2026-06-05T07:00:00.000Z",
@@ -59,8 +48,8 @@
             "boss": "Azmodan"
           },
           {
-            "id": "skovos",
-            "name": "Skovos",
+            "id": "nahantu",
+            "name": "Nahantu",
             "isWhisper": false,
             "boss": "Wandering Death"
           }
@@ -77,30 +66,42 @@
             "boss": "Azmodan"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-06-05T14:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-06-05T04:00:00.000Z"
-      },
       {
         "startTime": "2026-06-05T05:00:00.000Z"
       },
       {
         "startTime": "2026-06-05T06:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-05T07:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-05T03:30:00.000Z"
+        "startTime": "2026-06-05T05:10:00.000Z"
       },
       {
-        "startTime": "2026-06-05T03:55:00.000Z"
+        "startTime": "2026-06-05T05:35:00.000Z"
       },
       {
-        "startTime": "2026-06-05T04:20:00.000Z"
+        "startTime": "2026-06-05T06:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-05T03:23:05.888Z"
+  "fetchedAt": "2026-06-05T04:56:33.077Z"
 }
