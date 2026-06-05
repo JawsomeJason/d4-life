@@ -1,57 +1,58 @@
 {
   "helltide": {
-    "endTime": "2026-06-05T05:55:00.000Z",
-    "id": 1780635600,
-    "startTime": "2026-06-05T05:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-06-05T06:55:00.000Z",
+    "id": 1780639200,
+    "startTime": "2026-06-05T06:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
+    "boss": "Ashava",
     "id": 1780642800,
-    "nahantuBoss": "Wandering Death",
+    "nahantuBoss": "Azmodan",
     "nextTime": "2026-06-05T10:30:00.000Z",
     "startTime": "2026-06-05T07:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "dry_steppes",
-        "isWhisper": false,
-        "name": "Dry Steppes"
-      },
-      {
-        "boss": "Wandering Death",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
+      },
+      {
+        "boss": "Ashava",
+        "id": "fractured_peaks",
+        "isWhisper": false,
+        "name": "Fractured Peaks"
       }
     ]
   },
   "legion": {
-    "id": 1780636200,
-    "nextTime": "2026-06-05T05:35:00.000Z",
-    "startTime": "2026-06-05T05:10:00.000Z"
+    "id": 1780642200,
+    "nextTime": "2026-06-05T07:15:00.000Z",
+    "startTime": "2026-06-05T06:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Azmodan",
+        "boss": "Ashava",
         "startTime": "2026-06-05T07:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "nahantu",
+            "boss": "Azmodan",
+            "name": "Nahantu",
+            "isWhisper": false
           },
           {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "fractured_peaks",
+            "boss": "Ashava",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-05T05:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-05T06:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-05T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-05T08:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-05T09:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-05T05:10:00.000Z"
+        "startTime": "2026-06-05T06:50:00.000Z"
       },
       {
-        "startTime": "2026-06-05T05:35:00.000Z"
+        "startTime": "2026-06-05T07:15:00.000Z"
       },
       {
-        "startTime": "2026-06-05T06:00:00.000Z"
+        "startTime": "2026-06-05T07:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-05T04:56:33.077Z"
+  "fetchedAt": "2026-06-05T06:32:02.534Z"
 }
