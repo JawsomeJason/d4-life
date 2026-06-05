@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-04T23:55:00.000Z",
-    "id": 1780614000,
-    "startTime": "2026-06-04T23:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-06-05T00:55:00.000Z",
+    "id": 1780617600,
+    "startTime": "2026-06-05T00:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1780617600,
-    "nextTime": "2026-06-05T03:30:00.000Z",
-    "startTime": "2026-06-05T00:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1780630200,
+    "nextTime": "2026-06-05T07:00:00.000Z",
+    "startTime": "2026-06-05T03:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1780616700,
-    "nextTime": "2026-06-05T00:10:00.000Z",
-    "startTime": "2026-06-04T23:45:00.000Z",
-    "zoneWindow": true
+    "id": 1780618200,
+    "nextTime": "2026-06-05T00:35:00.000Z",
+    "startTime": "2026-06-05T00:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-05T00:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-05T01:00:00.000Z"
       },
       {
         "startTime": "2026-06-05T02:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-05T03:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-06-04T23:45:00.000Z"
-      },
       {
         "startTime": "2026-06-05T00:10:00.000Z"
       },
       {
         "startTime": "2026-06-05T00:35:00.000Z"
+      },
+      {
+        "startTime": "2026-06-05T01:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-04T23:38:27.933Z"
+  "fetchedAt": "2026-06-05T00:05:16.632Z"
 }
