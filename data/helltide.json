@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-06T13:55:00.000Z",
-    "id": 1780750800,
-    "startTime": "2026-06-06T13:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-06T14:55:00.000Z",
+    "id": 1780754400,
+    "startTime": "2026-06-06T14:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
         "boss": "Azmodan",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1780751700,
-    "nextTime": "2026-06-06T13:40:00.000Z",
-    "startTime": "2026-06-06T13:15:00.000Z",
+    "id": 1780754700,
+    "nextTime": "2026-06-06T14:30:00.000Z",
+    "startTime": "2026-06-06T14:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -42,10 +42,10 @@
         "startTime": "2026-06-06T14:30:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "kehjistan",
+            "boss": "Azmodan",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       },
@@ -87,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-06T13:15:00.000Z"
-      },
-      {
-        "startTime": "2026-06-06T13:40:00.000Z"
-      },
-      {
         "startTime": "2026-06-06T14:05:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T14:30:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T14:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-06T13:13:57.096Z"
+  "fetchedAt": "2026-06-06T13:56:49.094Z"
 }
