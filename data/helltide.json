@@ -1,23 +1,23 @@
 {
   "helltide": {
-    "endTime": "2026-06-06T09:55:00.000Z",
-    "id": 1780736400,
-    "startTime": "2026-06-06T09:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-06T10:55:00.000Z",
+    "id": 1780740000,
+    "startTime": "2026-06-06T10:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
+    "boss": "Ashava",
     "id": 1780743600,
     "nextTime": "2026-06-06T14:30:00.000Z",
     "skovosBoss": "Azmodan",
     "startTime": "2026-06-06T11:00:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
+        "boss": "Ashava",
         "id": "kehjistan",
         "isWhisper": false,
         "name": "Kehjistan"
@@ -31,28 +31,22 @@
     ]
   },
   "legion": {
-    "id": 1780739700,
-    "nextTime": "2026-06-06T10:20:00.000Z",
-    "startTime": "2026-06-06T09:55:00.000Z",
+    "id": 1780742700,
+    "nextTime": "2026-06-06T11:10:00.000Z",
+    "startTime": "2026-06-06T10:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Azmodan",
+        "boss": "Ashava",
         "startTime": "2026-06-06T11:00:00.000Z",
         "zone": [
           {
             "id": "kehjistan",
+            "boss": "Ashava",
             "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Azmodan"
-          },
-          {
-            "id": "skovos",
-            "name": "Skovos",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "isWhisper": false
           }
         ]
       },
@@ -83,26 +77,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-06T10:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-06T11:00:00.000Z"
       },
       {
         "startTime": "2026-06-06T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T13:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-06T09:55:00.000Z"
-      },
-      {
-        "startTime": "2026-06-06T10:20:00.000Z"
-      },
-      {
         "startTime": "2026-06-06T10:45:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T11:10:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T11:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-06T09:51:49.896Z"
+  "fetchedAt": "2026-06-06T10:32:22.726Z"
 }
