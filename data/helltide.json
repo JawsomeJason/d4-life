@@ -1,54 +1,43 @@
 {
   "helltide": {
-    "endTime": "2026-06-06T21:55:00.000Z",
-    "id": 1780779600,
-    "startTime": "2026-06-06T21:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-06-06T22:55:00.000Z",
+    "id": 1780783200,
+    "startTime": "2026-06-06T22:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Forgotten Coastline (S)",
+      "Amber Sands",
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1780781400,
-    "nextTime": "2026-06-07T01:00:00.000Z",
-    "startTime": "2026-06-06T21:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1780794000,
+    "nahantuBoss": "Azmodan",
+    "nextTime": "2026-06-07T04:30:00.000Z",
+    "startTime": "2026-06-07T01:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "scosglen",
+        "boss": "Avarice",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Azmodan",
-        "id": "skovos",
+        "id": "nahantu",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1780781700,
-    "nextTime": "2026-06-06T22:00:00.000Z",
-    "startTime": "2026-06-06T21:35:00.000Z",
-    "zoneWindow": true
+    "id": 1780783200,
+    "nextTime": "2026-06-06T22:25:00.000Z",
+    "startTime": "2026-06-06T22:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-06-06T21:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "boss": "Wandering Death",
-            "name": "Scosglen",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-06-07T01:00:00.000Z",
@@ -60,8 +49,8 @@
             "boss": "Avarice"
           },
           {
-            "id": "skovos",
-            "name": "Skovos",
+            "id": "nahantu",
+            "name": "Nahantu",
             "isWhisper": false,
             "boss": "Azmodan"
           }
@@ -76,6 +65,18 @@
             "name": "Fractured Peaks",
             "isWhisper": false,
             "boss": "Avarice"
+          }
+        ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-06-07T08:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
           }
         ]
       }
@@ -93,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-06T21:35:00.000Z"
-      },
-      {
         "startTime": "2026-06-06T22:00:00.000Z"
       },
       {
         "startTime": "2026-06-06T22:25:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T22:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-06T21:32:19.389Z"
+  "fetchedAt": "2026-06-06T21:57:15.098Z"
 }
