@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1780744200,
-    "nextTime": "2026-06-06T11:35:00.000Z",
-    "startTime": "2026-06-06T11:10:00.000Z"
+    "id": 1780747200,
+    "nextTime": "2026-06-06T12:25:00.000Z",
+    "startTime": "2026-06-06T12:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-06-06T11:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "boss": "Ashava",
-            "name": "Kehjistan",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Azmodan",
         "startTime": "2026-06-06T14:30:00.000Z",
@@ -71,6 +59,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-06-06T21:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -86,15 +86,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-06T11:10:00.000Z"
-      },
-      {
-        "startTime": "2026-06-06T11:35:00.000Z"
-      },
-      {
         "startTime": "2026-06-06T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T12:25:00.000Z"
+      },
+      {
+        "startTime": "2026-06-06T12:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-06T11:06:21.461Z"
+  "fetchedAt": "2026-06-06T11:42:21.437Z"
 }
