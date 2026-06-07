@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1780853700,
-    "nextTime": "2026-06-07T18:00:00.000Z",
-    "startTime": "2026-06-07T17:35:00.000Z",
-    "zoneWindow": true
+    "id": 1780855200,
+    "nextTime": "2026-06-07T18:25:00.000Z",
+    "startTime": "2026-06-07T18:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +41,10 @@
         "startTime": "2026-06-07T18:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "kehjistan",
+            "boss": "Azmodan",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       },
@@ -87,15 +86,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-07T17:35:00.000Z"
-      },
-      {
         "startTime": "2026-06-07T18:00:00.000Z"
       },
       {
         "startTime": "2026-06-07T18:25:00.000Z"
+      },
+      {
+        "startTime": "2026-06-07T18:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-07T17:27:21.877Z"
+  "fetchedAt": "2026-06-07T17:53:50.196Z"
 }
