@@ -11,13 +11,13 @@
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1780857000,
-    "nextTime": "2026-06-07T22:00:00.000Z",
-    "startTime": "2026-06-07T18:30:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1780869600,
+    "nextTime": "2026-06-08T01:30:00.000Z",
+    "startTime": "2026-06-07T22:00:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
+        "boss": "Wandering Death",
         "id": "kehjistan",
         "isWhisper": false,
         "name": "Kehjistan"
@@ -31,25 +31,12 @@
     ]
   },
   "legion": {
-    "id": 1780856700,
-    "nextTime": "2026-06-07T18:50:00.000Z",
-    "startTime": "2026-06-07T18:25:00.000Z",
-    "zoneWindow": true
+    "id": 1780858200,
+    "nextTime": "2026-06-07T19:15:00.000Z",
+    "startTime": "2026-06-07T18:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Azmodan",
-        "startTime": "2026-06-07T18:30:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "boss": "Azmodan",
-            "name": "Kehjistan",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-06-07T22:00:00.000Z",
@@ -73,6 +60,24 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-06-08T05:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Avarice"
+          },
+          {
+            "id": "skovos",
+            "name": "Skovos",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -88,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-07T18:25:00.000Z"
-      },
-      {
         "startTime": "2026-06-07T18:50:00.000Z"
       },
       {
         "startTime": "2026-06-07T19:15:00.000Z"
+      },
+      {
+        "startTime": "2026-06-07T19:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-07T18:19:28.680Z"
+  "fetchedAt": "2026-06-07T18:50:04.157Z"
 }
