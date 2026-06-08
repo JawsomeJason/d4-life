@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-08T06:55:00.000Z",
-    "id": 1780898400,
-    "startTime": "2026-06-08T06:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-08T08:55:00.000Z",
+    "id": 1780905600,
+    "startTime": "2026-06-08T08:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Hawezar"
       },
       {
         "boss": "Wandering Death",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1780901700,
-    "nextTime": "2026-06-08T07:20:00.000Z",
-    "startTime": "2026-06-08T06:55:00.000Z",
+    "id": 1780907700,
+    "nextTime": "2026-06-08T09:00:00.000Z",
+    "startTime": "2026-06-08T08:35:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -42,10 +42,10 @@
         "startTime": "2026-06-08T08:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "hawezar",
+            "boss": "Avarice",
+            "name": "Hawezar",
+            "isWhisper": false
           }
         ]
       },
@@ -76,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-08T07:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-08T08:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-08T09:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-08T06:55:00.000Z"
+        "startTime": "2026-06-08T08:35:00.000Z"
       },
       {
-        "startTime": "2026-06-08T07:20:00.000Z"
+        "startTime": "2026-06-08T09:00:00.000Z"
       },
       {
-        "startTime": "2026-06-08T07:45:00.000Z"
+        "startTime": "2026-06-08T09:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-08T06:45:53.195Z"
+  "fetchedAt": "2026-06-08T08:29:09.557Z"
 }
