@@ -1,27 +1,26 @@
 {
   "helltide": {
-    "endTime": "2026-06-08T18:55:00.000Z",
-    "id": 1780941600,
-    "startTime": "2026-06-08T18:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-06-08T19:55:00.000Z",
+    "id": 1780945200,
+    "startTime": "2026-06-08T19:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Forgotten Coastline (S)",
+      "Amber Sands",
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1780945200,
-    "nahantuBoss": "Avarice",
-    "nextTime": "2026-06-08T22:30:00.000Z",
-    "skovosBoss": "Azmodan",
-    "startTime": "2026-06-08T19:00:00.000Z",
+    "boss": "Azmodan",
+    "id": 1780957800,
+    "nextTime": "2026-06-09T02:00:00.000Z",
+    "startTime": "2026-06-08T22:30:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "skovos",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -32,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1780943700,
-    "nextTime": "2026-06-08T19:00:00.000Z",
-    "startTime": "2026-06-08T18:35:00.000Z",
+    "id": 1780946700,
+    "nextTime": "2026-06-08T19:50:00.000Z",
+    "startTime": "2026-06-08T19:25:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -84,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-08T19:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-08T20:00:00.000Z"
       },
       {
         "startTime": "2026-06-08T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T22:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-08T18:10:00.000Z"
+        "startTime": "2026-06-08T19:25:00.000Z"
       },
       {
-        "startTime": "2026-06-08T18:35:00.000Z"
+        "startTime": "2026-06-08T19:50:00.000Z"
       },
       {
-        "startTime": "2026-06-08T19:00:00.000Z"
+        "startTime": "2026-06-08T20:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-08T18:12:36.954Z"
+  "fetchedAt": "2026-06-08T19:06:00.563Z"
 }
