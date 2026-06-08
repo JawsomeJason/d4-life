@@ -1,57 +1,59 @@
 {
   "helltide": {
-    "endTime": "2026-06-08T17:55:00.000Z",
-    "id": 1780938000,
-    "startTime": "2026-06-08T17:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-06-08T18:55:00.000Z",
+    "id": 1780941600,
+    "startTime": "2026-06-08T18:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
+    "boss": "Ashava",
     "id": 1780945200,
     "nahantuBoss": "Avarice",
     "nextTime": "2026-06-08T22:30:00.000Z",
+    "skovosBoss": "Azmodan",
     "startTime": "2026-06-08T19:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
+        "id": "skovos",
+        "isWhisper": false,
+        "name": "Skovos"
+      },
+      {
+        "boss": "Ashava",
         "id": "dry_steppes",
         "isWhisper": false,
         "name": "Dry Steppes"
-      },
-      {
-        "boss": "Avarice",
-        "id": "nahantu",
-        "isWhisper": false,
-        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1780939200,
-    "nextTime": "2026-06-08T17:45:00.000Z",
-    "startTime": "2026-06-08T17:20:00.000Z"
+    "id": 1780943700,
+    "nextTime": "2026-06-08T19:00:00.000Z",
+    "startTime": "2026-06-08T18:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Azmodan",
+        "boss": "Ashava",
         "startTime": "2026-06-08T19:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "skovos",
+            "boss": "Azmodan",
+            "name": "Skovos",
+            "isWhisper": false
           },
           {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "dry_steppes",
+            "boss": "Ashava",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +84,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-08T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-08T19:00:00.000Z"
       },
       {
         "startTime": "2026-06-08T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T21:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-08T17:20:00.000Z"
-      },
-      {
-        "startTime": "2026-06-08T17:45:00.000Z"
-      },
-      {
         "startTime": "2026-06-08T18:10:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T18:35:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T19:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-08T17:16:09.637Z"
+  "fetchedAt": "2026-06-08T18:12:36.954Z"
 }
