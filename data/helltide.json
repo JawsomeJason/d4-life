@@ -31,31 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1780946700,
-    "nextTime": "2026-06-08T19:50:00.000Z",
-    "startTime": "2026-06-08T19:25:00.000Z",
+    "id": 1780949700,
+    "nextTime": "2026-06-08T20:40:00.000Z",
+    "startTime": "2026-06-08T20:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-06-08T19:00:00.000Z",
-        "zone": [
-          {
-            "id": "skovos",
-            "boss": "Azmodan",
-            "name": "Skovos",
-            "isWhisper": false
-          },
-          {
-            "id": "dry_steppes",
-            "boss": "Ashava",
-            "name": "Dry Steppes",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Azmodan",
         "startTime": "2026-06-08T22:30:00.000Z",
@@ -79,6 +61,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-06-09T05:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -94,15 +88,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-08T19:25:00.000Z"
-      },
-      {
         "startTime": "2026-06-08T19:50:00.000Z"
       },
       {
         "startTime": "2026-06-08T20:15:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T20:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-08T19:06:00.563Z"
+  "fetchedAt": "2026-06-08T19:52:18.250Z"
 }
