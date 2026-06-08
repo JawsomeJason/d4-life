@@ -10,13 +10,13 @@
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1780957800,
-    "nextTime": "2026-06-09T02:00:00.000Z",
-    "startTime": "2026-06-08T22:30:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1780970400,
+    "nextTime": "2026-06-09T05:30:00.000Z",
+    "startTime": "2026-06-09T02:00:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
+        "boss": "Wandering Death",
         "id": "dry_steppes",
         "isWhisper": false,
         "name": "Dry Steppes"
@@ -30,24 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1780957200,
-    "nextTime": "2026-06-08T22:45:00.000Z",
-    "startTime": "2026-06-08T22:20:00.000Z"
+    "id": 1780958700,
+    "nextTime": "2026-06-08T23:10:00.000Z",
+    "startTime": "2026-06-08T22:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Azmodan",
-        "startTime": "2026-06-08T22:30:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "boss": "Azmodan",
-            "name": "Dry Steppes",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-06-09T02:00:00.000Z",
@@ -71,6 +60,24 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-06-09T09:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Avarice"
+          },
+          {
+            "id": "skovos",
+            "name": "Skovos",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -86,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-08T22:20:00.000Z"
-      },
-      {
         "startTime": "2026-06-08T22:45:00.000Z"
       },
       {
         "startTime": "2026-06-08T23:10:00.000Z"
+      },
+      {
+        "startTime": "2026-06-08T23:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-08T22:01:18.470Z"
+  "fetchedAt": "2026-06-08T22:39:36.774Z"
 }
