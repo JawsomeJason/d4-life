@@ -1,53 +1,42 @@
 {
   "helltide": {
-    "endTime": "2026-06-09T04:55:00.000Z",
-    "id": 1780977600,
-    "startTime": "2026-06-09T04:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-06-09T06:55:00.000Z",
+    "id": 1780984800,
+    "startTime": "2026-06-09T06:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1780983000,
-    "nextTime": "2026-06-09T09:00:00.000Z",
-    "startTime": "2026-06-09T05:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1780995600,
+    "nextTime": "2026-06-09T12:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-06-09T09:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "fractured_peaks",
-        "isWhisper": false,
-        "name": "Fractured Peaks"
-      },
-      {
-        "boss": "Ashava",
+        "boss": "Avarice",
         "id": "dry_steppes",
         "isWhisper": false,
         "name": "Dry Steppes"
+      },
+      {
+        "boss": "Avarice",
+        "id": "skovos",
+        "isWhisper": false,
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1780981200,
-    "nextTime": "2026-06-09T05:25:00.000Z",
-    "startTime": "2026-06-09T05:00:00.000Z"
+    "id": 1780987200,
+    "nextTime": "2026-06-09T07:05:00.000Z",
+    "startTime": "2026-06-09T06:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-06-09T05:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-06-09T09:00:00.000Z",
@@ -59,8 +48,8 @@
             "boss": "Avarice"
           },
           {
-            "id": "nahantu",
-            "name": "Nahantu",
+            "id": "skovos",
+            "name": "Skovos",
             "isWhisper": false,
             "boss": "Avarice"
           }
@@ -77,30 +66,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-06-09T16:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-06-09T05:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-09T06:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-09T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-09T08:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-09T09:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-09T05:00:00.000Z"
+        "startTime": "2026-06-09T06:15:00.000Z"
       },
       {
-        "startTime": "2026-06-09T05:25:00.000Z"
+        "startTime": "2026-06-09T06:40:00.000Z"
       },
       {
-        "startTime": "2026-06-09T05:50:00.000Z"
+        "startTime": "2026-06-09T07:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-09T04:48:58.884Z"
+  "fetchedAt": "2026-06-09T06:16:57.603Z"
 }
