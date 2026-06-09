@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781029200,
-    "nextTime": "2026-06-09T18:45:00.000Z",
-    "startTime": "2026-06-09T18:20:00.000Z"
+    "id": 1781032200,
+    "nextTime": "2026-06-09T19:35:00.000Z",
+    "startTime": "2026-06-09T19:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +41,10 @@
         "startTime": "2026-06-09T19:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Ashava"
+            "id": "kehjistan",
+            "boss": "Ashava",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       },
@@ -81,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-09T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-09T19:00:00.000Z"
       },
       {
         "startTime": "2026-06-09T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-09T21:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-06-09T18:20:00.000Z"
-      },
       {
         "startTime": "2026-06-09T18:45:00.000Z"
       },
       {
         "startTime": "2026-06-09T19:10:00.000Z"
+      },
+      {
+        "startTime": "2026-06-09T19:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-09T17:56:35.013Z"
+  "fetchedAt": "2026-06-09T18:47:16.774Z"
 }
