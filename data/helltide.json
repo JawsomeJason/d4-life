@@ -1,17 +1,18 @@
 {
   "helltide": {
-    "endTime": "2026-06-09T21:55:00.000Z",
-    "id": 1781038800,
-    "startTime": "2026-06-09T21:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-09T22:55:00.000Z",
+    "id": 1781042400,
+    "startTime": "2026-06-09T22:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
     "boss": "Azmodan",
     "id": 1781046000,
+    "nahantuBoss": "Wandering Death",
     "nextTime": "2026-06-10T02:30:00.000Z",
     "skovosBoss": "Wandering Death",
     "startTime": "2026-06-09T23:00:00.000Z",
@@ -24,17 +25,16 @@
       },
       {
         "boss": "Wandering Death",
-        "id": "skovos",
+        "id": "nahantu",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1781042700,
-    "nextTime": "2026-06-09T22:30:00.000Z",
-    "startTime": "2026-06-09T22:05:00.000Z",
-    "zoneWindow": true
+    "id": 1781044200,
+    "nextTime": "2026-06-09T22:55:00.000Z",
+    "startTime": "2026-06-09T22:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -44,15 +44,15 @@
         "zone": [
           {
             "id": "kehjistan",
+            "boss": "Azmodan",
             "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "isWhisper": false
           },
           {
-            "id": "skovos",
-            "name": "Skovos",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "nahantu",
+            "boss": "Wandering Death",
+            "name": "Nahantu",
+            "isWhisper": false
           }
         ]
       },
@@ -83,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-09T22:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-09T23:00:00.000Z"
       },
       {
         "startTime": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-10T01:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-06-09T22:05:00.000Z"
-      },
       {
         "startTime": "2026-06-09T22:30:00.000Z"
       },
       {
         "startTime": "2026-06-09T22:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-09T23:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-09T21:44:02.394Z"
+  "fetchedAt": "2026-06-09T22:15:45.821Z"
 }
