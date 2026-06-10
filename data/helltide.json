@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-10T18:55:00.000Z",
-    "id": 1781114400,
-    "startTime": "2026-06-10T18:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-10T19:55:00.000Z",
+    "id": 1781118000,
+    "startTime": "2026-06-10T19:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Cursed Scarps",
+      "Túr Dúlra North"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "dry_steppes",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781116200,
-    "nextTime": "2026-06-10T18:55:00.000Z",
-    "startTime": "2026-06-10T18:30:00.000Z"
+    "id": 1781119200,
+    "nextTime": "2026-06-10T19:45:00.000Z",
+    "startTime": "2026-06-10T19:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +41,10 @@
         "startTime": "2026-06-10T20:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Ashava"
+            "id": "kehjistan",
+            "boss": "Ashava",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       },
@@ -81,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-10T19:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-10T20:00:00.000Z"
       },
       {
         "startTime": "2026-06-10T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-10T22:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-10T18:30:00.000Z"
-      },
-      {
-        "startTime": "2026-06-10T18:55:00.000Z"
-      },
-      {
         "startTime": "2026-06-10T19:20:00.000Z"
+      },
+      {
+        "startTime": "2026-06-10T19:45:00.000Z"
+      },
+      {
+        "startTime": "2026-06-10T20:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-10T18:15:13.613Z"
+  "fetchedAt": "2026-06-10T19:13:33.000Z"
 }
