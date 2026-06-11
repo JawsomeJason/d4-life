@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-11T03:55:00.000Z",
-    "id": 1781146800,
-    "startTime": "2026-06-11T03:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-11T05:55:00.000Z",
+    "id": 1781154000,
+    "startTime": "2026-06-11T05:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781149200,
-    "nextTime": "2026-06-11T04:05:00.000Z",
-    "startTime": "2026-06-11T03:40:00.000Z"
+    "id": 1781155200,
+    "nextTime": "2026-06-11T05:45:00.000Z",
+    "startTime": "2026-06-11T05:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -75,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-11T04:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-11T05:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-11T06:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-11T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-11T08:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-11T03:40:00.000Z"
+        "startTime": "2026-06-11T05:20:00.000Z"
       },
       {
-        "startTime": "2026-06-11T04:05:00.000Z"
+        "startTime": "2026-06-11T05:45:00.000Z"
       },
       {
-        "startTime": "2026-06-11T04:30:00.000Z"
+        "startTime": "2026-06-11T06:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-11T03:33:53.175Z"
+  "fetchedAt": "2026-06-11T05:11:27.594Z"
 }
