@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-11T23:55:00.000Z",
-    "id": 1781218800,
-    "startTime": "2026-06-11T23:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-12T00:55:00.000Z",
+    "id": 1781222400,
+    "startTime": "2026-06-12T00:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1781222400,
-    "nextTime": "2026-06-12T03:30:00.000Z",
-    "startTime": "2026-06-12T00:00:00.000Z",
+    "boss": "Azmodan",
+    "id": 1781235000,
+    "nextTime": "2026-06-12T07:00:00.000Z",
+    "startTime": "2026-06-12T03:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
+        "boss": "Azmodan",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Hawezar"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1781221200,
-    "nextTime": "2026-06-12T00:05:00.000Z",
-    "startTime": "2026-06-11T23:40:00.000Z"
+    "id": 1781224200,
+    "nextTime": "2026-06-12T00:55:00.000Z",
+    "startTime": "2026-06-12T00:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Ashava",
-        "startTime": "2026-06-12T00:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "boss": "Ashava",
-            "name": "Kehjistan",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Azmodan",
         "startTime": "2026-06-12T03:30:00.000Z",
@@ -77,30 +65,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-06-12T10:30:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-06-12T00:00:00.000Z"
-      },
       {
         "startTime": "2026-06-12T01:00:00.000Z"
       },
       {
         "startTime": "2026-06-12T02:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-12T03:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-11T23:40:00.000Z"
-      },
-      {
-        "startTime": "2026-06-12T00:05:00.000Z"
-      },
-      {
         "startTime": "2026-06-12T00:30:00.000Z"
+      },
+      {
+        "startTime": "2026-06-12T00:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-12T01:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-11T23:39:54.178Z"
+  "fetchedAt": "2026-06-12T00:09:56.164Z"
 }
