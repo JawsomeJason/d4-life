@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-13T16:55:00.000Z",
-    "id": 1781366400,
-    "startTime": "2026-06-13T16:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-13T17:55:00.000Z",
+    "id": 1781370000,
+    "startTime": "2026-06-13T17:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Azmodan",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781369700,
-    "nextTime": "2026-06-13T17:20:00.000Z",
-    "startTime": "2026-06-13T16:55:00.000Z",
+    "id": 1781372700,
+    "nextTime": "2026-06-13T18:10:00.000Z",
+    "startTime": "2026-06-13T17:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -42,10 +42,10 @@
         "startTime": "2026-06-13T18:00:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "kehjistan",
+            "boss": "Avarice",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-13T17:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-13T18:00:00.000Z"
       },
       {
         "startTime": "2026-06-13T19:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-13T20:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-06-13T16:55:00.000Z"
-      },
       {
         "startTime": "2026-06-13T17:20:00.000Z"
       },
       {
         "startTime": "2026-06-13T17:45:00.000Z"
+      },
+      {
+        "startTime": "2026-06-13T18:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-13T16:49:59.973Z"
+  "fetchedAt": "2026-06-13T17:21:54.886Z"
 }
