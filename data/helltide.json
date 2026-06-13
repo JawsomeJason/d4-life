@@ -10,29 +10,30 @@
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1781386200,
-    "nextTime": "2026-06-14T01:00:00.000Z",
-    "startTime": "2026-06-13T21:30:00.000Z",
+    "boss": "Ashava",
+    "id": 1781398800,
+    "nextTime": "2026-06-14T04:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-06-14T01:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "hawezar",
+        "boss": "Ashava",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Hawezar"
+        "name": "Dry Steppes"
       },
       {
-        "boss": "Azmodan",
-        "id": "nahantu",
+        "boss": "Avarice",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1781384700,
-    "nextTime": "2026-06-13T21:30:00.000Z",
-    "startTime": "2026-06-13T21:05:00.000Z",
+    "id": 1781387700,
+    "nextTime": "2026-06-13T22:20:00.000Z",
+    "startTime": "2026-06-13T21:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -93,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-13T21:05:00.000Z"
-      },
-      {
-        "startTime": "2026-06-13T21:30:00.000Z"
-      },
-      {
         "startTime": "2026-06-13T21:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-13T22:20:00.000Z"
+      },
+      {
+        "startTime": "2026-06-13T22:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-13T21:04:47.786Z"
+  "fetchedAt": "2026-06-13T21:36:58.401Z"
 }
