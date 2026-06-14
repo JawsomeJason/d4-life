@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Wandering Death",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781456700,
-    "nextTime": "2026-06-14T17:30:00.000Z",
-    "startTime": "2026-06-14T17:05:00.000Z",
+    "id": 1781459700,
+    "nextTime": "2026-06-14T18:20:00.000Z",
+    "startTime": "2026-06-14T17:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -42,10 +42,10 @@
         "startTime": "2026-06-14T18:30:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "fractured_peaks",
+            "boss": "Wandering Death",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -87,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-14T17:05:00.000Z"
-      },
-      {
-        "startTime": "2026-06-14T17:30:00.000Z"
-      },
-      {
         "startTime": "2026-06-14T17:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-14T18:20:00.000Z"
+      },
+      {
+        "startTime": "2026-06-14T18:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-14T17:04:29.026Z"
+  "fetchedAt": "2026-06-14T17:40:08.135Z"
 }
