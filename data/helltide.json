@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-14T13:55:00.000Z",
-    "id": 1781442000,
-    "startTime": "2026-06-14T13:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-06-14T14:55:00.000Z",
+    "id": 1781445600,
+    "startTime": "2026-06-14T14:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -14,26 +14,27 @@
     "id": 1781449200,
     "nahantuBoss": "Avarice",
     "nextTime": "2026-06-14T18:30:00.000Z",
+    "skovosBoss": "Wandering Death",
     "startTime": "2026-06-14T15:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Skovos"
       },
       {
-        "boss": "Avarice",
-        "id": "nahantu",
+        "boss": "Wandering Death",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Scosglen"
       }
     ]
   },
   "legion": {
-    "id": 1781444700,
-    "nextTime": "2026-06-14T14:10:00.000Z",
-    "startTime": "2026-06-14T13:45:00.000Z",
+    "id": 1781447700,
+    "nextTime": "2026-06-14T15:00:00.000Z",
+    "startTime": "2026-06-14T14:35:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -43,16 +44,16 @@
         "startTime": "2026-06-14T15:00:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "skovos",
+            "boss": "Wandering Death",
+            "name": "Skovos",
+            "isWhisper": false
           },
           {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "scosglen",
+            "boss": "Wandering Death",
+            "name": "Scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -83,26 +84,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-14T14:00:00.000Z"
+        "startTime": "2026-06-14T15:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-14T16:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-14T17:00:00.000Z"
+      }
+    ],
+    "legion": [
+      {
+        "startTime": "2026-06-14T14:35:00.000Z"
       },
       {
         "startTime": "2026-06-14T15:00:00.000Z"
       },
       {
-        "startTime": "2026-06-14T16:00:00.000Z"
-      }
-    ],
-    "legion": [
-      {
-        "startTime": "2026-06-14T13:45:00.000Z"
-      },
-      {
-        "startTime": "2026-06-14T14:10:00.000Z"
-      },
-      {
-        "startTime": "2026-06-14T14:35:00.000Z"
+        "startTime": "2026-06-14T15:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-14T13:42:00.156Z"
+  "fetchedAt": "2026-06-14T14:30:52.057Z"
 }
