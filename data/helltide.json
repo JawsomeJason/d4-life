@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-17T03:55:00.000Z",
-    "id": 1781665200,
-    "startTime": "2026-06-17T03:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-06-17T05:55:00.000Z",
+    "id": 1781672400,
+    "startTime": "2026-06-17T05:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -18,9 +17,9 @@
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Hawezar"
       },
       {
         "boss": "Wandering Death",
@@ -31,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781668200,
-    "nextTime": "2026-06-17T04:15:00.000Z",
-    "startTime": "2026-06-17T03:50:00.000Z"
+    "id": 1781674200,
+    "nextTime": "2026-06-17T05:55:00.000Z",
+    "startTime": "2026-06-17T05:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +41,10 @@
         "startTime": "2026-06-17T06:00:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "hawezar",
+            "boss": "Avarice",
+            "name": "Hawezar",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-17T04:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-17T05:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-17T06:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-17T07:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-17T08:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-17T03:50:00.000Z"
+        "startTime": "2026-06-17T05:30:00.000Z"
       },
       {
-        "startTime": "2026-06-17T04:15:00.000Z"
+        "startTime": "2026-06-17T05:55:00.000Z"
       },
       {
-        "startTime": "2026-06-17T04:40:00.000Z"
+        "startTime": "2026-06-17T06:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-17T03:39:21.704Z"
+  "fetchedAt": "2026-06-17T05:22:17.468Z"
 }
