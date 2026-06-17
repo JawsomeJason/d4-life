@@ -11,13 +11,14 @@
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1781739000,
-    "nextTime": "2026-06-18T03:00:00.000Z",
-    "startTime": "2026-06-17T23:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1781751600,
+    "nextTime": "2026-06-18T06:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-06-18T03:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
+        "boss": "Avarice",
         "id": "scosglen",
         "isWhisper": false,
         "name": "Scosglen"
@@ -31,25 +32,13 @@
     ]
   },
   "legion": {
-    "id": 1781738700,
-    "nextTime": "2026-06-17T23:50:00.000Z",
-    "startTime": "2026-06-17T23:25:00.000Z",
+    "id": 1781741700,
+    "nextTime": "2026-06-18T00:40:00.000Z",
+    "startTime": "2026-06-18T00:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-06-17T23:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "boss": "Wandering Death",
-            "name": "Scosglen",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-06-18T03:00:00.000Z",
@@ -79,6 +68,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-06-18T10:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -94,15 +95,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-17T23:25:00.000Z"
-      },
-      {
         "startTime": "2026-06-17T23:50:00.000Z"
       },
       {
         "startTime": "2026-06-18T00:15:00.000Z"
+      },
+      {
+        "startTime": "2026-06-18T00:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-17T23:19:12.541Z"
+  "fetchedAt": "2026-06-17T23:53:23.685Z"
 }
