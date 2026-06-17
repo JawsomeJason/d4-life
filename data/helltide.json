@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781734200,
-    "nextTime": "2026-06-17T22:35:00.000Z",
-    "startTime": "2026-06-17T22:10:00.000Z"
+    "id": 1781737200,
+    "nextTime": "2026-06-17T23:25:00.000Z",
+    "startTime": "2026-06-17T23:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +41,10 @@
         "startTime": "2026-06-17T23:30:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "scosglen",
+            "boss": "Wandering Death",
+            "name": "Scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -92,15 +92,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-17T22:10:00.000Z"
-      },
-      {
-        "startTime": "2026-06-17T22:35:00.000Z"
-      },
-      {
         "startTime": "2026-06-17T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-17T23:25:00.000Z"
+      },
+      {
+        "startTime": "2026-06-17T23:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-17T22:07:48.127Z"
+  "fetchedAt": "2026-06-17T22:47:26.020Z"
 }
