@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-18T19:55:00.000Z",
-    "id": 1781809200,
-    "startTime": "2026-06-18T19:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-06-18T20:55:00.000Z",
+    "id": 1781812800,
+    "startTime": "2026-06-18T20:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
@@ -18,9 +17,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "hawezar",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Hawezar"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Azmodan",
@@ -31,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781810700,
-    "nextTime": "2026-06-18T19:50:00.000Z",
-    "startTime": "2026-06-18T19:25:00.000Z",
+    "id": 1781813700,
+    "nextTime": "2026-06-18T20:40:00.000Z",
+    "startTime": "2026-06-18T20:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -43,10 +42,10 @@
         "startTime": "2026-06-18T20:30:00.000Z",
         "zone": [
           {
-            "id": "hawezar",
-            "name": "Hawezar",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "dry_steppes",
+            "boss": "Azmodan",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -88,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-18T19:25:00.000Z"
-      },
-      {
-        "startTime": "2026-06-18T19:50:00.000Z"
-      },
-      {
         "startTime": "2026-06-18T20:15:00.000Z"
+      },
+      {
+        "startTime": "2026-06-18T20:40:00.000Z"
+      },
+      {
+        "startTime": "2026-06-18T21:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-18T19:09:09.791Z"
+  "fetchedAt": "2026-06-18T19:56:49.795Z"
 }
