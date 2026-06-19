@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-19T09:55:00.000Z",
-    "id": 1781859600,
-    "startTime": "2026-06-19T09:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-06-19T11:55:00.000Z",
+    "id": 1781866800,
+    "startTime": "2026-06-19T11:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1781865000,
-    "nextTime": "2026-06-19T14:00:00.000Z",
-    "startTime": "2026-06-19T10:30:00.000Z",
+    "boss": "Ashava",
+    "id": 1781877600,
+    "nextTime": "2026-06-19T17:30:00.000Z",
+    "startTime": "2026-06-19T14:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Ashava",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
@@ -30,25 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1781861700,
-    "nextTime": "2026-06-19T10:00:00.000Z",
-    "startTime": "2026-06-19T09:35:00.000Z",
+    "id": 1781867700,
+    "nextTime": "2026-06-19T11:40:00.000Z",
+    "startTime": "2026-06-19T11:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-06-19T10:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-06-19T14:00:00.000Z",
@@ -72,30 +60,48 @@
             "boss": "Ashava"
           }
         ]
+      },
+      {
+        "boss": "Azmodan",
+        "startTime": "2026-06-19T21:00:00.000Z",
+        "zone": [
+          {
+            "id": "hawezar",
+            "name": "Hawezar",
+            "isWhisper": false,
+            "boss": "Azmodan"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-06-19T10:00:00.000Z"
-      },
       {
         "startTime": "2026-06-19T11:00:00.000Z"
       },
       {
         "startTime": "2026-06-19T12:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-19T13:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-19T09:35:00.000Z"
+        "startTime": "2026-06-19T11:15:00.000Z"
       },
       {
-        "startTime": "2026-06-19T10:00:00.000Z"
+        "startTime": "2026-06-19T11:40:00.000Z"
       },
       {
-        "startTime": "2026-06-19T10:25:00.000Z"
+        "startTime": "2026-06-19T12:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-19T09:20:21.409Z"
+  "fetchedAt": "2026-06-19T10:58:01.669Z"
 }
