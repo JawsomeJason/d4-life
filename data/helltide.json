@@ -12,51 +12,39 @@
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1781991000,
-    "nextTime": "2026-06-21T01:00:00.000Z",
-    "startTime": "2026-06-20T21:30:00.000Z",
+    "id": 1782003600,
+    "nextTime": "2026-06-21T04:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-06-21T01:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Hawezar"
       },
       {
         "boss": "Avarice",
-        "id": "nahantu",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1781990700,
-    "nextTime": "2026-06-20T21:50:00.000Z",
-    "startTime": "2026-06-20T21:25:00.000Z",
-    "zoneWindow": true
+    "id": 1781992200,
+    "nextTime": "2026-06-20T22:15:00.000Z",
+    "startTime": "2026-06-20T21:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Azmodan",
-        "startTime": "2026-06-20T21:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "boss": "Azmodan",
-            "name": "Fractured Peaks",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Azmodan",
         "startTime": "2026-06-21T01:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
+            "id": "hawezar",
+            "name": "Hawezar",
             "isWhisper": false,
             "boss": "Azmodan"
           },
@@ -79,6 +67,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-06-21T08:00:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -94,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-20T21:25:00.000Z"
-      },
-      {
         "startTime": "2026-06-20T21:50:00.000Z"
       },
       {
         "startTime": "2026-06-20T22:15:00.000Z"
+      },
+      {
+        "startTime": "2026-06-20T22:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-20T21:22:39.137Z"
+  "fetchedAt": "2026-06-20T21:50:44.357Z"
 }
