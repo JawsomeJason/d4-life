@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "hawezar",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Hawezar"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781987700,
-    "nextTime": "2026-06-20T21:00:00.000Z",
-    "startTime": "2026-06-20T20:35:00.000Z",
-    "zoneWindow": true
+    "id": 1781989200,
+    "nextTime": "2026-06-20T21:25:00.000Z",
+    "startTime": "2026-06-20T21:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +41,10 @@
         "startTime": "2026-06-20T21:30:00.000Z",
         "zone": [
           {
-            "id": "hawezar",
-            "name": "Hawezar",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "fractured_peaks",
+            "boss": "Azmodan",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -93,15 +92,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-20T20:35:00.000Z"
-      },
-      {
         "startTime": "2026-06-20T21:00:00.000Z"
       },
       {
         "startTime": "2026-06-20T21:25:00.000Z"
+      },
+      {
+        "startTime": "2026-06-20T21:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-20T20:21:20.837Z"
+  "fetchedAt": "2026-06-20T20:51:15.437Z"
 }
