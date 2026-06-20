@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-20T02:55:00.000Z",
-    "id": 1781920800,
-    "startTime": "2026-06-20T02:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-20T03:55:00.000Z",
+    "id": 1781924400,
+    "startTime": "2026-06-20T03:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1781921700,
-    "nextTime": "2026-06-20T02:40:00.000Z",
-    "startTime": "2026-06-20T02:15:00.000Z",
-    "zoneWindow": true
+    "id": 1781926200,
+    "nextTime": "2026-06-20T03:55:00.000Z",
+    "startTime": "2026-06-20T03:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +41,10 @@
         "startTime": "2026-06-20T04:00:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "scosglen",
+            "boss": "Wandering Death",
+            "name": "Scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-20T03:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-20T04:00:00.000Z"
       },
       {
         "startTime": "2026-06-20T05:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-20T06:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-20T02:15:00.000Z"
+        "startTime": "2026-06-20T03:30:00.000Z"
       },
       {
-        "startTime": "2026-06-20T02:40:00.000Z"
+        "startTime": "2026-06-20T03:55:00.000Z"
       },
       {
-        "startTime": "2026-06-20T03:05:00.000Z"
+        "startTime": "2026-06-20T04:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-20T02:14:07.243Z"
+  "fetchedAt": "2026-06-20T03:28:32.564Z"
 }
