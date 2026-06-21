@@ -11,15 +11,15 @@
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1782066600,
-    "nextTime": "2026-06-21T22:00:00.000Z",
-    "startTime": "2026-06-21T18:30:00.000Z",
+    "id": 1782079200,
+    "nextTime": "2026-06-22T01:30:00.000Z",
+    "startTime": "2026-06-21T22:00:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "scosglen",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,31 +30,20 @@
     ]
   },
   "legion": {
-    "id": 1782067200,
-    "nextTime": "2026-06-21T19:05:00.000Z",
-    "startTime": "2026-06-21T18:40:00.000Z"
+    "id": 1782068700,
+    "nextTime": "2026-06-21T19:30:00.000Z",
+    "startTime": "2026-06-21T19:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Ashava",
-        "startTime": "2026-06-21T18:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "boss": "Ashava",
-            "name": "Scosglen",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Ashava",
         "startTime": "2026-06-21T22:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
+            "id": "kehjistan",
+            "name": "Kehjistan",
             "isWhisper": false,
             "boss": "Ashava"
           }
@@ -69,6 +58,24 @@
             "name": "Hawezar",
             "isWhisper": false,
             "boss": "Azmodan"
+          }
+        ]
+      },
+      {
+        "boss": "Azmodan",
+        "startTime": "2026-06-22T05:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Azmodan"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Ashava"
           }
         ]
       }
@@ -86,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-21T18:15:00.000Z"
-      },
-      {
-        "startTime": "2026-06-21T18:40:00.000Z"
-      },
-      {
         "startTime": "2026-06-21T19:05:00.000Z"
+      },
+      {
+        "startTime": "2026-06-21T19:30:00.000Z"
+      },
+      {
+        "startTime": "2026-06-21T19:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-21T18:18:03.709Z"
+  "fetchedAt": "2026-06-21T18:54:26.503Z"
 }
