@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-21T02:55:00.000Z",
-    "id": 1782007200,
-    "startTime": "2026-06-21T02:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-06-21T03:55:00.000Z",
+    "id": 1782010800,
+    "startTime": "2026-06-21T03:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Scorching Dunes (SW)",
-      "Amber Sands",
-      "Forgotten Coastline"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -18,9 +17,9 @@
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Hawezar"
       },
       {
         "boss": "Azmodan",
@@ -31,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1782010200,
-    "nextTime": "2026-06-21T03:15:00.000Z",
-    "startTime": "2026-06-21T02:50:00.000Z"
+    "id": 1782014700,
+    "nextTime": "2026-06-21T04:30:00.000Z",
+    "startTime": "2026-06-21T04:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +42,10 @@
         "startTime": "2026-06-21T04:30:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "hawezar",
+            "boss": "Wandering Death",
+            "name": "Hawezar",
+            "isWhisper": false
           }
         ]
       },
@@ -76,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-21T03:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-21T04:00:00.000Z"
       },
       {
         "startTime": "2026-06-21T05:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-21T06:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-21T02:25:00.000Z"
+        "startTime": "2026-06-21T04:05:00.000Z"
       },
       {
-        "startTime": "2026-06-21T02:50:00.000Z"
+        "startTime": "2026-06-21T04:30:00.000Z"
       },
       {
-        "startTime": "2026-06-21T03:15:00.000Z"
+        "startTime": "2026-06-21T04:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-21T02:26:45.033Z"
+  "fetchedAt": "2026-06-21T03:47:38.518Z"
 }
