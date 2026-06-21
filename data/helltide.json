@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-21T07:55:00.000Z",
-    "id": 1782025200,
-    "startTime": "2026-06-21T07:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-06-21T08:55:00.000Z",
+    "id": 1782028800,
+    "startTime": "2026-06-21T08:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1782028800,
-    "nextTime": "2026-06-21T11:30:00.000Z",
-    "startTime": "2026-06-21T08:00:00.000Z",
+    "boss": "Avarice",
+    "id": 1782041400,
+    "nextTime": "2026-06-21T15:00:00.000Z",
+    "startTime": "2026-06-21T11:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "boss": "Avarice",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Azmodan",
@@ -31,25 +30,13 @@
     ]
   },
   "legion": {
-    "id": 1782026700,
-    "nextTime": "2026-06-21T07:50:00.000Z",
-    "startTime": "2026-06-21T07:25:00.000Z",
+    "id": 1782032700,
+    "nextTime": "2026-06-21T09:30:00.000Z",
+    "startTime": "2026-06-21T09:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-06-21T08:00:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-06-21T11:30:00.000Z",
@@ -79,30 +66,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-06-21T18:30:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Ashava"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-06-21T08:00:00.000Z"
-      },
       {
         "startTime": "2026-06-21T09:00:00.000Z"
       },
       {
         "startTime": "2026-06-21T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-21T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-21T07:25:00.000Z"
+        "startTime": "2026-06-21T08:40:00.000Z"
       },
       {
-        "startTime": "2026-06-21T07:50:00.000Z"
+        "startTime": "2026-06-21T09:05:00.000Z"
       },
       {
-        "startTime": "2026-06-21T08:15:00.000Z"
+        "startTime": "2026-06-21T09:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-21T07:10:44.622Z"
+  "fetchedAt": "2026-06-21T08:42:03.360Z"
 }
