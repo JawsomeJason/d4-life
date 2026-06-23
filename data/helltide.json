@@ -11,16 +11,15 @@
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1782255600,
-    "nextTime": "2026-06-24T02:30:00.000Z",
-    "skovosBoss": "Wandering Death",
-    "startTime": "2026-06-23T23:00:00.000Z",
+    "id": 1782268200,
+    "nextTime": "2026-06-24T06:00:00.000Z",
+    "startTime": "2026-06-24T02:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "skovos",
+        "boss": "Ashava",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -31,37 +30,20 @@
     ]
   },
   "legion": {
-    "id": 1782256200,
-    "nextTime": "2026-06-23T23:35:00.000Z",
-    "startTime": "2026-06-23T23:10:00.000Z"
+    "id": 1782257700,
+    "nextTime": "2026-06-24T00:00:00.000Z",
+    "startTime": "2026-06-23T23:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Ashava",
-        "startTime": "2026-06-23T23:00:00.000Z",
-        "zone": [
-          {
-            "id": "skovos",
-            "boss": "Wandering Death",
-            "name": "Skovos",
-            "isWhisper": false
-          },
-          {
-            "id": "scosglen",
-            "boss": "Ashava",
-            "name": "Scosglen",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Ashava",
         "startTime": "2026-06-24T02:30:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
+            "id": "kehjistan",
+            "name": "Kehjistan",
             "isWhisper": false,
             "boss": "Ashava"
           }
@@ -74,6 +56,18 @@
           {
             "id": "hawezar",
             "name": "Hawezar",
+            "isWhisper": false,
+            "boss": "Azmodan"
+          }
+        ]
+      },
+      {
+        "boss": "Azmodan",
+        "startTime": "2026-06-24T09:30:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
             "isWhisper": false,
             "boss": "Azmodan"
           }
@@ -93,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-23T23:10:00.000Z"
-      },
-      {
         "startTime": "2026-06-23T23:35:00.000Z"
       },
       {
         "startTime": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T00:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-23T23:00:43.158Z"
+  "fetchedAt": "2026-06-23T23:30:23.749Z"
 }
