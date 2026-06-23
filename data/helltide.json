@@ -1,39 +1,39 @@
 {
   "helltide": {
-    "endTime": "2026-06-23T21:55:00.000Z",
-    "id": 1782248400,
-    "startTime": "2026-06-23T21:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-23T22:55:00.000Z",
+    "id": 1782252000,
+    "startTime": "2026-06-23T22:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
     "id": 1782255600,
     "nextTime": "2026-06-24T02:30:00.000Z",
-    "skovosBoss": "Ashava",
+    "skovosBoss": "Wandering Death",
     "startTime": "2026-06-23T23:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
-        "isWhisper": false,
-        "name": "Kehjistan"
-      },
-      {
-        "boss": "Ashava",
+        "boss": "Wandering Death",
         "id": "skovos",
         "isWhisper": false,
         "name": "Skovos"
+      },
+      {
+        "boss": "Ashava",
+        "id": "scosglen",
+        "isWhisper": false,
+        "name": "Scosglen"
       }
     ]
   },
   "legion": {
-    "id": 1782250200,
-    "nextTime": "2026-06-23T21:55:00.000Z",
-    "startTime": "2026-06-23T21:30:00.000Z"
+    "id": 1782253200,
+    "nextTime": "2026-06-23T22:45:00.000Z",
+    "startTime": "2026-06-23T22:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-23T22:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-23T23:00:00.000Z"
       },
       {
         "startTime": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-23T21:30:00.000Z"
-      },
-      {
-        "startTime": "2026-06-23T21:55:00.000Z"
-      },
-      {
         "startTime": "2026-06-23T22:20:00.000Z"
+      },
+      {
+        "startTime": "2026-06-23T22:45:00.000Z"
+      },
+      {
+        "startTime": "2026-06-23T23:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-23T21:28:06.856Z"
+  "fetchedAt": "2026-06-23T22:00:52.366Z"
 }
