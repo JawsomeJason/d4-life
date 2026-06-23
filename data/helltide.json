@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-23T10:55:00.000Z",
-    "id": 1782208800,
-    "startTime": "2026-06-23T10:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-23T11:55:00.000Z",
+    "id": 1782212400,
+    "startTime": "2026-06-23T11:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Wandering Death",
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1782211200,
-    "nextTime": "2026-06-23T11:05:00.000Z",
-    "startTime": "2026-06-23T10:40:00.000Z"
+    "id": 1782215700,
+    "nextTime": "2026-06-23T12:20:00.000Z",
+    "startTime": "2026-06-23T11:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -75,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-23T11:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-23T12:00:00.000Z"
       },
       {
         "startTime": "2026-06-23T13:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-23T14:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-23T10:40:00.000Z"
-      },
-      {
-        "startTime": "2026-06-23T11:05:00.000Z"
-      },
-      {
         "startTime": "2026-06-23T11:30:00.000Z"
+      },
+      {
+        "startTime": "2026-06-23T11:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-23T12:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-23T10:22:14.465Z"
+  "fetchedAt": "2026-06-23T11:31:32.332Z"
 }
