@@ -1,22 +1,23 @@
 {
   "helltide": {
-    "endTime": "2026-06-24T19:55:00.000Z",
-    "id": 1782327600,
-    "startTime": "2026-06-24T19:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-06-24T20:55:00.000Z",
+    "id": 1782331200,
+    "startTime": "2026-06-24T20:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1782331200,
-    "nextTime": "2026-06-24T23:30:00.000Z",
-    "startTime": "2026-06-24T20:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1782343800,
+    "nextTime": "2026-06-25T03:00:00.000Z",
+    "startTime": "2026-06-24T23:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
+        "boss": "Ashava",
         "id": "kehjistan",
         "isWhisper": false,
         "name": "Kehjistan"
@@ -30,24 +31,13 @@
     ]
   },
   "legion": {
-    "id": 1782331200,
-    "nextTime": "2026-06-24T20:25:00.000Z",
-    "startTime": "2026-06-24T20:00:00.000Z"
+    "id": 1782332700,
+    "nextTime": "2026-06-24T20:50:00.000Z",
+    "startTime": "2026-06-24T20:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-06-24T20:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "boss": "Avarice",
-            "name": "Kehjistan",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-06-24T23:30:00.000Z",
@@ -77,30 +67,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Azmodan",
+        "startTime": "2026-06-25T06:30:00.000Z",
+        "zone": [
+          {
+            "id": "hawezar",
+            "name": "Hawezar",
+            "isWhisper": false,
+            "boss": "Azmodan"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-06-24T20:00:00.000Z"
-      },
       {
         "startTime": "2026-06-24T21:00:00.000Z"
       },
       {
         "startTime": "2026-06-24T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-24T19:35:00.000Z"
-      },
-      {
-        "startTime": "2026-06-24T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-24T20:25:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T20:50:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T21:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-24T19:36:50.802Z"
+  "fetchedAt": "2026-06-24T20:17:22.434Z"
 }
