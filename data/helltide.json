@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "kehjistan",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Hawezar"
       },
       {
         "boss": "Avarice",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1782338700,
-    "nextTime": "2026-06-24T22:30:00.000Z",
-    "startTime": "2026-06-24T22:05:00.000Z",
+    "id": 1782341700,
+    "nextTime": "2026-06-24T23:20:00.000Z",
+    "startTime": "2026-06-24T22:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -42,10 +42,10 @@
         "startTime": "2026-06-24T23:30:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
+            "id": "hawezar",
+            "boss": "Ashava",
+            "name": "Hawezar",
+            "isWhisper": false
           }
         ]
       },
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-24T22:05:00.000Z"
-      },
-      {
-        "startTime": "2026-06-24T22:30:00.000Z"
-      },
-      {
         "startTime": "2026-06-24T22:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T23:20:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T23:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-24T22:00:10.184Z"
+  "fetchedAt": "2026-06-24T22:35:05.416Z"
 }
