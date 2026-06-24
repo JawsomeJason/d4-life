@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-24T07:55:00.000Z",
-    "id": 1782284400,
-    "startTime": "2026-06-24T07:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-24T08:55:00.000Z",
+    "id": 1782288000,
+    "startTime": "2026-06-24T08:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Ashava",
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1782286200,
-    "nextTime": "2026-06-24T07:55:00.000Z",
-    "startTime": "2026-06-24T07:30:00.000Z"
+    "id": 1782290700,
+    "nextTime": "2026-06-24T09:10:00.000Z",
+    "startTime": "2026-06-24T08:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +42,10 @@
         "startTime": "2026-06-24T09:30:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "dry_steppes",
+            "boss": "Wandering Death",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-24T08:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-24T09:00:00.000Z"
       },
       {
         "startTime": "2026-06-24T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-24T07:30:00.000Z"
+        "startTime": "2026-06-24T08:45:00.000Z"
       },
       {
-        "startTime": "2026-06-24T07:55:00.000Z"
+        "startTime": "2026-06-24T09:10:00.000Z"
       },
       {
-        "startTime": "2026-06-24T08:20:00.000Z"
+        "startTime": "2026-06-24T09:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-24T07:30:38.053Z"
+  "fetchedAt": "2026-06-24T08:38:08.542Z"
 }
