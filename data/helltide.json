@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-24T16:55:00.000Z",
-    "id": 1782316800,
-    "startTime": "2026-06-24T16:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-24T17:55:00.000Z",
+    "id": 1782320400,
+    "startTime": "2026-06-24T17:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1782318600,
-    "nextTime": "2026-06-24T20:00:00.000Z",
-    "startTime": "2026-06-24T16:30:00.000Z",
+    "id": 1782331200,
+    "nextTime": "2026-06-24T23:30:00.000Z",
+    "startTime": "2026-06-24T20:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,32 +30,20 @@
     ]
   },
   "legion": {
-    "id": 1782317700,
-    "nextTime": "2026-06-24T16:40:00.000Z",
-    "startTime": "2026-06-24T16:15:00.000Z",
+    "id": 1782320700,
+    "nextTime": "2026-06-24T17:30:00.000Z",
+    "startTime": "2026-06-24T17:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Avarice",
-        "startTime": "2026-06-24T16:30:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "boss": "Avarice",
-            "name": "Fractured Peaks",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Avarice",
         "startTime": "2026-06-24T20:00:00.000Z",
         "zone": [
           {
-            "id": "hawezar",
-            "name": "Hawezar",
+            "id": "scosglen",
+            "name": "Scosglen",
             "isWhisper": false,
             "boss": "Avarice"
           }
@@ -70,6 +58,24 @@
             "name": "Kehjistan",
             "isWhisper": false,
             "boss": "Ashava"
+          }
+        ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-06-25T03:00:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Ashava"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Avarice"
           }
         ]
       }
@@ -87,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-24T16:15:00.000Z"
-      },
-      {
-        "startTime": "2026-06-24T16:40:00.000Z"
-      },
-      {
         "startTime": "2026-06-24T17:05:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T17:30:00.000Z"
+      },
+      {
+        "startTime": "2026-06-24T17:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-24T16:07:26.688Z"
+  "fetchedAt": "2026-06-24T16:55:10.157Z"
 }
