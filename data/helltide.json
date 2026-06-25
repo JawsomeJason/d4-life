@@ -11,50 +11,40 @@
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1782394200,
-    "nextTime": "2026-06-25T17:00:00.000Z",
-    "startTime": "2026-06-25T13:30:00.000Z",
+    "id": 1782406800,
+    "nextTime": "2026-06-25T20:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-06-25T17:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "dry_steppes",
-        "isWhisper": false,
-        "name": "Dry Steppes"
-      },
-      {
-        "boss": "Ashava",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
+      },
+      {
+        "boss": "Avarice",
+        "id": "skovos",
+        "isWhisper": false,
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1782394200,
-    "nextTime": "2026-06-25T13:55:00.000Z",
-    "startTime": "2026-06-25T13:30:00.000Z"
+    "id": 1782395700,
+    "nextTime": "2026-06-25T14:20:00.000Z",
+    "startTime": "2026-06-25T13:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Wandering Death",
-        "startTime": "2026-06-25T13:30:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "boss": "Wandering Death",
-            "name": "Dry Steppes",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Wandering Death",
         "startTime": "2026-06-25T17:00:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
             "isWhisper": false,
             "boss": "Wandering Death"
           },
@@ -77,6 +67,18 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-06-26T00:00:00.000Z",
+        "zone": [
+          {
+            "id": "hawezar",
+            "name": "Hawezar",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -92,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-25T13:05:00.000Z"
-      },
-      {
-        "startTime": "2026-06-25T13:30:00.000Z"
-      },
-      {
         "startTime": "2026-06-25T13:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-25T14:20:00.000Z"
+      },
+      {
+        "startTime": "2026-06-25T14:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-25T13:06:54.149Z"
+  "fetchedAt": "2026-06-25T13:51:44.678Z"
 }
