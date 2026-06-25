@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-25T22:55:00.000Z",
-    "id": 1782424800,
-    "startTime": "2026-06-25T22:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-25T23:55:00.000Z",
+    "id": 1782428400,
+    "startTime": "2026-06-25T23:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Ashava",
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1782428700,
-    "nextTime": "2026-06-25T23:30:00.000Z",
-    "startTime": "2026-06-25T23:05:00.000Z",
-    "zoneWindow": true
+    "id": 1782430200,
+    "nextTime": "2026-06-25T23:55:00.000Z",
+    "startTime": "2026-06-25T23:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +41,10 @@
         "startTime": "2026-06-26T00:00:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "dry_steppes",
+            "boss": "Avarice",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-25T23:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-26T00:00:00.000Z"
       },
       {
         "startTime": "2026-06-26T01:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-26T02:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-06-25T23:05:00.000Z"
-      },
       {
         "startTime": "2026-06-25T23:30:00.000Z"
       },
       {
         "startTime": "2026-06-25T23:55:00.000Z"
+      },
+      {
+        "startTime": "2026-06-26T00:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-25T22:46:49.425Z"
+  "fetchedAt": "2026-06-25T23:17:08.478Z"
 }
