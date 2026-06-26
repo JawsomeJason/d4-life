@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-25T23:55:00.000Z",
-    "id": 1782428400,
-    "startTime": "2026-06-25T23:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-06-26T00:55:00.000Z",
+    "id": 1782432000,
+    "startTime": "2026-06-26T00:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1782432000,
-    "nextTime": "2026-06-26T03:30:00.000Z",
-    "startTime": "2026-06-26T00:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1782444600,
+    "nextTime": "2026-06-26T07:00:00.000Z",
+    "startTime": "2026-06-26T03:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Kehjistan"
       },
       {
         "boss": "Ashava",
@@ -30,25 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1782431700,
-    "nextTime": "2026-06-26T00:20:00.000Z",
-    "startTime": "2026-06-25T23:55:00.000Z",
-    "zoneWindow": true
+    "id": 1782433200,
+    "nextTime": "2026-06-26T00:45:00.000Z",
+    "startTime": "2026-06-26T00:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-06-26T00:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "boss": "Avarice",
-            "name": "Dry Steppes",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-06-26T03:30:00.000Z",
@@ -78,30 +65,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Azmodan",
+        "startTime": "2026-06-26T10:30:00.000Z",
+        "zone": [
+          {
+            "id": "hawezar",
+            "name": "Hawezar",
+            "isWhisper": false,
+            "boss": "Azmodan"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-06-26T00:00:00.000Z"
-      },
       {
         "startTime": "2026-06-26T01:00:00.000Z"
       },
       {
         "startTime": "2026-06-26T02:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-26T03:00:00.000Z"
       }
     ],
     "legion": [
-      {
-        "startTime": "2026-06-25T23:55:00.000Z"
-      },
       {
         "startTime": "2026-06-26T00:20:00.000Z"
       },
       {
         "startTime": "2026-06-26T00:45:00.000Z"
+      },
+      {
+        "startTime": "2026-06-26T01:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-25T23:49:06.445Z"
+  "fetchedAt": "2026-06-26T00:18:30.406Z"
 }
