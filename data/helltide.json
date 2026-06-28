@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "kehjistan",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1782641700,
-    "nextTime": "2026-06-28T10:40:00.000Z",
-    "startTime": "2026-06-28T10:15:00.000Z",
+    "id": 1782644700,
+    "nextTime": "2026-06-28T11:30:00.000Z",
+    "startTime": "2026-06-28T11:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -42,10 +42,10 @@
         "startTime": "2026-06-28T11:30:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
+            "id": "fractured_peaks",
+            "boss": "Ashava",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -93,15 +93,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-28T10:15:00.000Z"
-      },
-      {
-        "startTime": "2026-06-28T10:40:00.000Z"
-      },
-      {
         "startTime": "2026-06-28T11:05:00.000Z"
+      },
+      {
+        "startTime": "2026-06-28T11:30:00.000Z"
+      },
+      {
+        "startTime": "2026-06-28T11:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-28T10:05:48.210Z"
+  "fetchedAt": "2026-06-28T10:53:51.121Z"
 }
