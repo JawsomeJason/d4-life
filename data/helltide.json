@@ -1,60 +1,50 @@
 {
   "helltide": {
-    "endTime": "2026-06-29T14:55:00.000Z",
-    "id": 1782741600,
-    "startTime": "2026-06-29T14:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-06-29T16:55:00.000Z",
+    "id": 1782748800,
+    "startTime": "2026-06-29T16:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1782747000,
-    "nextTime": "2026-06-29T19:00:00.000Z",
-    "startTime": "2026-06-29T15:30:00.000Z",
+    "id": 1782759600,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-06-29T22:30:00.000Z",
+    "startTime": "2026-06-29T19:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "scosglen",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Hawezar"
       },
       {
         "boss": "Avarice",
-        "id": "kehjistan",
+        "id": "nahantu",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1782745200,
-    "nextTime": "2026-06-29T15:25:00.000Z",
-    "startTime": "2026-06-29T15:00:00.000Z"
+    "id": 1782749700,
+    "nextTime": "2026-06-29T16:40:00.000Z",
+    "startTime": "2026-06-29T16:15:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Azmodan",
-        "startTime": "2026-06-29T15:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "boss": "Azmodan",
-            "name": "Scosglen",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Azmodan",
         "startTime": "2026-06-29T19:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
+            "id": "hawezar",
+            "name": "Hawezar",
             "isWhisper": false,
             "boss": "Azmodan"
           },
@@ -77,30 +67,42 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-06-30T02:00:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-06-29T15:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-29T16:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-29T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T18:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T19:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-29T14:35:00.000Z"
+        "startTime": "2026-06-29T16:15:00.000Z"
       },
       {
-        "startTime": "2026-06-29T15:00:00.000Z"
+        "startTime": "2026-06-29T16:40:00.000Z"
       },
       {
-        "startTime": "2026-06-29T15:25:00.000Z"
+        "startTime": "2026-06-29T17:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-29T14:37:57.217Z"
+  "fetchedAt": "2026-06-29T16:02:20.326Z"
 }
