@@ -14,26 +14,27 @@
     "id": 1782759600,
     "nahantuBoss": "Avarice",
     "nextTime": "2026-06-29T22:30:00.000Z",
+    "skovosBoss": "Ashava",
     "startTime": "2026-06-29T19:00:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
-        "id": "hawezar",
+        "boss": "Ashava",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Hawezar"
+        "name": "Skovos"
       },
       {
-        "boss": "Avarice",
-        "id": "nahantu",
+        "boss": "Azmodan",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Fractured Peaks"
       }
     ]
   },
   "legion": {
-    "id": 1782757200,
-    "nextTime": "2026-06-29T18:45:00.000Z",
-    "startTime": "2026-06-29T18:20:00.000Z"
+    "id": 1782760200,
+    "nextTime": "2026-06-29T19:35:00.000Z",
+    "startTime": "2026-06-29T19:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,16 +43,16 @@
         "startTime": "2026-06-29T19:00:00.000Z",
         "zone": [
           {
-            "id": "hawezar",
-            "name": "Hawezar",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "skovos",
+            "boss": "Ashava",
+            "name": "Skovos",
+            "isWhisper": false
           },
           {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "fractured_peaks",
+            "boss": "Azmodan",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-29T18:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-29T19:00:00.000Z"
       },
       {
         "startTime": "2026-06-29T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T21:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-29T18:20:00.000Z"
-      },
-      {
-        "startTime": "2026-06-29T18:45:00.000Z"
-      },
-      {
         "startTime": "2026-06-29T19:10:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T19:35:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T20:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-29T17:59:33.877Z"
+  "fetchedAt": "2026-06-29T18:51:55.297Z"
 }
