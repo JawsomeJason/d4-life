@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-06-29T06:55:00.000Z",
-    "id": 1782712800,
-    "startTime": "2026-06-29T06:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-29T08:55:00.000Z",
+    "id": 1782720000,
+    "startTime": "2026-06-29T08:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
+    "boss": "Ashava",
     "id": 1782721800,
     "nextTime": "2026-06-29T12:00:00.000Z",
     "startTime": "2026-06-29T08:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "scosglen",
+        "boss": "Ashava",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Hawezar"
       },
       {
         "boss": "Avarice",
@@ -30,22 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1782716700,
-    "nextTime": "2026-06-29T07:30:00.000Z",
-    "startTime": "2026-06-29T07:05:00.000Z",
+    "id": 1782722700,
+    "nextTime": "2026-06-29T09:10:00.000Z",
+    "startTime": "2026-06-29T08:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Avarice",
+        "boss": "Ashava",
         "startTime": "2026-06-29T08:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "hawezar",
+            "boss": "Ashava",
+            "name": "Hawezar",
+            "isWhisper": false
           }
         ]
       },
@@ -76,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-06-29T07:00:00.000Z"
-      },
-      {
-        "startTime": "2026-06-29T08:00:00.000Z"
-      },
-      {
         "startTime": "2026-06-29T09:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-06-29T06:40:00.000Z"
+        "startTime": "2026-06-29T08:45:00.000Z"
       },
       {
-        "startTime": "2026-06-29T07:05:00.000Z"
+        "startTime": "2026-06-29T09:10:00.000Z"
       },
       {
-        "startTime": "2026-06-29T07:30:00.000Z"
+        "startTime": "2026-06-29T09:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-29T06:42:09.240Z"
+  "fetchedAt": "2026-06-29T08:28:36.290Z"
 }
