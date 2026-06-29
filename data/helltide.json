@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-06-29T21:55:00.000Z",
-    "id": 1782766800,
-    "startTime": "2026-06-29T21:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-06-29T22:55:00.000Z",
+    "id": 1782770400,
+    "startTime": "2026-06-29T22:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Azmodan",
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1782769200,
-    "nextTime": "2026-06-29T22:05:00.000Z",
-    "startTime": "2026-06-29T21:40:00.000Z"
+    "id": 1782770700,
+    "nextTime": "2026-06-29T22:30:00.000Z",
+    "startTime": "2026-06-29T22:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +42,10 @@
         "startTime": "2026-06-29T22:30:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
+            "id": "dry_steppes",
+            "boss": "Wandering Death",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -86,15 +87,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-29T21:40:00.000Z"
-      },
-      {
         "startTime": "2026-06-29T22:05:00.000Z"
       },
       {
         "startTime": "2026-06-29T22:30:00.000Z"
+      },
+      {
+        "startTime": "2026-06-29T22:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-29T21:27:36.854Z"
+  "fetchedAt": "2026-06-29T21:58:06.822Z"
 }
