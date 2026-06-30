@@ -11,9 +11,10 @@
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1782847800,
-    "nextTime": "2026-06-30T23:00:00.000Z",
-    "startTime": "2026-06-30T19:30:00.000Z",
+    "id": 1782860400,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-07-01T02:30:00.000Z",
+    "startTime": "2026-06-30T23:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
@@ -30,31 +31,20 @@
     ]
   },
   "legion": {
-    "id": 1782847200,
-    "nextTime": "2026-06-30T19:45:00.000Z",
-    "startTime": "2026-06-30T19:20:00.000Z"
+    "id": 1782848700,
+    "nextTime": "2026-06-30T20:10:00.000Z",
+    "startTime": "2026-06-30T19:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Azmodan",
-        "startTime": "2026-06-30T19:30:00.000Z",
+        "startTime": "2026-06-30T23:00:00.000Z",
         "zone": [
           {
             "id": "hawezar",
             "name": "Hawezar",
-            "isWhisper": false,
-            "boss": "Azmodan"
-          }
-        ]
-      },
-      {
-        "boss": "Azmodan",
-        "startTime": "2026-06-30T23:00:00.000Z",
-        "zone": [
-          {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
             "isWhisper": false,
             "boss": "Azmodan"
           },
@@ -77,6 +67,18 @@
             "boss": "Wandering Death"
           }
         ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-07-01T06:00:00.000Z",
+        "zone": [
+          {
+            "id": "scosglen",
+            "name": "Scosglen",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
       }
     ],
     "helltide": [
@@ -92,15 +94,15 @@
     ],
     "legion": [
       {
-        "startTime": "2026-06-30T19:20:00.000Z"
-      },
-      {
         "startTime": "2026-06-30T19:45:00.000Z"
       },
       {
         "startTime": "2026-06-30T20:10:00.000Z"
+      },
+      {
+        "startTime": "2026-06-30T20:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-06-30T19:04:03.142Z"
+  "fetchedAt": "2026-06-30T19:44:16.177Z"
 }
