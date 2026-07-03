@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-07-03T19:55:00.000Z",
-    "id": 1783105200,
-    "startTime": "2026-07-03T19:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-07-03T20:55:00.000Z",
+    "id": 1783108800,
+    "startTime": "2026-07-03T20:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
@@ -15,26 +14,28 @@
     "id": 1783112400,
     "nahantuBoss": "Avarice",
     "nextTime": "2026-07-04T00:30:00.000Z",
+    "skovosBoss": "Avarice",
     "startTime": "2026-07-03T21:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
+        "boss": "Avarice",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Skovos"
       },
       {
-        "boss": "Avarice",
-        "id": "nahantu",
+        "boss": "Ashava",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Scosglen"
       }
     ]
   },
   "legion": {
-    "id": 1783108200,
-    "nextTime": "2026-07-03T20:15:00.000Z",
-    "startTime": "2026-07-03T19:50:00.000Z"
+    "id": 1783112700,
+    "nextTime": "2026-07-03T21:30:00.000Z",
+    "startTime": "2026-07-03T21:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -43,16 +44,16 @@
         "startTime": "2026-07-03T21:00:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
+            "id": "skovos",
+            "boss": "Avarice",
+            "name": "Skovos",
+            "isWhisper": false
           },
           {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "scosglen",
+            "boss": "Ashava",
+            "name": "Scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -83,26 +84,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-03T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-03T21:00:00.000Z"
       },
       {
         "startTime": "2026-07-03T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-03T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-03T19:50:00.000Z"
+        "startTime": "2026-07-03T21:05:00.000Z"
       },
       {
-        "startTime": "2026-07-03T20:15:00.000Z"
+        "startTime": "2026-07-03T21:30:00.000Z"
       },
       {
-        "startTime": "2026-07-03T20:40:00.000Z"
+        "startTime": "2026-07-03T21:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-03T19:41:14.720Z"
+  "fetchedAt": "2026-07-03T20:42:05.499Z"
 }
