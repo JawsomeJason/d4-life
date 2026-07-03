@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-07-03T22:55:00.000Z",
-    "id": 1783116000,
-    "startTime": "2026-07-03T22:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-07-03T23:55:00.000Z",
+    "id": 1783119600,
+    "startTime": "2026-07-03T23:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "scosglen",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Ashava",
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1783118700,
-    "nextTime": "2026-07-03T23:10:00.000Z",
-    "startTime": "2026-07-03T22:45:00.000Z",
-    "zoneWindow": true
+    "id": 1783123200,
+    "nextTime": "2026-07-04T00:25:00.000Z",
+    "startTime": "2026-07-04T00:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +41,10 @@
         "startTime": "2026-07-04T00:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "dry_steppes",
+            "boss": "Azmodan",
+            "name": "Dry Steppes",
+            "isWhisper": false
           }
         ]
       },
@@ -76,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-03T23:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-04T00:00:00.000Z"
       },
       {
         "startTime": "2026-07-04T01:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-04T02:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-03T22:45:00.000Z"
+        "startTime": "2026-07-04T00:00:00.000Z"
       },
       {
-        "startTime": "2026-07-03T23:10:00.000Z"
+        "startTime": "2026-07-04T00:25:00.000Z"
       },
       {
-        "startTime": "2026-07-03T23:35:00.000Z"
+        "startTime": "2026-07-04T00:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-03T22:41:34.759Z"
+  "fetchedAt": "2026-07-03T23:41:49.814Z"
 }
