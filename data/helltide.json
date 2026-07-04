@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-07-04T19:55:00.000Z",
-    "id": 1783191600,
-    "startTime": "2026-07-04T19:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-07-04T20:55:00.000Z",
+    "id": 1783195200,
+    "startTime": "2026-07-04T20:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
@@ -17,9 +18,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "scosglen",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Wandering Death",
@@ -30,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1783195200,
-    "nextTime": "2026-07-04T20:25:00.000Z",
-    "startTime": "2026-07-04T20:00:00.000Z"
+    "id": 1783198200,
+    "nextTime": "2026-07-04T21:15:00.000Z",
+    "startTime": "2026-07-04T20:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -81,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-04T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-04T21:00:00.000Z"
       },
       {
         "startTime": "2026-07-04T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-04T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-04T20:00:00.000Z"
-      },
-      {
-        "startTime": "2026-07-04T20:25:00.000Z"
-      },
-      {
         "startTime": "2026-07-04T20:50:00.000Z"
+      },
+      {
+        "startTime": "2026-07-04T21:15:00.000Z"
+      },
+      {
+        "startTime": "2026-07-04T21:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-04T19:38:16.814Z"
+  "fetchedAt": "2026-07-04T20:33:10.202Z"
 }
