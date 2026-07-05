@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-07-05T18:55:00.000Z",
-    "id": 1783274400,
-    "startTime": "2026-07-05T18:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-07-05T20:55:00.000Z",
+    "id": 1783281600,
+    "startTime": "2026-07-05T20:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -30,10 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1783277700,
-    "nextTime": "2026-07-05T19:20:00.000Z",
-    "startTime": "2026-07-05T18:55:00.000Z",
-    "zoneWindow": true
+    "id": 1783282200,
+    "nextTime": "2026-07-05T20:35:00.000Z",
+    "startTime": "2026-07-05T20:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -82,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-05T19:00:00.000Z"
-      },
-      {
-        "startTime": "2026-07-05T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-05T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-05T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-05T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-05T18:55:00.000Z"
+        "startTime": "2026-07-05T20:10:00.000Z"
       },
       {
-        "startTime": "2026-07-05T19:20:00.000Z"
+        "startTime": "2026-07-05T20:35:00.000Z"
       },
       {
-        "startTime": "2026-07-05T19:45:00.000Z"
+        "startTime": "2026-07-05T21:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-05T18:49:09.594Z"
+  "fetchedAt": "2026-07-05T20:01:52.989Z"
 }
