@@ -1,13 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-07-05T16:55:00.000Z",
-    "id": 1783267200,
-    "startTime": "2026-07-05T16:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-07-05T17:55:00.000Z",
+    "id": 1783270800,
+    "startTime": "2026-07-05T17:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -18,9 +17,9 @@
     "zone": [
       {
         "boss": "Avarice",
-        "id": "fractured_peaks",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -31,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1783270200,
-    "nextTime": "2026-07-05T17:15:00.000Z",
-    "startTime": "2026-07-05T16:50:00.000Z"
+    "id": 1783274700,
+    "nextTime": "2026-07-05T18:30:00.000Z",
+    "startTime": "2026-07-05T18:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -42,10 +42,10 @@
         "startTime": "2026-07-05T18:30:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "kehjistan",
+            "boss": "Avarice",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       },
@@ -76,26 +76,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-05T17:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-05T18:00:00.000Z"
       },
       {
         "startTime": "2026-07-05T19:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-05T20:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-05T16:50:00.000Z"
+        "startTime": "2026-07-05T18:05:00.000Z"
       },
       {
-        "startTime": "2026-07-05T17:15:00.000Z"
+        "startTime": "2026-07-05T18:30:00.000Z"
       },
       {
-        "startTime": "2026-07-05T17:40:00.000Z"
+        "startTime": "2026-07-05T18:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-05T16:48:54.274Z"
+  "fetchedAt": "2026-07-05T17:48:09.673Z"
 }
