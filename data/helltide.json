@@ -1,19 +1,21 @@
 {
   "helltide": {
-    "endTime": "2026-07-05T10:55:00.000Z",
-    "id": 1783245600,
-    "startTime": "2026-07-05T10:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-07-05T11:55:00.000Z",
+    "id": 1783249200,
+    "startTime": "2026-07-05T11:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1783251000,
-    "nextTime": "2026-07-05T15:00:00.000Z",
-    "startTime": "2026-07-05T11:30:00.000Z",
+    "id": 1783263600,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-07-05T18:30:00.000Z",
+    "startTime": "2026-07-05T15:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -30,32 +32,20 @@
     ]
   },
   "legion": {
-    "id": 1783247700,
-    "nextTime": "2026-07-05T11:00:00.000Z",
-    "startTime": "2026-07-05T10:35:00.000Z",
+    "id": 1783253700,
+    "nextTime": "2026-07-05T12:40:00.000Z",
+    "startTime": "2026-07-05T12:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Wandering Death",
-        "startTime": "2026-07-05T11:30:00.000Z",
+        "startTime": "2026-07-05T15:00:00.000Z",
         "zone": [
           {
             "id": "fractured_peaks",
             "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-07-05T15:00:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
             "isWhisper": false,
             "boss": "Wandering Death"
           },
@@ -72,6 +62,18 @@
         "startTime": "2026-07-05T18:30:00.000Z",
         "zone": [
           {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-07-05T22:00:00.000Z",
+        "zone": [
+          {
             "id": "fractured_peaks",
             "name": "Fractured Peaks",
             "isWhisper": false,
@@ -82,26 +84,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-05T11:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-05T12:00:00.000Z"
       },
       {
         "startTime": "2026-07-05T13:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-05T14:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-05T10:35:00.000Z"
+        "startTime": "2026-07-05T12:15:00.000Z"
       },
       {
-        "startTime": "2026-07-05T11:00:00.000Z"
+        "startTime": "2026-07-05T12:40:00.000Z"
       },
       {
-        "startTime": "2026-07-05T11:25:00.000Z"
+        "startTime": "2026-07-05T13:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-05T10:27:31.136Z"
+  "fetchedAt": "2026-07-05T11:52:55.651Z"
 }
