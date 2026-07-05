@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-07-05T05:55:00.000Z",
-    "id": 1783227600,
-    "startTime": "2026-07-05T05:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-07-05T08:55:00.000Z",
+    "id": 1783238400,
+    "startTime": "2026-07-05T08:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1783238400,
-    "nextTime": "2026-07-05T11:30:00.000Z",
-    "startTime": "2026-07-05T08:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1783251000,
+    "nextTime": "2026-07-05T15:00:00.000Z",
+    "startTime": "2026-07-05T11:30:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
-        "id": "scosglen",
+        "boss": "Wandering Death",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
@@ -30,24 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1783228200,
-    "nextTime": "2026-07-05T05:35:00.000Z",
-    "startTime": "2026-07-05T05:10:00.000Z"
+    "id": 1783240200,
+    "nextTime": "2026-07-05T08:55:00.000Z",
+    "startTime": "2026-07-05T08:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Azmodan",
-        "startTime": "2026-07-05T08:00:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Azmodan"
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-07-05T11:30:00.000Z",
@@ -77,30 +65,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-07-05T18:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-07-05T06:00:00.000Z"
+        "startTime": "2026-07-05T09:00:00.000Z"
       },
       {
-        "startTime": "2026-07-05T07:00:00.000Z"
+        "startTime": "2026-07-05T10:00:00.000Z"
       },
       {
-        "startTime": "2026-07-05T08:00:00.000Z"
+        "startTime": "2026-07-05T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-05T05:10:00.000Z"
+        "startTime": "2026-07-05T08:30:00.000Z"
       },
       {
-        "startTime": "2026-07-05T05:35:00.000Z"
+        "startTime": "2026-07-05T08:55:00.000Z"
       },
       {
-        "startTime": "2026-07-05T06:00:00.000Z"
+        "startTime": "2026-07-05T09:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-05T05:10:44.052Z"
+  "fetchedAt": "2026-07-05T08:14:01.589Z"
 }
