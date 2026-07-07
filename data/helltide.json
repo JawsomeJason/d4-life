@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-07-07T21:55:00.000Z",
-    "id": 1783458000,
-    "startTime": "2026-07-07T21:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-07-07T22:55:00.000Z",
+    "id": 1783461600,
+    "startTime": "2026-07-07T22:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -18,9 +18,9 @@
     "zone": [
       {
         "boss": "Avarice",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -31,10 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1783460700,
-    "nextTime": "2026-07-07T22:10:00.000Z",
-    "startTime": "2026-07-07T21:45:00.000Z",
-    "zoneWindow": true
+    "id": 1783465200,
+    "nextTime": "2026-07-07T23:25:00.000Z",
+    "startTime": "2026-07-07T23:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -43,16 +42,16 @@
         "startTime": "2026-07-07T23:00:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "scosglen",
+            "boss": "Avarice",
+            "name": "Scosglen",
+            "isWhisper": false
           },
           {
             "id": "nahantu",
+            "boss": "Avarice",
             "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "isWhisper": false
           }
         ]
       },
@@ -83,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-07T22:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-07T23:00:00.000Z"
       },
       {
         "startTime": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-08T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-07T21:45:00.000Z"
+        "startTime": "2026-07-07T23:00:00.000Z"
       },
       {
-        "startTime": "2026-07-07T22:10:00.000Z"
+        "startTime": "2026-07-07T23:25:00.000Z"
       },
       {
-        "startTime": "2026-07-07T22:35:00.000Z"
+        "startTime": "2026-07-07T23:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-07T21:42:24.541Z"
+  "fetchedAt": "2026-07-07T22:43:10.441Z"
 }
