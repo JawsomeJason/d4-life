@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-07-08T06:55:00.000Z",
-    "id": 1783490400,
-    "startTime": "2026-07-08T06:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-07-08T09:55:00.000Z",
+    "id": 1783501200,
+    "startTime": "2026-07-08T09:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
@@ -17,9 +18,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "dry_steppes",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -30,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1783493700,
-    "nextTime": "2026-07-08T07:20:00.000Z",
-    "startTime": "2026-07-08T06:55:00.000Z",
+    "id": 1783502700,
+    "nextTime": "2026-07-08T09:50:00.000Z",
+    "startTime": "2026-07-08T09:25:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -42,10 +43,10 @@
         "startTime": "2026-07-08T09:30:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "kehjistan",
+            "boss": "Azmodan",
+            "name": "Kehjistan",
+            "isWhisper": false
           }
         ]
       },
@@ -82,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-08T07:00:00.000Z"
+        "startTime": "2026-07-08T10:00:00.000Z"
       },
       {
-        "startTime": "2026-07-08T08:00:00.000Z"
+        "startTime": "2026-07-08T11:00:00.000Z"
       },
       {
-        "startTime": "2026-07-08T09:00:00.000Z"
+        "startTime": "2026-07-08T12:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-08T06:55:00.000Z"
+        "startTime": "2026-07-08T09:25:00.000Z"
       },
       {
-        "startTime": "2026-07-08T07:20:00.000Z"
+        "startTime": "2026-07-08T09:50:00.000Z"
       },
       {
-        "startTime": "2026-07-08T07:45:00.000Z"
+        "startTime": "2026-07-08T10:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-08T06:43:49.455Z"
+  "fetchedAt": "2026-07-08T09:13:42.454Z"
 }
