@@ -1,23 +1,22 @@
 {
   "helltide": {
-    "endTime": "2026-07-14T15:55:00.000Z",
-    "id": 1784041200,
-    "startTime": "2026-07-14T15:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-07-14T16:55:00.000Z",
+    "id": 1784044800,
+    "startTime": "2026-07-14T16:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1784044800,
-    "nextTime": "2026-07-14T19:30:00.000Z",
-    "startTime": "2026-07-14T16:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1784057400,
+    "nextTime": "2026-07-14T23:00:00.000Z",
+    "startTime": "2026-07-14T19:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
+        "boss": "Ashava",
         "id": "kehjistan",
         "isWhisper": false,
         "name": "Kehjistan"
@@ -31,31 +30,20 @@
     ]
   },
   "legion": {
-    "id": 1784044200,
-    "nextTime": "2026-07-14T16:15:00.000Z",
-    "startTime": "2026-07-14T15:50:00.000Z"
+    "id": 1784048700,
+    "nextTime": "2026-07-14T17:30:00.000Z",
+    "startTime": "2026-07-14T17:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-07-14T16:00:00.000Z",
-        "zone": [
-          {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Avarice"
-          }
-        ]
-      },
       {
         "boss": "Ashava",
         "startTime": "2026-07-14T19:30:00.000Z",
         "zone": [
           {
-            "id": "scosglen",
-            "name": "Scosglen",
+            "id": "kehjistan",
+            "name": "Kehjistan",
             "isWhisper": false,
             "boss": "Ashava"
           }
@@ -66,8 +54,8 @@
         "startTime": "2026-07-14T23:00:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
+            "id": "scosglen",
+            "name": "Scosglen",
             "isWhisper": false,
             "boss": "Ashava"
           },
@@ -78,30 +66,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Azmodan",
+        "startTime": "2026-07-15T02:30:00.000Z",
+        "zone": [
+          {
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
+            "isWhisper": false,
+            "boss": "Azmodan"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-07-14T16:00:00.000Z"
-      },
       {
         "startTime": "2026-07-14T17:00:00.000Z"
       },
       {
         "startTime": "2026-07-14T18:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-14T19:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-14T15:50:00.000Z"
+        "startTime": "2026-07-14T17:05:00.000Z"
       },
       {
-        "startTime": "2026-07-14T16:15:00.000Z"
+        "startTime": "2026-07-14T17:30:00.000Z"
       },
       {
-        "startTime": "2026-07-14T16:40:00.000Z"
+        "startTime": "2026-07-14T17:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-14T15:48:32.407Z"
+  "fetchedAt": "2026-07-14T16:54:37.534Z"
 }
