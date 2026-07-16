@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-07-16T19:55:00.000Z",
-    "id": 1784228400,
-    "startTime": "2026-07-16T19:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-07-16T20:55:00.000Z",
+    "id": 1784232000,
+    "startTime": "2026-07-16T20:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
+    "boss": "Ashava",
     "id": 1784233800,
     "nextTime": "2026-07-17T00:00:00.000Z",
     "startTime": "2026-07-16T20:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "kehjistan",
+        "boss": "Ashava",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
@@ -30,21 +30,21 @@
     ]
   },
   "legion": {
-    "id": 1784230200,
-    "nextTime": "2026-07-16T19:55:00.000Z",
-    "startTime": "2026-07-16T19:30:00.000Z"
+    "id": 1784233200,
+    "nextTime": "2026-07-16T20:45:00.000Z",
+    "startTime": "2026-07-16T20:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "boss": "Avarice",
+        "boss": "Ashava",
         "startTime": "2026-07-16T20:30:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "scosglen",
+            "boss": "Ashava",
+            "name": "Scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -75,26 +75,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-16T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-16T21:00:00.000Z"
       },
       {
         "startTime": "2026-07-16T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-16T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-16T19:30:00.000Z"
-      },
-      {
-        "startTime": "2026-07-16T19:55:00.000Z"
-      },
-      {
         "startTime": "2026-07-16T20:20:00.000Z"
+      },
+      {
+        "startTime": "2026-07-16T20:45:00.000Z"
+      },
+      {
+        "startTime": "2026-07-16T21:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-16T19:14:49.724Z"
+  "fetchedAt": "2026-07-16T20:11:58.553Z"
 }
