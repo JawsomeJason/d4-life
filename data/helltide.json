@@ -1,61 +1,49 @@
 {
   "helltide": {
-    "endTime": "2026-07-17T03:55:00.000Z",
-    "id": 1784257200,
-    "startTime": "2026-07-17T03:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-07-17T06:55:00.000Z",
+    "id": 1784268000,
+    "startTime": "2026-07-17T06:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1784259000,
-    "nextTime": "2026-07-17T07:00:00.000Z",
-    "startTime": "2026-07-17T03:30:00.000Z",
+    "id": 1784271600,
+    "nextTime": "2026-07-17T10:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-07-17T07:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "scosglen",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Avarice",
-        "id": "nahantu",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1784260200,
-    "nextTime": "2026-07-17T04:15:00.000Z",
-    "startTime": "2026-07-17T03:50:00.000Z"
+    "id": 1784269200,
+    "nextTime": "2026-07-17T06:45:00.000Z",
+    "startTime": "2026-07-17T06:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Azmodan",
-        "startTime": "2026-07-17T03:30:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "boss": "Azmodan",
-            "name": "Scosglen",
-            "isWhisper": false
-          }
-        ]
-      },
-      {
-        "boss": "Azmodan",
         "startTime": "2026-07-17T07:00:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
+            "id": "dry_steppes",
+            "name": "Dry Steppes",
             "isWhisper": false,
             "boss": "Azmodan"
           },
@@ -72,6 +60,18 @@
         "startTime": "2026-07-17T10:30:00.000Z",
         "zone": [
           {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Wandering Death"
+          }
+        ]
+      },
+      {
+        "boss": "Wandering Death",
+        "startTime": "2026-07-17T14:00:00.000Z",
+        "zone": [
+          {
             "id": "scosglen",
             "name": "Scosglen",
             "isWhisper": false,
@@ -82,26 +82,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-17T04:00:00.000Z"
+        "startTime": "2026-07-17T07:00:00.000Z"
       },
       {
-        "startTime": "2026-07-17T05:00:00.000Z"
+        "startTime": "2026-07-17T08:00:00.000Z"
       },
       {
-        "startTime": "2026-07-17T06:00:00.000Z"
+        "startTime": "2026-07-17T09:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-17T03:50:00.000Z"
+        "startTime": "2026-07-17T06:20:00.000Z"
       },
       {
-        "startTime": "2026-07-17T04:15:00.000Z"
+        "startTime": "2026-07-17T06:45:00.000Z"
       },
       {
-        "startTime": "2026-07-17T04:40:00.000Z"
+        "startTime": "2026-07-17T07:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-17T03:34:03.766Z"
+  "fetchedAt": "2026-07-17T06:01:01.692Z"
 }
