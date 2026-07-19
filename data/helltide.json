@@ -1,21 +1,20 @@
 {
   "helltide": {
-    "endTime": "2026-07-19T14:55:00.000Z",
-    "id": 1784469600,
-    "startTime": "2026-07-19T14:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-07-19T15:55:00.000Z",
+    "id": 1784473200,
+    "startTime": "2026-07-19T15:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1784473200,
-    "nahantuBoss": "Wandering Death",
-    "nextTime": "2026-07-19T18:30:00.000Z",
-    "skovosBoss": "Avarice",
-    "startTime": "2026-07-19T15:00:00.000Z",
+    "id": 1784485800,
+    "nextTime": "2026-07-19T22:00:00.000Z",
+    "startTime": "2026-07-19T18:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -32,30 +31,12 @@
     ]
   },
   "legion": {
-    "id": 1784473200,
-    "nextTime": "2026-07-19T15:25:00.000Z",
-    "startTime": "2026-07-19T15:00:00.000Z"
+    "id": 1784476200,
+    "nextTime": "2026-07-19T16:15:00.000Z",
+    "startTime": "2026-07-19T15:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-07-19T15:00:00.000Z",
-        "zone": [
-          {
-            "id": "scosglen",
-            "boss": "Wandering Death",
-            "name": "Scosglen",
-            "isWhisper": false
-          },
-          {
-            "id": "nahantu",
-            "boss": "Wandering Death",
-            "name": "Nahantu",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Wandering Death",
         "startTime": "2026-07-19T18:30:00.000Z",
@@ -79,30 +60,42 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-07-20T01:30:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
-      {
-        "startTime": "2026-07-19T15:00:00.000Z"
-      },
       {
         "startTime": "2026-07-19T16:00:00.000Z"
       },
       {
         "startTime": "2026-07-19T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-19T18:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-19T15:00:00.000Z"
-      },
-      {
-        "startTime": "2026-07-19T15:25:00.000Z"
-      },
-      {
         "startTime": "2026-07-19T15:50:00.000Z"
+      },
+      {
+        "startTime": "2026-07-19T16:15:00.000Z"
+      },
+      {
+        "startTime": "2026-07-19T16:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-19T14:41:43.066Z"
+  "fetchedAt": "2026-07-19T15:36:49.017Z"
 }
