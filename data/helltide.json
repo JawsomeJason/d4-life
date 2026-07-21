@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-07-21T06:55:00.000Z",
-    "id": 1784613600,
-    "startTime": "2026-07-21T06:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-07-21T08:55:00.000Z",
+    "id": 1784620800,
+    "startTime": "2026-07-21T08:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
@@ -17,23 +17,23 @@
     "startTime": "2026-07-21T09:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
-        "isWhisper": false,
-        "name": "Kehjistan"
-      },
-      {
         "boss": "Avarice",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
+      },
+      {
+        "boss": "Ashava",
+        "id": "fractured_peaks",
+        "isWhisper": false,
+        "name": "Fractured Peaks"
       }
     ]
   },
   "legion": {
-    "id": 1784615700,
-    "nextTime": "2026-07-21T07:00:00.000Z",
-    "startTime": "2026-07-21T06:35:00.000Z",
+    "id": 1784624700,
+    "nextTime": "2026-07-21T09:30:00.000Z",
+    "startTime": "2026-07-21T09:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -43,16 +43,16 @@
         "startTime": "2026-07-21T09:00:00.000Z",
         "zone": [
           {
-            "id": "kehjistan",
-            "name": "Kehjistan",
-            "isWhisper": false,
-            "boss": "Ashava"
+            "id": "nahantu",
+            "boss": "Avarice",
+            "name": "Nahantu",
+            "isWhisper": false
           },
           {
-            "id": "nahantu",
-            "name": "Nahantu",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "fractured_peaks",
+            "boss": "Ashava",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -83,26 +83,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-21T07:00:00.000Z"
-      },
-      {
-        "startTime": "2026-07-21T08:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-21T09:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-21T10:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-21T11:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-21T06:10:00.000Z"
+        "startTime": "2026-07-21T09:05:00.000Z"
       },
       {
-        "startTime": "2026-07-21T06:35:00.000Z"
+        "startTime": "2026-07-21T09:30:00.000Z"
       },
       {
-        "startTime": "2026-07-21T07:00:00.000Z"
+        "startTime": "2026-07-21T09:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-21T06:14:53.071Z"
+  "fetchedAt": "2026-07-21T08:45:28.590Z"
 }
