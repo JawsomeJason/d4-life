@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-07-21T14:55:00.000Z",
-    "id": 1784642400,
-    "startTime": "2026-07-21T14:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-07-21T16:55:00.000Z",
+    "id": 1784649600,
+    "startTime": "2026-07-21T16:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "dry_steppes",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1784644200,
-    "nextTime": "2026-07-21T14:55:00.000Z",
-    "startTime": "2026-07-21T14:30:00.000Z"
+    "id": 1784650200,
+    "nextTime": "2026-07-21T16:35:00.000Z",
+    "startTime": "2026-07-21T16:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -41,10 +41,10 @@
         "startTime": "2026-07-21T16:00:00.000Z",
         "zone": [
           {
-            "id": "dry_steppes",
-            "name": "Dry Steppes",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "fractured_peaks",
+            "boss": "Azmodan",
+            "name": "Fractured Peaks",
+            "isWhisper": false
           }
         ]
       },
@@ -81,26 +81,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-21T15:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-21T16:00:00.000Z"
       },
       {
         "startTime": "2026-07-21T17:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-21T18:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-21T14:30:00.000Z"
+        "startTime": "2026-07-21T16:10:00.000Z"
       },
       {
-        "startTime": "2026-07-21T14:55:00.000Z"
+        "startTime": "2026-07-21T16:35:00.000Z"
       },
       {
-        "startTime": "2026-07-21T15:20:00.000Z"
+        "startTime": "2026-07-21T17:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-21T14:21:29.218Z"
+  "fetchedAt": "2026-07-21T15:56:31.688Z"
 }
