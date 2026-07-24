@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-07-24T18:55:00.000Z",
-    "id": 1784916000,
-    "startTime": "2026-07-24T18:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-07-24T20:55:00.000Z",
+    "id": 1784923200,
+    "startTime": "2026-07-24T20:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
@@ -17,23 +18,23 @@
     "startTime": "2026-07-24T21:00:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
-        "id": "fractured_peaks",
-        "isWhisper": false,
-        "name": "Fractured Peaks"
-      },
-      {
         "boss": "Avarice",
         "id": "skovos",
         "isWhisper": false,
         "name": "Skovos"
+      },
+      {
+        "boss": "Azmodan",
+        "id": "scosglen",
+        "isWhisper": false,
+        "name": "Scosglen"
       }
     ]
   },
   "legion": {
-    "id": 1784918700,
-    "nextTime": "2026-07-24T19:10:00.000Z",
-    "startTime": "2026-07-24T18:45:00.000Z",
+    "id": 1784924700,
+    "nextTime": "2026-07-24T20:50:00.000Z",
+    "startTime": "2026-07-24T20:25:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -43,16 +44,16 @@
         "startTime": "2026-07-24T21:00:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
-            "isWhisper": false,
-            "boss": "Azmodan"
+            "id": "skovos",
+            "boss": "Avarice",
+            "name": "Skovos",
+            "isWhisper": false
           },
           {
-            "id": "skovos",
-            "name": "Skovos",
-            "isWhisper": false,
-            "boss": "Avarice"
+            "id": "scosglen",
+            "boss": "Azmodan",
+            "name": "Scosglen",
+            "isWhisper": false
           }
         ]
       },
@@ -83,26 +84,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-07-24T19:00:00.000Z"
-      },
-      {
-        "startTime": "2026-07-24T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-07-24T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-24T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-07-24T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-24T18:45:00.000Z"
+        "startTime": "2026-07-24T20:00:00.000Z"
       },
       {
-        "startTime": "2026-07-24T19:10:00.000Z"
+        "startTime": "2026-07-24T20:25:00.000Z"
       },
       {
-        "startTime": "2026-07-24T19:35:00.000Z"
+        "startTime": "2026-07-24T20:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-24T18:45:51.294Z"
+  "fetchedAt": "2026-07-24T20:03:15.895Z"
 }
