@@ -1,27 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-07-24T06:55:00.000Z",
-    "id": 1784872800,
-    "startTime": "2026-07-24T06:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-07-24T09:55:00.000Z",
+    "id": 1784883600,
+    "startTime": "2026-07-24T09:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1784876400,
-    "nahantuBoss": "Wandering Death",
-    "nextTime": "2026-07-24T10:30:00.000Z",
-    "skovosBoss": "Avarice",
-    "startTime": "2026-07-24T07:00:00.000Z",
+    "id": 1784889000,
+    "nextTime": "2026-07-24T14:00:00.000Z",
+    "startTime": "2026-07-24T10:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "nahantu",
+        "boss": "Avarice",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -32,30 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1784875200,
-    "nextTime": "2026-07-24T07:05:00.000Z",
-    "startTime": "2026-07-24T06:40:00.000Z"
+    "id": 1784884200,
+    "nextTime": "2026-07-24T09:35:00.000Z",
+    "startTime": "2026-07-24T09:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "boss": "Avarice",
-        "startTime": "2026-07-24T07:00:00.000Z",
-        "zone": [
-          {
-            "id": "nahantu",
-            "boss": "Wandering Death",
-            "name": "Nahantu",
-            "isWhisper": false
-          },
-          {
-            "id": "fractured_peaks",
-            "boss": "Avarice",
-            "name": "Fractured Peaks",
-            "isWhisper": false
-          }
-        ]
-      },
       {
         "boss": "Avarice",
         "startTime": "2026-07-24T10:30:00.000Z",
@@ -69,40 +49,52 @@
         ]
       },
       {
-        "boss": "Avarice",
+        "boss": "Ashava",
         "startTime": "2026-07-24T14:00:00.000Z",
         "zone": [
           {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
+            "id": "scosglen",
+            "name": "Scosglen",
             "isWhisper": false,
-            "boss": "Avarice"
+            "boss": "Ashava"
+          }
+        ]
+      },
+      {
+        "boss": "Ashava",
+        "startTime": "2026-07-24T17:30:00.000Z",
+        "zone": [
+          {
+            "id": "kehjistan",
+            "name": "Kehjistan",
+            "isWhisper": false,
+            "boss": "Ashava"
           }
         ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-07-24T07:00:00.000Z"
+        "startTime": "2026-07-24T10:00:00.000Z"
       },
       {
-        "startTime": "2026-07-24T08:00:00.000Z"
+        "startTime": "2026-07-24T11:00:00.000Z"
       },
       {
-        "startTime": "2026-07-24T09:00:00.000Z"
+        "startTime": "2026-07-24T12:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-24T06:40:00.000Z"
+        "startTime": "2026-07-24T09:10:00.000Z"
       },
       {
-        "startTime": "2026-07-24T07:05:00.000Z"
+        "startTime": "2026-07-24T09:35:00.000Z"
       },
       {
-        "startTime": "2026-07-24T07:30:00.000Z"
+        "startTime": "2026-07-24T10:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-24T06:37:36.268Z"
+  "fetchedAt": "2026-07-24T09:06:31.030Z"
 }
