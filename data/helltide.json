@@ -1,19 +1,19 @@
 {
   "helltide": {
-    "endTime": "2026-07-26T03:55:00.000Z",
-    "id": 1785034800,
-    "startTime": "2026-07-26T03:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-07-26T06:55:00.000Z",
+    "id": 1785045600,
+    "startTime": "2026-07-26T06:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1785040200,
-    "nextTime": "2026-07-26T08:00:00.000Z",
-    "startTime": "2026-07-26T04:30:00.000Z",
+    "id": 1785052800,
+    "nextTime": "2026-07-26T11:30:00.000Z",
+    "startTime": "2026-07-26T08:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -30,32 +30,20 @@
     ]
   },
   "legion": {
-    "id": 1785038700,
-    "nextTime": "2026-07-26T04:30:00.000Z",
-    "startTime": "2026-07-26T04:05:00.000Z",
+    "id": 1785047700,
+    "nextTime": "2026-07-26T07:00:00.000Z",
+    "startTime": "2026-07-26T06:35:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
         "boss": "Wandering Death",
-        "startTime": "2026-07-26T04:30:00.000Z",
+        "startTime": "2026-07-26T08:00:00.000Z",
         "zone": [
           {
             "id": "scosglen",
             "name": "Scosglen",
-            "isWhisper": false,
-            "boss": "Wandering Death"
-          }
-        ]
-      },
-      {
-        "boss": "Wandering Death",
-        "startTime": "2026-07-26T08:00:00.000Z",
-        "zone": [
-          {
-            "id": "fractured_peaks",
-            "name": "Fractured Peaks",
             "isWhisper": false,
             "boss": "Wandering Death"
           }
@@ -72,30 +60,48 @@
             "boss": "Avarice"
           }
         ]
+      },
+      {
+        "boss": "Avarice",
+        "startTime": "2026-07-26T15:00:00.000Z",
+        "zone": [
+          {
+            "id": "fractured_peaks",
+            "name": "Fractured Peaks",
+            "isWhisper": false,
+            "boss": "Avarice"
+          },
+          {
+            "id": "nahantu",
+            "name": "Nahantu",
+            "isWhisper": false,
+            "boss": "Avarice"
+          }
+        ]
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-07-26T04:00:00.000Z"
+        "startTime": "2026-07-26T07:00:00.000Z"
       },
       {
-        "startTime": "2026-07-26T05:00:00.000Z"
+        "startTime": "2026-07-26T08:00:00.000Z"
       },
       {
-        "startTime": "2026-07-26T06:00:00.000Z"
+        "startTime": "2026-07-26T09:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-07-26T04:05:00.000Z"
+        "startTime": "2026-07-26T06:35:00.000Z"
       },
       {
-        "startTime": "2026-07-26T04:30:00.000Z"
+        "startTime": "2026-07-26T07:00:00.000Z"
       },
       {
-        "startTime": "2026-07-26T04:55:00.000Z"
+        "startTime": "2026-07-26T07:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-07-26T03:52:00.572Z"
+  "fetchedAt": "2026-07-26T06:25:49.432Z"
 }
