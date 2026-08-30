@@ -324,12 +324,18 @@
       const items = [];
 
       (upcomingData.world_boss || []).forEach(e => {
+        // The feed names only the imminent boss. Later entries are projected from
+        // the 3.5h cadence and carry a start time alone, so they render untitled
+        // rather than claiming a boss we cannot know.
+        const named = Boolean(e.boss);
         const zones = Array.isArray(e.zone) ? e.zone.map(z => z.name).join(' & ') : zoneName(e.zone);
         items.push({
-          label: `Boss — ${e.boss}`,
+          label: named ? `Boss — ${e.boss}` : 'World Boss',
           short: shortUntil(e.startTime, now),
-          ariaLabel: `World Boss ${e.boss} in ${zones}, ${longUntil(e.startTime, now)}`,
-          full: `${formatDateTime(e.startTime)} · ${zones}`,
+          ariaLabel: named
+            ? `World Boss ${e.boss} in ${zones}, ${longUntil(e.startTime, now)}`
+            : `World Boss ${longUntil(e.startTime, now)}`,
+          full: named ? `${formatDateTime(e.startTime)} · ${zones}` : formatDateTime(e.startTime),
           ts: e.startTime,
         });
       });
