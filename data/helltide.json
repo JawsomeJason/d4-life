@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-09-01T20:55:00.000Z",
-    "id": 1788292800,
-    "startTime": "2026-09-01T20:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-09-01T22:55:00.000Z",
+    "id": 1788300000,
+    "startTime": "2026-09-01T22:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
@@ -31,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1788293700,
-    "nextTime": "2026-09-01T20:40:00.000Z",
-    "startTime": "2026-09-01T20:15:00.000Z",
+    "id": 1788302700,
+    "nextTime": "2026-09-01T23:10:00.000Z",
+    "startTime": "2026-09-01T22:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -65,26 +65,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-09-01T21:00:00.000Z"
-      },
-      {
-        "startTime": "2026-09-01T22:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-01T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-02T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-02T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-01T20:15:00.000Z"
+        "startTime": "2026-09-01T22:45:00.000Z"
       },
       {
-        "startTime": "2026-09-01T20:40:00.000Z"
+        "startTime": "2026-09-01T23:10:00.000Z"
       },
       {
-        "startTime": "2026-09-01T21:05:00.000Z"
+        "startTime": "2026-09-01T23:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-01T20:10:26.813Z"
+  "fetchedAt": "2026-09-01T22:34:40.747Z"
 }
