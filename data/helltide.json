@@ -1,20 +1,20 @@
 {
   "helltide": {
-    "endTime": "2026-09-01T22:55:00.000Z",
-    "id": 1788300000,
-    "startTime": "2026-09-01T22:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-09-02T00:55:00.000Z",
+    "id": 1788307200,
+    "startTime": "2026-09-02T00:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1788303600,
-    "nextTime": "2026-09-02T02:30:00.000Z",
-    "skovosBoss": "Avarice",
-    "startTime": "2026-09-01T23:00:00.000Z",
+    "id": 1788316200,
+    "nextTime": "2026-09-02T06:00:00.000Z",
+    "startTime": "2026-09-02T02:30:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
@@ -31,15 +31,14 @@
     ]
   },
   "legion": {
-    "id": 1788302700,
-    "nextTime": "2026-09-01T23:10:00.000Z",
-    "startTime": "2026-09-01T22:45:00.000Z",
-    "zoneWindow": true
+    "id": 1788310200,
+    "nextTime": "2026-09-02T01:15:00.000Z",
+    "startTime": "2026-09-02T00:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-01T23:00:00.000Z",
+        "startTime": "2026-09-02T02:30:00.000Z",
         "boss": "Ashava",
         "zone": [
           {
@@ -57,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-02T02:30:00.000Z"
+        "startTime": "2026-09-02T06:00:00.000Z"
       },
       {
-        "startTime": "2026-09-02T06:00:00.000Z"
+        "startTime": "2026-09-02T09:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-01T23:00:00.000Z"
-      },
-      {
-        "startTime": "2026-09-02T00:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-02T01:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-02T02:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-02T03:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-01T22:45:00.000Z"
+        "startTime": "2026-09-02T00:25:00.000Z"
       },
       {
-        "startTime": "2026-09-01T23:10:00.000Z"
+        "startTime": "2026-09-02T00:50:00.000Z"
       },
       {
-        "startTime": "2026-09-01T23:35:00.000Z"
+        "startTime": "2026-09-02T01:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-01T22:34:40.747Z"
+  "fetchedAt": "2026-09-02T00:28:40.588Z"
 }
