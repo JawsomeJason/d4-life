@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-09-02T17:55:00.000Z",
-    "id": 1788368400,
-    "startTime": "2026-09-02T17:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-09-02T19:55:00.000Z",
+    "id": 1788375600,
+    "startTime": "2026-09-02T19:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
@@ -30,9 +30,9 @@
     ]
   },
   "legion": {
-    "id": 1788370200,
-    "nextTime": "2026-09-02T17:55:00.000Z",
-    "startTime": "2026-09-02T17:30:00.000Z"
+    "id": 1788379200,
+    "nextTime": "2026-09-02T20:25:00.000Z",
+    "startTime": "2026-09-02T20:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
@@ -63,26 +63,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-09-02T18:00:00.000Z"
-      },
-      {
-        "startTime": "2026-09-02T19:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-02T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-02T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-02T22:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-02T17:30:00.000Z"
+        "startTime": "2026-09-02T20:00:00.000Z"
       },
       {
-        "startTime": "2026-09-02T17:55:00.000Z"
+        "startTime": "2026-09-02T20:25:00.000Z"
       },
       {
-        "startTime": "2026-09-02T18:20:00.000Z"
+        "startTime": "2026-09-02T20:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-02T17:17:55.242Z"
+  "fetchedAt": "2026-09-02T19:50:24.857Z"
 }
