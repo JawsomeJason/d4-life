@@ -1,19 +1,20 @@
 {
   "helltide": {
-    "endTime": "2026-09-03T19:55:00.000Z",
-    "id": 1788462000,
-    "startTime": "2026-09-03T19:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-09-03T21:55:00.000Z",
+    "id": 1788469200,
+    "startTime": "2026-09-03T21:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1788467400,
-    "nextTime": "2026-09-04T00:00:00.000Z",
-    "startTime": "2026-09-03T20:30:00.000Z",
+    "id": 1788480000,
+    "nextTime": "2026-09-04T03:30:00.000Z",
+    "startTime": "2026-09-04T00:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
@@ -30,15 +31,14 @@
     ]
   },
   "legion": {
-    "id": 1788464700,
-    "nextTime": "2026-09-03T20:10:00.000Z",
-    "startTime": "2026-09-03T19:45:00.000Z",
-    "zoneWindow": true
+    "id": 1788472200,
+    "nextTime": "2026-09-03T22:15:00.000Z",
+    "startTime": "2026-09-03T21:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-03T20:30:00.000Z",
+        "startTime": "2026-09-04T00:00:00.000Z",
         "boss": "Avarice",
         "zone": [
           {
@@ -56,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-04T00:00:00.000Z"
+        "startTime": "2026-09-04T03:30:00.000Z"
       },
       {
-        "startTime": "2026-09-04T03:30:00.000Z"
+        "startTime": "2026-09-04T07:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-03T20:00:00.000Z"
-      },
-      {
-        "startTime": "2026-09-03T21:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-03T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-03T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-04T00:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-03T19:45:00.000Z"
+        "startTime": "2026-09-03T21:50:00.000Z"
       },
       {
-        "startTime": "2026-09-03T20:10:00.000Z"
+        "startTime": "2026-09-03T22:15:00.000Z"
       },
       {
-        "startTime": "2026-09-03T20:35:00.000Z"
+        "startTime": "2026-09-03T22:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-03T19:26:23.738Z"
+  "fetchedAt": "2026-09-03T21:47:00.190Z"
 }
