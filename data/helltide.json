@@ -1,19 +1,21 @@
 {
   "helltide": {
-    "endTime": "2026-09-04T14:55:00.000Z",
-    "id": 1788530400,
-    "startTime": "2026-09-04T14:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-09-04T17:55:00.000Z",
+    "id": 1788541200,
+    "startTime": "2026-09-04T17:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1788543000,
-    "nextTime": "2026-09-04T21:00:00.000Z",
-    "startTime": "2026-09-04T17:30:00.000Z",
+    "id": 1788555600,
+    "nextTime": "2026-09-05T00:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-09-04T21:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -30,14 +32,17 @@
     ]
   },
   "legion": {
-    "id": 1788532200,
-    "nextTime": "2026-09-04T14:55:00.000Z",
-    "startTime": "2026-09-04T14:30:00.000Z"
+    "id": 1788544200,
+    "nextTime": "2026-09-04T18:15:00.000Z",
+    "startTime": "2026-09-04T17:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-04T17:30:00.000Z",
+        "startTime": "2026-09-04T17:30:00.000Z"
+      },
+      {
+        "startTime": "2026-09-04T21:00:00.000Z",
         "boss": "Wandering Death",
         "zone": [
           {
@@ -55,34 +60,31 @@
         ]
       },
       {
-        "startTime": "2026-09-04T21:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-05T00:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-04T15:00:00.000Z"
+        "startTime": "2026-09-04T18:00:00.000Z"
       },
       {
-        "startTime": "2026-09-04T16:00:00.000Z"
+        "startTime": "2026-09-04T19:00:00.000Z"
       },
       {
-        "startTime": "2026-09-04T17:00:00.000Z"
+        "startTime": "2026-09-04T20:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-04T14:30:00.000Z"
+        "startTime": "2026-09-04T17:50:00.000Z"
       },
       {
-        "startTime": "2026-09-04T14:55:00.000Z"
+        "startTime": "2026-09-04T18:15:00.000Z"
       },
       {
-        "startTime": "2026-09-04T15:20:00.000Z"
+        "startTime": "2026-09-04T18:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-04T14:25:01.910Z"
+  "fetchedAt": "2026-09-04T17:40:55.991Z"
 }
