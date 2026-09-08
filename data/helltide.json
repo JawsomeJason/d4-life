@@ -1,19 +1,20 @@
 {
   "helltide": {
-    "endTime": "2026-09-08T17:55:00.000Z",
-    "id": 1788886800,
-    "startTime": "2026-09-08T17:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-09-08T20:55:00.000Z",
+    "id": 1788897600,
+    "startTime": "2026-09-08T20:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1788895800,
-    "nextTime": "2026-09-08T23:00:00.000Z",
-    "startTime": "2026-09-08T19:30:00.000Z",
+    "id": 1788908400,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-09-09T02:30:00.000Z",
+    "startTime": "2026-09-08T23:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
@@ -30,14 +31,14 @@
     ]
   },
   "legion": {
-    "id": 1788889200,
-    "nextTime": "2026-09-08T18:05:00.000Z",
-    "startTime": "2026-09-08T17:40:00.000Z"
+    "id": 1788898200,
+    "nextTime": "2026-09-08T20:35:00.000Z",
+    "startTime": "2026-09-08T20:10:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-08T19:30:00.000Z",
+        "startTime": "2026-09-08T23:00:00.000Z",
         "boss": "Azmodan",
         "zone": [
           {
@@ -55,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-08T23:00:00.000Z"
+        "startTime": "2026-09-09T02:30:00.000Z"
       },
       {
-        "startTime": "2026-09-09T02:30:00.000Z"
+        "startTime": "2026-09-09T06:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-08T18:00:00.000Z"
+        "startTime": "2026-09-08T21:00:00.000Z"
       },
       {
-        "startTime": "2026-09-08T19:00:00.000Z"
+        "startTime": "2026-09-08T22:00:00.000Z"
       },
       {
-        "startTime": "2026-09-08T20:00:00.000Z"
+        "startTime": "2026-09-08T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-08T17:40:00.000Z"
+        "startTime": "2026-09-08T20:10:00.000Z"
       },
       {
-        "startTime": "2026-09-08T18:05:00.000Z"
+        "startTime": "2026-09-08T20:35:00.000Z"
       },
       {
-        "startTime": "2026-09-08T18:30:00.000Z"
+        "startTime": "2026-09-08T21:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-08T17:32:16.625Z"
+  "fetchedAt": "2026-09-08T20:10:14.894Z"
 }
