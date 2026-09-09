@@ -1,88 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-09-09T05:55:00.000Z",
-    "id": 1788930000,
-    "startTime": "2026-09-09T05:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-09-09T09:55:00.000Z",
+    "id": 1788944400,
+    "startTime": "2026-09-09T09:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1788933600,
-    "nextTime": "2026-09-09T09:30:00.000Z",
-    "startTime": "2026-09-09T06:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1788958800,
+    "nextTime": "2026-09-09T16:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-09-09T13:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Scosglen"
       },
       {
-        "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "boss": "Avarice",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1788931200,
-    "nextTime": "2026-09-09T05:45:00.000Z",
-    "startTime": "2026-09-09T05:20:00.000Z"
+    "id": 1788947700,
+    "nextTime": "2026-09-09T10:20:00.000Z",
+    "startTime": "2026-09-09T09:55:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-09T06:00:00.000Z",
-        "boss": "Avarice",
+        "startTime": "2026-09-09T09:30:00.000Z"
+      },
+      {
+        "startTime": "2026-09-09T13:00:00.000Z",
+        "boss": "Ashava",
         "zone": [
           {
-            "boss": "Avarice",
-            "id": "dry_steppes",
+            "boss": "Ashava",
+            "id": "scosglen",
             "isWhisper": false,
-            "name": "Dry Steppes"
+            "name": "Scosglen"
           },
           {
-            "boss": "Wandering Death",
-            "id": "fractured_peaks",
+            "boss": "Avarice",
+            "id": "skovos",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Skovos"
           }
         ]
       },
       {
-        "startTime": "2026-09-09T09:30:00.000Z"
-      },
-      {
-        "startTime": "2026-09-09T13:00:00.000Z"
+        "startTime": "2026-09-09T16:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-09T06:00:00.000Z"
+        "startTime": "2026-09-09T10:00:00.000Z"
       },
       {
-        "startTime": "2026-09-09T07:00:00.000Z"
+        "startTime": "2026-09-09T11:00:00.000Z"
       },
       {
-        "startTime": "2026-09-09T08:00:00.000Z"
+        "startTime": "2026-09-09T12:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-09T05:20:00.000Z"
+        "startTime": "2026-09-09T09:55:00.000Z"
       },
       {
-        "startTime": "2026-09-09T05:45:00.000Z"
+        "startTime": "2026-09-09T10:20:00.000Z"
       },
       {
-        "startTime": "2026-09-09T06:10:00.000Z"
+        "startTime": "2026-09-09T10:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-09T05:06:10.280Z"
+  "fetchedAt": "2026-09-09T09:37:30.441Z"
 }
