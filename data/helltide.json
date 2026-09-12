@@ -1,23 +1,22 @@
 {
   "helltide": {
-    "endTime": "2026-09-12T00:55:00.000Z",
-    "id": 1789171200,
-    "startTime": "2026-09-12T00:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-09-12T04:55:00.000Z",
+    "id": 1789185600,
+    "startTime": "2026-09-12T04:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Scorching Dunes (NW)",
-      "Forgotten Coastline",
-      "Amber Sands"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1789173000,
-    "nextTime": "2026-09-12T04:00:00.000Z",
-    "startTime": "2026-09-12T00:30:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1789198200,
+    "nextTime": "2026-09-12T11:00:00.000Z",
+    "startTime": "2026-09-12T07:30:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
+        "boss": "Wandering Death",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
@@ -31,18 +30,18 @@
     ]
   },
   "legion": {
-    "id": 1789174200,
-    "nextTime": "2026-09-12T01:15:00.000Z",
-    "startTime": "2026-09-12T00:50:00.000Z"
+    "id": 1789189200,
+    "nextTime": "2026-09-12T05:25:00.000Z",
+    "startTime": "2026-09-12T05:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-12T00:30:00.000Z",
-        "boss": "Azmodan",
+        "startTime": "2026-09-12T07:30:00.000Z",
+        "boss": "Wandering Death",
         "zone": [
           {
-            "boss": "Azmodan",
+            "boss": "Wandering Death",
             "id": "fractured_peaks",
             "isWhisper": false,
             "name": "Fractured Peaks"
@@ -56,34 +55,34 @@
         ]
       },
       {
-        "startTime": "2026-09-12T04:00:00.000Z"
+        "startTime": "2026-09-12T11:00:00.000Z"
       },
       {
-        "startTime": "2026-09-12T07:30:00.000Z"
+        "startTime": "2026-09-12T14:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-12T01:00:00.000Z"
+        "startTime": "2026-09-12T05:00:00.000Z"
       },
       {
-        "startTime": "2026-09-12T02:00:00.000Z"
+        "startTime": "2026-09-12T06:00:00.000Z"
       },
       {
-        "startTime": "2026-09-12T03:00:00.000Z"
+        "startTime": "2026-09-12T07:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-12T00:25:00.000Z"
+        "startTime": "2026-09-12T05:00:00.000Z"
       },
       {
-        "startTime": "2026-09-12T00:50:00.000Z"
+        "startTime": "2026-09-12T05:25:00.000Z"
       },
       {
-        "startTime": "2026-09-12T01:15:00.000Z"
+        "startTime": "2026-09-12T05:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-12T00:29:36.975Z"
+  "fetchedAt": "2026-09-12T04:52:59.479Z"
 }
