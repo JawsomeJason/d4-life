@@ -1,19 +1,20 @@
 {
   "helltide": {
-    "endTime": "2026-09-12T12:55:00.000Z",
-    "id": 1789214400,
-    "startTime": "2026-09-12T12:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-09-12T15:55:00.000Z",
+    "id": 1789225200,
+    "startTime": "2026-09-12T15:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Western Ways",
-      "Kor Rohavan"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1789223400,
-    "nextTime": "2026-09-12T18:00:00.000Z",
-    "startTime": "2026-09-12T14:30:00.000Z",
+    "id": 1789236000,
+    "nextTime": "2026-09-12T21:30:00.000Z",
+    "startTime": "2026-09-12T18:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
@@ -30,14 +31,14 @@
     ]
   },
   "legion": {
-    "id": 1789216200,
-    "nextTime": "2026-09-12T12:55:00.000Z",
-    "startTime": "2026-09-12T12:30:00.000Z"
+    "id": 1789228200,
+    "nextTime": "2026-09-12T16:15:00.000Z",
+    "startTime": "2026-09-12T15:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-12T14:30:00.000Z",
+        "startTime": "2026-09-12T18:00:00.000Z",
         "boss": "Avarice",
         "zone": [
           {
@@ -55,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-12T18:00:00.000Z"
+        "startTime": "2026-09-12T21:30:00.000Z"
       },
       {
-        "startTime": "2026-09-12T21:30:00.000Z"
+        "startTime": "2026-09-13T01:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-12T13:00:00.000Z"
+        "startTime": "2026-09-12T16:00:00.000Z"
       },
       {
-        "startTime": "2026-09-12T14:00:00.000Z"
+        "startTime": "2026-09-12T17:00:00.000Z"
       },
       {
-        "startTime": "2026-09-12T15:00:00.000Z"
+        "startTime": "2026-09-12T18:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-12T12:30:00.000Z"
+        "startTime": "2026-09-12T15:50:00.000Z"
       },
       {
-        "startTime": "2026-09-12T12:55:00.000Z"
+        "startTime": "2026-09-12T16:15:00.000Z"
       },
       {
-        "startTime": "2026-09-12T13:20:00.000Z"
+        "startTime": "2026-09-12T16:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-12T12:26:01.782Z"
+  "fetchedAt": "2026-09-12T15:41:03.872Z"
 }
