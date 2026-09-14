@@ -1,19 +1,19 @@
 {
   "helltide": {
-    "endTime": "2026-09-14T20:55:00.000Z",
-    "id": 1789416000,
-    "startTime": "2026-09-14T20:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-09-14T23:55:00.000Z",
+    "id": 1789426800,
+    "startTime": "2026-09-14T23:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1789425000,
-    "nextTime": "2026-09-15T02:00:00.000Z",
-    "startTime": "2026-09-14T22:30:00.000Z",
+    "id": 1789437600,
+    "nextTime": "2026-09-15T05:30:00.000Z",
+    "startTime": "2026-09-15T02:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
@@ -30,15 +30,15 @@
     ]
   },
   "legion": {
-    "id": 1789418700,
-    "nextTime": "2026-09-14T21:10:00.000Z",
-    "startTime": "2026-09-14T20:45:00.000Z",
+    "id": 1789427700,
+    "nextTime": "2026-09-14T23:40:00.000Z",
+    "startTime": "2026-09-14T23:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-14T22:30:00.000Z",
+        "startTime": "2026-09-15T02:00:00.000Z",
         "boss": "Avarice",
         "zone": [
           {
@@ -56,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-15T02:00:00.000Z"
+        "startTime": "2026-09-15T05:30:00.000Z"
       },
       {
-        "startTime": "2026-09-15T05:30:00.000Z"
+        "startTime": "2026-09-15T09:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-14T21:00:00.000Z"
+        "startTime": "2026-09-15T00:00:00.000Z"
       },
       {
-        "startTime": "2026-09-14T22:00:00.000Z"
+        "startTime": "2026-09-15T01:00:00.000Z"
       },
       {
-        "startTime": "2026-09-14T23:00:00.000Z"
+        "startTime": "2026-09-15T02:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-14T20:45:00.000Z"
+        "startTime": "2026-09-14T23:15:00.000Z"
       },
       {
-        "startTime": "2026-09-14T21:10:00.000Z"
+        "startTime": "2026-09-14T23:40:00.000Z"
       },
       {
-        "startTime": "2026-09-14T21:35:00.000Z"
+        "startTime": "2026-09-15T00:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-14T20:25:11.776Z"
+  "fetchedAt": "2026-09-14T23:14:16.655Z"
 }
