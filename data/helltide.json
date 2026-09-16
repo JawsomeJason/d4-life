@@ -1,89 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-09-16T05:55:00.000Z",
-    "id": 1789534800,
-    "startTime": "2026-09-16T05:00:00.000Z",
+    "endTime": "2026-09-16T10:55:00.000Z",
+    "id": 1789552800,
+    "startTime": "2026-09-16T10:00:00.000Z",
     "zone": "hawezar",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1789538400,
-    "nextTime": "2026-09-16T09:30:00.000Z",
-    "startTime": "2026-09-16T06:00:00.000Z",
+    "boss": "Azmodan",
+    "id": 1789563600,
+    "nextTime": "2026-09-16T16:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-09-16T13:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
+        "boss": "Azmodan",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
       },
       {
         "boss": "Avarice",
-        "id": "nahantu",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1789535700,
-    "nextTime": "2026-09-16T05:40:00.000Z",
-    "startTime": "2026-09-16T05:15:00.000Z",
+    "id": 1789553700,
+    "nextTime": "2026-09-16T10:40:00.000Z",
+    "startTime": "2026-09-16T10:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-16T06:00:00.000Z",
-        "boss": "Ashava",
+        "startTime": "2026-09-16T13:00:00.000Z",
+        "boss": "Azmodan",
         "zone": [
           {
-            "boss": "Ashava",
+            "boss": "Azmodan",
             "id": "fractured_peaks",
             "isWhisper": false,
             "name": "Fractured Peaks"
           },
           {
             "boss": "Avarice",
-            "id": "nahantu",
+            "id": "skovos",
             "isWhisper": false,
-            "name": "Nahantu"
+            "name": "Skovos"
           }
         ]
       },
       {
-        "startTime": "2026-09-16T09:30:00.000Z"
+        "startTime": "2026-09-16T16:30:00.000Z"
       },
       {
-        "startTime": "2026-09-16T13:00:00.000Z"
+        "startTime": "2026-09-16T20:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-16T06:00:00.000Z"
+        "startTime": "2026-09-16T10:00:00.000Z"
       },
       {
-        "startTime": "2026-09-16T07:00:00.000Z"
+        "startTime": "2026-09-16T11:00:00.000Z"
       },
       {
-        "startTime": "2026-09-16T08:00:00.000Z"
+        "startTime": "2026-09-16T12:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-16T05:15:00.000Z"
+        "startTime": "2026-09-16T10:15:00.000Z"
       },
       {
-        "startTime": "2026-09-16T05:40:00.000Z"
+        "startTime": "2026-09-16T10:40:00.000Z"
       },
       {
-        "startTime": "2026-09-16T06:05:00.000Z"
+        "startTime": "2026-09-16T11:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-16T05:11:13.385Z"
+  "fetchedAt": "2026-09-16T09:55:13.930Z"
 }
