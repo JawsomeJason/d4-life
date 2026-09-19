@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-09-19T19:55:00.000Z",
-    "id": 1789844400,
-    "startTime": "2026-09-19T19:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-09-19T21:55:00.000Z",
+    "id": 1789851600,
+    "startTime": "2026-09-19T21:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
@@ -17,9 +17,9 @@
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
         "boss": "Avarice",
@@ -30,9 +30,10 @@
     ]
   },
   "legion": {
-    "id": 1789846200,
-    "nextTime": "2026-09-19T19:55:00.000Z",
-    "startTime": "2026-09-19T19:30:00.000Z"
+    "id": 1789853700,
+    "nextTime": "2026-09-19T22:00:00.000Z",
+    "startTime": "2026-09-19T21:35:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
@@ -42,9 +43,9 @@
         "zone": [
           {
             "boss": "Azmodan",
-            "id": "fractured_peaks",
+            "id": "kehjistan",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Kehjistan"
           },
           {
             "boss": "Avarice",
@@ -63,26 +64,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-09-19T20:00:00.000Z"
-      },
-      {
-        "startTime": "2026-09-19T21:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-19T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-19T23:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-20T00:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-19T19:30:00.000Z"
+        "startTime": "2026-09-19T21:35:00.000Z"
       },
       {
-        "startTime": "2026-09-19T19:55:00.000Z"
+        "startTime": "2026-09-19T22:00:00.000Z"
       },
       {
-        "startTime": "2026-09-19T20:20:00.000Z"
+        "startTime": "2026-09-19T22:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-19T19:23:14.231Z"
+  "fetchedAt": "2026-09-19T21:30:31.121Z"
 }
