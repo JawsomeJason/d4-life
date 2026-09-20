@@ -1,25 +1,26 @@
 {
   "helltide": {
-    "endTime": "2026-09-20T21:55:00.000Z",
-    "id": 1789938000,
-    "startTime": "2026-09-20T21:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-09-20T23:55:00.000Z",
+    "id": 1789945200,
+    "startTime": "2026-09-20T23:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1789941600,
-    "nextTime": "2026-09-21T01:30:00.000Z",
-    "startTime": "2026-09-20T22:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1789954200,
+    "nextTime": "2026-09-21T05:00:00.000Z",
+    "startTime": "2026-09-21T01:30:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
-        "id": "kehjistan",
+        "boss": "Wandering Death",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -30,21 +31,21 @@
     ]
   },
   "legion": {
-    "id": 1789942200,
-    "nextTime": "2026-09-20T22:35:00.000Z",
-    "startTime": "2026-09-20T22:10:00.000Z"
+    "id": 1789948200,
+    "nextTime": "2026-09-21T00:15:00.000Z",
+    "startTime": "2026-09-20T23:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-20T22:00:00.000Z",
-        "boss": "Azmodan",
+        "startTime": "2026-09-21T01:30:00.000Z",
+        "boss": "Wandering Death",
         "zone": [
           {
-            "boss": "Azmodan",
-            "id": "kehjistan",
+            "boss": "Wandering Death",
+            "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Kehjistan"
+            "name": "Fractured Peaks"
           },
           {
             "boss": "Ashava",
@@ -55,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-21T01:30:00.000Z"
+        "startTime": "2026-09-21T05:00:00.000Z"
       },
       {
-        "startTime": "2026-09-21T05:00:00.000Z"
+        "startTime": "2026-09-21T08:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-20T22:00:00.000Z"
-      },
-      {
-        "startTime": "2026-09-20T23:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-21T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-21T01:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-21T02:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-20T22:10:00.000Z"
+        "startTime": "2026-09-20T23:50:00.000Z"
       },
       {
-        "startTime": "2026-09-20T22:35:00.000Z"
+        "startTime": "2026-09-21T00:15:00.000Z"
       },
       {
-        "startTime": "2026-09-20T23:00:00.000Z"
+        "startTime": "2026-09-21T00:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-20T21:51:32.952Z"
+  "fetchedAt": "2026-09-20T23:37:00.474Z"
 }
