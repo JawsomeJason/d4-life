@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-09-20T17:55:00.000Z",
-    "id": 1789923600,
-    "startTime": "2026-09-20T17:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-09-20T19:55:00.000Z",
+    "id": 1789930800,
+    "startTime": "2026-09-20T19:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1789929000,
-    "nextTime": "2026-09-20T22:00:00.000Z",
-    "startTime": "2026-09-20T18:30:00.000Z",
+    "id": 1789941600,
+    "nextTime": "2026-09-21T01:30:00.000Z",
+    "startTime": "2026-09-20T22:00:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "scosglen",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -30,21 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1789927200,
-    "nextTime": "2026-09-20T18:25:00.000Z",
-    "startTime": "2026-09-20T18:00:00.000Z"
+    "id": 1789934700,
+    "nextTime": "2026-09-20T20:30:00.000Z",
+    "startTime": "2026-09-20T20:05:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-20T18:30:00.000Z",
+        "startTime": "2026-09-20T22:00:00.000Z",
         "boss": "Azmodan",
         "zone": [
           {
             "boss": "Azmodan",
-            "id": "scosglen",
+            "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Fractured Peaks"
           },
           {
             "boss": "Ashava",
@@ -55,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-20T22:00:00.000Z"
+        "startTime": "2026-09-21T01:30:00.000Z"
       },
       {
-        "startTime": "2026-09-21T01:30:00.000Z"
+        "startTime": "2026-09-21T05:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-20T18:00:00.000Z"
-      },
-      {
-        "startTime": "2026-09-20T19:00:00.000Z"
-      },
-      {
         "startTime": "2026-09-20T20:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-20T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-09-20T22:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-20T18:00:00.000Z"
+        "startTime": "2026-09-20T19:40:00.000Z"
       },
       {
-        "startTime": "2026-09-20T18:25:00.000Z"
+        "startTime": "2026-09-20T20:05:00.000Z"
       },
       {
-        "startTime": "2026-09-20T18:50:00.000Z"
+        "startTime": "2026-09-20T20:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-20T17:43:18.679Z"
+  "fetchedAt": "2026-09-20T19:44:17.147Z"
 }
