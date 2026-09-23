@@ -1,89 +1,88 @@
 {
   "helltide": {
-    "endTime": "2026-09-23T09:55:00.000Z",
-    "id": 1790154000,
-    "startTime": "2026-09-23T09:00:00.000Z",
+    "endTime": "2026-09-23T14:55:00.000Z",
+    "id": 1790172000,
+    "startTime": "2026-09-23T14:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1790155800,
-    "nextTime": "2026-09-23T13:00:00.000Z",
-    "startTime": "2026-09-23T09:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1790181000,
+    "nextTime": "2026-09-23T20:00:00.000Z",
+    "startTime": "2026-09-23T16:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "hawezar",
+        "boss": "Avarice",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Hawezar"
+        "name": "Kehjistan"
       },
       {
-        "boss": "Azmodan",
-        "id": "scosglen",
+        "boss": "Avarice",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       }
     ]
   },
   "legion": {
-    "id": 1790156700,
-    "nextTime": "2026-09-23T10:10:00.000Z",
-    "startTime": "2026-09-23T09:45:00.000Z",
-    "zoneWindow": true
+    "id": 1790173200,
+    "nextTime": "2026-09-23T14:45:00.000Z",
+    "startTime": "2026-09-23T14:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-23T09:30:00.000Z",
-        "boss": "Wandering Death",
+        "startTime": "2026-09-23T16:30:00.000Z",
+        "boss": "Avarice",
         "zone": [
           {
-            "boss": "Wandering Death",
-            "id": "hawezar",
+            "boss": "Avarice",
+            "id": "kehjistan",
             "isWhisper": false,
-            "name": "Hawezar"
+            "name": "Kehjistan"
           },
           {
-            "boss": "Azmodan",
-            "id": "scosglen",
+            "boss": "Avarice",
+            "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Fractured Peaks"
           }
         ]
       },
       {
-        "startTime": "2026-09-23T13:00:00.000Z"
+        "startTime": "2026-09-23T20:00:00.000Z"
       },
       {
-        "startTime": "2026-09-23T16:30:00.000Z"
+        "startTime": "2026-09-23T23:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-23T10:00:00.000Z"
+        "startTime": "2026-09-23T15:00:00.000Z"
       },
       {
-        "startTime": "2026-09-23T11:00:00.000Z"
+        "startTime": "2026-09-23T16:00:00.000Z"
       },
       {
-        "startTime": "2026-09-23T12:00:00.000Z"
+        "startTime": "2026-09-23T17:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-23T09:45:00.000Z"
+        "startTime": "2026-09-23T14:20:00.000Z"
       },
       {
-        "startTime": "2026-09-23T10:10:00.000Z"
+        "startTime": "2026-09-23T14:45:00.000Z"
       },
       {
-        "startTime": "2026-09-23T10:35:00.000Z"
+        "startTime": "2026-09-23T15:10:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-23T09:29:57.691Z"
+  "fetchedAt": "2026-09-23T14:19:45.510Z"
 }
