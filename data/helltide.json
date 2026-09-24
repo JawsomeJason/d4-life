@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-09-24T20:55:00.000Z",
-    "id": 1790280000,
-    "startTime": "2026-09-24T20:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-09-24T23:55:00.000Z",
+    "id": 1790290800,
+    "startTime": "2026-09-24T23:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Intruder's Claim",
+      "Devouring Moon"
     ]
   },
   "world_boss": {
@@ -30,16 +30,12 @@
     ]
   },
   "legion": {
-    "id": 1790282700,
-    "nextTime": "2026-09-24T21:10:00.000Z",
-    "startTime": "2026-09-24T20:45:00.000Z",
-    "zoneWindow": true
+    "id": 1790293200,
+    "nextTime": "2026-09-25T00:05:00.000Z",
+    "startTime": "2026-09-24T23:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
-      {
-        "startTime": "2026-09-24T20:30:00.000Z"
-      },
       {
         "startTime": "2026-09-25T00:00:00.000Z",
         "boss": "Ashava",
@@ -60,30 +56,33 @@
       },
       {
         "startTime": "2026-09-25T03:30:00.000Z"
+      },
+      {
+        "startTime": "2026-09-25T07:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-24T21:00:00.000Z"
+        "startTime": "2026-09-25T00:00:00.000Z"
       },
       {
-        "startTime": "2026-09-24T22:00:00.000Z"
+        "startTime": "2026-09-25T01:00:00.000Z"
       },
       {
-        "startTime": "2026-09-24T23:00:00.000Z"
+        "startTime": "2026-09-25T02:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-24T20:45:00.000Z"
+        "startTime": "2026-09-24T23:40:00.000Z"
       },
       {
-        "startTime": "2026-09-24T21:10:00.000Z"
+        "startTime": "2026-09-25T00:05:00.000Z"
       },
       {
-        "startTime": "2026-09-24T21:35:00.000Z"
+        "startTime": "2026-09-25T00:30:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-24T20:44:58.526Z"
+  "fetchedAt": "2026-09-24T23:29:51.653Z"
 }
