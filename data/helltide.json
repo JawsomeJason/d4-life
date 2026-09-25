@@ -1,26 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-09-25T06:55:00.000Z",
-    "id": 1790316000,
-    "startTime": "2026-09-25T06:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-09-25T12:55:00.000Z",
+    "id": 1790337600,
+    "startTime": "2026-09-25T12:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1790319600,
-    "nextTime": "2026-09-25T10:30:00.000Z",
-    "skovosBoss": "Ashava",
-    "startTime": "2026-09-25T07:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1790344800,
+    "nextTime": "2026-09-25T17:30:00.000Z",
+    "startTime": "2026-09-25T14:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "skovos",
+        "boss": "Wandering Death",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Dry Steppes"
       },
       {
         "boss": "Azmodan",
@@ -31,22 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1790318700,
-    "nextTime": "2026-09-25T07:10:00.000Z",
-    "startTime": "2026-09-25T06:45:00.000Z",
+    "id": 1790339700,
+    "nextTime": "2026-09-25T13:00:00.000Z",
+    "startTime": "2026-09-25T12:35:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-25T07:00:00.000Z",
-        "boss": "Azmodan",
+        "startTime": "2026-09-25T14:00:00.000Z",
+        "boss": "Wandering Death",
         "zone": [
           {
-            "boss": "Ashava",
-            "id": "skovos",
+            "boss": "Wandering Death",
+            "id": "dry_steppes",
             "isWhisper": false,
-            "name": "Skovos"
+            "name": "Dry Steppes"
           },
           {
             "boss": "Azmodan",
@@ -57,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-25T10:30:00.000Z"
+        "startTime": "2026-09-25T17:30:00.000Z"
       },
       {
-        "startTime": "2026-09-25T14:00:00.000Z"
+        "startTime": "2026-09-25T21:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-25T07:00:00.000Z"
+        "startTime": "2026-09-25T13:00:00.000Z"
       },
       {
-        "startTime": "2026-09-25T08:00:00.000Z"
+        "startTime": "2026-09-25T14:00:00.000Z"
       },
       {
-        "startTime": "2026-09-25T09:00:00.000Z"
+        "startTime": "2026-09-25T15:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-25T06:45:00.000Z"
+        "startTime": "2026-09-25T12:10:00.000Z"
       },
       {
-        "startTime": "2026-09-25T07:10:00.000Z"
+        "startTime": "2026-09-25T12:35:00.000Z"
       },
       {
-        "startTime": "2026-09-25T07:35:00.000Z"
+        "startTime": "2026-09-25T13:00:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-25T06:40:05.923Z"
+  "fetchedAt": "2026-09-25T12:12:20.290Z"
 }
