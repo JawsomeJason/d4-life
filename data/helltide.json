@@ -1,22 +1,22 @@
 {
   "helltide": {
-    "endTime": "2026-09-26T01:55:00.000Z",
-    "id": 1790384400,
-    "startTime": "2026-09-26T01:00:00.000Z",
+    "endTime": "2026-09-26T06:55:00.000Z",
+    "id": 1790402400,
+    "startTime": "2026-09-26T06:00:00.000Z",
     "zone": "fractured_peaks",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1790395200,
-    "nextTime": "2026-09-26T07:30:00.000Z",
-    "startTime": "2026-09-26T04:00:00.000Z",
+    "boss": "Azmodan",
+    "id": 1790407800,
+    "nextTime": "2026-09-26T11:00:00.000Z",
+    "startTime": "2026-09-26T07:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
+        "boss": "Azmodan",
         "id": "scosglen",
         "isWhisper": false,
         "name": "Scosglen"
@@ -30,19 +30,19 @@
     ]
   },
   "legion": {
-    "id": 1790387700,
-    "nextTime": "2026-09-26T02:20:00.000Z",
-    "startTime": "2026-09-26T01:55:00.000Z",
+    "id": 1790405700,
+    "nextTime": "2026-09-26T07:20:00.000Z",
+    "startTime": "2026-09-26T06:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-26T04:00:00.000Z",
-        "boss": "Ashava",
+        "startTime": "2026-09-26T07:30:00.000Z",
+        "boss": "Azmodan",
         "zone": [
           {
-            "boss": "Ashava",
+            "boss": "Azmodan",
             "id": "scosglen",
             "isWhisper": false,
             "name": "Scosglen"
@@ -56,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-09-26T07:30:00.000Z"
+        "startTime": "2026-09-26T11:00:00.000Z"
       },
       {
-        "startTime": "2026-09-26T11:00:00.000Z"
+        "startTime": "2026-09-26T14:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-26T02:00:00.000Z"
+        "startTime": "2026-09-26T07:00:00.000Z"
       },
       {
-        "startTime": "2026-09-26T03:00:00.000Z"
+        "startTime": "2026-09-26T08:00:00.000Z"
       },
       {
-        "startTime": "2026-09-26T04:00:00.000Z"
+        "startTime": "2026-09-26T09:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-26T01:55:00.000Z"
+        "startTime": "2026-09-26T06:55:00.000Z"
       },
       {
-        "startTime": "2026-09-26T02:20:00.000Z"
+        "startTime": "2026-09-26T07:20:00.000Z"
       },
       {
-        "startTime": "2026-09-26T02:45:00.000Z"
+        "startTime": "2026-09-26T07:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-26T01:42:50.348Z"
+  "fetchedAt": "2026-09-26T06:36:54.513Z"
 }
