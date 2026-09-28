@@ -1,20 +1,20 @@
 {
   "helltide": {
-    "endTime": "2026-09-28T15:55:00.000Z",
-    "id": 1790607600,
-    "startTime": "2026-09-28T15:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-09-28T21:55:00.000Z",
+    "id": 1790629200,
+    "startTime": "2026-09-28T21:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1790622000,
-    "nahantuBoss": "Avarice",
-    "nextTime": "2026-09-28T22:30:00.000Z",
-    "startTime": "2026-09-28T19:00:00.000Z",
+    "id": 1790634600,
+    "nextTime": "2026-09-29T02:00:00.000Z",
+    "startTime": "2026-09-28T22:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -23,22 +23,23 @@
         "name": "Dry Steppes"
       },
       {
-        "boss": "Avarice",
-        "id": "nahantu",
+        "boss": "Wandering Death",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Dry Steppes"
       }
     ]
   },
   "legion": {
-    "id": 1790611200,
-    "nextTime": "2026-09-28T16:25:00.000Z",
-    "startTime": "2026-09-28T16:00:00.000Z"
+    "id": 1790630700,
+    "nextTime": "2026-09-28T21:50:00.000Z",
+    "startTime": "2026-09-28T21:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-28T19:00:00.000Z",
+        "startTime": "2026-09-28T22:30:00.000Z",
         "boss": "Wandering Death",
         "zone": [
           {
@@ -48,42 +49,42 @@
             "name": "Dry Steppes"
           },
           {
-            "boss": "Avarice",
-            "id": "nahantu",
+            "boss": "Wandering Death",
+            "id": "dry_steppes",
             "isWhisper": false,
-            "name": "Nahantu"
+            "name": "Dry Steppes"
           }
         ]
       },
       {
-        "startTime": "2026-09-28T22:30:00.000Z"
+        "startTime": "2026-09-29T02:00:00.000Z"
       },
       {
-        "startTime": "2026-09-29T02:00:00.000Z"
+        "startTime": "2026-09-29T05:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-28T16:00:00.000Z"
+        "startTime": "2026-09-28T22:00:00.000Z"
       },
       {
-        "startTime": "2026-09-28T17:00:00.000Z"
+        "startTime": "2026-09-28T23:00:00.000Z"
       },
       {
-        "startTime": "2026-09-28T18:00:00.000Z"
+        "startTime": "2026-09-29T00:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-28T16:00:00.000Z"
+        "startTime": "2026-09-28T21:25:00.000Z"
       },
       {
-        "startTime": "2026-09-28T16:25:00.000Z"
+        "startTime": "2026-09-28T21:50:00.000Z"
       },
       {
-        "startTime": "2026-09-28T16:50:00.000Z"
+        "startTime": "2026-09-28T22:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-28T15:50:34.945Z"
+  "fetchedAt": "2026-09-28T21:23:59.715Z"
 }
