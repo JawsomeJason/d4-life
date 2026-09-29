@@ -1,89 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-09-29T18:55:00.000Z",
-    "id": 1790704800,
-    "startTime": "2026-09-29T18:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-09-29T22:55:00.000Z",
+    "id": 1790719200,
+    "startTime": "2026-09-29T22:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Forgotten Coastline (S)",
+      "Amber Sands",
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1790710200,
-    "nextTime": "2026-09-29T23:00:00.000Z",
-    "startTime": "2026-09-29T19:30:00.000Z",
+    "id": 1790722800,
+    "nextTime": "2026-09-30T02:30:00.000Z",
+    "skovosBoss": "Ashava",
+    "startTime": "2026-09-29T23:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "kehjistan",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Hawezar"
       },
       {
-        "boss": "Avarice",
-        "id": "nahantu",
+        "boss": "Ashava",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1790708700,
-    "nextTime": "2026-09-29T19:30:00.000Z",
-    "startTime": "2026-09-29T19:05:00.000Z",
-    "zoneWindow": true
+    "id": 1790722200,
+    "nextTime": "2026-09-29T23:15:00.000Z",
+    "startTime": "2026-09-29T22:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-09-29T19:30:00.000Z",
+        "startTime": "2026-09-29T23:00:00.000Z",
         "boss": "Wandering Death",
         "zone": [
           {
             "boss": "Wandering Death",
-            "id": "kehjistan",
+            "id": "hawezar",
             "isWhisper": false,
-            "name": "Kehjistan"
+            "name": "Hawezar"
           },
           {
-            "boss": "Avarice",
-            "id": "nahantu",
+            "boss": "Ashava",
+            "id": "skovos",
             "isWhisper": false,
-            "name": "Nahantu"
+            "name": "Skovos"
           }
         ]
       },
       {
-        "startTime": "2026-09-29T23:00:00.000Z"
+        "startTime": "2026-09-30T02:30:00.000Z"
       },
       {
-        "startTime": "2026-09-30T02:30:00.000Z"
+        "startTime": "2026-09-30T06:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-09-29T19:00:00.000Z"
+        "startTime": "2026-09-29T23:00:00.000Z"
       },
       {
-        "startTime": "2026-09-29T20:00:00.000Z"
+        "startTime": "2026-09-30T00:00:00.000Z"
       },
       {
-        "startTime": "2026-09-29T21:00:00.000Z"
+        "startTime": "2026-09-30T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-09-29T18:40:00.000Z"
+        "startTime": "2026-09-29T22:50:00.000Z"
       },
       {
-        "startTime": "2026-09-29T19:05:00.000Z"
+        "startTime": "2026-09-29T23:15:00.000Z"
       },
       {
-        "startTime": "2026-09-29T19:30:00.000Z"
+        "startTime": "2026-09-29T23:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-09-29T18:41:56.834Z"
+  "fetchedAt": "2026-09-29T22:36:42.584Z"
 }
