@@ -1,90 +1,89 @@
 {
   "helltide": {
-    "endTime": "2026-10-01T14:55:00.000Z",
-    "id": 1790863200,
-    "startTime": "2026-10-01T14:00:00.000Z",
+    "endTime": "2026-10-01T19:55:00.000Z",
+    "id": 1790881200,
+    "startTime": "2026-10-01T19:00:00.000Z",
     "zone": "kehjistan",
     "chests": [
-      "Scorching Dunes (SW)",
+      "Forgotten Coastline (S)",
       "Amber Sands",
-      "Forgotten Coastline"
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1790874000,
-    "nahantuBoss": "Avarice",
-    "nextTime": "2026-10-01T20:30:00.000Z",
-    "startTime": "2026-10-01T17:00:00.000Z",
+    "id": 1790886600,
+    "nextTime": "2026-10-02T00:00:00.000Z",
+    "startTime": "2026-10-01T20:30:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
-        "boss": "Avarice",
-        "id": "nahantu",
+        "boss": "Azmodan",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1790866200,
-    "nextTime": "2026-10-01T15:15:00.000Z",
-    "startTime": "2026-10-01T14:50:00.000Z"
+    "id": 1790884200,
+    "nextTime": "2026-10-01T20:15:00.000Z",
+    "startTime": "2026-10-01T19:50:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-01T17:00:00.000Z",
+        "startTime": "2026-10-01T20:30:00.000Z",
         "boss": "Azmodan",
         "zone": [
           {
             "boss": "Azmodan",
-            "id": "fractured_peaks",
+            "id": "scosglen",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Scosglen"
           },
           {
-            "boss": "Avarice",
-            "id": "nahantu",
+            "boss": "Azmodan",
+            "id": "skovos",
             "isWhisper": false,
-            "name": "Nahantu"
+            "name": "Skovos"
           }
         ]
       },
       {
-        "startTime": "2026-10-01T20:30:00.000Z"
+        "startTime": "2026-10-02T00:00:00.000Z"
       },
       {
-        "startTime": "2026-10-02T00:00:00.000Z"
+        "startTime": "2026-10-02T03:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-01T15:00:00.000Z"
+        "startTime": "2026-10-01T20:00:00.000Z"
       },
       {
-        "startTime": "2026-10-01T16:00:00.000Z"
+        "startTime": "2026-10-01T21:00:00.000Z"
       },
       {
-        "startTime": "2026-10-01T17:00:00.000Z"
+        "startTime": "2026-10-01T22:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-01T14:50:00.000Z"
+        "startTime": "2026-10-01T19:50:00.000Z"
       },
       {
-        "startTime": "2026-10-01T15:15:00.000Z"
+        "startTime": "2026-10-01T20:15:00.000Z"
       },
       {
-        "startTime": "2026-10-01T15:40:00.000Z"
+        "startTime": "2026-10-01T20:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-01T14:41:47.456Z"
+  "fetchedAt": "2026-10-01T19:48:58.223Z"
 }
