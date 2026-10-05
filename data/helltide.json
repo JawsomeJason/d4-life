@@ -1,90 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-10-05T17:55:00.000Z",
-    "id": 1791219600,
-    "startTime": "2026-10-05T17:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-10-05T23:55:00.000Z",
+    "id": 1791241200,
+    "startTime": "2026-10-05T23:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1791226800,
-    "nextTime": "2026-10-05T22:30:00.000Z",
-    "skovosBoss": "Avarice",
-    "startTime": "2026-10-05T19:00:00.000Z",
+    "boss": "Azmodan",
+    "id": 1791252000,
+    "nextTime": "2026-10-06T05:30:00.000Z",
+    "startTime": "2026-10-06T02:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "scosglen",
+        "boss": "Azmodan",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       },
       {
-        "boss": "Avarice",
-        "id": "skovos",
+        "boss": "Azmodan",
+        "id": "nahantu",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1791221700,
-    "nextTime": "2026-10-05T18:00:00.000Z",
-    "startTime": "2026-10-05T17:35:00.000Z",
+    "id": 1791242700,
+    "nextTime": "2026-10-05T23:50:00.000Z",
+    "startTime": "2026-10-05T23:25:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-05T19:00:00.000Z",
-        "boss": "Ashava",
+        "startTime": "2026-10-06T02:00:00.000Z",
+        "boss": "Azmodan",
         "zone": [
           {
-            "boss": "Ashava",
-            "id": "scosglen",
+            "boss": "Azmodan",
+            "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Fractured Peaks"
           },
           {
-            "boss": "Avarice",
-            "id": "skovos",
+            "boss": "Azmodan",
+            "id": "nahantu",
             "isWhisper": false,
-            "name": "Skovos"
+            "name": "Nahantu"
           }
         ]
       },
       {
-        "startTime": "2026-10-05T22:30:00.000Z"
+        "startTime": "2026-10-06T05:30:00.000Z"
+      },
+      {
+        "startTime": "2026-10-06T09:00:00.000Z"
+      }
+    ],
+    "helltide": [
+      {
+        "startTime": "2026-10-06T00:00:00.000Z"
+      },
+      {
+        "startTime": "2026-10-06T01:00:00.000Z"
       },
       {
         "startTime": "2026-10-06T02:00:00.000Z"
       }
     ],
-    "helltide": [
-      {
-        "startTime": "2026-10-05T18:00:00.000Z"
-      },
-      {
-        "startTime": "2026-10-05T19:00:00.000Z"
-      },
-      {
-        "startTime": "2026-10-05T20:00:00.000Z"
-      }
-    ],
     "legion": [
       {
-        "startTime": "2026-10-05T17:35:00.000Z"
+        "startTime": "2026-10-05T23:25:00.000Z"
       },
       {
-        "startTime": "2026-10-05T18:00:00.000Z"
+        "startTime": "2026-10-05T23:50:00.000Z"
       },
       {
-        "startTime": "2026-10-05T18:25:00.000Z"
+        "startTime": "2026-10-06T00:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-05T17:27:43.895Z"
+  "fetchedAt": "2026-10-05T23:15:47.887Z"
 }
