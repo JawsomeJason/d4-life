@@ -1,89 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-10-07T19:55:00.000Z",
-    "id": 1791399600,
-    "startTime": "2026-10-07T19:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-10-07T23:55:00.000Z",
+    "id": 1791414000,
+    "startTime": "2026-10-07T23:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Cursed Scarps",
+      "Túr Dúlra North"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1791403200,
-    "nextTime": "2026-10-07T23:30:00.000Z",
-    "startTime": "2026-10-07T20:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1791428400,
+    "nextTime": "2026-10-08T06:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-10-08T03:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
+        "boss": "Ashava",
         "id": "scosglen",
         "isWhisper": false,
         "name": "Scosglen"
       },
       {
         "boss": "Avarice",
-        "id": "nahantu",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1791401700,
-    "nextTime": "2026-10-07T20:00:00.000Z",
-    "startTime": "2026-10-07T19:35:00.000Z",
+    "id": 1791416700,
+    "nextTime": "2026-10-08T00:10:00.000Z",
+    "startTime": "2026-10-07T23:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-07T20:00:00.000Z",
-        "boss": "Avarice",
+        "startTime": "2026-10-07T23:30:00.000Z"
+      },
+      {
+        "startTime": "2026-10-08T03:00:00.000Z",
+        "boss": "Ashava",
         "zone": [
           {
-            "boss": "Avarice",
+            "boss": "Ashava",
             "id": "scosglen",
             "isWhisper": false,
             "name": "Scosglen"
           },
           {
             "boss": "Avarice",
-            "id": "nahantu",
+            "id": "skovos",
             "isWhisper": false,
-            "name": "Nahantu"
+            "name": "Skovos"
           }
         ]
       },
       {
-        "startTime": "2026-10-07T23:30:00.000Z"
-      },
-      {
-        "startTime": "2026-10-08T03:00:00.000Z"
+        "startTime": "2026-10-08T06:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-07T20:00:00.000Z"
+        "startTime": "2026-10-08T00:00:00.000Z"
       },
       {
-        "startTime": "2026-10-07T21:00:00.000Z"
+        "startTime": "2026-10-08T01:00:00.000Z"
       },
       {
-        "startTime": "2026-10-07T22:00:00.000Z"
+        "startTime": "2026-10-08T02:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-07T19:35:00.000Z"
+        "startTime": "2026-10-07T23:45:00.000Z"
       },
       {
-        "startTime": "2026-10-07T20:00:00.000Z"
+        "startTime": "2026-10-08T00:10:00.000Z"
       },
       {
-        "startTime": "2026-10-07T20:25:00.000Z"
+        "startTime": "2026-10-08T00:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-07T19:32:09.397Z"
+  "fetchedAt": "2026-10-07T23:43:34.706Z"
 }
