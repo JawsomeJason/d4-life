@@ -1,12 +1,12 @@
 {
   "helltide": {
-    "endTime": "2026-10-07T23:55:00.000Z",
-    "id": 1791414000,
-    "startTime": "2026-10-07T23:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-10-08T03:55:00.000Z",
+    "id": 1791428400,
+    "startTime": "2026-10-08T03:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
@@ -17,74 +17,74 @@
     "startTime": "2026-10-08T03:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "scosglen",
-        "isWhisper": false,
-        "name": "Scosglen"
-      },
-      {
         "boss": "Avarice",
         "id": "skovos",
         "isWhisper": false,
         "name": "Skovos"
+      },
+      {
+        "boss": "Ashava",
+        "id": "dry_steppes",
+        "isWhisper": false,
+        "name": "Dry Steppes"
       }
     ]
   },
   "legion": {
-    "id": 1791416700,
-    "nextTime": "2026-10-08T00:10:00.000Z",
-    "startTime": "2026-10-07T23:45:00.000Z",
+    "id": 1791428700,
+    "nextTime": "2026-10-08T03:30:00.000Z",
+    "startTime": "2026-10-08T03:05:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-07T23:30:00.000Z"
-      },
-      {
         "startTime": "2026-10-08T03:00:00.000Z",
         "boss": "Ashava",
         "zone": [
-          {
-            "boss": "Ashava",
-            "id": "scosglen",
-            "isWhisper": false,
-            "name": "Scosglen"
-          },
           {
             "boss": "Avarice",
             "id": "skovos",
             "isWhisper": false,
             "name": "Skovos"
+          },
+          {
+            "boss": "Ashava",
+            "id": "dry_steppes",
+            "isWhisper": false,
+            "name": "Dry Steppes"
           }
         ]
       },
       {
         "startTime": "2026-10-08T06:30:00.000Z"
+      },
+      {
+        "startTime": "2026-10-08T10:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-08T00:00:00.000Z"
+        "startTime": "2026-10-08T03:00:00.000Z"
       },
       {
-        "startTime": "2026-10-08T01:00:00.000Z"
+        "startTime": "2026-10-08T04:00:00.000Z"
       },
       {
-        "startTime": "2026-10-08T02:00:00.000Z"
+        "startTime": "2026-10-08T05:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-07T23:45:00.000Z"
+        "startTime": "2026-10-08T03:05:00.000Z"
       },
       {
-        "startTime": "2026-10-08T00:10:00.000Z"
+        "startTime": "2026-10-08T03:30:00.000Z"
       },
       {
-        "startTime": "2026-10-08T00:35:00.000Z"
+        "startTime": "2026-10-08T03:55:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-07T23:43:34.706Z"
+  "fetchedAt": "2026-10-08T02:56:52.914Z"
 }
