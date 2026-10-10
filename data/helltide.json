@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-10-09T23:55:00.000Z",
-    "id": 1791586800,
-    "startTime": "2026-10-09T23:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-10-10T02:55:00.000Z",
+    "id": 1791597600,
+    "startTime": "2026-10-10T02:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1791592200,
-    "nextTime": "2026-10-10T04:00:00.000Z",
-    "startTime": "2026-10-10T00:30:00.000Z",
+    "id": 1791604800,
+    "nextTime": "2026-10-10T07:30:00.000Z",
+    "startTime": "2026-10-10T04:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
-        "id": "scosglen",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Azmodan",
@@ -30,21 +30,21 @@
     ]
   },
   "legion": {
-    "id": 1791589200,
-    "nextTime": "2026-10-10T00:05:00.000Z",
-    "startTime": "2026-10-09T23:40:00.000Z"
+    "id": 1791601200,
+    "nextTime": "2026-10-10T03:25:00.000Z",
+    "startTime": "2026-10-10T03:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-10T00:30:00.000Z",
+        "startTime": "2026-10-10T04:00:00.000Z",
         "boss": "Avarice",
         "zone": [
           {
             "boss": "Avarice",
-            "id": "scosglen",
+            "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Fractured Peaks"
           },
           {
             "boss": "Azmodan",
@@ -55,34 +55,34 @@
         ]
       },
       {
-        "startTime": "2026-10-10T04:00:00.000Z"
+        "startTime": "2026-10-10T07:30:00.000Z"
       },
       {
-        "startTime": "2026-10-10T07:30:00.000Z"
+        "startTime": "2026-10-10T11:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-10T00:00:00.000Z"
+        "startTime": "2026-10-10T03:00:00.000Z"
       },
       {
-        "startTime": "2026-10-10T01:00:00.000Z"
+        "startTime": "2026-10-10T04:00:00.000Z"
       },
       {
-        "startTime": "2026-10-10T02:00:00.000Z"
+        "startTime": "2026-10-10T05:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-09T23:40:00.000Z"
+        "startTime": "2026-10-10T02:35:00.000Z"
       },
       {
-        "startTime": "2026-10-10T00:05:00.000Z"
+        "startTime": "2026-10-10T03:00:00.000Z"
       },
       {
-        "startTime": "2026-10-10T00:30:00.000Z"
+        "startTime": "2026-10-10T03:25:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-09T23:33:42.685Z"
+  "fetchedAt": "2026-10-10T02:39:24.358Z"
 }
