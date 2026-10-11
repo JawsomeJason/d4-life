@@ -1,19 +1,19 @@
 {
   "helltide": {
-    "endTime": "2026-10-11T18:55:00.000Z",
-    "id": 1791741600,
-    "startTime": "2026-10-11T18:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-10-11T22:55:00.000Z",
+    "id": 1791756000,
+    "startTime": "2026-10-11T22:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Wayfarer's Folly",
-      "Desolation's Reach"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1791756000,
-    "nextTime": "2026-10-12T01:30:00.000Z",
-    "startTime": "2026-10-11T22:00:00.000Z",
+    "id": 1791768600,
+    "nextTime": "2026-10-12T05:00:00.000Z",
+    "startTime": "2026-10-12T01:30:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
@@ -30,17 +30,15 @@
     ]
   },
   "legion": {
-    "id": 1791745200,
-    "nextTime": "2026-10-11T19:25:00.000Z",
-    "startTime": "2026-10-11T19:00:00.000Z"
+    "id": 1791758700,
+    "nextTime": "2026-10-11T23:10:00.000Z",
+    "startTime": "2026-10-11T22:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-11T18:30:00.000Z"
-      },
-      {
-        "startTime": "2026-10-11T22:00:00.000Z",
+        "startTime": "2026-10-12T01:30:00.000Z",
         "boss": "Wandering Death",
         "zone": [
           {
@@ -58,31 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-10-12T01:30:00.000Z"
+        "startTime": "2026-10-12T05:00:00.000Z"
+      },
+      {
+        "startTime": "2026-10-12T08:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-11T19:00:00.000Z"
+        "startTime": "2026-10-11T23:00:00.000Z"
       },
       {
-        "startTime": "2026-10-11T20:00:00.000Z"
+        "startTime": "2026-10-12T00:00:00.000Z"
       },
       {
-        "startTime": "2026-10-11T21:00:00.000Z"
+        "startTime": "2026-10-12T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-11T19:00:00.000Z"
+        "startTime": "2026-10-11T22:45:00.000Z"
       },
       {
-        "startTime": "2026-10-11T19:25:00.000Z"
+        "startTime": "2026-10-11T23:10:00.000Z"
       },
       {
-        "startTime": "2026-10-11T19:50:00.000Z"
+        "startTime": "2026-10-11T23:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-11T18:40:26.332Z"
+  "fetchedAt": "2026-10-11T22:27:34.246Z"
 }
