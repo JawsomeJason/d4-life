@@ -1,19 +1,19 @@
 {
   "helltide": {
-    "endTime": "2026-10-17T13:55:00.000Z",
-    "id": 1792242000,
-    "startTime": "2026-10-17T13:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-10-17T16:55:00.000Z",
+    "id": 1792252800,
+    "startTime": "2026-10-17T16:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
     "boss": "Avarice",
-    "id": 1792247400,
-    "nextTime": "2026-10-17T18:00:00.000Z",
-    "startTime": "2026-10-17T14:30:00.000Z",
+    "id": 1792260000,
+    "nextTime": "2026-10-17T21:30:00.000Z",
+    "startTime": "2026-10-17T18:00:00.000Z",
     "zone": [
       {
         "boss": "Avarice",
@@ -30,14 +30,14 @@
     ]
   },
   "legion": {
-    "id": 1792243200,
-    "nextTime": "2026-10-17T13:45:00.000Z",
-    "startTime": "2026-10-17T13:20:00.000Z"
+    "id": 1792255200,
+    "nextTime": "2026-10-17T17:05:00.000Z",
+    "startTime": "2026-10-17T16:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-17T14:30:00.000Z",
+        "startTime": "2026-10-17T18:00:00.000Z",
         "boss": "Avarice",
         "zone": [
           {
@@ -55,34 +55,34 @@
         ]
       },
       {
-        "startTime": "2026-10-17T18:00:00.000Z"
+        "startTime": "2026-10-17T21:30:00.000Z"
       },
       {
-        "startTime": "2026-10-17T21:30:00.000Z"
+        "startTime": "2026-10-18T01:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-17T14:00:00.000Z"
+        "startTime": "2026-10-17T17:00:00.000Z"
       },
       {
-        "startTime": "2026-10-17T15:00:00.000Z"
+        "startTime": "2026-10-17T18:00:00.000Z"
       },
       {
-        "startTime": "2026-10-17T16:00:00.000Z"
+        "startTime": "2026-10-17T19:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-17T13:20:00.000Z"
+        "startTime": "2026-10-17T16:15:00.000Z"
       },
       {
-        "startTime": "2026-10-17T13:45:00.000Z"
+        "startTime": "2026-10-17T16:40:00.000Z"
       },
       {
-        "startTime": "2026-10-17T14:10:00.000Z"
+        "startTime": "2026-10-17T17:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-17T13:06:56.970Z"
+  "fetchedAt": "2026-10-17T16:19:57.422Z"
 }
