@@ -1,12 +1,13 @@
 {
   "helltide": {
-    "endTime": "2026-10-17T18:55:00.000Z",
-    "id": 1792260000,
-    "startTime": "2026-10-17T18:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-10-17T20:55:00.000Z",
+    "id": 1792267200,
+    "startTime": "2026-10-17T20:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Westering Lowlands",
-      "Wailing Hills"
+      "Scorching Dunes (SW)",
+      "Amber Sands",
+      "Forgotten Coastline"
     ]
   },
   "world_boss": {
@@ -17,9 +18,9 @@
     "zone": [
       {
         "boss": "Ashava",
-        "id": "scosglen",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       },
       {
         "boss": "Ashava",
@@ -30,9 +31,9 @@
     ]
   },
   "legion": {
-    "id": 1792262700,
-    "nextTime": "2026-10-17T19:10:00.000Z",
-    "startTime": "2026-10-17T18:45:00.000Z",
+    "id": 1792271700,
+    "nextTime": "2026-10-17T21:40:00.000Z",
+    "startTime": "2026-10-17T21:15:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
@@ -43,9 +44,9 @@
         "zone": [
           {
             "boss": "Ashava",
-            "id": "scosglen",
+            "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Fractured Peaks"
           },
           {
             "boss": "Ashava",
@@ -64,26 +65,26 @@
     ],
     "helltide": [
       {
-        "startTime": "2026-10-17T19:00:00.000Z"
-      },
-      {
-        "startTime": "2026-10-17T20:00:00.000Z"
-      },
-      {
         "startTime": "2026-10-17T21:00:00.000Z"
+      },
+      {
+        "startTime": "2026-10-17T22:00:00.000Z"
+      },
+      {
+        "startTime": "2026-10-17T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-17T18:45:00.000Z"
+        "startTime": "2026-10-17T20:50:00.000Z"
       },
       {
-        "startTime": "2026-10-17T19:10:00.000Z"
+        "startTime": "2026-10-17T21:15:00.000Z"
       },
       {
-        "startTime": "2026-10-17T19:35:00.000Z"
+        "startTime": "2026-10-17T21:40:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-17T18:33:55.775Z"
+  "fetchedAt": "2026-10-17T20:53:09.195Z"
 }
