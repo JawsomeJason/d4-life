@@ -1,88 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-10-26T12:55:00.000Z",
-    "id": 1793016000,
-    "startTime": "2026-10-26T12:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-10-26T18:55:00.000Z",
+    "id": 1793037600,
+    "startTime": "2026-10-26T18:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1793028600,
-    "nextTime": "2026-10-26T19:00:00.000Z",
-    "startTime": "2026-10-26T15:30:00.000Z",
+    "id": 1793041200,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-10-26T22:30:00.000Z",
+    "skovosBoss": "Ashava",
+    "startTime": "2026-10-26T19:00:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
-        "id": "scosglen",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Skovos"
       },
       {
-        "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "boss": "Ashava",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       }
     ]
   },
   "legion": {
-    "id": 1793020200,
-    "nextTime": "2026-10-26T13:35:00.000Z",
-    "startTime": "2026-10-26T13:10:00.000Z"
+    "id": 1793041200,
+    "nextTime": "2026-10-26T19:25:00.000Z",
+    "startTime": "2026-10-26T19:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-26T15:30:00.000Z",
+        "startTime": "2026-10-26T19:00:00.000Z",
         "boss": "Ashava",
         "zone": [
           {
             "boss": "Ashava",
-            "id": "scosglen",
+            "id": "skovos",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Skovos"
           },
           {
-            "boss": "Wandering Death",
-            "id": "fractured_peaks",
+            "boss": "Ashava",
+            "id": "kehjistan",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Kehjistan"
           }
         ]
       },
       {
-        "startTime": "2026-10-26T19:00:00.000Z"
+        "startTime": "2026-10-26T22:30:00.000Z"
       },
       {
-        "startTime": "2026-10-26T22:30:00.000Z"
+        "startTime": "2026-10-27T02:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-26T13:00:00.000Z"
+        "startTime": "2026-10-26T19:00:00.000Z"
       },
       {
-        "startTime": "2026-10-26T14:00:00.000Z"
+        "startTime": "2026-10-26T20:00:00.000Z"
       },
       {
-        "startTime": "2026-10-26T15:00:00.000Z"
+        "startTime": "2026-10-26T21:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-26T12:45:00.000Z"
+        "startTime": "2026-10-26T19:00:00.000Z"
       },
       {
-        "startTime": "2026-10-26T13:10:00.000Z"
+        "startTime": "2026-10-26T19:25:00.000Z"
       },
       {
-        "startTime": "2026-10-26T13:35:00.000Z"
+        "startTime": "2026-10-26T19:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-26T12:47:13.383Z"
+  "fetchedAt": "2026-10-26T18:52:18.494Z"
 }
