@@ -1,19 +1,19 @@
 {
   "helltide": {
-    "endTime": "2026-10-28T19:55:00.000Z",
-    "id": 1793214000,
-    "startTime": "2026-10-28T19:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-10-28T23:55:00.000Z",
+    "id": 1793228400,
+    "startTime": "2026-10-28T23:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
     "boss": "Ashava",
-    "id": 1793217600,
-    "nextTime": "2026-10-28T23:30:00.000Z",
-    "startTime": "2026-10-28T20:00:00.000Z",
+    "id": 1793230200,
+    "nextTime": "2026-10-29T03:00:00.000Z",
+    "startTime": "2026-10-28T23:30:00.000Z",
     "zone": [
       {
         "boss": "Ashava",
@@ -30,14 +30,14 @@
     ]
   },
   "legion": {
-    "id": 1793215200,
-    "nextTime": "2026-10-28T19:45:00.000Z",
-    "startTime": "2026-10-28T19:20:00.000Z"
+    "id": 1793230200,
+    "nextTime": "2026-10-28T23:55:00.000Z",
+    "startTime": "2026-10-28T23:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-28T20:00:00.000Z",
+        "startTime": "2026-10-28T23:30:00.000Z",
         "boss": "Ashava",
         "zone": [
           {
@@ -55,34 +55,34 @@
         ]
       },
       {
-        "startTime": "2026-10-28T23:30:00.000Z"
+        "startTime": "2026-10-29T03:00:00.000Z"
       },
       {
-        "startTime": "2026-10-29T03:00:00.000Z"
+        "startTime": "2026-10-29T06:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-28T20:00:00.000Z"
+        "startTime": "2026-10-29T00:00:00.000Z"
       },
       {
-        "startTime": "2026-10-28T21:00:00.000Z"
+        "startTime": "2026-10-29T01:00:00.000Z"
       },
       {
-        "startTime": "2026-10-28T22:00:00.000Z"
+        "startTime": "2026-10-29T02:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-28T19:20:00.000Z"
+        "startTime": "2026-10-28T23:30:00.000Z"
       },
       {
-        "startTime": "2026-10-28T19:45:00.000Z"
+        "startTime": "2026-10-28T23:55:00.000Z"
       },
       {
-        "startTime": "2026-10-28T20:10:00.000Z"
+        "startTime": "2026-10-29T00:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-28T19:19:59.070Z"
+  "fetchedAt": "2026-10-28T23:18:46.722Z"
 }
