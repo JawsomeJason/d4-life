@@ -1,89 +1,88 @@
 {
   "helltide": {
-    "endTime": "2026-10-28T07:55:00.000Z",
-    "id": 1793170800,
-    "startTime": "2026-10-28T07:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-10-28T14:55:00.000Z",
+    "id": 1793196000,
+    "startTime": "2026-10-28T14:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Intruder's Claim",
-      "Devouring Moon"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1793179800,
-    "nextTime": "2026-10-28T13:00:00.000Z",
-    "startTime": "2026-10-28T09:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1793205000,
+    "nextTime": "2026-10-28T20:00:00.000Z",
+    "startTime": "2026-10-28T16:30:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "boss": "Avarice",
+        "id": "kehjistan",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Kehjistan"
       },
       {
-        "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "boss": "Wandering Death",
+        "id": "nahantu",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1793171700,
-    "nextTime": "2026-10-28T07:40:00.000Z",
-    "startTime": "2026-10-28T07:15:00.000Z",
-    "zoneWindow": true
+    "id": 1793197200,
+    "nextTime": "2026-10-28T14:45:00.000Z",
+    "startTime": "2026-10-28T14:20:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-28T09:30:00.000Z",
-        "boss": "Wandering Death",
+        "startTime": "2026-10-28T16:30:00.000Z",
+        "boss": "Avarice",
         "zone": [
           {
-            "boss": "Wandering Death",
-            "id": "fractured_peaks",
+            "boss": "Avarice",
+            "id": "kehjistan",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Kehjistan"
           },
           {
-            "boss": "Azmodan",
-            "id": "fractured_peaks",
+            "boss": "Wandering Death",
+            "id": "nahantu",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Nahantu"
           }
         ]
       },
       {
-        "startTime": "2026-10-28T13:00:00.000Z"
+        "startTime": "2026-10-28T20:00:00.000Z"
       },
       {
-        "startTime": "2026-10-28T16:30:00.000Z"
+        "startTime": "2026-10-28T23:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-28T08:00:00.000Z"
+        "startTime": "2026-10-28T14:00:00.000Z"
       },
       {
-        "startTime": "2026-10-28T09:00:00.000Z"
+        "startTime": "2026-10-28T15:00:00.000Z"
       },
       {
-        "startTime": "2026-10-28T10:00:00.000Z"
+        "startTime": "2026-10-28T16:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-28T07:15:00.000Z"
+        "startTime": "2026-10-28T13:55:00.000Z"
       },
       {
-        "startTime": "2026-10-28T07:40:00.000Z"
+        "startTime": "2026-10-28T14:20:00.000Z"
       },
       {
-        "startTime": "2026-10-28T08:05:00.000Z"
+        "startTime": "2026-10-28T14:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-28T07:08:50.174Z"
+  "fetchedAt": "2026-10-28T13:58:19.569Z"
 }
