@@ -1,90 +1,89 @@
 {
   "helltide": {
-    "endTime": "2026-10-29T15:55:00.000Z",
-    "id": 1793286000,
-    "startTime": "2026-10-29T15:00:00.000Z",
+    "endTime": "2026-10-29T20:55:00.000Z",
+    "id": 1793304000,
+    "startTime": "2026-10-29T20:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Cursed Scarps",
-      "Túr Dúlra North"
+      "Fothrach Castle",
+      "The Dead Barks"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1793293200,
-    "nextTime": "2026-10-29T20:30:00.000Z",
-    "skovosBoss": "Avarice",
-    "startTime": "2026-10-29T17:00:00.000Z",
+    "boss": "Ashava",
+    "id": 1793305800,
+    "nextTime": "2026-10-30T00:00:00.000Z",
+    "startTime": "2026-10-29T20:30:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
-        "id": "kehjistan",
+        "boss": "Ashava",
+        "id": "hawezar",
         "isWhisper": false,
-        "name": "Kehjistan"
+        "name": "Hawezar"
       },
       {
         "boss": "Avarice",
-        "id": "skovos",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Dry Steppes"
       }
     ]
   },
   "legion": {
-    "id": 1793288700,
-    "nextTime": "2026-10-29T16:10:00.000Z",
-    "startTime": "2026-10-29T15:45:00.000Z",
+    "id": 1793306700,
+    "nextTime": "2026-10-29T21:10:00.000Z",
+    "startTime": "2026-10-29T20:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-10-29T17:00:00.000Z",
-        "boss": "Avarice",
+        "startTime": "2026-10-29T20:30:00.000Z",
+        "boss": "Ashava",
         "zone": [
           {
-            "boss": "Avarice",
-            "id": "kehjistan",
+            "boss": "Ashava",
+            "id": "hawezar",
             "isWhisper": false,
-            "name": "Kehjistan"
+            "name": "Hawezar"
           },
           {
             "boss": "Avarice",
-            "id": "skovos",
+            "id": "dry_steppes",
             "isWhisper": false,
-            "name": "Skovos"
+            "name": "Dry Steppes"
           }
         ]
       },
       {
-        "startTime": "2026-10-29T20:30:00.000Z"
+        "startTime": "2026-10-30T00:00:00.000Z"
       },
       {
-        "startTime": "2026-10-30T00:00:00.000Z"
+        "startTime": "2026-10-30T03:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-10-29T16:00:00.000Z"
+        "startTime": "2026-10-29T21:00:00.000Z"
       },
       {
-        "startTime": "2026-10-29T17:00:00.000Z"
+        "startTime": "2026-10-29T22:00:00.000Z"
       },
       {
-        "startTime": "2026-10-29T18:00:00.000Z"
+        "startTime": "2026-10-29T23:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-10-29T15:45:00.000Z"
+        "startTime": "2026-10-29T20:45:00.000Z"
       },
       {
-        "startTime": "2026-10-29T16:10:00.000Z"
+        "startTime": "2026-10-29T21:10:00.000Z"
       },
       {
-        "startTime": "2026-10-29T16:35:00.000Z"
+        "startTime": "2026-10-29T21:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-10-29T15:36:11.785Z"
+  "fetchedAt": "2026-10-29T20:31:18.651Z"
 }
