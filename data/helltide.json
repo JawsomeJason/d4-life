@@ -1,88 +1,88 @@
 {
   "helltide": {
-    "endTime": "2026-11-01T09:55:00.000Z",
-    "id": 1793523600,
-    "startTime": "2026-11-01T09:00:00.000Z",
-    "zone": "dry_steppes",
+    "endTime": "2026-11-01T16:55:00.000Z",
+    "id": 1793548800,
+    "startTime": "2026-11-01T16:00:00.000Z",
+    "zone": "hawezar",
     "chests": [
-      "Crucible of Cinder",
-      "Galtmaa Bushland"
+      "Pilgrim's Cave",
+      "Plains of Attrition"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1793532600,
-    "nextTime": "2026-11-01T15:00:00.000Z",
-    "startTime": "2026-11-01T11:30:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1793557800,
+    "nextTime": "2026-11-01T22:00:00.000Z",
+    "startTime": "2026-11-01T18:30:00.000Z",
     "zone": [
       {
-        "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "boss": "Wandering Death",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       },
       {
-        "boss": "Azmodan",
-        "id": "skovos",
+        "boss": "Wandering Death",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Skovos"
+        "name": "Dry Steppes"
       }
     ]
   },
   "legion": {
-    "id": 1793527200,
-    "nextTime": "2026-11-01T10:25:00.000Z",
-    "startTime": "2026-11-01T10:00:00.000Z"
+    "id": 1793551200,
+    "nextTime": "2026-11-01T17:05:00.000Z",
+    "startTime": "2026-11-01T16:40:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-01T11:30:00.000Z",
-        "boss": "Azmodan",
+        "startTime": "2026-11-01T18:30:00.000Z",
+        "boss": "Wandering Death",
         "zone": [
           {
-            "boss": "Azmodan",
-            "id": "fractured_peaks",
+            "boss": "Wandering Death",
+            "id": "dry_steppes",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Dry Steppes"
           },
           {
-            "boss": "Azmodan",
-            "id": "skovos",
+            "boss": "Wandering Death",
+            "id": "dry_steppes",
             "isWhisper": false,
-            "name": "Skovos"
+            "name": "Dry Steppes"
           }
         ]
       },
       {
-        "startTime": "2026-11-01T15:00:00.000Z"
+        "startTime": "2026-11-01T22:00:00.000Z"
       },
       {
-        "startTime": "2026-11-01T18:30:00.000Z"
+        "startTime": "2026-11-02T01:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-01T10:00:00.000Z"
+        "startTime": "2026-11-01T17:00:00.000Z"
       },
       {
-        "startTime": "2026-11-01T11:00:00.000Z"
+        "startTime": "2026-11-01T18:00:00.000Z"
       },
       {
-        "startTime": "2026-11-01T12:00:00.000Z"
+        "startTime": "2026-11-01T19:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-01T09:35:00.000Z"
+        "startTime": "2026-11-01T16:15:00.000Z"
       },
       {
-        "startTime": "2026-11-01T10:00:00.000Z"
+        "startTime": "2026-11-01T16:40:00.000Z"
       },
       {
-        "startTime": "2026-11-01T10:25:00.000Z"
+        "startTime": "2026-11-01T17:05:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-01T09:37:51.857Z"
+  "fetchedAt": "2026-11-01T16:19:13.667Z"
 }
