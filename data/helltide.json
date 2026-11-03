@@ -1,90 +1,91 @@
 {
   "helltide": {
-    "endTime": "2026-11-03T17:55:00.000Z",
-    "id": 1793725200,
-    "startTime": "2026-11-03T17:00:00.000Z",
+    "endTime": "2026-11-03T22:55:00.000Z",
+    "id": 1793743200,
+    "startTime": "2026-11-03T22:00:00.000Z",
     "zone": "kehjistan",
     "chests": [
-      "Scorching Dunes (SW)",
+      "Forgotten Coastline (S)",
       "Amber Sands",
-      "Forgotten Coastline"
+      "Scorching Dunes (E)"
     ]
   },
   "world_boss": {
     "boss": "Wandering Death",
-    "id": 1793734200,
-    "nextTime": "2026-11-03T23:00:00.000Z",
-    "startTime": "2026-11-03T19:30:00.000Z",
+    "id": 1793746800,
+    "nahantuBoss": "Ashava",
+    "nextTime": "2026-11-04T02:30:00.000Z",
+    "startTime": "2026-11-03T23:00:00.000Z",
     "zone": [
       {
         "boss": "Wandering Death",
-        "id": "dry_steppes",
-        "isWhisper": false,
-        "name": "Dry Steppes"
-      },
-      {
-        "boss": "Ashava",
         "id": "scosglen",
         "isWhisper": false,
         "name": "Scosglen"
+      },
+      {
+        "boss": "Ashava",
+        "id": "nahantu",
+        "isWhisper": false,
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1793726700,
-    "nextTime": "2026-11-03T17:50:00.000Z",
-    "startTime": "2026-11-03T17:25:00.000Z",
+    "id": 1793744700,
+    "nextTime": "2026-11-03T22:50:00.000Z",
+    "startTime": "2026-11-03T22:25:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-03T19:30:00.000Z",
+        "startTime": "2026-11-03T23:00:00.000Z",
         "boss": "Wandering Death",
         "zone": [
           {
             "boss": "Wandering Death",
-            "id": "dry_steppes",
-            "isWhisper": false,
-            "name": "Dry Steppes"
-          },
-          {
-            "boss": "Ashava",
             "id": "scosglen",
             "isWhisper": false,
             "name": "Scosglen"
+          },
+          {
+            "boss": "Ashava",
+            "id": "nahantu",
+            "isWhisper": false,
+            "name": "Nahantu"
           }
         ]
       },
       {
-        "startTime": "2026-11-03T23:00:00.000Z"
+        "startTime": "2026-11-04T02:30:00.000Z"
       },
       {
-        "startTime": "2026-11-04T02:30:00.000Z"
+        "startTime": "2026-11-04T06:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-03T18:00:00.000Z"
+        "startTime": "2026-11-03T23:00:00.000Z"
       },
       {
-        "startTime": "2026-11-03T19:00:00.000Z"
+        "startTime": "2026-11-04T00:00:00.000Z"
       },
       {
-        "startTime": "2026-11-03T20:00:00.000Z"
+        "startTime": "2026-11-04T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-03T17:25:00.000Z"
+        "startTime": "2026-11-03T22:25:00.000Z"
       },
       {
-        "startTime": "2026-11-03T17:50:00.000Z"
+        "startTime": "2026-11-03T22:50:00.000Z"
       },
       {
-        "startTime": "2026-11-03T18:15:00.000Z"
+        "startTime": "2026-11-03T23:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-03T17:17:47.932Z"
+  "fetchedAt": "2026-11-03T22:20:02.740Z"
 }
