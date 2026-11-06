@@ -1,88 +1,88 @@
 {
   "helltide": {
-    "endTime": "2026-11-06T17:55:00.000Z",
-    "id": 1793984400,
-    "startTime": "2026-11-06T17:00:00.000Z",
+    "endTime": "2026-11-06T22:55:00.000Z",
+    "id": 1794002400,
+    "startTime": "2026-11-06T22:00:00.000Z",
     "zone": "fractured_peaks",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1793986200,
-    "nextTime": "2026-11-06T21:00:00.000Z",
-    "startTime": "2026-11-06T17:30:00.000Z",
+    "boss": "Azmodan",
+    "id": 1794011400,
+    "nextTime": "2026-11-07T04:00:00.000Z",
+    "startTime": "2026-11-07T00:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
+        "boss": "Azmodan",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
       },
       {
-        "boss": "Avarice",
-        "id": "fractured_peaks",
+        "boss": "Azmodan",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       }
     ]
   },
   "legion": {
-    "id": 1793986200,
-    "nextTime": "2026-11-06T17:55:00.000Z",
-    "startTime": "2026-11-06T17:30:00.000Z"
+    "id": 1794004200,
+    "nextTime": "2026-11-06T22:55:00.000Z",
+    "startTime": "2026-11-06T22:30:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-06T17:30:00.000Z",
-        "boss": "Ashava",
+        "startTime": "2026-11-07T00:30:00.000Z",
+        "boss": "Azmodan",
         "zone": [
           {
-            "boss": "Ashava",
+            "boss": "Azmodan",
             "id": "fractured_peaks",
             "isWhisper": false,
             "name": "Fractured Peaks"
           },
           {
-            "boss": "Avarice",
-            "id": "fractured_peaks",
+            "boss": "Azmodan",
+            "id": "scosglen",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Scosglen"
           }
         ]
       },
       {
-        "startTime": "2026-11-06T21:00:00.000Z"
+        "startTime": "2026-11-07T04:00:00.000Z"
       },
       {
-        "startTime": "2026-11-07T00:30:00.000Z"
+        "startTime": "2026-11-07T07:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-06T18:00:00.000Z"
+        "startTime": "2026-11-06T23:00:00.000Z"
       },
       {
-        "startTime": "2026-11-06T19:00:00.000Z"
+        "startTime": "2026-11-07T00:00:00.000Z"
       },
       {
-        "startTime": "2026-11-06T20:00:00.000Z"
+        "startTime": "2026-11-07T01:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-06T17:30:00.000Z"
+        "startTime": "2026-11-06T22:30:00.000Z"
       },
       {
-        "startTime": "2026-11-06T17:55:00.000Z"
+        "startTime": "2026-11-06T22:55:00.000Z"
       },
       {
-        "startTime": "2026-11-06T18:20:00.000Z"
+        "startTime": "2026-11-06T23:20:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-06T17:23:48.146Z"
+  "fetchedAt": "2026-11-06T22:11:39.691Z"
 }
