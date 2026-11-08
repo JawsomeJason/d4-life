@@ -1,89 +1,88 @@
 {
   "helltide": {
-    "endTime": "2026-11-07T22:55:00.000Z",
-    "id": 1794088800,
-    "startTime": "2026-11-07T22:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-11-08T01:55:00.000Z",
+    "id": 1794099600,
+    "startTime": "2026-11-08T01:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Crucible of Cinder",
+      "Galtmaa Bushland"
     ]
   },
   "world_boss": {
-    "boss": "Azmodan",
-    "id": 1794099600,
-    "nextTime": "2026-11-08T04:30:00.000Z",
-    "skovosBoss": "Avarice",
-    "startTime": "2026-11-08T01:00:00.000Z",
+    "boss": "Wandering Death",
+    "id": 1794112200,
+    "nextTime": "2026-11-08T08:00:00.000Z",
+    "startTime": "2026-11-08T04:30:00.000Z",
     "zone": [
+      {
+        "boss": "Wandering Death",
+        "id": "dry_steppes",
+        "isWhisper": false,
+        "name": "Dry Steppes"
+      },
       {
         "boss": "Azmodan",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
-      },
-      {
-        "boss": "Avarice",
-        "id": "skovos",
-        "isWhisper": false,
-        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1794091200,
-    "nextTime": "2026-11-07T23:05:00.000Z",
-    "startTime": "2026-11-07T22:40:00.000Z"
+    "id": 1794103200,
+    "nextTime": "2026-11-08T02:25:00.000Z",
+    "startTime": "2026-11-08T02:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-08T01:00:00.000Z",
-        "boss": "Azmodan",
+        "startTime": "2026-11-08T04:30:00.000Z",
+        "boss": "Wandering Death",
         "zone": [
+          {
+            "boss": "Wandering Death",
+            "id": "dry_steppes",
+            "isWhisper": false,
+            "name": "Dry Steppes"
+          },
           {
             "boss": "Azmodan",
             "id": "fractured_peaks",
             "isWhisper": false,
             "name": "Fractured Peaks"
-          },
-          {
-            "boss": "Avarice",
-            "id": "skovos",
-            "isWhisper": false,
-            "name": "Skovos"
           }
         ]
       },
       {
-        "startTime": "2026-11-08T04:30:00.000Z"
+        "startTime": "2026-11-08T08:00:00.000Z"
       },
       {
-        "startTime": "2026-11-08T08:00:00.000Z"
+        "startTime": "2026-11-08T11:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-07T23:00:00.000Z"
+        "startTime": "2026-11-08T02:00:00.000Z"
       },
       {
-        "startTime": "2026-11-08T00:00:00.000Z"
+        "startTime": "2026-11-08T03:00:00.000Z"
       },
       {
-        "startTime": "2026-11-08T01:00:00.000Z"
+        "startTime": "2026-11-08T04:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-07T22:40:00.000Z"
+        "startTime": "2026-11-08T02:00:00.000Z"
       },
       {
-        "startTime": "2026-11-07T23:05:00.000Z"
+        "startTime": "2026-11-08T02:25:00.000Z"
       },
       {
-        "startTime": "2026-11-07T23:30:00.000Z"
+        "startTime": "2026-11-08T02:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-07T22:31:07.549Z"
+  "fetchedAt": "2026-11-08T01:44:40.980Z"
 }
