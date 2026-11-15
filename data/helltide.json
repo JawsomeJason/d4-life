@@ -1,28 +1,28 @@
 {
   "helltide": {
-    "endTime": "2026-11-15T10:55:00.000Z",
-    "id": 1794736800,
-    "startTime": "2026-11-15T10:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-11-15T16:55:00.000Z",
+    "id": 1794758400,
+    "startTime": "2026-11-15T16:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Western Ways",
+      "Kor Rohavan"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1794742200,
-    "nextTime": "2026-11-15T15:00:00.000Z",
-    "startTime": "2026-11-15T11:30:00.000Z",
+    "boss": "Azmodan",
+    "id": 1794767400,
+    "nextTime": "2026-11-15T22:00:00.000Z",
+    "startTime": "2026-11-15T18:30:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "scosglen",
+        "boss": "Azmodan",
+        "id": "fractured_peaks",
         "isWhisper": false,
-        "name": "Scosglen"
+        "name": "Fractured Peaks"
       },
       {
-        "boss": "Wandering Death",
+        "boss": "Avarice",
         "id": "nahantu",
         "isWhisper": false,
         "name": "Nahantu"
@@ -30,25 +30,25 @@
     ]
   },
   "legion": {
-    "id": 1794737700,
-    "nextTime": "2026-11-15T10:40:00.000Z",
-    "startTime": "2026-11-15T10:15:00.000Z",
+    "id": 1794761700,
+    "nextTime": "2026-11-15T17:20:00.000Z",
+    "startTime": "2026-11-15T16:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-15T11:30:00.000Z",
-        "boss": "Ashava",
+        "startTime": "2026-11-15T18:30:00.000Z",
+        "boss": "Azmodan",
         "zone": [
           {
-            "boss": "Ashava",
-            "id": "scosglen",
+            "boss": "Azmodan",
+            "id": "fractured_peaks",
             "isWhisper": false,
-            "name": "Scosglen"
+            "name": "Fractured Peaks"
           },
           {
-            "boss": "Wandering Death",
+            "boss": "Avarice",
             "id": "nahantu",
             "isWhisper": false,
             "name": "Nahantu"
@@ -56,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-11-15T15:00:00.000Z"
+        "startTime": "2026-11-15T22:00:00.000Z"
       },
       {
-        "startTime": "2026-11-15T18:30:00.000Z"
+        "startTime": "2026-11-16T01:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-15T10:00:00.000Z"
+        "startTime": "2026-11-15T17:00:00.000Z"
       },
       {
-        "startTime": "2026-11-15T11:00:00.000Z"
+        "startTime": "2026-11-15T18:00:00.000Z"
       },
       {
-        "startTime": "2026-11-15T12:00:00.000Z"
+        "startTime": "2026-11-15T19:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-15T10:15:00.000Z"
+        "startTime": "2026-11-15T16:55:00.000Z"
       },
       {
-        "startTime": "2026-11-15T10:40:00.000Z"
+        "startTime": "2026-11-15T17:20:00.000Z"
       },
       {
-        "startTime": "2026-11-15T11:05:00.000Z"
+        "startTime": "2026-11-15T17:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-15T09:58:02.542Z"
+  "fetchedAt": "2026-11-15T16:48:38.200Z"
 }
