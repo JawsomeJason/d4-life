@@ -1,89 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-11-16T08:55:00.000Z",
-    "id": 1794816000,
-    "startTime": "2026-11-16T08:00:00.000Z",
-    "zone": "scosglen",
+    "endTime": "2026-11-16T17:55:00.000Z",
+    "id": 1794848400,
+    "startTime": "2026-11-16T17:00:00.000Z",
+    "zone": "fractured_peaks",
     "chests": [
-      "Fothrach Castle",
-      "The Dead Barks"
+      "Western Ways (East)",
+      "Olyam Tundra"
     ]
   },
   "world_boss": {
-    "boss": "Ashava",
-    "id": 1794817800,
-    "nextTime": "2026-11-16T12:00:00.000Z",
-    "startTime": "2026-11-16T08:30:00.000Z",
+    "boss": "Azmodan",
+    "id": 1794855600,
+    "nahantuBoss": "Avarice",
+    "nextTime": "2026-11-16T22:30:00.000Z",
+    "startTime": "2026-11-16T19:00:00.000Z",
     "zone": [
       {
-        "boss": "Ashava",
-        "id": "kehjistan",
-        "isWhisper": false,
-        "name": "Kehjistan"
-      },
-      {
-        "boss": "Avarice",
+        "boss": "Azmodan",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
+      },
+      {
+        "boss": "Avarice",
+        "id": "nahantu",
+        "isWhisper": false,
+        "name": "Nahantu"
       }
     ]
   },
   "legion": {
-    "id": 1794815700,
-    "nextTime": "2026-11-16T08:20:00.000Z",
-    "startTime": "2026-11-16T07:55:00.000Z",
+    "id": 1794851700,
+    "nextTime": "2026-11-16T18:20:00.000Z",
+    "startTime": "2026-11-16T17:55:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-16T08:30:00.000Z",
-        "boss": "Ashava",
+        "startTime": "2026-11-16T19:00:00.000Z",
+        "boss": "Azmodan",
         "zone": [
           {
-            "boss": "Ashava",
-            "id": "kehjistan",
-            "isWhisper": false,
-            "name": "Kehjistan"
-          },
-          {
-            "boss": "Avarice",
+            "boss": "Azmodan",
             "id": "fractured_peaks",
             "isWhisper": false,
             "name": "Fractured Peaks"
+          },
+          {
+            "boss": "Avarice",
+            "id": "nahantu",
+            "isWhisper": false,
+            "name": "Nahantu"
           }
         ]
       },
       {
-        "startTime": "2026-11-16T12:00:00.000Z"
+        "startTime": "2026-11-16T22:30:00.000Z"
       },
       {
-        "startTime": "2026-11-16T15:30:00.000Z"
+        "startTime": "2026-11-17T02:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-16T08:00:00.000Z"
+        "startTime": "2026-11-16T18:00:00.000Z"
       },
       {
-        "startTime": "2026-11-16T09:00:00.000Z"
+        "startTime": "2026-11-16T19:00:00.000Z"
       },
       {
-        "startTime": "2026-11-16T10:00:00.000Z"
+        "startTime": "2026-11-16T20:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-16T07:55:00.000Z"
+        "startTime": "2026-11-16T17:55:00.000Z"
       },
       {
-        "startTime": "2026-11-16T08:20:00.000Z"
+        "startTime": "2026-11-16T18:20:00.000Z"
       },
       {
-        "startTime": "2026-11-16T08:45:00.000Z"
+        "startTime": "2026-11-16T18:45:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-16T07:55:03.281Z"
+  "fetchedAt": "2026-11-16T17:40:16.510Z"
 }
