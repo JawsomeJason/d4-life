@@ -1,89 +1,89 @@
 {
   "helltide": {
-    "endTime": "2026-11-19T13:55:00.000Z",
-    "id": 1795093200,
-    "startTime": "2026-11-19T13:00:00.000Z",
-    "zone": "kehjistan",
+    "endTime": "2026-11-19T21:55:00.000Z",
+    "id": 1795122000,
+    "startTime": "2026-11-19T21:00:00.000Z",
+    "zone": "scosglen",
     "chests": [
-      "Forgotten Coastline (S)",
-      "Amber Sands",
-      "Scorching Dunes (E)"
+      "Abandoned Coast",
+      "Tur Dulra"
     ]
   },
   "world_boss": {
-    "boss": "Avarice",
-    "id": 1795095000,
-    "nextTime": "2026-11-19T17:00:00.000Z",
-    "startTime": "2026-11-19T13:30:00.000Z",
+    "boss": "Azmodan",
+    "id": 1795132800,
+    "nextTime": "2026-11-20T03:30:00.000Z",
+    "startTime": "2026-11-20T00:00:00.000Z",
     "zone": [
       {
-        "boss": "Avarice",
+        "boss": "Azmodan",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
       },
       {
-        "boss": "Wandering Death",
-        "id": "fractured_peaks",
+        "boss": "Ashava",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Dry Steppes"
       }
     ]
   },
   "legion": {
-    "id": 1795096200,
-    "nextTime": "2026-11-19T14:15:00.000Z",
-    "startTime": "2026-11-19T13:50:00.000Z"
+    "id": 1795124700,
+    "nextTime": "2026-11-19T22:10:00.000Z",
+    "startTime": "2026-11-19T21:45:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-19T13:30:00.000Z",
-        "boss": "Avarice",
+        "startTime": "2026-11-20T00:00:00.000Z",
+        "boss": "Azmodan",
         "zone": [
           {
-            "boss": "Avarice",
+            "boss": "Azmodan",
             "id": "fractured_peaks",
             "isWhisper": false,
             "name": "Fractured Peaks"
           },
           {
-            "boss": "Wandering Death",
-            "id": "fractured_peaks",
+            "boss": "Ashava",
+            "id": "dry_steppes",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Dry Steppes"
           }
         ]
       },
       {
-        "startTime": "2026-11-19T17:00:00.000Z"
+        "startTime": "2026-11-20T03:30:00.000Z"
       },
       {
-        "startTime": "2026-11-19T20:30:00.000Z"
+        "startTime": "2026-11-20T07:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-19T14:00:00.000Z"
+        "startTime": "2026-11-19T22:00:00.000Z"
       },
       {
-        "startTime": "2026-11-19T15:00:00.000Z"
+        "startTime": "2026-11-19T23:00:00.000Z"
       },
       {
-        "startTime": "2026-11-19T16:00:00.000Z"
+        "startTime": "2026-11-20T00:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-19T13:50:00.000Z"
+        "startTime": "2026-11-19T21:45:00.000Z"
       },
       {
-        "startTime": "2026-11-19T14:15:00.000Z"
+        "startTime": "2026-11-19T22:10:00.000Z"
       },
       {
-        "startTime": "2026-11-19T14:40:00.000Z"
+        "startTime": "2026-11-19T22:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-19T13:30:29.171Z"
+  "fetchedAt": "2026-11-19T21:43:26.304Z"
 }
