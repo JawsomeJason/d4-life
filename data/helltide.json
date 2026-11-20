@@ -1,88 +1,89 @@
 {
   "helltide": {
-    "endTime": "2026-11-20T10:55:00.000Z",
-    "id": 1795168800,
-    "startTime": "2026-11-20T10:00:00.000Z",
-    "zone": "hawezar",
+    "endTime": "2026-11-20T18:55:00.000Z",
+    "id": 1795197600,
+    "startTime": "2026-11-20T18:00:00.000Z",
+    "zone": "dry_steppes",
     "chests": [
-      "Pilgrim's Cave",
-      "Plains of Attrition"
+      "Wayfarer's Folly",
+      "Desolation's Reach"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1795170600,
-    "nextTime": "2026-11-20T14:00:00.000Z",
-    "startTime": "2026-11-20T10:30:00.000Z",
+    "boss": "Ashava",
+    "id": 1795208400,
+    "nextTime": "2026-11-21T00:30:00.000Z",
+    "skovosBoss": "Avarice",
+    "startTime": "2026-11-20T21:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
-        "id": "dry_steppes",
+        "boss": "Ashava",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Dry Steppes"
+        "name": "Scosglen"
       },
       {
         "boss": "Avarice",
-        "id": "nahantu",
+        "id": "skovos",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Skovos"
       }
     ]
   },
   "legion": {
-    "id": 1795171200,
-    "nextTime": "2026-11-20T11:05:00.000Z",
-    "startTime": "2026-11-20T10:40:00.000Z"
+    "id": 1795201200,
+    "nextTime": "2026-11-20T19:25:00.000Z",
+    "startTime": "2026-11-20T19:00:00.000Z"
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-20T10:30:00.000Z",
-        "boss": "Wandering Death",
+        "startTime": "2026-11-20T21:00:00.000Z",
+        "boss": "Ashava",
         "zone": [
           {
-            "boss": "Wandering Death",
-            "id": "dry_steppes",
+            "boss": "Ashava",
+            "id": "scosglen",
             "isWhisper": false,
-            "name": "Dry Steppes"
+            "name": "Scosglen"
           },
           {
             "boss": "Avarice",
-            "id": "nahantu",
+            "id": "skovos",
             "isWhisper": false,
-            "name": "Nahantu"
+            "name": "Skovos"
           }
         ]
       },
       {
-        "startTime": "2026-11-20T14:00:00.000Z"
+        "startTime": "2026-11-21T00:30:00.000Z"
       },
       {
-        "startTime": "2026-11-20T17:30:00.000Z"
+        "startTime": "2026-11-21T04:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-20T11:00:00.000Z"
+        "startTime": "2026-11-20T19:00:00.000Z"
       },
       {
-        "startTime": "2026-11-20T12:00:00.000Z"
+        "startTime": "2026-11-20T20:00:00.000Z"
       },
       {
-        "startTime": "2026-11-20T13:00:00.000Z"
+        "startTime": "2026-11-20T21:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-20T10:40:00.000Z"
+        "startTime": "2026-11-20T19:00:00.000Z"
       },
       {
-        "startTime": "2026-11-20T11:05:00.000Z"
+        "startTime": "2026-11-20T19:25:00.000Z"
       },
       {
-        "startTime": "2026-11-20T11:30:00.000Z"
+        "startTime": "2026-11-20T19:50:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-20T10:26:00.621Z"
+  "fetchedAt": "2026-11-20T18:41:20.284Z"
 }
