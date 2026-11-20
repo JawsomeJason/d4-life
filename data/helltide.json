@@ -1,25 +1,25 @@
 {
   "helltide": {
-    "endTime": "2026-11-19T21:55:00.000Z",
-    "id": 1795122000,
-    "startTime": "2026-11-19T21:00:00.000Z",
+    "endTime": "2026-11-20T02:55:00.000Z",
+    "id": 1795140000,
+    "startTime": "2026-11-20T02:00:00.000Z",
     "zone": "scosglen",
     "chests": [
-      "Abandoned Coast",
-      "Tur Dulra"
+      "Westering Lowlands",
+      "Wailing Hills"
     ]
   },
   "world_boss": {
     "boss": "Azmodan",
-    "id": 1795132800,
-    "nextTime": "2026-11-20T03:30:00.000Z",
-    "startTime": "2026-11-20T00:00:00.000Z",
+    "id": 1795145400,
+    "nextTime": "2026-11-20T07:00:00.000Z",
+    "startTime": "2026-11-20T03:30:00.000Z",
     "zone": [
       {
         "boss": "Azmodan",
-        "id": "fractured_peaks",
+        "id": "scosglen",
         "isWhisper": false,
-        "name": "Fractured Peaks"
+        "name": "Scosglen"
       },
       {
         "boss": "Ashava",
@@ -30,22 +30,22 @@
     ]
   },
   "legion": {
-    "id": 1795124700,
-    "nextTime": "2026-11-19T22:10:00.000Z",
-    "startTime": "2026-11-19T21:45:00.000Z",
+    "id": 1795142700,
+    "nextTime": "2026-11-20T03:10:00.000Z",
+    "startTime": "2026-11-20T02:45:00.000Z",
     "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-20T00:00:00.000Z",
+        "startTime": "2026-11-20T03:30:00.000Z",
         "boss": "Azmodan",
         "zone": [
           {
             "boss": "Azmodan",
-            "id": "fractured_peaks",
+            "id": "scosglen",
             "isWhisper": false,
-            "name": "Fractured Peaks"
+            "name": "Scosglen"
           },
           {
             "boss": "Ashava",
@@ -56,34 +56,34 @@
         ]
       },
       {
-        "startTime": "2026-11-20T03:30:00.000Z"
+        "startTime": "2026-11-20T07:00:00.000Z"
       },
       {
-        "startTime": "2026-11-20T07:00:00.000Z"
+        "startTime": "2026-11-20T10:30:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-19T22:00:00.000Z"
+        "startTime": "2026-11-20T03:00:00.000Z"
       },
       {
-        "startTime": "2026-11-19T23:00:00.000Z"
+        "startTime": "2026-11-20T04:00:00.000Z"
       },
       {
-        "startTime": "2026-11-20T00:00:00.000Z"
+        "startTime": "2026-11-20T05:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-19T21:45:00.000Z"
+        "startTime": "2026-11-20T02:45:00.000Z"
       },
       {
-        "startTime": "2026-11-19T22:10:00.000Z"
+        "startTime": "2026-11-20T03:10:00.000Z"
       },
       {
-        "startTime": "2026-11-19T22:35:00.000Z"
+        "startTime": "2026-11-20T03:35:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-19T21:43:26.304Z"
+  "fetchedAt": "2026-11-20T02:37:13.880Z"
 }
