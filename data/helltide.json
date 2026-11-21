@@ -1,88 +1,90 @@
 {
   "helltide": {
-    "endTime": "2026-11-21T07:55:00.000Z",
-    "id": 1795244400,
-    "startTime": "2026-11-21T07:00:00.000Z",
-    "zone": "fractured_peaks",
+    "endTime": "2026-11-21T15:55:00.000Z",
+    "id": 1795273200,
+    "startTime": "2026-11-21T15:00:00.000Z",
+    "zone": "kehjistan",
     "chests": [
-      "Western Ways (East)",
-      "Olyam Tundra"
+      "Scorching Dunes (NW)",
+      "Forgotten Coastline",
+      "Amber Sands"
     ]
   },
   "world_boss": {
-    "boss": "Wandering Death",
-    "id": 1795246200,
-    "nextTime": "2026-11-21T11:00:00.000Z",
-    "startTime": "2026-11-21T07:30:00.000Z",
+    "boss": "Avarice",
+    "id": 1795284000,
+    "nextTime": "2026-11-21T21:30:00.000Z",
+    "startTime": "2026-11-21T18:00:00.000Z",
     "zone": [
       {
-        "boss": "Wandering Death",
+        "boss": "Avarice",
         "id": "fractured_peaks",
         "isWhisper": false,
         "name": "Fractured Peaks"
       },
       {
-        "boss": "Avarice",
-        "id": "nahantu",
+        "boss": "Wandering Death",
+        "id": "dry_steppes",
         "isWhisper": false,
-        "name": "Nahantu"
+        "name": "Dry Steppes"
       }
     ]
   },
   "legion": {
-    "id": 1795246200,
-    "nextTime": "2026-11-21T07:55:00.000Z",
-    "startTime": "2026-11-21T07:30:00.000Z"
+    "id": 1795274700,
+    "nextTime": "2026-11-21T15:50:00.000Z",
+    "startTime": "2026-11-21T15:25:00.000Z",
+    "zoneWindow": true
   },
   "upcoming": {
     "world_boss": [
       {
-        "startTime": "2026-11-21T07:30:00.000Z",
-        "boss": "Wandering Death",
+        "startTime": "2026-11-21T18:00:00.000Z",
+        "boss": "Avarice",
         "zone": [
           {
-            "boss": "Wandering Death",
+            "boss": "Avarice",
             "id": "fractured_peaks",
             "isWhisper": false,
             "name": "Fractured Peaks"
           },
           {
-            "boss": "Avarice",
-            "id": "nahantu",
+            "boss": "Wandering Death",
+            "id": "dry_steppes",
             "isWhisper": false,
-            "name": "Nahantu"
+            "name": "Dry Steppes"
           }
         ]
       },
       {
-        "startTime": "2026-11-21T11:00:00.000Z"
+        "startTime": "2026-11-21T21:30:00.000Z"
       },
       {
-        "startTime": "2026-11-21T14:30:00.000Z"
+        "startTime": "2026-11-22T01:00:00.000Z"
       }
     ],
     "helltide": [
       {
-        "startTime": "2026-11-21T08:00:00.000Z"
+        "startTime": "2026-11-21T16:00:00.000Z"
       },
       {
-        "startTime": "2026-11-21T09:00:00.000Z"
+        "startTime": "2026-11-21T17:00:00.000Z"
       },
       {
-        "startTime": "2026-11-21T10:00:00.000Z"
+        "startTime": "2026-11-21T18:00:00.000Z"
       }
     ],
     "legion": [
       {
-        "startTime": "2026-11-21T07:30:00.000Z"
+        "startTime": "2026-11-21T15:25:00.000Z"
       },
       {
-        "startTime": "2026-11-21T07:55:00.000Z"
+        "startTime": "2026-11-21T15:50:00.000Z"
       },
       {
-        "startTime": "2026-11-21T08:20:00.000Z"
+        "startTime": "2026-11-21T16:15:00.000Z"
       }
     ]
   },
-  "fetchedAt": "2026-11-21T07:10:31.200Z"
+  "fetchedAt": "2026-11-21T15:18:47.802Z"
 }
